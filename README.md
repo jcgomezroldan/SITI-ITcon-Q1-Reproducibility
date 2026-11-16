@@ -1,7 +1,7 @@
-[[https://zenodo.org/badge/DOI/10.5281/zenodo.24290225.svg]](https://doi.org/10.5281/zenodo.24290225)
-[[https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg]](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24290225.svg)](https://doi.org/10.5281/zenodo.24290225)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-**Permanent Archival Record (Zenodo):** https://doi.org/10.5281/zenodo.24290225  
+**Permanent Archival Record (Zenodo):** https://doi.org/10.5281/zenodo.24290225
 **Release Binary Archive:** SITI_ITcon_Q1_Reproducibility_Package.zip (164 files; 57,545,939 bytes; SHA-256: 4a1177f65c0930842963ac351dbdec1fcef80126588f252e187e3db751ee2443)
 
 # SITI Three-Layer Reproducibility Package — *ITcon* Vol. 32 (2027)
