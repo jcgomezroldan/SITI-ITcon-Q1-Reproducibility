@@ -1,0 +1,636 @@
+﻿Nivel;Código SITI;Descripción;Clasificación
+1;B;Parámetros de gestión;Lenguaje
+2;B10;Gestión de proyectos y activos;Tabla
+3;B10_005;Componentes estructurales del Sistema de Gestión de Valor;Grupo
+4;B10_005_005;Portafolio;Subgrupo
+4;B10_005_010;Programa;Subgrupo
+4;B10_005_015;Proyecto;Subgrupo
+5;B10_005_015_005;Ficha de proyecto de inversión pública en el Banco de Programas y Proyectos (BPIN);Sección
+5;B10_005_015_010;Plan Maestro de Transporte Intermodal (PMTI) y documento CONPES de priorización;Sección
+4;B10_005_020;Producto;Subgrupo
+4;B10_005_025;Operación;Subgrupo
+4;B10_005_030;Modelo de madurez de gestión organizacional de proyectos (PMI OPM);Subgrupo
+3;B10_010;Documentos y formatos de gestión;Grupo
+4;B10_010_005;Documentos del plan de acción institucional (12 planes institucionales y estratégicos);Subgrupo
+5;B10_010_005_005;Plan Anticorrupción y de Atención al Ciudadano;Sección
+5;B10_010_005_010;Plan Anual de Adquisiciones;Sección
+5;B10_010_005_015;Plan Anual de Vacantes;Sección
+5;B10_010_005_020;Plan de Incentivos Institucionales;Sección
+5;B10_010_005_025;Plan de Previsión de Recursos Humanos;Sección
+5;B10_010_005_030;Plan de Seguridad y Privacidad de la Información;Sección
+5;B10_010_005_035;Plan de Trabajo Anual en Seguridad y Salud en el Trabajo;Sección
+5;B10_010_005_040;Plan de Tratamiento de Riesgos de Seguridad y Privacidad de la Información;Sección
+5;B10_010_005_045;Plan Estratégico de Talento Humano;Sección
+5;B10_010_005_050;Plan Estratégico de Tecnologías de la Información y las Comunicaciones (PETI);Sección
+5;B10_010_005_055;Plan Institucional de Archivos de la Entidad (PINAR);Sección
+5;B10_010_005_060;Plan Institucional de Capacitación;Sección
+5;B10_010_005_065;Plan de Gestión de Activos de Transporte (SGA / TAM Plan — ISO 55001 y AASHTO TAM);Sección
+4;B10_010_010;Otros documentos de la Agencia Nacional de Infraestructura (ANI);Subgrupo
+5;B10_010_010_005;Anexo - Acreditación de vinculación laboral de personas en condición de discapacidad;Sección
+5;B10_010_010_010;Anexo - Acreditación emprendimiento y empresa de mujeres;Sección
+5;B10_010_010_015;Anexo - Acuerdo de garantía;Sección
+5;B10_010_010_020;Anexo - Acuerdo de permanencia;Sección
+5;B10_010_010_025;Anexo - Autorización para la publicación de la información relacionada con la condición de mujer víctima de violencia intrafamiliar, población indígena, negra, afrocolombiana, raizal, palenquera, rrom o gitanas, o personas en proceso de reintegración o reincorporación;Sección
+5;B10_010_010_030;Anexo - Carta de presentación de la oferta;Sección
+5;B10_010_010_035;Anexo - Certificación de pago de parafiscales;Sección
+5;B10_010_010_040;Anexo - Condiciones de colocación de las garantías;Sección
+5;B10_010_010_045;Anexo - Cupo de crédito específico;Sección
+5;B10_010_010_050;Anexo - Declaración de beneficiarios reales, situación de control y diagrama de la estructura organizacional;Sección
+5;B10_010_010_055;Anexo - Factor de calidad;Sección
+5;B10_010_010_060;Anexo - Manifestación de madres cabeza de familia y/o persona en proceso de reincorporación o reintegración de no ser empleada, socia o accionista de los demás integrantes de la estructura plural;Sección
+5;B10_010_010_065;Anexo - Matriz de riesgos del proceso;Sección
+5;B10_010_010_070;Anexo - Modelo acreditación de vinculación de población indígena, negra, afrocolombiana, raizal, palenquera, rrom o gitanas;Sección
+5;B10_010_010_075;Anexo - Modelo acreditación de vinculación en mayor proporción de personas mayores y no beneficiarias de la pensión de vejez, familiar o sobrevivencia;Sección
+5;B10_010_010_080;Anexo - Modelo acreditación de vinculación personas en proceso de reintegración o reincorporación;Sección
+5;B10_010_010_085;Anexo - Modelo de pagos realizados a mipyme, cooperativas o asociaciones mutuales;Sección
+5;B10_010_010_090;Anexo - Modelo de preguntas y/u observaciones;Sección
+5;B10_010_010_095;Anexo - Modelo declaración juramentada de imposición de multas y/o cláusulas penales;Sección
+5;B10_010_010_100;Anexo - Modelo mipyme, cooperativas o asociaciones mutuales;Sección
+5;B10_010_010_105;Anexo - Modelo vinculación mujer cabeza de familia o víctima de violencia intrafamiliar;Sección
+5;B10_010_010_110;Anexo - Oferta económica;Sección
+5;B10_010_010_115;Anexo - Oferta mano de obra local;Sección
+5;B10_010_010_120;Anexo - Pacto de transparencia;Sección
+5;B10_010_010_125;Anexo - Promoción de servicios nacionales o con trato nacional;Sección
+5;B10_010_010_130;Anexo - Protocolo para la realización de audiencias;Sección
+5;B10_010_010_135;Apéndice - Alcance del proyecto;Sección
+5;B10_010_010_140;Apéndice - Condiciones para la operación y el mantenimiento;Sección
+5;B10_010_010_145;Apéndice - Especificaciones generales;Sección
+5;B10_010_010_150;Apéndice - Financiero No;Sección
+5;B10_010_010_155;Apéndice - Gestión ambiental;Sección
+5;B10_010_010_160;Apéndice - Gestión predial;Sección
+5;B10_010_010_165;Apéndice - Gestión social;Sección
+5;B10_010_010_170;Apéndice - Indicadores de disponibilidad, seguridad, calidad y nivel de servicio;Sección
+5;B10_010_010_175;Apéndice - Interferencias con redes;Sección
+5;B10_010_010_180;Apéndice - Plan de obras;Sección
+5;B10_010_010_185;Plan de Gestión de Activos de Transporte (TAMP - AASHTO / ISO 55001);Sección
+5;B10_010_010_190;Reglamento de Operación de Trenes y Control de Tráfico;Sección
+5;B10_010_010_195;Manual de Mantenimiento de Infraestructura y Material Rodante;Sección
+5;B10_010_010_200;Plan de Contingencia y Atención de Emergencias Ferroviarias;Sección
+5;B10_010_010_205;Inventario y Registro de Material Rodante Afecto a la Concesión;Sección
+5;B10_010_010_210;Apéndice técnico 4 (AT4) - Indicadores de disponibilidad, seguridad y nivel de servicio;Sección
+6;B10_010_010_210_005;Apéndice técnico de indicadores de disponibilidad y nivel de servicio de corredor concesionado;Objeto
+7;B10_010_010_210_005_005;Memoria mensual de liquidación del índice de cumplimiento y deducciones de retribución AT4;Subobjeto
+5;B10_010_010_215;Formato EPIT-F-001 de verificación de requisitos de prefactibilidad APP;Sección
+5;B10_010_010_220;Apéndice Técnico 1 (AT1) — Alcance del proyecto, unidades funcionales y sectorización;Sección
+6;B10_010_010_220_005;Acta de evento eximente de responsabilidad por contingencia geotécnica o hidroclimática;Objeto
+7;B10_010_010_220_005_005;Acta de suspensión temporal de indicadores AT4 por cierre preventivo ante evento eximente;Subobjeto
+5;B10_010_010_225;Apéndice Técnico 2 (AT2) — Condiciones de operación, capacidad, surcos y mantenimiento;Sección
+5;B10_010_010_230;Apéndice Técnico 3 (AT3) — Especificaciones generales de diseño, obra y material rodante;Sección
+5;B10_010_010_235;Apéndice Técnico 5 (AT5) — Gestión e intervención de interferencias con redes de servicios;Sección
+5;B10_010_010_240;Apéndice Técnico 6 (AT6) — Gestión ambiental, licenciamiento y compensaciones;Sección
+5;B10_010_010_245;Apéndice Técnico 7 (AT7) — Gestión predial, adquisición de franjas y reasentamiento;Sección
+5;B10_010_010_250;Apéndice Técnico 8 (AT8) — Gestión social, participación comunitaria y consulta previa;Sección
+5;B10_010_010_255;Contrato de concesión de cuarta generación (4G) bajo esquema de asociación público-privada;Sección
+5;B10_010_010_260;Contrato de concesión del programa Bicentenario de quinta generación (5G) multimodal;Sección
+5;B10_010_010_265;Apéndice Técnico 9 (AT9) — Especificaciones de sistemas inteligentes de transporte, peaje IP/REV y pesaje;Sección
+5;B10_010_010_270;Apéndice Técnico 10 (AT10) — Requisitos de reversión, inventario de activos y transferencia tecnológica SITI;Sección
+4;B10_010_015;Otros documentos de la Agencia Nacional de Seguridad Vial (ANSV);Subgrupo
+5;B10_010_015_005;Acta de terminación y puesta en servicio de unidad funcional de concesión;Sección
+5;B10_010_015_010;Acta de inicio del contrato de concesión y orden de iniciación de fase de preconstrucción;Sección
+5;B10_010_015_015;Otrosí modificatorio contractual y acta de entendimiento de compensación de riesgo;Sección
+5;B10_010_015_020;Acta de reversión y liquidación bilateral de infraestructura concesionada;Sección
+5;B10_010_015_025;Plan Estratégico de Seguridad Vial (PESV) y Plan de Manejo de Tránsito (PMT);Sección
+4;B10_010_020;Otros documentos de la Unidad de Planeación de Infraestructura de Transporte (UPIT);Subgrupo
+5;B10_010_020_005;Acta mensual de verificación de indicadores de nivel de servicio y liquidación de retribución;Sección
+5;B10_010_020_010;Dictamen pericial técnico, decisión de amigable componedor y laudo arbitral de concesión;Sección
+4;B10_010_025;Otros documentos del Instituto de Desarrollo Urbano (IDU);Subgrupo
+5;B10_010_025_005;Capítulo técnico - Ambiental, forestal, fauna silvestre, MEV, SST y sostenibilidad;Sección
+5;B10_010_025_010;Capítulo técnico - Costos y presupuestos;Sección
+5;B10_010_025_015;Capítulo técnico - Cronogramas en la ejecución del contrato de estudios, diseños y construcción;Sección
+5;B10_010_025_020;Capítulo técnico - Diálogo ciudadano y comunicación estratégica;Sección
+5;B10_010_025_025;Capítulo técnico - Estructuras;Sección
+5;B10_010_025_030;Capítulo técnico - Estudios de arqueología;Sección
+5;B10_010_025_035;Capítulo técnico - Geometría vial;Sección
+5;B10_010_025_040;Capítulo técnico - Geotecnia;Sección
+5;B10_010_025_045;Capítulo técnico - Metodología BIM;Sección
+5;B10_010_025_050;Capítulo técnico - Pavimentos;Sección
+5;B10_010_025_055;Capítulo técnico - Redes hidrosanitarias;Sección
+5;B10_010_025_060;Capítulo técnico - Redes secas y de gas;Sección
+5;B10_010_025_065;Capítulo técnico - Topografía;Sección
+5;B10_010_025_070;Capítulo técnico - Tránsito y transporte y seguridad vial;Sección
+5;B10_010_025_075;Capítulo técnico - Urbanismo, espacio público y arquitectura;Sección
+4;B10_010_030;Otros documentos del Instituto Nacional de Vías (INVIAS);Subgrupo
+5;B10_010_030_005;Por tipo de intervención;Sección
+6;B10_010_030_005_005;Construcción de puente y/o viaducto;Objeto
+7;B10_010_030_005_005_005;Acta de aprobación definitiva de Estudios y Diseños;Subobjeto
+7;B10_010_030_005_005_010;Anexo BIM;Subobjeto
+7;B10_010_030_005_005_015;Formato de regleta diligenciado;Subobjeto
+7;B10_010_030_005_005_020;Volumen 01 - Estudio de transporte, capacidad y niveles de servicio;Subobjeto
+7;B10_010_030_005_005_025;Volumen 02 - Estudio de trazado y diseño geométrico, seguridad y señalización vial;Subobjeto
+7;B10_010_030_005_005_030;Volumen 03 - Estudio de geología;Subobjeto
+7;B10_010_030_005_005_035;Volumen 04 - Estudio de suelos para diseño de fundaciones de puentes y otras estructuras;Subobjeto
+7;B10_010_030_005_005_040;Volumen 06 - Estudio geotécnico para diseño del pavimento;Subobjeto
+7;B10_010_030_005_005_045;Volumen 07 - Estudio de hidrología, hidráulica y socavación;Subobjeto
+7;B10_010_030_005_005_050;Volumen 08 - Estudio y diseño de estructuras;Subobjeto
+7;B10_010_030_005_005_055;Volumen 09 - Estudio componentes ambiental y social;Subobjeto
+7;B10_010_030_005_005_060;Volumen 10 - Estudio gestión predial;Subobjeto
+7;B10_010_030_005_005_065;Volumen 11 - Estudio de análisis y gestión del riesgo y sostenibilidad;Subobjeto
+7;B10_010_030_005_005_070;Volumen 12 - Estimación de cantidades de obras, costos y presupuestos;Subobjeto
+7;B10_010_030_005_005_075;Volumen 13 - Estudio de evaluación económica y financiera del proyecto;Subobjeto
+7;B10_010_030_005_005_080;Volumen 14 - Informe final ejecutivo;Subobjeto
+6;B10_010_030_005_010;Construcción de vía nueva;Objeto
+7;B10_010_030_005_010_005;Acta de aprobación definitiva de estudios y diseños;Subobjeto
+7;B10_010_030_005_010_010;Anexo BIM;Subobjeto
+7;B10_010_030_005_010_015;Formato de regleta diligenciado;Subobjeto
+7;B10_010_030_005_010_020;Volumen 01 - Estudio de transporte, capacidad y niveles de servicio;Subobjeto
+7;B10_010_030_005_010_025;Volumen 02 - Estudio de trazado y diseño geométrico;Subobjeto
+7;B10_010_030_005_010_030;Volumen 03 - Estudio de geología;Subobjeto
+7;B10_010_030_005_010_035;Volumen 04 - Estudio de suelos para diseño de fundaciones de puentes y otras estructuras;Subobjeto
+7;B10_010_030_005_010_040;Volumen 05 - Estudio de estabilidad y diseño de estabilización de taludes, terraplenes y zonas de disposición de materiales;Subobjeto
+7;B10_010_030_005_010_045;Volumen 06 - Estudio geotécnico para diseño del pavimento;Subobjeto
+7;B10_010_030_005_010_050;Volumen 07 - Estudio de hidrología, hidráulica y socavación;Subobjeto
+7;B10_010_030_005_010_055;Volumen 08 - Estudio y diseño de estructuras;Subobjeto
+7;B10_010_030_005_010_060;Volumen 09 - Estudio de estabilidad y estabilización de taludes;Subobjeto
+7;B10_010_030_005_010_065;Volumen 10 - Estudio y diseño de urbanismo y paisajismo;Subobjeto
+7;B10_010_030_005_010_070;Volumen 11 - Estudio componentes ambiental y social;Subobjeto
+7;B10_010_030_005_010_075;Volumen 12 - Estudio gestión predial;Subobjeto
+7;B10_010_030_005_010_080;Volumen 13 - Estudio de análisis y gestión del riesgo y sostenibilidad;Subobjeto
+7;B10_010_030_005_010_085;Volumen 14 - Estudio estimación de cantidades de obras, costos y presupuestos;Subobjeto
+7;B10_010_030_005_010_090;Volumen 15 - Estudio de evaluación económica y financiera del proyecto;Subobjeto
+7;B10_010_030_005_010_095;Volumen 16 - Informe final ejecutivo;Subobjeto
+6;B10_010_030_005_015;Construcción de vía nueva, que incluye puentes y/o viaductos;Objeto
+7;B10_010_030_005_015_005;Acta de aprobación definitiva de estudios y diseños;Subobjeto
+7;B10_010_030_005_015_010;Anexo BIM;Subobjeto
+7;B10_010_030_005_015_015;Formato de regleta diligenciado;Subobjeto
+7;B10_010_030_005_015_020;Volumen 01 - Estudio de transporte, capacidad y niveles de servicio;Subobjeto
+7;B10_010_030_005_015_025;Volumen 02 - Estudio de trazado y diseño geométrico, seguridad y señalización vial;Subobjeto
+7;B10_010_030_005_015_030;Volumen 03 - Estudio de geología;Subobjeto
+7;B10_010_030_005_015_035;Volumen 04 - Estudio de suelos para diseño de fundaciones de puentes y otras estructuras;Subobjeto
+7;B10_010_030_005_015_040;Volumen 05 - Estudio de estabilidad y diseño de estabilización de taludes, terraplenes y zonas de disposición de materiales;Subobjeto
+7;B10_010_030_005_015_045;Volumen 06 - Estudio geotécnico para diseño del pavimento;Subobjeto
+7;B10_010_030_005_015_050;Volumen 07 - Estudio de hidrología, hidráulica y socavación;Subobjeto
+7;B10_010_030_005_015_055;Volumen 08 - Estudio y diseño de estructuras;Subobjeto
+7;B10_010_030_005_015_060;Volumen 09 - Estudio y diseño de urbanismo y paisajismo;Subobjeto
+7;B10_010_030_005_015_065;Volumen 10 - Estudio componentes ambiental y social;Subobjeto
+7;B10_010_030_005_015_070;Volumen 11 - Estudio gestión predial;Subobjeto
+7;B10_010_030_005_015_075;Volumen 12 - Estudio de análisis y gestión del riesgo y sostenibilidad;Subobjeto
+7;B10_010_030_005_015_080;Volumen 13 - Estudio estimación de cantidades de obras, costos y presupuestos;Subobjeto
+7;B10_010_030_005_015_085;Volumen 14 - Estudio de evaluación económica y financiera del proyecto;Subobjeto
+7;B10_010_030_005_015_090;Volumen 15 - Enforme final ejecutivo;Subobjeto
+6;B10_010_030_005_020;Construcción de vía nueva, que incluye puentes y/o viaductos y túneles;Objeto
+7;B10_010_030_005_020_005;Acta de aprobación definitiva de estudios y diseños;Subobjeto
+7;B10_010_030_005_020_010;Anexo BIM;Subobjeto
+7;B10_010_030_005_020_015;Formato de regleta diligenciado;Subobjeto
+7;B10_010_030_005_020_020;Volumen 01 - Estudio de transporte, capacidad y niveles de servicio;Subobjeto
+7;B10_010_030_005_020_025;Volumen 02 - Estudio de trazado y diseño geométrico, seguridad y señalización vial;Subobjeto
+7;B10_010_030_005_020_030;Volumen 03 - Estudio de geología;Subobjeto
+7;B10_010_030_005_020_035;Volumen 04 - Estudio de suelos para diseño de fundaciones de puentes y otras estructuras;Subobjeto
+7;B10_010_030_005_020_040;Volumen 05 - Estudio de estabilidad y diseño de estabilización de taludes, terraplenes y zonas de disposición de materiales;Subobjeto
+7;B10_010_030_005_020_045;Volumen 06 - Estudio geotécnico para diseño del pavimento;Subobjeto
+7;B10_010_030_005_020_050;Volumen 07 - Estudio de hidrología, hidráulica y socavación;Subobjeto
+7;B10_010_030_005_020_055;Volumen 08 - Estudio y diseño de estructuras;Subobjeto
+7;B10_010_030_005_020_060;Volumen 09 - Túneles;Subobjeto
+7;B10_010_030_005_020_065;Volumen 10 - Estudio y diseño de urbanismo y paisajismo;Subobjeto
+7;B10_010_030_005_020_070;Volumen 11 - Estudio componentes ambiental y social;Subobjeto
+7;B10_010_030_005_020_075;Volumen 12 - Estudio gestión predial;Subobjeto
+7;B10_010_030_005_020_080;Volumen 13 - Estudio de análisis y gestión del riesgo y sostenibilidad;Subobjeto
+7;B10_010_030_005_020_085;Volumen 14 - Estimación de cantidades de obras, costos y presupuestos;Subobjeto
+7;B10_010_030_005_020_090;Volumen 15 - Estudio de evaluación económica y financiera del proyecto;Subobjeto
+7;B10_010_030_005_020_095;Volumen 16 - Informe final ejecutivo;Subobjeto
+6;B10_010_030_005_025;Estructuración de convenios y contratos interadministrativos;Objeto
+6;B10_010_030_005_030;Estructuración de proyectos de estudios y diseños;Objeto
+7;B10_010_030_005_030_005;Anexo BIM;Subobjeto
+7;B10_010_030_005_030_010;Estudio de análisis y gestión de riesgos;Subobjeto
+7;B10_010_030_005_030_015;Estudio de cantidades de obra, análisis de precios unitarios y presupuesto;Subobjeto
+7;B10_010_030_005_030_020;Estudio de estabilidad y estabilización de taludes;Subobjeto
+7;B10_010_030_005_030_025;Estudio de evaluación financiera y socio económica;Subobjeto
+7;B10_010_030_005_030_030;Estudio de geología y geomorfología;Subobjeto
+7;B10_010_030_005_030_035;Estudio de hidrogeología;Subobjeto
+7;B10_010_030_005_030_040;Estudio de hidrología e hidráulica y socavación;Subobjeto
+7;B10_010_030_005_030_045;Estudio de redes hidrosanitarias;Subobjeto
+7;B10_010_030_005_030_050;Estudio de redes secas;Subobjeto
+7;B10_010_030_005_030_055;Estudio de seguridad vial;Subobjeto
+7;B10_010_030_005_030_060;Estudio de sostenibilidad;Subobjeto
+7;B10_010_030_005_030_065;Estudio de transporte, capacidad y niveles de servicio;Subobjeto
+7;B10_010_030_005_030_070;Estudio de trazado y diseño geométrico, seguridad y señalización vial;Subobjeto
+7;B10_010_030_005_030_075;Estudio de urbanismo y paisajismo;Subobjeto
+7;B10_010_030_005_030_080;Estudio geotécnico para el diseño de pavimentos;Subobjeto
+7;B10_010_030_005_030_085;Estudio y diseño de estructuras;Subobjeto
+7;B10_010_030_005_030_090;Estudios de suelos para el diseño de fundaciones de puentes y otras estructuras;Subobjeto
+7;B10_010_030_005_030_095;Estudios topográficos;Subobjeto
+6;B10_010_030_005_035;Estructuración de proyectos de mantenimiento rutinario y administración vial;Objeto
+6;B10_010_030_005_040;Estructuración de proyectos de señalización y seguridad vial;Objeto
+6;B10_010_030_005_045;Estructuración de proyectos para la atención de emergencias;Objeto
+6;B10_010_030_005_050;Estructuración de proyectos que requieran estudio de mercado;Objeto
+6;B10_010_030_005_055;Mantenimiento vial;Objeto
+7;B10_010_030_005_055_005;Estudio técnico;Subobjeto
+7;B10_010_030_005_055_010;Estudios previo;Subobjeto
+7;B10_010_030_005_055_015;Formato de regleta diligenciado;Subobjeto
+7;B10_010_030_005_055_020;Matriz de riesgos;Subobjeto
+7;B10_010_030_005_055_025;Presupuesto;Subobjeto
+6;B10_010_030_005_060;Proyectos férreos, fluviales y marítimos;Objeto
+7;B10_010_030_005_060_005;Anexo BIM;Subobjeto
+7;B10_010_030_005_060_010;Estudio técnico;Subobjeto
+7;B10_010_030_005_060_015;Estudios previo;Subobjeto
+7;B10_010_030_005_060_020;Matriz de riesgos;Subobjeto
+7;B10_010_030_005_060_025;Presupuesto;Subobjeto
+5;B10_010_030_010;Plan de Ejecución BIM (BEP) y matriz de requisitos de intercambio de información (ISO 19650);Sección
+5;B10_010_030_015;Contrato de obra pública e interventoría de infraestructura vial y fluvial (INVIAS);Sección
+4;B10_010_035;Otros documentos del Ministerio de Transporte;Subgrupo
+4;B10_010_040;Otros tipos de documentos y artefactos de gestión y comunicaciones;Subgrupo
+5;B10_010_040_0005;Acta de cálculo de la retribución;Sección
+5;B10_010_040_0010;Acta de cierre de etapa;Sección
+5;B10_010_040_0015;Acta de cierre de proyecto;Sección
+5;B10_010_040_0020;Acta de constitución (Project charter);Sección
+5;B10_010_040_0025;Acta de entrega a operación;Sección
+5;B10_010_040_0030;Acta de entrega de predio;Sección
+5;B10_010_040_0035;Acta de finalización;Sección
+5;B10_010_040_0040;Acta de inicio;Sección
+5;B10_010_040_0045;Acta de liquidación;Sección
+5;B10_010_040_0050;Acta de pago;Sección
+5;B10_010_040_0055;Acta de reinicio;Sección
+5;B10_010_040_0060;Acta de reunión;Sección
+5;B10_010_040_0065;Acta de suspensión;Sección
+5;B10_010_040_0070;Acta de vecindad;Sección
+5;B10_010_040_0075;Acto administrativo;Sección
+5;B10_010_040_0080;Acuerdo;Sección
+5;B10_010_040_0085;Acuerdo marco de precios;Sección
+5;B10_010_040_0090;Adenda;Sección
+5;B10_010_040_0095;Adición;Sección
+5;B10_010_040_0100;Afiche;Sección
+5;B10_010_040_0105;Amonestación;Sección
+5;B10_010_040_0110;Ánalisis del sector;Sección
+5;B10_010_040_0115;Anexo;Sección
+5;B10_010_040_0120;Animación;Sección
+5;B10_010_040_0125;Aplicativo;Sección
+5;B10_010_040_0130;Aprobación de interventoría;Sección
+5;B10_010_040_0135;Archivo de intercambio de información;Sección
+5;B10_010_040_0140;Artefacto;Sección
+5;B10_010_040_0145;Atributo;Sección
+5;B10_010_040_0150;Avalúo;Sección
+5;B10_010_040_0155;Aviso de alerta temprana;Sección
+5;B10_010_040_0160;Aviso informativo;Sección
+5;B10_010_040_0165;Ayuda de memoria;Sección
+5;B10_010_040_0170;Base de datos;Sección
+5;B10_010_040_0175;Boceto;Sección
+5;B10_010_040_0180;Caducidad de contrato;Sección
+5;B10_010_040_0185;Cálculo;Sección
+5;B10_010_040_0190;Cantidades de obra;Sección
+5;B10_010_040_0195;Capacitación;Sección
+5;B10_010_040_0200;Caracterización;Sección
+5;B10_010_040_0205;Carta;Sección
+5;B10_010_040_0210;Carta catastral;Sección
+5;B10_010_040_0215;Caso de negocio;Sección
+5;B10_010_040_0220;Catálogo;Sección
+5;B10_010_040_0225;Centificado de tradición y libertad;Sección
+5;B10_010_040_0230;Certificado;Sección
+5;B10_010_040_0235;Certificado de disponibilidad presupuestal - CDP;Sección
+5;B10_010_040_0240;Certificado de registro presupuestal - CRP;Sección
+5;B10_010_040_0245;Cesión del contrato;Sección
+5;B10_010_040_0250;Circular;Sección
+5;B10_010_040_0255;Comentario;Sección
+5;B10_010_040_0260;Comparendo;Sección
+5;B10_010_040_0265;Comunicación enviada;Sección
+5;B10_010_040_0270;Comunicación recibida;Sección
+5;B10_010_040_0275;Conjunto de datos;Sección
+5;B10_010_040_0280;Consulta técnica;Sección
+5;B10_010_040_0285;Contrato;Sección
+5;B10_010_040_0290;Contrato interadministrativo;Sección
+5;B10_010_040_0295;Convenio;Sección
+5;B10_010_040_0300;Correo electrónico;Sección
+5;B10_010_040_0305;Correspondencia;Sección
+5;B10_010_040_0310;Cotización;Sección
+5;B10_010_040_0315;Cronograma;Sección
+5;B10_010_040_0320;Cuestionario;Sección
+5;B10_010_040_0325;Curso;Sección
+5;B10_010_040_0330;Declaración juramentada;Sección
+5;B10_010_040_0335;Declaratoria de incumplimiento;Sección
+5;B10_010_040_0340;Decreto;Sección
+5;B10_010_040_0345;Diagrama;Sección
+5;B10_010_040_0350;Diagrama de ciclo;Sección
+5;B10_010_040_0355;Diagrama de flujo;Sección
+5;B10_010_040_0360;Directorio;Sección
+5;B10_010_040_0365;Directriz (lineamientos);Sección
+5;B10_010_040_0370;Divulgación;Sección
+5;B10_010_040_0375;Documento general;Sección
+5;B10_010_040_0380;Encuesta;Sección
+5;B10_010_040_0385;Ensayo técnico o test de productos;Sección
+5;B10_010_040_0390;Entrada de diario;Sección
+5;B10_010_040_0395;Entrevista;Sección
+5;B10_010_040_0400;Enunciado del alcance;Sección
+5;B10_010_040_0405;Escritura;Sección
+5;B10_010_040_0410;Especificación técnica;Sección
+5;B10_010_040_0415;Esquema;Sección
+5;B10_010_040_0420;Estándar;Sección
+5;B10_010_040_0425;Estimación;Sección
+5;B10_010_040_0430;Estrategia;Sección
+5;B10_010_040_0435;Estructura desagregada de trabajo - EDT;Sección
+5;B10_010_040_0440;Estudio;Sección
+5;B10_010_040_0445;Estudio de mercado;Sección
+5;B10_010_040_0450;Estudio de títulos;Sección
+5;B10_010_040_0455;Estudios previos;Sección
+5;B10_010_040_0460;Evaluación;Sección
+5;B10_010_040_0465;Expediente tecnológico;Sección
+5;B10_010_040_0470;Factura;Sección
+5;B10_010_040_0475;Factura enviada;Sección
+5;B10_010_040_0480;Factura recibida;Sección
+5;B10_010_040_0485;Ficha técnica;Sección
+5;B10_010_040_0490;Flujo de trabajo del proceso;Sección
+5;B10_010_040_0495;Folleto;Sección
+5;B10_010_040_0500;Formato;Sección
+5;B10_010_040_0505;Formulario;Sección
+5;B10_010_040_0510;Fotografía;Sección
+5;B10_010_040_0515;Grabación de reunión;Sección
+5;B10_010_040_0520;Gráfico;Sección
+5;B10_010_040_0525;Grupo focal;Sección
+5;B10_010_040_0530;Guía;Sección
+5;B10_010_040_0535;Herramienta;Sección
+5;B10_010_040_0540;Historia de usuario;Sección
+5;B10_010_040_0545;Historial de entrenamiento;Sección
+5;B10_010_040_0550;Hoja de cálculo;Sección
+5;B10_010_040_0555;Hoja de datos;Sección
+5;B10_010_040_0560;Horario;Sección
+5;B10_010_040_0565;Imagen, gráfico o figura;Sección
+5;B10_010_040_0570;Informe;Sección
+5;B10_010_040_0575;Informe de calidad;Sección
+5;B10_010_040_0580;Informe de estado;Sección
+5;B10_010_040_0585;Instructivo;Sección
+5;B10_010_040_0590;Interface;Sección
+5;B10_010_040_0595;Inventario;Sección
+5;B10_010_040_0600;Ley;Sección
+5;B10_010_040_0605;Licencia;Sección
+5;B10_010_040_0610;Liquidación;Sección
+5;B10_010_040_0615;Lista;Sección
+5;B10_010_040_0620;Manual;Sección
+5;B10_010_040_0625;Mapa de experiencia;Sección
+5;B10_010_040_0630;Matrícula inmobiiaria;Sección
+5;B10_010_040_0635;Matriz;Sección
+5;B10_010_040_0640;Matriz de comunicaciones;Sección
+5;B10_010_040_0645;Matriz de requisitos;Sección
+5;B10_010_040_0650;Matriz de riesgo;Sección
+5;B10_010_040_0655;Matriz RACI;Sección
+5;B10_010_040_0660;Memorando;Sección
+5;B10_010_040_0665;Memorando interno;Sección
+5;B10_010_040_0670;Memoria;Sección
+5;B10_010_040_0675;Memoria de cálculo;Sección
+5;B10_010_040_0680;Memoria técnica;Sección
+5;B10_010_040_0685;Metadato;Sección
+5;B10_010_040_0690;Método;Sección
+5;B10_010_040_0695;Metodología;Sección
+5;B10_010_040_0700;Minuta;Sección
+5;B10_010_040_0705;Modelo 2D;Sección
+5;B10_010_040_0710;Modelo 3D;Sección
+5;B10_010_040_0715;Modelo 4D;Sección
+5;B10_010_040_0720;Modelo 5D;Sección
+5;B10_010_040_0725;Modelo 6D;Sección
+5;B10_010_040_0730;Modelo 7D;Sección
+5;B10_010_040_0735;Modelo 8D;Sección
+5;B10_010_040_0740;Modelo 9D;Sección
+5;B10_010_040_0745;Modelo digital de terreno - curvas de nivel;Sección
+5;B10_010_040_0750;Multa;Sección
+5;B10_010_040_0755;Norma;Sección
+5;B10_010_040_0760;Norma urbana;Sección
+5;B10_010_040_0765;Nota;Sección
+5;B10_010_040_0770;Nota de archivo;Sección
+5;B10_010_040_0775;Nota de prensa;Sección
+5;B10_010_040_0780;Nota de transferencia;Sección
+5;B10_010_040_0785;Notificación;Sección
+5;B10_010_040_0790;Nube de puntos;Sección
+5;B10_010_040_0795;Oferta;Sección
+5;B10_010_040_0800;Oferta económica;Sección
+5;B10_010_040_0805;Oficio;Sección
+5;B10_010_040_0810;Orden de compra;Sección
+5;B10_010_040_0815;Orden de servicio;Sección
+5;B10_010_040_0820;Orden de subcontratación;Sección
+5;B10_010_040_0825;Orden del día;Sección
+5;B10_010_040_0830;Ordenanza;Sección
+5;B10_010_040_0835;Organigrama;Sección
+5;B10_010_040_0840;Otrosí (variación, modificación o actualización);Sección
+5;B10_010_040_0845;Pauta;Sección
+5;B10_010_040_0850;Perfil de usuario;Sección
+5;B10_010_040_0855;Permiso;Sección
+5;B10_010_040_0860;Petición, queja, reclamo, denuncia, solicitud - PQRS;Sección
+5;B10_010_040_0865;Plan;Sección
+5;B10_010_040_0870;Plan de comunicaciones;Sección
+5;B10_010_040_0875;Plan de dirección del proyecto;Sección
+5;B10_010_040_0880;Plan parcial;Sección
+5;B10_010_040_0885;Plano;Sección
+5;B10_010_040_0890;Planta;Sección
+5;B10_010_040_0895;Plantilla;Sección
+5;B10_010_040_0900;Pliego de condiciones;Sección
+5;B10_010_040_0905;Poder;Sección
+5;B10_010_040_0910;Política;Sección
+5;B10_010_040_0915;Póliza;Sección
+5;B10_010_040_0920;Presentación;Sección
+5;B10_010_040_0925;Presupuesto;Sección
+5;B10_010_040_0930;Procedimiento;Sección
+5;B10_010_040_0935;Propiedad o característica;Sección
+5;B10_010_040_0940;Proceso;Sección
+5;B10_010_040_0945;Programación;Sección
+5;B10_010_040_0950;Promesa de compraventa;Sección
+5;B10_010_040_0955;Propuesta;Sección
+5;B10_010_040_0960;Prórroga;Sección
+5;B10_010_040_0965;Protocolo;Sección
+5;B10_010_040_0970;Prototipo;Sección
+5;B10_010_040_0975;Proyecto de pliego de condiciones;Sección
+5;B10_010_040_0980;Referencia externa;Sección
+5;B10_010_040_0985;Registro;Sección
+5;B10_010_040_0990;Registro de interesados;Sección
+5;B10_010_040_0995;Registro de riesgos;Sección
+5;B10_010_040_1000;Registro fotográfico;Sección
+5;B10_010_040_1005;Reglamento;Sección
+5;B10_010_040_1010;Representación de choque o colisión;Sección
+5;B10_010_040_1015;Requisición;Sección
+5;B10_010_040_1020;Requisito;Sección
+5;B10_010_040_1025;Resolución;Sección
+5;B10_010_040_1030;Resultado de prueba;Sección
+5;B10_010_040_1035;Reunión, mesa de trabajo o junta;Sección
+5;B10_010_040_1040;Reversión;Sección
+5;B10_010_040_1045;Revocatoria;Sección
+5;B10_010_040_1050;Sanción;Sección
+5;B10_010_040_1055;Sentencia;Sección
+5;B10_010_040_1060;Service blueprint;Sección
+5;B10_010_040_1065;Sistema;Sección
+5;B10_010_040_1070;Solicitud;Sección
+5;B10_010_040_1075;Storyboard;Sección
+5;B10_010_040_1080;Suspensión;Sección
+5;B10_010_040_1085;Táctica;Sección
+5;B10_010_040_1090;Taller de expertos o taller Delphi;Sección
+5;B10_010_040_1095;Transmisión;Sección
+5;B10_010_040_1100;Valoración;Sección
+5;B10_010_040_1105;Video;Sección
+3;B10_015;Fases de proyectos y activos;Grupo
+4;B10_015_005;Prefactibilidad;Subgrupo
+5;B10_015_005_005;Especificación general de construcción de carreteras y norma de ensayo INVIAS;Sección
+5;B10_015_005_010;Manual de Diseño Geométrico de Carreteras y Manual de Señalización Vial (MinTransporte / INVIAS);Sección
+5;B10_015_005_015;Norma Colombiana de Diseño de Puentes (CCP-14 LRFD), Manual de Drenaje y Manual de Túneles INVIAS;Sección
+4;B10_015_010;Factibilidad;Subgrupo
+4;B10_015_015;Estudios y diseños;Subgrupo
+5;B10_015_015_005;Por ciclo de estructuración;Sección
+6;B10_015_015_005_005;Formulación y justificación de la necesidad;Objeto
+6;B10_015_015_005_010;Recepción del insumo técnico;Objeto
+6;B10_015_015_005_015;Revisión y evaluación;Objeto
+7;B10_015_015_005_015_005;Revisión y evaluación predial;Subobjeto
+7;B10_015_015_005_015_010;Revisión y evaluación social;Subobjeto
+7;B10_015_015_005_015_015;Revisión y evaluación ambiental;Subobjeto
+7;B10_015_015_005_015_020;Revisión y evaluación de sostenibilidad;Subobjeto
+6;B10_015_015_005_020;Elaboración de documentos precontractuales;Objeto
+6;B10_015_015_005_025;Selección de Contratista;Objeto
+6;B10_015_015_005_030;Adjudicación;Objeto
+6;B10_015_015_005_035;Ejecución;Objeto
+6;B10_015_015_005_040;Seguimiento y retroalimentación;Objeto
+6;B10_015_015_005_045;Cierre de la etapa de proyecto;Objeto
+4;B10_015_020;Construcción;Subgrupo
+5;B10_015_020_005;Por ciclo de estructuración;Sección
+6;B10_015_020_005_005;Formulación y justificación de la necesidad;Objeto
+6;B10_015_020_005_010;Recepción del insumo técnico;Objeto
+6;B10_015_020_005_015;Revisión y evaluación;Objeto
+7;B10_015_020_005_015_005;Revisión y evaluación predial;Subobjeto
+7;B10_015_020_005_015_010;Revisión y evaluación social;Subobjeto
+7;B10_015_020_005_015_015;Revisión y evaluación ambiental;Subobjeto
+7;B10_015_020_005_015_020;Revisión y evaluación de sostenibilidad;Subobjeto
+6;B10_015_020_005_020;Elaboración de documentos precontractuales;Objeto
+6;B10_015_020_005_025;Selección de Contratista;Objeto
+6;B10_015_020_005_030;Adjudicación;Objeto
+6;B10_015_020_005_035;Ejecución;Objeto
+6;B10_015_020_005_040;Seguimiento y retroalimentación;Objeto
+6;B10_015_020_005_045;Cierre de la etapa de proyecto;Objeto
+5;B10_015_020_010;Por tipo de intervención;Sección
+6;B10_015_020_010_005;Construcción de vía nueva;Objeto
+6;B10_015_020_010_010;Construcción de vía nueva, que incluye puentes y/o viaductos;Objeto
+6;B10_015_020_010_015;Construcción de vía nueva, que incluye puentes y/o viaductos y túneles;Objeto
+6;B10_015_020_010_020;Construcción de puente y/o viaducto;Objeto
+4;B10_015_025;Operación y mantenimiento;Subgrupo
+5;B10_015_025_005;Por ciclo de estructuración;Sección
+6;B10_015_025_005_005;Formulación y justificación de la necesidad;Objeto
+6;B10_015_025_005_010;Recepción del insumo técnico;Objeto
+6;B10_015_025_005_015;Revisión y evaluación;Objeto
+7;B10_015_025_005_015_005;Revisión y evaluación predial;Subobjeto
+7;B10_015_025_005_015_010;Revisión y evaluación social;Subobjeto
+7;B10_015_025_005_015_015;Revisión y evaluación ambiental;Subobjeto
+7;B10_015_025_005_015_020;Revisión y evaluación de sostenibilidad;Subobjeto
+6;B10_015_025_005_020;Elaboración de documentos precontractuales;Objeto
+6;B10_015_025_005_025;Selección de Contratista;Objeto
+6;B10_015_025_005_030;Adjudicación;Objeto
+6;B10_015_025_005_035;Ejecución;Objeto
+6;B10_015_025_005_040;Seguimiento y retroalimentación;Objeto
+6;B10_015_025_005_045;Cierre de la etapa de proyecto;Objeto
+5;B10_015_025_010;Por tipo de intervención;Sección
+6;B10_015_025_010_005;Operación (administración del activo);Objeto
+6;B10_015_025_010_010;Mantenimiento rutinario;Objeto
+6;B10_015_025_010_015;Mantenimiento periódico;Objeto
+6;B10_015_025_010_020;Mantenimiento de emergencia;Objeto
+6;B10_015_025_010_025;Mejoramiento;Objeto
+6;B10_015_025_010_030;Rehabilitación;Objeto
+6;B10_015_025_010_035;Reversión;Objeto
+3;B10_020;Gestión del riesgo;Grupo
+4;B10_020_005;Matriz de identificación, tipificación y asignación de riesgos contractuales;Subgrupo
+4;B10_020_010;Matriz de riesgos prediales, socioambientales, de redes y de fuerza mayor en contratos APP;Subgrupo
+3;B10_025;Gestión GIS - BIM;Grupo
+4;B10_025_10;Niveles de información GIS - BIM (LOIN);Subgrupo
+5;B10_025_10_005;Nivel de información alfanumérica o no gráfica (LOI);Sección
+6;B10_025_10_005_000;LOI 000 - Información inexistente;Objeto
+6;B10_025_10_005_100;LOI 100 - Información para la identificación y la prefactibilidad;Objeto
+6;B10_025_10_005_200;LOI 200 - Información para la investigación y la factibilidad;Objeto
+6;B10_025_10_005_300;LOI 300 - Información para el diseño;Objeto
+6;B10_025_10_005_400;LOI 400 - Información para la construcción;Objeto
+6;B10_025_10_005_500;LOI 500 - Información suficiente para la gestión de activos;Objeto
+5;B10_025_10_010;Nivel de información geométrica o de detalle (LOD);Sección
+6;B10_025_10_010_100;LOD 100 - Información geométrica conceptual;Objeto
+6;B10_025_10_010_200;LOD 200 - Información geométrica básica;Objeto
+6;B10_025_10_010_300;LOD 300 - Información geométrica de detalle;Objeto
+6;B10_025_10_010_350;LOD 350 - Información geométrica de detalle coordinado;Objeto
+6;B10_025_10_010_400;LOD 400 - Información geométrica para construcción (fabricación);Objeto
+6;B10_025_10_010_500;LOD 500 - Información geométrica construida (as-built);Objeto
+4;B10_025_15;Tipos de información GIS - BIM (TDI);Subgrupo
+5;B10_025_15_005;TDI_A: Información general del proyecto;Sección
+5;B10_025_15_010;TDI_B: Propiedades físicas y geométricas;Sección
+5;B10_025_15_015;TDI_C: Propiedades geográficas y de localización espacial;Sección
+5;B10_025_15_020;TDI_D: Requerimientos específicos de información para el fabricante y/o constructor;Sección
+5;B10_025_15_025;TDI_E: Especificaciones técnicas;Sección
+5;B10_025_15_030;TDI_F: Requerimientos y estimación de costos;Sección
+5;B10_025_15_035;TDI_G: Requerimientos energéticos;Sección
+5;B10_025_15_040;TDI_H: Estándar sostenible;Sección
+5;B10_025_15_045;TDI_I: Condiciones del sitio y medioambientales;Sección
+5;B10_025_15_050;TDI_J: Validación de cumplimiento de programa;Sección
+5;B10_025_15_055;TDI_K: Cumplimiento normativo;Sección
+5;B10_025_15_060;TDI_L: Requerimientos de fases, secuencia de tiempo y calendarización;Sección
+5;B10_025_15_065;TDI_M: Logística y secuencia de construcción;Sección
+5;B10_025_15_070;TDI_N: Entrega para la operación;Sección
+5;B10_025_15_075;TDI_O: Gestión de activos;Sección
+4;B10_025_20;Usos GIS - BIM;Subgrupo
+5;B10_025_20_005;Tipos de usos GIS - BIM;Sección
+6;B10_025_20_005_005;Usos básicos;Objeto
+6;B10_025_20_005_010;Usos de análisis;Objeto
+6;B10_025_20_005_015;Usos de análisis de desempeño de ingenería;Objeto
+6;B10_025_20_005_020;Usos de construcción;Objeto
+6;B10_025_20_005_025;Usos de operación;Objeto
+6;B10_025_20_005_030;Usos de planeación;Objeto
+6;B10_025_20_005_035;Usos opcionales;Objeto
+5;B10_025_20_010;Usos GIS - BIM;Sección
+6;B10_025_20_010_005;Análisis de criterios de selección de ubicación;Objeto
+6;B10_025_20_010_010;Análisis de desempeño de acústico;Objeto
+6;B10_025_20_010_015;Análisis de desempeño de evacuación de emergencia;Objeto
+6;B10_025_20_010_020;Análisis de desempeño de iluminación;Objeto
+6;B10_025_20_010_025;Análisis de desempeño de sustentabilidad;Objeto
+6;B10_025_20_010_030;Análisis de desempeño de tuberías;Objeto
+6;B10_025_20_010_035;Análisis de desempeño eléctrico;Objeto
+6;B10_025_20_010_040;Análisis de desempeño energético;Objeto
+6;B10_025_20_010_045;Análisis de desempeño estructural;Objeto
+6;B10_025_20_010_050;Análisis de desempeño geotécnico;Objeto
+6;B10_025_20_010_055;Análisis de desempeño hidráulico;Objeto
+6;B10_025_20_010_060;Análisis de desempeño mecánico;Objeto
+6;B10_025_20_010_065;Análisis de la gestión de emergencias;Objeto
+6;B10_025_20_010_070;Aplicación con realidad aumentada y realidad virtual;Objeto
+6;B10_025_20_010_075;Autoría de diseño / Modelo de diseño;Objeto
+6;B10_025_20_010_080;Cálculo de drenaje obras lineales;Objeto
+6;B10_025_20_010_085;Captura de condiciones existentes;Objeto
+6;B10_025_20_010_090;Control de calidad en la construcción;Objeto
+6;B10_025_20_010_095;Coordinación de modelos de diseño (3D);Objeto
+6;B10_025_20_010_100;Estimación de costos y presupuestos (5D);Objeto
+6;B10_025_20_010_105;Fabricación de productos;Objeto
+6;B10_025_20_010_110;Generación de planos;Objeto
+6;B10_025_20_010_115;Gestión de activos;Objeto
+6;B10_025_20_010_120;Modelo de diseño de sistemas temporales de construcción;Objeto
+6;B10_025_20_010_125;Modelo record as built;Objeto
+6;B10_025_20_010_130;Monitoreo del rendimiento de los sistemas;Objeto
+6;B10_025_20_010_135;Monitoreo del uso de los espacios;Objeto
+6;B10_025_20_010_140;Monitoreo y programación de mantenimiento;Objeto
+6;B10_025_20_010_145;Planeación de fases (4D);Objeto
+6;B10_025_20_010_150;Planeación de logística de construcción;Objeto
+6;B10_025_20_010_155;Revisión de los modelos de diseño;Objeto
+6;B10_025_20_010_160;Simulación de personas, vehículos y/o equipos;Objeto
+6;B10_025_20_010_165;Validación de normativa;Objeto
+4;B10_025_5;Modelo GIS - BIM;Subgrupo
+5;B10_025_5_005;Modelo BIM de sitio;Sección
+5;B10_025_5_010;Modelo BIM volumétrico;Sección
+5;B10_025_5_015;Modelo BIM de arquitectura o de diseño de infraestructura;Sección
+5;B10_025_5_020;Modelo BIM de estructura;Sección
+5;B10_025_5_025;Modelo BIM MEP (mecánicos, eléctricos e hidrosanitarios);Sección
+5;B10_025_5_030;Modelo BIM de coordinación;Sección
+5;B10_025_5_035;Modelo BIM de construcción;Sección
+5;B10_025_5_040;Modelo BIM As Build;Sección
+5;B10_025_5_045;Modelo BIM de operación y mantenimiento;Sección
+3;B10_030;Modalidades de selección de contratistas;Grupo
+4;B10_030_10;Contratación directa;Subgrupo
+4;B10_030_15;Licitación pública;Subgrupo
+4;B10_030_20;Mínima cuantía;Subgrupo
+4;B10_030_25;Selección abreviada;Subgrupo
+4;B10_030_5;Concurso de méritos;Subgrupo
+3;B10_035;Subdivisión administrativa de proyectos y activos;Grupo
+4;B10_035_005;Clasificación administrativa de infraestructura aeroportuaria;Subgrupo
+4;B10_035_010;Clasificación administrativa de infraestructura de transporte por cable;Subgrupo
+4;B10_035_015;Clasificación administrativa de infraestructura férrea;Subgrupo
+5;B10_035_015_005;Clasificación y división longitudinal ferroviaria;Sección
+6;B10_035_015_005_005;Corredor férreo;Objeto
+6;B10_035_015_005_010;Tramo o sector férreo;Objeto
+6;B10_035_015_005_015;Unidad Funcional Ferroviaria (UF férrea);Objeto
+6;B10_035_015_005_020;Punto kilométrico o abscisa férrea (PK);Objeto
+6;B10_035_015_005_025;Surco o franja horaria de circulación ferroviaria;Objeto
+4;B10_035_020;Clasificación administrativa de infraestructura fluvial;Subgrupo
+4;B10_035_025;Clasificación administrativa de infraestructura marítima;Subgrupo
+4;B10_035_030;Clasificación administrativa de infraestructura lacustre;Subgrupo
+4;B10_035_035;Clasificación administrativa de infraestructura carretera;Subgrupo
+5;B10_035_035_005;Clasificación y división longitudinal;Sección
+6;B10_035_035_005_005;Kilómetro - Km;Objeto
+6;B10_035_035_005_010;Paso por población;Objeto
+6;B10_035_035_005_015;Punto de referencia - PR;Objeto
+6;B10_035_035_005_020;Ramal;Objeto
+6;B10_035_035_005_025;Ruta alterna;Objeto
+6;B10_035_035_005_030;Segmento;Objeto
+6;B10_035_035_005_035;Subramal;Objeto
+6;B10_035_035_005_040;Tramo;Objeto
+6;B10_035_035_005_045;Tramo alterno;Objeto
+6;B10_035_035_005_050;Transversal;Objeto
+6;B10_035_035_005_055;Troncal;Objeto
+6;B10_035_035_005_060;Variante o desvío;Objeto

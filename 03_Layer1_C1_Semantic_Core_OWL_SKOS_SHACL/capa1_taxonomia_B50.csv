@@ -1,0 +1,740 @@
+﻿Nivel;Código SITI;Descripción;Clasificación
+1;B;Parámetros de gestión;Lenguaje
+2;B50;Propiedades e indicadores;Tabla
+3;B50_005;Especificaciones técnicas;Grupo
+4;B50_005_005;Para infraestructura aeroportuaria;Subgrupo
+4;B50_005_010;Para infraestructura de transporte por cable;Subgrupo
+4;B50_005_015;Para infraestructura férrea;Subgrupo
+5;B50_005_015_005;Desgaste vertical y lateral máximo admisible de cabeza de riel;Sección
+5;B50_005_015_010;Tolerancia admisible de ancho de trocha;Sección
+5;B50_005_015_015;Deflexión vertical máxima y módulo de rigidez de vía en zona de transición ferroviaria;Sección
+6;B50_005_015_015_005;Módulo dinámico de rigidez vertical de vía férrea bajo carga por eje nominal;Objeto
+7;B50_005_015_015_005_005;Gradiente longitudinal máximo de variación de rigidez en cuña de transición estructura-terraplén;Subobjeto
+5;B50_005_015_020;Temperatura neutra de riel (TNR) y esfuerzo térmico axial en barra larga soldada;Sección
+4;B50_005_020;Para infraestructura fluvial;Subgrupo
+4;B50_005_025;Para infraestructura marítima;Subgrupo
+4;B50_005_030;Para infraestructura lacustre;Subgrupo
+4;B50_005_035;Para infraestructura carretera;Subgrupo
+5;B50_005_035_005;Sección 100 - Suelos;Sección
+6;B50_005_035_005_101;INV E - 101: Investigación de suelos y rocas para propósitos de ingeniería;Objeto
+6;B50_005_035_005_102;INV E - 102: Descripción e identificación de suelos (procedimiento visual y manual);Objeto
+6;B50_005_035_005_103;INV E - 103: Conservación y transporte de muestras de suelos;Objeto
+6;B50_005_035_005_104;INV E - 104: Toma de muestras inalteradas de suelo en superficie;Objeto
+6;B50_005_035_005_105;INV E - 105: Obtención de muestras de suelo mediante tubos de pared delgada;Objeto
+6;B50_005_035_005_106;INV E - 106: Preparación en seco de muestras de suelo por vía seca para análisis granulométrico y determinación de las constantes físicas;Objeto
+6;B50_005_035_005_107;INV E - 107: Preparación en seco de muestras de suelo por vía húmeda para análisis granulométrico y determinación de las constantes físicas;Objeto
+6;B50_005_035_005_108;INV E - 108: Perforaciones con brocas y muestreo para investigaciones en el sitio;Objeto
+6;B50_005_035_005_109;INV E - 109: Muestreo de suelos con tubo partido de pared gruesa y revestimiento de anillos;Objeto
+6;B50_005_035_005_111;INV E - 111: Ensayo normal de penetración (SPT) y muestreo de suelos con tubo partido;Objeto
+6;B50_005_035_005_112;INV E - 112: Exploración y muestreo de suelos mediante barrenas;Objeto
+6;B50_005_035_005_113;INV E - 113: Conservación y transporte de núcleos de roca;Objeto
+6;B50_005_035_005_120;INV E - 120: Determinación del potencial de cambio volumétrico de un suelo empleando el aparato de Lambe;Objeto
+6;B50_005_035_005_121;INV E - 121: Determinación del contenido orgánico de un suelo mediante el ensayo de pérdida por ignición;Objeto
+6;B50_005_035_005_122;INV E - 122: Determinación en laboratorio del contenido de agua (humedad) de muestras de suelo, roca y mezclas de suelo-agregado;Objeto
+6;B50_005_035_005_123;INV E - 123: Determinación de los tamaños de las partículas de los suelos;Objeto
+6;B50_005_035_005_125;INV E - 125: Determinación del límite líquido de los suelos;Objeto
+6;B50_005_035_005_126;INV E - 126: Límite plástico e índice de plasticidad de los suelos;Objeto
+6;B50_005_035_005_127;INV E - 127: Determinación de los factores de contracción de los suelos;Objeto
+6;B50_005_035_005_128;INV E - 128: Determinación de la gravedad específica de las partículas sólidas de los suelos y del llenante mineral, empleando un picnómetro con agua;Objeto
+6;B50_005_035_005_129;INV E - 129: Determinación de los factores de contracción de los suelos por el método de la parafina;Objeto
+6;B50_005_035_005_130;INV E - 130: Permeabilidad de suelos granulares (cabeza constante);Objeto
+6;B50_005_035_005_131;INV E - 131: pH de los suelos;Objeto
+6;B50_005_035_005_132;INV E - 132: Determinación de suelos expansivos;Objeto
+6;B50_005_035_005_133;INV E - 133: Equivalente de arena de suelos y agregados finos;Objeto
+6;B50_005_035_005_135;INV E - 135: Método para determinar la humedad de los suelos usando el horno microondas;Objeto
+6;B50_005_035_005_136;INV E - 136: Determinación de las masas unitarias máxima y mínima para el cálculo de la densidad relativa;Objeto
+6;B50_005_035_005_141;INV E - 141: Relaciones de humedad-peso unitario seco en los suelos (ensayo normal de compactación);Objeto
+6;B50_005_035_005_142;INV E - 142: Relaciones de humedad-peso unitario seco en los suelos (ensayo modificado de compactación);Objeto
+6;B50_005_035_005_143;INV E - 143: Corrección del peso unitario y del contenido de agua de suelos que contienen sobretamaños;Objeto
+6;B50_005_035_005_146;INV E - 146: Determinación de los valores de equilibrio de la masa unitaria seca (densidad) y la humedad de un suelo de subrasante;Objeto
+6;B50_005_035_005_148;INV E - 148: CBR de suelos compactados en el laboratorio y sobre muestra inalterada;Objeto
+6;B50_005_035_005_150;INV E - 150: Determinación de la humedad de suelos empleando un probador con carburo de calcio;Objeto
+6;B50_005_035_005_151;INV E - 151: Consolidación unidimensional de los suelos;Objeto
+6;B50_005_035_005_152;INV E - 152: Compresión inconfinada en muestras de suelos;Objeto
+6;B50_005_035_005_153;INV E - 153: Ensayo de compresión triaxial sobre suelos cohesivos;Objeto
+6;B50_005_035_005_154;INV E - 154: Ensayo de corte directo en condición consolidada drenada (CD);Objeto
+6;B50_005_035_005_156;INV E - 156: Módulo resiliente de suelos y agregados;Objeto
+6;B50_005_035_005_157;INV E - 157: Medida del potencial de colapso de un suelo parcialmente saturado;Objeto
+6;B50_005_035_005_158;INV E - 158: Determinación del contenido de sales solubles en los suelos;Objeto
+6;B50_005_035_005_159;INV E - 159: Determinación de la succión de un suelo usando papel de filtro;Objeto
+6;B50_005_035_005_161;INV E - 161: Densidad y peso unitario del suelo en el terreno por el método del cono y arena;Objeto
+6;B50_005_035_005_162;INV E - 162: Densidad y peso unitario del suelo en el terreno por el método del balón de caucho;Objeto
+6;B50_005_035_005_163;INV E - 163: Determinación rápida del porcentaje de compactación;Objeto
+6;B50_005_035_005_164;INV E - 164: Determinación de la densidad y del contenido de agua del suelo y del suelo-agregado en el terreno empleando medidores nucleares (profundidad reducida);Objeto
+6;B50_005_035_005_165;INV E - 165: Determinación de la densidad y el peso unitario de suelos y rocas en el terreno mediante reemplazo con arena en un pozo de ensayo;Objeto
+6;B50_005_035_005_168;INV E - 168: Ensayo de placa con carga estática no repetida sobre suelos y capas no tratadas de pavimentos, para emplear en la evaluación y el diseño de pavimentos;Objeto
+6;B50_005_035_005_169;INV E - 169: Relación de soporte del suelo en el terreno (CBR in situ);Objeto
+6;B50_005_035_005_170;INV E - 170: Ensayo de corte en suelos cohesivos usando la veleta de campo;Objeto
+6;B50_005_035_005_172;INV E - 172: Uso del penetrómetro dinámico de cono en aplicaciones de pavimentos a poca profundidad;Objeto
+6;B50_005_035_005_180;INV E - 180: Clasificación de suelos y de mezclas de suelos y agregados con fines de construcción de carreteras (sistema AASHTO);Objeto
+6;B50_005_035_005_181;INV E - 181: Sistema unificado de clasificación de suelos para propósitos de ingeniería;Objeto
+6;B50_005_035_005_182;INV E - 182: Clasificación de la fracción fina de un suelo a partir de su valor de azul de metileno;Objeto
+5;B50_005_035_010;Sección 200 - Agregados pétreos;Sección
+6;B50_005_035_010_201;INV E - 201: Muestreo de agregados para construcción de carreteras;Objeto
+6;B50_005_035_010_202;INV E - 202: Reducción de muestras de agregados por cuarteo;Objeto
+6;B50_005_035_010_211;INV E - 211: Determinación de terrones de arcilla y partículas deleznables en los agregados;Objeto
+6;B50_005_035_010_212;INV E - 212: Presencia de impurezas orgánicas en arenas usadas en la preparación de morteros o concretos;Objeto
+6;B50_005_035_010_213;INV E - 213: Análisis granulométrico de los agregados grueso y fino;Objeto
+6;B50_005_035_010_214;INV E - 214: Determinación de la cantidad de material que pasa el tamiz de 75 µm (No. 200) en los agregados pétreos mediante lavado;Objeto
+6;B50_005_035_010_215;INV E - 215: Análisis granulométrico del llenante mineral utilizado en la elaboración de mezclas asfálticas;Objeto
+6;B50_005_035_010_216;INV E - 216: Contenido total de agua evaporable de los agregados por secado;Objeto
+6;B50_005_035_010_217;INV E - 217: Densidad bulk (peso unitario) y porcentaje de vacíos de los agregados en estado suelto y compacto;Objeto
+6;B50_005_035_010_218;INV E - 218: Resistencia a la degradación de los agregados de tamaños menores de 37.5 mm (1 ½ pulg) por medio de la máquina de Los Ángeles;Objeto
+6;B50_005_035_010_219;INV E - 219: Resistencia a la degradación de los agregados gruesos de tamaños mayores de 19 mm (¾ pulg) por abrasión e impacto en la máquina de Los Ángeles;Objeto
+6;B50_005_035_010_220;INV E - 220: Solidez de los agregados frente a la acción de soluciones de sulfato de sodio o de magnesio;Objeto
+6;B50_005_035_010_221;INV E - 221: Cantidad de partículas livianas en un agregado pétreo;Objeto
+6;B50_005_035_010_222;INV E - 222: Densidad, densidad relativa (gravedad específica) y absorción del agregado fino;Objeto
+6;B50_005_035_010_223;INV E - 223: Densidad, densidad relativa (gravedad específica) y absorción del agregado grueso;Objeto
+6;B50_005_035_010_224;INV E - 224: Determinación del valor del 10% de finos;Objeto
+6;B50_005_035_010_225;INV E - 225: Densidad bulk del llenante mineral en kerosene;Objeto
+6;B50_005_035_010_227;INV E - 227: Porcentaje de partículas fracturadas en un agregado grueso;Objeto
+6;B50_005_035_010_229;INV E - 229: Vacíos del llenante seco compactado;Objeto
+6;B50_005_035_010_230;INV E - 230: Índices de aplanamiento y de alargamiento de los agregados para carreteras;Objeto
+6;B50_005_035_010_232;INV E - 232: Determinación del coeficiente de pulimento acelerado (CPA) de los agregados gruesos;Objeto
+6;B50_005_035_010_233;INV E - 233: Determinación del contenido de azufre en los agregados pétreos;Objeto
+6;B50_005_035_010_234;INV E - 234: Determinación de la reactividad potencial álcali-sílice de agregados (método químico);Objeto
+6;B50_005_035_010_235;INV E - 235: Valor de azul de metileno en agregados finos;Objeto
+6;B50_005_035_010_236;INV E - 236: Método para la determinación del índice de desleimiento-durabilidad de lutitas y otras rocas débiles;Objeto
+6;B50_005_035_010_237;INV E - 237: Determinación de la limpieza superficial de las partículas de agregado grueso;Objeto
+6;B50_005_035_010_238;INV E - 238: Determinación de la resistencia del agregado grueso a la degradación por abrasión utilizando el aparato Micro-Deval;Objeto
+6;B50_005_035_010_239;INV E - 239: Determinación del contenido de vacíos en agregados finos no compactados (influenciado por la forma de las partículas, la textura superficial y la granulometría);Objeto
+6;B50_005_035_010_240;INV E - 240: Proporción de partículas planas, alargadas o planas y alargadas en agregados gruesos;Objeto
+6;B50_005_035_010_241;INV E - 241: Determinación de la resistencia de los agregados pétreos al choque térmico;Objeto
+6;B50_005_035_010_242;INV E - 242: Determinación de la densidad relativa y la absorción de agregados finos, agregados gruesos y mezclas de agregados, mediante un procedimiento combinado de saturación al vacío e inmersión rápida;Objeto
+6;B50_005_035_010_243;INV E - 243: Degradación de los agregados pétreos a causa de la compactación por impactos;Objeto
+6;B50_005_035_010_244;INV E - 244: Densidad de los agregados en aceite de parafina;Objeto
+6;B50_005_035_010_245;INV E - 245: Determinación de la resistencia del agregado fino a la degradación por abrasión, utilizando el aparato Micro-Deval;Objeto
+5;B50_005_035_015;Sección 300 - Cemento;Sección
+6;B50_005_035_015_301;INV E - 301: Muestreo y cantidad de ensayos del cemento hidráulico;Objeto
+6;B50_005_035_015_307;INV E - 307: Densidad del cemento hidráulico;Objeto
+5;B50_005_035_020;Sección 400 - Concreto hidráulico;Sección
+6;B50_005_035_020_401;INV E - 401: Toma de muestras de concreto fresco;Objeto
+6;B50_005_035_020_402;INV E - 402: Elaboración y curado de especímenes de concreto en el laboratorio para ensayos de compresión y flexión;Objeto
+6;B50_005_035_020_403;INV E - 403: Refrentado de cilindros de concreto;Objeto
+6;B50_005_035_020_404;INV E - 404: Asentamiento del concreto de cemento hidráulico (slump);Objeto
+6;B50_005_035_020_405;INV E - 405: Densidad (peso unitario), rendimiento y contenido de aire (gravimétrico) del concreto;Objeto
+6;B50_005_035_020_406;INV E - 406: Contenido de aire en el concreto fresco por el método de presión;Objeto
+6;B50_005_035_020_407;INV E - 407: Exudación del concreto;Objeto
+6;B50_005_035_020_408;INV E - 408: Uso de tapas no adheridas en la determinación de la resistencia a la compresión de cilindros de concreto endurecido;Objeto
+6;B50_005_035_020_409;INV E - 409: Contenido de aire en el concreto fresco por el método volumétrico;Objeto
+6;B50_005_035_020_410;INV E - 410: Resistencia a la compresión de cilindros de concreto;Objeto
+6;B50_005_035_020_411;INV E - 411: Ensayo de tracción por hendimiento (tracción indirecta) de cilindros de concreto;Objeto
+6;B50_005_035_020_412;INV E - 412: Fabricación, curado acelerado y resistencia a la compresión de especímenes de concreto;Objeto
+6;B50_005_035_020_413;INV E - 413: Método para determinar el número de rebote (índice esclerométrico) en el concreto endurecido;Objeto
+6;B50_005_035_020_414;INV E - 414: Resistencia a la flexión del concreto usando una viga simplemente apoyada y cargada en los tercios de la luz libre;Objeto
+6;B50_005_035_020_415;INV E - 415: Resistencia a la flexión del concreto usando una viga simple apoyada y cargada en el punto central;Objeto
+6;B50_005_035_020_416;INV E - 416: Flujo plástico del concreto en compresión;Objeto
+6;B50_005_035_020_417;INV E - 417: Calidad del agua para concretos;Objeto
+6;B50_005_035_020_418;INV E - 418: Obtención y ensayo de núcleos de concreto endurecido;Objeto
+6;B50_005_035_020_419;INV E - 419: Medida del espesor de elementos de concreto empleando núcleos;Objeto
+6;B50_005_035_020_420;INV E - 420: Elaboración y curado en obra de especímenes de concreto para ensayo;Objeto
+6;B50_005_035_020_421;INV E - 421: Resistencia a la compresión de cilindros de concreto fundidos in-situ;Objeto
+6;B50_005_035_020_422;INV E - 422: Medida de la resistencia a la compresión del concreto a edad temprana y proyección a una edad posterior;Objeto
+6;B50_005_035_020_423;INV E - 423: Medición de la temperatura del concreto hidráulico recién mezclado;Objeto
+6;B50_005_035_020_424;INV E - 424: Módulo de elasticidad estático y relación de Poisson del concreto en compresión;Objeto
+6;B50_005_035_020_425;INV E - 425: Resistencia del concreto a la abrasión mediante chorro de arena (sandblasting);Objeto
+6;B50_005_035_020_426;INV E - 426: Resistencia a la compresión de adoquines de concreto;Objeto
+6;B50_005_035_020_427;INV E - 427: Absorción de agua por los adoquines de concreto;Objeto
+5;B50_005_035_025;Sección 600 - Estabilización de suelos;Sección
+6;B50_005_035_025_601;INV E - 601: Estimación de la proporción de cal necesaria para estabilizar un suelo a partir de la medida del pH;Objeto
+6;B50_005_035_025_602;INV E - 602: Determinación del contenido de cal útil vial en una cal comercial;Objeto
+6;B50_005_035_025_603;INV E - 603: Preparación de mezclas de suelo-cal empleando una mezcladora mecánica en el laboratorio;Objeto
+6;B50_005_035_025_604;INV E - 604: Adición de cal para reducir el índice de plasticidad de un suelo;Objeto
+6;B50_005_035_025_605;INV E - 605: Resistencia a la compresión inconfinada de mezclas compactadas de suelo-cal;Objeto
+6;B50_005_035_025_606;INV E - 606: Contenido de cal en mezclas de suelo-cal no curadas;Objeto
+6;B50_005_035_025_607;INV E - 607: Expansión unidimensional, contracción y presión de expansión de mezclas de suelo-cal;Objeto
+6;B50_005_035_025_608;INV E - 608: Muestreo de la cal hidratada;Objeto
+6;B50_005_035_025_611;INV E - 611: Relaciones humedad-densidad de mezclas de suelo-cemento;Objeto
+6;B50_005_035_025_612;INV E - 612: Humedecimiento y secado de mezclas compactadas de suelo-cemento;Objeto
+6;B50_005_035_025_613;INV E - 613: Preparación y curado de probetas de suelo-cemento para pruebas de compresión y flexión en el laboratorio;Objeto
+6;B50_005_035_025_614;INV E - 614: Resistencia a la compresión de cilindros moldeados de suelo-cemento;Objeto
+6;B50_005_035_025_615;INV E - 615: Resistencia a la compresión del suelo-cemento empleando porciones de vigas rotas por flexión (método del cubo modificado);Objeto
+6;B50_005_035_025_616;INV E - 616: Resistencia a la flexión del suelo-cemento usando una viga simplemente apoyada y cargada en los tercios de la luz libre;Objeto
+6;B50_005_035_025_617;INV E - 617: Contenido de cemento en mezclas frescas de suelo-cemento;Objeto
+6;B50_005_035_025_618;INV E - 618: Contenido de cemento en mezclas endurecidas de suelo-cemento;Objeto
+6;B50_005_035_025_621;INV E - 621: Diseño de mezclas abiertas en frío con emulsión asfáltica;Objeto
+6;B50_005_035_025_622;INV E - 622: Diseño de mezclas de agregados, reciclados o sin reciclar, con emulsión asfáltica, mediante el método de inmersión-compresión;Objeto
+5;B50_005_035_030;Sección 700 y 800 - Materiales y mezclas asfálticas y prospección de pavimentos;Sección
+6;B50_005_035_030_701;INV E - 701: Toma de muestras de materiales bituminosos;Objeto
+6;B50_005_035_030_702;INV E - 702: Ductilidad de los materiales asfálticos;Objeto
+6;B50_005_035_030_703;INV E - 703: Determinación del contenido de bitumen;Objeto
+6;B50_005_035_030_704;INV E - 704: Agua en los materiales asfálticos por destilación;Objeto
+6;B50_005_035_030_705;INV E - 705: Contenido de material inorgánico o cenizas en los materiales bituminosos;Objeto
+6;B50_005_035_030_706;INV E - 706: Penetración de los materiales bituminosos;Objeto
+6;B50_005_035_030_707;INV E - 707: Densidad de materiales bituminosos sólidos y semisólidos (método del picnómetro);Objeto
+6;B50_005_035_030_708;INV E - 708: Estimación de la complejidad de flujo de un cemento asfáltico empleando el índice de Thelen;Objeto
+6;B50_005_035_030_709;INV E - 709: Puntos de inflamación y de combustión mediante la copa abierta Cleveland;Objeto
+6;B50_005_035_030_710;INV E - 710: Punto de inflamación de asfaltos líquidos mediante la copa abierta Tag;Objeto
+6;B50_005_035_030_711;INV E - 711: Consistencia de los cementos asfálticos mediante el flotador;Objeto
+6;B50_005_035_030_712;INV E - 712: Punto de ablandamiento de materiales bituminosos (aparato de anillo y bola);Objeto
+6;B50_005_035_030_713;INV E - 713: Solubilidad de materiales asfálticos en tricloroetileno;Objeto
+6;B50_005_035_030_714;INV E - 714: Viscosidad Saybolt de asfaltos;Objeto
+6;B50_005_035_030_715;INV E - 715: Viscosidad cinemática de asfaltos;Objeto
+6;B50_005_035_030_716;INV E - 716: Determinación de la viscosidad del asfalto empleando viscosímetros capilares de vacío;Objeto
+6;B50_005_035_030_717;INV E - 717: Determinación de la viscosidad del asfalto empleando el viscosímetro rotacional;Objeto
+6;B50_005_035_030_718;INV E - 718: Determinación del contenido de parafinas en ligantes asfálticos;Objeto
+6;B50_005_035_030_719;INV E - 719: Viscosidades Saybolt Furol de asfaltos a temperaturas elevadas;Objeto
+6;B50_005_035_030_720;INV E - 720: Efectos del calor y del aire sobre el asfalto en lámina delgada y rotatoria;Objeto
+6;B50_005_035_030_721;INV E - 721: Efectos del calor y del aire sobre el asfalto en lámina delgada;Objeto
+6;B50_005_035_030_722;INV E - 722: Determinación de las propiedades de rotura de los ligantes asfálticos en el ensayo de tracción directa (TD);Objeto
+6;B50_005_035_030_723;INV E - 723: Destilación de asfaltos líquidos;Objeto
+6;B50_005_035_030_724;INV E - 724: Índice de penetración de los cementos asfálticos;Objeto
+6;B50_005_035_030_725;INV E - 725: Evaluación de la susceptibilidad al agua de las mezclas de concreto asfáltico utilizando la prueba de tracción indirecta;Objeto
+6;B50_005_035_030_726;INV E - 726: Estabilidad al almacenamiento de asfaltos modificados;Objeto
+6;B50_005_035_030_727;INV E - 727: Recuperación elástica por torsión de asfaltos modificados;Objeto
+6;B50_005_035_030_728;INV E - 728: Resistencia y tenacidad de materiales bituminosos;Objeto
+6;B50_005_035_030_729;INV E - 729: Método para determinar el contenido de asfalto de mezclas en caliente por ignición;Objeto
+6;B50_005_035_030_730;INV E - 730: Muestreo aleatorio de materiales de construcción de carreteras;Objeto
+6;B50_005_035_030_731;INV E - 731: Toma de muestras de mezclas asfálticas para pavimentos;Objeto
+6;B50_005_035_030_732;INV E - 732: Extracción cuantitativa del asfalto en mezclas para pavimentos;Objeto
+6;B50_005_035_030_733;INV E - 733: Gravedad específica bulk y densidad de mezclas asfálticas compactadas no absorbentes empleando especímenes saturados y superficialmente secos;Objeto
+6;B50_005_035_030_734;INV E - 734: Gravedad específica bulk y densidad de mezclas asfálticas compactadas absorbentes empleando especímenes recubiertos con una película de parafina;Objeto
+6;B50_005_035_030_735;INV E - 735: Gravedad específica máxima de mezclas asfálticas para pavimentos;Objeto
+6;B50_005_035_030_736;INV E - 736: Porcentaje de vacíos con aire en mezclas asfálticas compactadas densas y abiertas;Objeto
+6;B50_005_035_030_737;INV E - 737: Ensayo de la mancha sobre materiales asfálticos;Objeto
+6;B50_005_035_030_738;INV E - 738: Efecto del agua sobre la resistencia a la compresión de las mezclas asfálticas compactadas (ensayo de inmersión-compresión);Objeto
+6;B50_005_035_030_739;INV E - 739: Estimación del grado de cubrimiento de las partículas de agregado grueso en mezclas asfálticas;Objeto
+6;B50_005_035_030_740;INV E - 740: Ensayo de adherencia en bandeja;Objeto
+6;B50_005_035_030_741;INV E - 741: Espesor de la película de asfalto en mezclas bituminosas;Objeto
+6;B50_005_035_030_742;INV E - 742: Método de ensayo para medir la recuperación elástica de materiales asfálticos utilizando el ductilímetro;Objeto
+6;B50_005_035_030_743;INV E - 743: Determinación del contenido de ligante en mezclas asfálticas utilizando un medidor nuclear;Objeto
+6;B50_005_035_030_744;INV E - 744: Espesor o altura de especímenes compactados de mezclas asfálticas;Objeto
+6;B50_005_035_030_745;INV E - 745: Concentración crítica de llenante en mezclas de concreto asfáltico;Objeto
+6;B50_005_035_030_746;INV E - 746: Medida de la densidad de capas de concreto asfáltico en el terreno empleando el método nuclear;Objeto
+6;B50_005_035_030_747;INV E - 747: Resistencia a la compresión simple de mezclas bituminosas;Objeto
+6;B50_005_035_030_748;INV E - 748: Estabilidad y flujo de mezclas asfálticas en caliente empleando el aparato Marshall;Objeto
+6;B50_005_035_030_749;INV E - 749: Ensayo de tensión indirecta para determinar el módulo resiliente de mezclas asfálticas;Objeto
+6;B50_005_035_030_750;INV E - 750: Determinación de las propiedades reológicas de los ligantes asfálticos mediante el reómetro de corte dinámico;Objeto
+6;B50_005_035_030_751;INV E - 751: Método de envejecimiento acelerado de ligantes asfálticos utilizando una cámara de envejecimiento a presión (PAV);Objeto
+6;B50_005_035_030_752;INV E - 752: Método de ensayo para medir la rigidez en fluencia por flexión a bajas temperaturas mediante el reómetro de viga de flexión (BBR);Objeto
+6;B50_005_035_030_753;INV E - 753: Gráfica viscosidad-temperatura para cementos asfálticos;Objeto
+6;B50_005_035_030_754;INV E - 754: Determinación de la densidad de las emulsiones asfálticas;Objeto
+6;B50_005_035_030_755;INV E - 755: Humedad o destilados volátiles en mezclas asfálticas para pavimentos;Objeto
+6;B50_005_035_030_756;INV E - 756: Resistencia a la deformación plástica de las mezclas asfálticas mediante la pista de ensayo de laboratorio;Objeto
+6;B50_005_035_030_757;INV E - 757: Efecto del agua sobre las mezclas asfálticas sueltas;Objeto
+6;B50_005_035_030_758;INV E - 758: Extracción de testigos de pavimentos asfálticos;Objeto
+6;B50_005_035_030_759;INV E - 759: Recuperación del asfalto de una solución utilizando el evaporador rotatorio;Objeto
+6;B50_005_035_030_760;INV E - 760: Caracterización de las mezclas asfálticas abiertas por medio del ensayo Cántabro de pérdida por desgaste;Objeto
+6;B50_005_035_030_761;INV E - 761: Contenido de agua en una emulsión asfáltica;Objeto
+6;B50_005_035_030_762;INV E - 762: Destilación de emulsiones asfálticas;Objeto
+6;B50_005_035_030_763;INV E - 763: Viscosidad Saybolt Furol de emulsiones asfálticas;Objeto
+6;B50_005_035_030_764;INV E - 764: Sedimentación y estabilidad durante el almacenamiento de las emulsiones asfálticas;Objeto
+6;B50_005_035_030_765;INV E - 765: Tamizado de las emulsiones asfálticas;Objeto
+6;B50_005_035_030_766;INV E - 766: Demulsibilidad de las emulsiones asfálticas;Objeto
+6;B50_005_035_030_767;INV E - 767: Identificación de las emulsiones asfálticas catiónicas mediante la determinación de la carga de las partículas;Objeto
+6;B50_005_035_030_768;INV E - 768: pH de las emulsiones asfálticas;Objeto
+6;B50_005_035_030_769;INV E - 769: Cubrimiento y resistencia al desplazamiento por el agua de las emulsiones asfálticas;Objeto
+6;B50_005_035_030_770;INV E - 770: Ensayo de mezcla con cemento de las emulsiones asfálticas;Objeto
+6;B50_005_035_030_771;INV E - 771: Residuo por evaporación de las emulsiones asfálticas;Objeto
+6;B50_005_035_030_772;INV E - 772: Ensayo de envuelta de agregados con emulsiones asfálticas;Objeto
+6;B50_005_035_030_773;INV E - 773: Miscibilidad con agua de las emulsiones asfálticas;Objeto
+6;B50_005_035_030_774;INV E - 774: Adhesividad de los ligantes bituminosos a los agregados finos (método Riedel-Weber);Objeto
+6;B50_005_035_030_775;INV E - 775: Determinación de la adhesión entre el ligante y el agregado por el método de ensayo de choque de la placa Vialit;Objeto
+6;B50_005_035_030_776;INV E - 776: Reducción de muestras de mezclas asfálticas en caliente al tamaño de ensayo;Objeto
+6;B50_005_035_030_777;INV E - 777: Consistencia con el cono y tiempo de rotura de las lechadas asfálticas;Objeto
+6;B50_005_035_030_778;INV E - 778: Abrasión de las lechadas asfálticas por vía húmeda (WTAT);Objeto
+6;B50_005_035_030_779;INV E - 779: Medida del exceso de asfalto en lechadas asfálticas mediante la adhesión de arena en la máquina de rueda cargada (LWT);Objeto
+6;B50_005_035_030_780;INV E - 780: Método de ensayo para clasificar las lechadas asfálticas por medida del par de torsión en el cohesiómetro, en función de los tiempos de rotura y curado;Objeto
+6;B50_005_035_030_781;INV E - 781: Cálculo del porcentaje de asfalto que absorbe un agregado;Objeto
+6;B50_005_035_030_782;INV E - 782: Análisis granulométrico de los agregados extraídos de mezclas asfálticas;Objeto
+6;B50_005_035_030_783;INV E - 783: Contenido de humedad de mezclas asfálticas en caliente por el método de secado en el horno;Objeto
+6;B50_005_035_030_784;INV E - 784: Determinación de las leyes de fatiga de mezclas asfálticas compactadas en caliente sometidas a flexión dinámica;Objeto
+6;B50_005_035_030_785;INV E - 785: Diseño de mezclas de agregados con cemento asfáltico espumado;Objeto
+6;B50_005_035_030_786;INV E - 786: Determinación de la resistencia a la tensión indirecta (RTI) de las mezclas asfálticas;Objeto
+6;B50_005_035_030_787;INV E - 787: Densidad en el sitio de pavimentos asfálticos de mezcla en caliente utilizando equipos electrónicos de contacto superficial;Objeto
+6;B50_005_035_030_788;INV E - 788: Medida de la temperatura del aire, de la superficie y de una mezcla asfáltica;Objeto
+6;B50_005_035_030_789;INV E - 789: Medida del ahuellamiento en superficies pavimentadas;Objeto
+6;B50_005_035_030_790;INV E - 790: Determinación del índice internacional de rugosidad (IRI) para medir la rugosidad de pavimentos;Objeto
+6;B50_005_035_030_791;INV E - 791: Medida de la macrotextura superficial de un pavimento empleando la técnica volumétrica;Objeto
+6;B50_005_035_030_792;INV E - 792: Medida del coeficiente de resistencia al deslizamiento usando el péndulo británico;Objeto
+6;B50_005_035_030_793;INV E - 793: Medida de la irregularidad superficial de un pavimento mediante la regla de tres metros, estática o rodante;Objeto
+6;B50_005_035_030_794;INV E - 794: Cálculo del índice internacional de rugosidad (IRI) de pavimentos de carreteras;Objeto
+6;B50_005_035_030_795;INV E - 795: Medida de las deflexiones de un pavimento empleando la viga Benkelman;Objeto
+6;B50_005_035_030_796;INV E - 796: Permeabilidad in situ de capas asfálticas drenantes con el permeámetro LCS (laboratorio de la escuela de caminos de Santander, España);Objeto
+6;B50_005_035_030_797;INV E - 797: Medidas de deflexión en pavimentos;Objeto
+6;B50_005_035_030_798;INV E - 798: Método para medir deflexiones mediante deflectómetro de impacto (FWD);Objeto
+6;B50_005_035_030_799;INV E - 799: Análisis volumétrico de mezclas asfálticas compactadas en caliente;Objeto
+6;B50_005_035_030_800;INV E - 800: Resistencia de mezclas asfálticas en caliente empleando el aparato Marshall sobre probetas de 152.4 milímetros (6 pulgadas) de diámetro;Objeto
+6;B50_005_035_030_801;INV E - 801: Cálculo de la viscosidad dinámica de cementos asfálticos a partir de la penetración;Objeto
+6;B50_005_035_030_802;INV E - 802: Determinación de la gravedad específica bulk y de la densidad de mezclas asfálticas compactadas mediante el método de sellado automático por vacío;Objeto
+6;B50_005_035_030_803;INV E - 803: Determinación de la gravedad específica máxima y de la densidad máxima de las mezclas asfálticas para pavimentación mediante el método de sellado automático por vacío;Objeto
+6;B50_005_035_030_804;INV E - 804: Determinación de los vacíos con aire efectivos de muestras de mezclas asfálticas compactadas;Objeto
+6;B50_005_035_030_805;INV E - 805: Medida de la permeabilidad de mezclas asfálticas para pavimentación empleando un permeámetro de pared flexible;Objeto
+6;B50_005_035_030_806;INV E - 806: Cálculo de la permeabilidad in situ de mezclas de concreto asfáltico;Objeto
+6;B50_005_035_030_807;INV E - 807: Determinación del índice de compactabilidad de una mezcla de concreto asfáltico;Objeto
+6;B50_005_035_030_808;INV E - 808: Resistencia a la fatiga de mezclas asfálticas en caliente mediante el ensayo de flexión en dos puntos sobre probetas trapezoidales;Objeto
+6;B50_005_035_030_809;INV E - 809: Densidad de rechazo en el diseño de mezclas asfálticas en caliente empleando el método Marshall;Objeto
+6;B50_005_035_030_810;INV E - 810: Secado rápido de probetas asfálticas compactadas empleando un aparato de secado al vacío;Objeto
+6;B50_005_035_030_811;INV E - 811: Evaluación de la adherencia entre capas de un pavimento asfáltico mediante un ensayo de corte;Objeto
+6;B50_005_035_030_812;INV E - 812: Determinación de la proporción y del grado del agente de reciclado en mezclas de concreto asfáltico elaboradas en caliente con material reciclado;Objeto
+6;B50_005_035_030_813;INV E - 813: Determinación del índice de deterioro superficial de un pavimento asfáltico mediante el método VIZIR;Objeto
+6;B50_005_035_030_814;INV E - 814: Medida de la regularidad superficial de un pavimento empleando un perfilómetro pivotante de alta precisión;Objeto
+6;B50_005_035_030_815;INV E - 815: Medida de la resistencia al deslizamiento de pavimentos y otras superficies sometidas a tránsito, empleando un dispositivo de rueda parcialmente bloqueada con grado de deslizamiento fijo;Objeto
+6;B50_005_035_030_816;INV E - 816: Cuantificación de las grietas en la superficie de un pavimento asfáltico;Objeto
+6;B50_005_035_030_817;INV E - 817: Determinación de la sensibilidad de las mezclas asfálticas a la segregación;Objeto
+6;B50_005_035_030_818;INV E - 818: Determinación de la tasa de aplicación de asfalto por medio de un carrotanque distribuidor;Objeto
+6;B50_005_035_030_819;INV E - 819: Determinación de la tasa de aplicación de agregados en los tratamientos superficiales;Objeto
+6;B50_005_035_030_820;INV E - 820: Medida de la profundidad de las estrías de texturizado en pavimentos rígidos y tableros de puentes;Objeto
+6;B50_005_035_030_821;INV E - 821: Método de las diferencias acumuladas para la delimitación de unidades homogéneas;Objeto
+6;B50_005_035_030_822;INV E - 822: Comparación estadística de dos juegos de datos;Objeto
+6;B50_005_035_030_823;INV E - 823: Guía para el uso de cifras significativas y el redondeo en la verificación del cumplimiento de las especificaciones de construcción;Objeto
+6;B50_005_035_030_824;INV E - 824: Diseño de mezclas de concreto asfáltico elaboradas con asfalto-caucho;Objeto
+6;B50_005_035_030_825;INV E - 825: Escurrimiento de ligante en mezclas asfálticas abiertas;Objeto
+5;B50_005_035_035;Módulo resiliente dinámico de capas granulares y módulo complejo de mezclas asfálticas;Sección
+5;B50_005_035_040;Coeficiente de desgaste Micro-Deval húmedo y resistencia al pulimento acelerado de agregados;Sección
+5;B50_005_035_045;Aceleración pico efectiva de diseño sísmico (PGA), coeficiente de sitio y espectro elástico (CCP-14 / NSR-10);Sección
+5;B50_005_035_050;Caudal máximo de diseño hidrológico, período de retorno (Tr) y revancha hidráulica libre (Manual de Drenaje);Sección
+3;B50_010;Indicadores de rendimiento y niveles de servicio - KPI;Grupo
+4;B50_010_005;Para infraestructura aeroportuaria;Subgrupo
+4;B50_010_010;Para infraestructura de transporte por cable;Subgrupo
+5;B50_010_010_020;Dirección de comportamiento;Sección
+5;B50_010_010_030;Dirección de infraestructura y vehículos;Sección
+4;B50_010_015;Para infraestructura férrea;Subgrupo
+5;B50_010_015_005;Índice de condición de pavimento y vía ferroviaria PCI férreo;Sección
+5;B50_010_015_010;Índice de calidad geométrica de vía TQI;Sección
+5;B50_010_015_015;Indicadores contractuales de disponibilidad, calidad y nivel de servicio ferroviario (ANI AT4);Sección
+6;B50_010_015_015_005;Indicador de geometría de vía férrea: trocha, nivelación, alineación, peralte y alabeo (IF-1);Objeto
+6;B50_010_015_015_010;Indicador de estado y desgaste de rieles y defectología ultrasónica (IF-2);Objeto
+6;B50_010_015_015_015;Indicador de estado de durmientes y efectividad de fijaciones elásticas o rígidas (IF-3);Objeto
+6;B50_010_015_015_020;Indicador de sección, limpieza de balasto y eficiencia de drenaje ferroviario (IF-4);Objeto
+6;B50_010_015_015_025;Indicador de estado funcional y geométrico de aparatos de vía y cambiavías (IF-5);Objeto
+6;B50_010_015_015_030;Indicador de condición estructural de puentes, viaductos, pontones y túneles férreos (IF-6);Objeto
+6;B50_010_015_015_035;Indicador de mantenimiento de franja de corredor, control de vegetación y cerramientos (IF-7);Objeto
+6;B50_010_015_015_040;Indicador de operatividad de pasos a nivel, señalización y sistemas de control de tráfico (IF-8);Objeto
+6;B50_010_015_015_045;Indicador de disponibilidad operativa de la vía férrea y cumplimiento de surcos (IF-9);Objeto
+6;B50_010_015_015_050;Indicador de disponibilidad y confiabilidad de material rodante afecto a la concesión (IF-10);Objeto
+6;B50_010_015_015_055;Indicador de tiempo de respuesta y despeje ante incidentes o descarrilamientos (IF-11);Objeto
+6;B50_010_015_015_060;Indicador de seguridad operacional e índice de accidentalidad ferroviaria (IF-12);Objeto
+5;B50_010_015_020;Volumen de carga ferroviaria movilizada (toneladas y ton-km);Sección
+5;B50_010_015_025;Capacidad de surcos ferroviarios (trenes/día);Sección
+5;B50_010_015_030;Coeficiente de seguridad contra el descarrilamiento de Nadal (Y/Q) y descarga de rueda;Sección
+4;B50_010_020;Para infraestructura fluvial;Subgrupo
+4;B50_010_025;Para infraestructura marítima;Subgrupo
+4;B50_010_030;Para infraestructura lacustre;Subgrupo
+4;B50_010_035;Para infraestructura carretera;Subgrupo
+5;B50_010_035_005;Indicadores sobre disponibilidad, calidad y nivel de servicio (ANI);Sección
+6;B50_010_035_005_005;Indicadores para pavimentos flexibles;Objeto
+7;B50_010_035_005_005_005;Ahullamiento - E2;Subobjeto
+7;B50_010_035_005_005_010;Baches - E6;Subobjeto
+7;B50_010_035_005_005_015;Fisuras - E3;Subobjeto
+7;B50_010_035_005_005_020;Hundimientos - E7;Subobjeto
+7;B50_010_035_005_005_025;Índice de regularidad internacional (IRI) en pavimento flexible - E1;Subobjeto
+7;B50_010_035_005_005_030;Coeficiente de fricción transversal y resistencia al deslizamiento - E4;Subobjeto
+7;B50_010_035_005_005_035;Textura superficial y profundidad media de macrotextura - E5;Subobjeto
+7;B50_010_035_005_005_040;Capacidad estructural por deflectometría de impacto (FWD) - E11;Subobjeto
+7;B50_010_035_005_005_045;Profundidad de ahuellamiento y deformación plástica permanente en pavimento flexible - E2;Subobjeto
+7;B50_010_035_005_005_050;Porcentaje de área afectada por fisuración por fatiga (piel de cocodrilo) y baches en pavimento flexible - E3;Subobjeto
+6;B50_010_035_005_010;Indicadores para pavimentos rígidos;Objeto
+7;B50_010_035_005_010_005;Capacidad estructural - E16;Subobjeto
+7;B50_010_035_005_010_010;Escalonamientos - E22;Subobjeto
+7;B50_010_035_005_010_015;Desportillamientos de juntas - E24;Subobjeto
+7;B50_010_035_005_010_020;Deterioro de sello de juntas - E25;Subobjeto
+7;B50_010_035_005_010_025;Eficiencia en la transferencia de carga - E26;Subobjeto
+7;B50_010_035_005_010_030;Grietas - E23;Subobjeto
+7;B50_010_035_005_010_035;Índice de regularidad internacional (IRI) en pavimento rígido - E21;Subobjeto
+7;B50_010_035_005_010_040;Desportillamiento y estado del sello de juntas en losas de pavimento rígido - E24;Subobjeto
+7;B50_010_035_005_010_045;Capacidad estructural y detección de vacíos bajo losa en pavimento rígido - E16;Subobjeto
+6;B50_010_035_005_015;Indicadores para pavimentos flexibles y rígidos;Objeto
+7;B50_010_035_005_015_005;Cola de peajes - O3;Subobjeto
+7;B50_010_035_005_015_010;Disponibilidad de la vía - E17;Subobjeto
+7;B50_010_035_005_015_015;Disponibilidad del SICC - O6;Subobjeto
+7;B50_010_035_005_015_020;Drenajes - E10;Subobjeto
+7;B50_010_035_005_015_025;Estado de las barreras - E13;Subobjeto
+7;B50_010_035_005_015_030;Fricción - E4;Subobjeto
+7;B50_010_035_005_015_035;Iluminación - E14;Subobjeto
+7;B50_010_035_005_015_040;Índice de mortalidad - O1;Subobjeto
+7;B50_010_035_005_015_045;Índice de Rugosidad Internacional - IRI - E1;Subobjeto
+7;B50_010_035_005_015_050;Ocupación de carriles - O2;Subobjeto
+7;B50_010_035_005_015_055;Puentes - E15;Subobjeto
+7;B50_010_035_005_015_060;Señalización horizontal - E12;Subobjeto
+7;B50_010_035_005_015_065;Señalización vertical - E11;Subobjeto
+7;B50_010_035_005_015_070;Textura - E5;Subobjeto
+7;B50_010_035_005_015_075;Tiempo de atención de accidentes - O5;Subobjeto
+7;B50_010_035_005_015_080;Tiempo de atención de incidentes - O4;Subobjeto
+7;B50_010_035_005_015_085;Vegetación - E8;Subobjeto
+6;B50_010_035_005_020;Indicadores para túneles;Objeto
+7;B50_010_035_005_020_005;Atención de accidentes - 08;Subobjeto
+7;B50_010_035_005_020_010;Atención de incidentes - 07;Subobjeto
+7;B50_010_035_005_020_015;Estado de elementos estructurales - E18;Subobjeto
+7;B50_010_035_005_020_020;Sistema de iluminación - E19;Subobjeto
+7;B50_010_035_005_020_025;Sistema de túneles - E21;Subobjeto
+7;B50_010_035_005_020_030;Sistema de ventilación - E20;Subobjeto
+6;B50_010_035_005_030;Indicadores de condición superficial, juntas de arena y regularidad para pavimentos articulados en adoquín;Objeto
+5;B50_010_035_010;Indicadores sobre el estado de la red vial nacional (INVIAS);Sección
+6;B50_010_035_010_005;Indicadores del estado superficial del pavimento;Objeto
+7;B50_010_035_010_005_005;Bermas - Daños totales;Subobjeto
+7;B50_010_035_010_005_010;Calzada - Ahuellamientos;Subobjeto
+7;B50_010_035_010_005_015;Calzada - Baches;Subobjeto
+7;B50_010_035_010_005_020;Calzada - Deformaciones;Subobjeto
+7;B50_010_035_010_005_025;Calzada - Descascaramientos;Subobjeto
+7;B50_010_035_010_005_030;Calzada - Fisuras;Subobjeto
+6;B50_010_035_010_010;Indicadores para drenajes;Objeto
+7;B50_010_035_010_010_005;Alcantarillas - Funcionalidad;Subobjeto
+7;B50_010_035_010_010_010;Alcantarillas - Suficiencia;Subobjeto
+7;B50_010_035_010_010_015;Cunetas - Funcionalidad;Subobjeto
+7;B50_010_035_010_010_020;Cunetas - Suficiencia;Subobjeto
+7;B50_010_035_010_010_025;Puentes y pontones - Funcionalidad;Subobjeto
+7;B50_010_035_010_010_030;Puentes y pontones - Suficiencia;Subobjeto
+6;B50_010_035_010_015;Indicadores para señalización;Objeto
+7;B50_010_035_010_015_005;Horizontal - Estado;Subobjeto
+7;B50_010_035_010_015_010;Horizontal - Suficiencia;Subobjeto
+7;B50_010_035_010_015_015;Vertical - Estado;Subobjeto
+7;B50_010_035_010_015_020;Vertical - Suficiencia;Subobjeto
+7;B50_010_035_010_015_025;Puentes y pontones - Funcionalidad;Subobjeto
+6;B50_010_035_010_020;Indicadores para zonas laterales;Objeto
+7;B50_010_035_010_020_005;Taludes inestables;Subobjeto
+6;B50_010_035_010_025;Índice de condición estructural, socavación y gálibo de puentes, viaductos y pontones - E15 / BCI;Objeto
+6;B50_010_035_010_030;Capacidad hidráulica residual y porcentaje máximo de obstrucción en obras de drenaje - E10;Objeto
+5;B50_010_035_020;Conteo de pasos vehiculares con pago registrado;Sección
+5;B50_010_035_025;Índice de cumplimiento mensual ponderado y factor de retribución contractual APP;Sección
+5;B50_010_035_030;Nivel de servicio operacional de tráfico (LOS A–F), relación volumen/capacidad (V/C) y velocidad media (HCM);Sección
+5;B50_010_035_035;Tiempo máximo de cola y espera en estación de peaje y disponibilidad de carriles IP/REV - E18 / O1;Sección
+5;B50_010_035_040;Tiempo máximo de señalización, arribo de ambulancia/grúa y despeje de incidentes viales - E17 / O4 / O5;Sección
+5;B50_010_035_045;Disponibilidad operativa de iluminación vial, paneles de mensaje variable y subsistemas ITS - E14 / E19;Sección
+3;B50_015;Parámetros físicos y espaciales;Grupo
+4;B50_015_005;Características espaciales;Subgrupo
+5;B50_015_005_005;Punto inicial;Sección
+5;B50_015_005_010;Distancia a punto inicial;Sección
+5;B50_015_005_015;Punto final;Sección
+5;B50_015_005_020;Distancia a punto final;Sección
+5;B50_015_005_025;Longitud;Sección
+5;B50_015_005_030;Área;Sección
+5;B50_015_005_035;Ancho promedio;Sección
+5;B50_015_005_040;Altura;Sección
+5;B50_015_005_045;Área de sección transversal;Sección
+5;B50_015_005_050;Ancho de tablero;Sección
+5;B50_015_005_055;Ancho de corona;Sección
+5;B50_015_005_060;Trocha nominal;Sección
+6;B50_015_005_060_005;Ancho de trocha nominal métrica de 914 mm;Objeto
+6;B50_015_005_060_010;Ancho de trocha nominal estándar de 1.435 mm;Objeto
+6;B50_015_005_060_015;Ancho de trocha nominal métrica de 1.000 mm;Objeto
+5;B50_015_005_065;Insuficiencia máxima de peralte;Sección
+6;B50_015_005_065_005;Insuficiencia de peralte admisible;Objeto
+5;B50_015_005_070;Radio horizontal mínimo de la vía;Sección
+6;B50_015_005_070_005;Radio de curvatura horizontal mínimo de vía férrea;Objeto
+5;B50_015_005_075;Perfil de pendientes longitudinales;Sección
+6;B50_015_005_075_005;Gradiente longitudinal máximo de trazado férreo;Objeto
+5;B50_015_005_080;Peralte nominal de vía;Sección
+5;B50_015_005_085;Parámetro de clotoide y longitud de espiral de transición Euler-Fresnel;Sección
+4;B50_015_010;Unidades de medida;Subgrupo
+5;B50_015_010_005;Unidades de área;Sección
+6;B50_015_010_005_005;Acre (Acre) - Abreviatura: ac;Objeto
+6;B50_015_010_005_010;Acre-pie (Acre-Foot) - Abreviatura: ac-ft;Objeto
+6;B50_015_010_005_015;Cadena cuadrada (Square Chain) - Abreviatura: ch²;Objeto
+6;B50_015_010_005_020;Carril-milla (Lane-Mile) - Abreviatura: lane-mi;Objeto
+6;B50_015_010_005_025;Centímetro cuadrado (Square Centimeter) - Abreviatura: cm²;Objeto
+6;B50_015_010_005_030;Decárea (Decare) - Abreviatura: da;Objeto
+6;B50_015_010_005_035;Decímetro cuadrado (Square Decimeter) - Abreviatura: dm²;Objeto
+6;B50_015_010_005_040;Hectárea (Hectare) - Abreviatura: ha;Objeto
+6;B50_015_010_005_045;Kilómetro cuadrado (Square Kilometer) - Abreviatura: km²;Objeto
+6;B50_015_010_005_050;Liga cuadrada (Square League) - Abreviatura: lea²;Objeto
+6;B50_015_010_005_055;Metro cuadrado (Square Meter) - Abreviatura: m²;Objeto
+6;B50_015_010_005_060;Milímetro cuadrado (Square Millimeter) - Abreviatura: mm²;Objeto
+6;B50_015_010_005_065;Milla cuadrada (Square Mile) - Abreviatura: mi²;Objeto
+6;B50_015_010_005_070;Pie cuadrado (Square Foot) - Abreviatura: ft²;Objeto
+6;B50_015_010_005_075;Pie-milla cuadrada (Square Foot per Mile) - Abreviatura: ft²/mi;Objeto
+6;B50_015_010_005_080;Pulgada cuadrada (Square Inch) - Abreviatura: in²;Objeto
+6;B50_015_010_005_085;Rod cuadrado (Square Rod, Square Pole o Square Perch) - Abreviatura: rd²;Objeto
+6;B50_015_010_005_090;Vara cuadrada (Square Perch o Square Pole) - Abreviatura: perch² o pole²;Objeto
+6;B50_015_010_005_095;Yarda cuadrada (Square Yard) - Abreviatura: yd²;Objeto
+5;B50_015_010_010;Unidades de fuerza;Sección
+6;B50_015_010_010_005;Dina (Dyne) - Abreviatura: dyn;Objeto
+6;B50_015_010_010_010;Grano-fuerza (Grain-force) - Abreviatura: gf;Objeto
+6;B50_015_010_010_015;Kilo-libra-fuerza (Kilopound-force) - Abreviatura: kip;Objeto
+6;B50_015_010_010_020;Kilonewton (Kilonewton) - Abreviatura: kN;Objeto
+6;B50_015_010_010_025;Libra-fuerza (Pound-force) - Abreviatura: lbf;Objeto
+6;B50_015_010_010_030;Meganewton (Meganewton) - Abreviatura: MN;Objeto
+6;B50_015_010_010_035;Milinewton (Millinewton) - Abreviatura: mN;Objeto
+6;B50_015_010_010_040;Newton (Newton) - Abreviatura: N;Objeto
+6;B50_015_010_010_045;Onza-fuerza (Ounce-force) - Abreviatura: ozf;Objeto
+6;B50_015_010_010_050;Tonelada-fuerza corta (Short Ton-force) - Abreviatura: tf o ustf;Objeto
+6;B50_015_010_010_055;Tonelada-fuerza larga (Long Ton-force) - Abreviatura: ltf;Objeto
+5;B50_015_010_015;Unidades de iluminación;Sección
+6;B50_015_010_015_005;Candela (Candela) - Abreviatura: cd;Objeto
+6;B50_015_010_015_010;Candela-pie (Foot-candle) - Abreviatura: fc;Objeto
+6;B50_015_010_015_015;Lambert (Lambert) - Abreviatura: L;Objeto
+6;B50_015_010_015_020;Lambert-pie (Foot-lambert) - Abreviatura: fL;Objeto
+6;B50_015_010_015_025;Lumen (Lumen) - Abreviatura: lm;Objeto
+6;B50_015_010_015_030;Lux (Lux, usado en contextos mixtos) - Abreviatura: lx;Objeto
+5;B50_015_010_020;Unidades de longitud;Sección
+6;B50_015_010_020_005;Braza (Fathom) - Abreviatura: ftm;Objeto
+6;B50_015_010_020_010;Cable (Cable) - Abreviatura: cb;Objeto
+6;B50_015_010_020_015;Cadena (Chain) - Abreviatura: ch;Objeto
+6;B50_015_010_020_020;Carril-milla (Lane-Mile, específica para medir la longitud de carriles en carreteras) - Abreviatura: lane-mi;Objeto
+6;B50_015_010_020_025;Centímetro (Centimeter) - Abreviatura: cm;Objeto
+6;B50_015_010_020_030;Decámetro (Decameter) - Abreviatura: dam;Objeto
+6;B50_015_010_020_035;Decímetro (Decimeter) - Abreviatura: dm;Objeto
+6;B50_015_010_020_040;Enlace (Link) - Abreviatura: lk;Objeto
+6;B50_015_010_020_045;Furlong (Furlong) - Abreviatura: fur;Objeto
+6;B50_015_010_020_050;Hectómetro (Hectometer) - Abreviatura: hm;Objeto
+6;B50_015_010_020_055;Kilómetro (Kilometer) - Abreviatura: km;Objeto
+6;B50_015_010_020_060;Liga (League) - Abreviatura: lea;Objeto
+6;B50_015_010_020_065;Línea (Line) - Abreviatura: line;Objeto
+6;B50_015_010_020_070;Metro (Meter) - Abreviatura: m;Objeto
+6;B50_015_010_020_075;Mil (Mil) - Abreviatura: mil o thou;Objeto
+6;B50_015_010_020_080;Milímetro (Millimeter) - Abreviatura: mm;Objeto
+6;B50_015_010_020_085;Milla (Mile) - Abreviatura: mi;Objeto
+6;B50_015_010_020_090;Milla náutica (Nautical Mile) - Abreviatura: nmi;Objeto
+6;B50_015_010_020_095;Millas lineales (Linear Mile, para medir longitud total de infraestructura vial sin considerar carriles) - Abreviatura: lin-mi;Objeto
+6;B50_015_010_020_100;Pie (Foot) - Abreviatura: ft;Objeto
+6;B50_015_010_020_105;Pulgada (Inch) - Abreviatura: in;Objeto
+6;B50_015_010_020_110;Vara (Rod, Pole o Perch) - Abreviatura: rd o pole;Objeto
+6;B50_015_010_020_115;Yarda (Yard) - Abreviatura: yd;Objeto
+5;B50_015_010_025;Unidades de masa;Sección
+6;B50_015_010_025_005;Carga (Load) - Abreviatura: load;Objeto
+6;B50_015_010_025_010;Dracma (Dram) - Abreviatura: dr;Objeto
+6;B50_015_010_025_015;Gramo (Gram) - Abreviatura: g;Objeto
+6;B50_015_010_025_020;Grano (Grain) - Abreviatura: gr;Objeto
+6;B50_015_010_025_025;Kilo-libra (Kilopound) - Abreviatura: kip;Objeto
+6;B50_015_010_025_030;Kilogramo (Kilogram) - Abreviatura: kg;Objeto
+6;B50_015_010_025_035;Libra (Pound) - Abreviatura: lb;Objeto
+6;B50_015_010_025_040;Libra por pie cúbico (Pound per Cubic Foot) - Abreviatura: lb/ft³;Objeto
+6;B50_015_010_025_045;Libra por yarda cúbica (Pound per Cubic Yard) - Abreviatura: lb/yd³;Objeto
+6;B50_015_010_025_050;Megagramo (Megagram, también conocido como tonelada métrica) - Abreviatura: Mg;Objeto
+6;B50_015_010_025_055;Miligramo (Milligram) - Abreviatura: mg;Objeto
+6;B50_015_010_025_060;Onza (Ounce) - Abreviatura: oz;Objeto
+6;B50_015_010_025_065;Piedra (Stone) - Abreviatura: st;Objeto
+6;B50_015_010_025_070;Quintal (Hundredweight) - Abreviatura: cwt;Objeto
+6;B50_015_010_025_075;Quintal imperial (Imperial Hundredweight) - Abreviatura: icwt;Objeto
+6;B50_015_010_025_080;Tonelada corta (Short Ton) - Abreviatura: tn o US ton;Objeto
+6;B50_015_010_025_085;Tonelada larga (Long Ton) - Abreviatura: ltn;Objeto
+6;B50_015_010_025_090;Tonelada métrica (Metric Ton) - Abreviatura: t;Objeto
+6;B50_015_010_025_095;Tonelada por yarda cúbica (Ton per Cubic Yard) - Abreviatura: ton/yd³;Objeto
+5;B50_015_010_030;Unidades de presión o esfuerzo;Sección
+6;B50_015_010_030_005;Atmosfera estándar (Standard Atmosphere) - Abreviatura: atm;Objeto
+6;B50_015_010_030_010;Bar (Bar) - Abreviatura: bar;Objeto
+6;B50_015_010_030_015;Hectopascal (Hectopascal) - Abreviatura: hPa;Objeto
+6;B50_015_010_030_020;Kilo-libra por pulgada cuadrada (Kilopound per Square Inch) - Abreviatura: ksi;Objeto
+6;B50_015_010_030_025;Kilopascal (Kilopascal) - Abreviatura: kPa;Objeto
+6;B50_015_010_030_030;Libra por pie cuadrado (Pound per Square Foot) - Abreviatura: psf;Objeto
+6;B50_015_010_030_035;Libra por pulgada cuadrada (Pound per Square Inch) - Abreviatura: psi;Objeto
+6;B50_015_010_030_040;Megapascal (Megapascal) - Abreviatura: MPa;Objeto
+6;B50_015_010_030_045;Milímetro de mercurio (Millimeter of Mercury) - Abreviatura: mmHg;Objeto
+6;B50_015_010_030_050;Pascal (Pascal) - Abreviatura: Pa;Objeto
+6;B50_015_010_030_055;Tonelada corta por pie cuadrado (Short Ton per Square Foot) - Abreviatura: tsf;Objeto
+6;B50_015_010_030_060;Tonelada larga por pie cuadrado (Long Ton per Square Foot) - Abreviatura: ltsf;Objeto
+5;B50_015_010_035;Unidades de temperatura;Sección
+6;B50_015_010_035_005;Grado Celsius (Degree Celsius) - Abreviatura: °C;Objeto
+6;B50_015_010_035_010;Grado Fahrenheit (Degree Fahrenheit) - Abreviatura: °F;Objeto
+6;B50_015_010_035_015;Grado Kelvin (Kelvin) - Abreviatura: K;Objeto
+6;B50_015_010_035_020;Grado Rankine (Degree Rankine) - Abreviatura: °R;Objeto
+5;B50_015_010_040;Unidades de volumen;Sección
+6;B50_015_010_040_005;Barril (Barrel) - Abreviatura: bbl;Objeto
+6;B50_015_010_040_010;Bushel (Bushel) - Abreviatura: bu;Objeto
+6;B50_015_010_040_015;Centímetro cúbico (Cubic Centimeter) - Abreviatura: cm³;Objeto
+6;B50_015_010_040_020;Cuarto (Quart) - Abreviatura: qt;Objeto
+6;B50_015_010_040_025;Cubo de pie (Cubic Foot) - Abreviatura: ft³;Objeto
+6;B50_015_010_040_030;Cubo de pulgada (Cubic Inch) - Abreviatura: in³;Objeto
+6;B50_015_010_040_035;Cubo de yarda (Cubic Yard) - Abreviatura: yd³;Objeto
+6;B50_015_010_040_040;Decímetro cúbico (Cubic Decimeter) - Abreviatura: dm³;Objeto
+6;B50_015_010_040_045;Galón (Gallon) - Abreviatura: gal;Objeto
+6;B50_015_010_040_050;Hectolitro (Hectoliter) - Abreviatura: hL;Objeto
+6;B50_015_010_040_055;Kilolitro (Kiloliter) - Abreviatura: kL;Objeto
+6;B50_015_010_040_060;Litro (Liter) - Abreviatura: L;Objeto
+6;B50_015_010_040_065;Metro cúbico (Cubic Meter) - Abreviatura: m³;Objeto
+6;B50_015_010_040_070;Mililitro (Milliliter) - Abreviatura: mL;Objeto
+6;B50_015_010_040_075;Milla cúbica (Cubic Mile) - Abreviatura: mi³;Objeto
+6;B50_015_010_040_080;Onza líquida (Fluid Ounce) - Abreviatura: fl oz;Objeto
+6;B50_015_010_040_085;Pie cúbico (Cubic Foot) - Abreviatura: ft³;Objeto
+6;B50_015_010_040_090;Pie cúbico compactado (Compacted Cubic Foot) - Abreviatura: ccf;Objeto
+6;B50_015_010_040_095;Pie cúbico suelto (Loose Cubic Foot) - Abreviatura: lcf;Objeto
+6;B50_015_010_040_100;Pinta (Pint) - Abreviatura: pt;Objeto
+6;B50_015_010_040_105;Pulgada cúbica (Cubic Inch) - Abreviatura: in³;Objeto
+6;B50_015_010_040_110;Taza (Cup) - Abreviatura: cup;Objeto
+6;B50_015_010_040_115;Tonelada líquida (Liquid Ton) - Abreviatura: lt;Objeto
+6;B50_015_010_040_120;Tonelada seca (Dry Ton) - Abreviatura: dt;Objeto
+6;B50_015_010_040_125;Yarda cúbica (Cubic Yard) - Abreviatura: yd³;Objeto
+6;B50_015_010_040_130;Yarda cúbica compactada (Compacted Cubic Yard) - Abreviatura: ccy;Objeto
+6;B50_015_010_040_135;Yarda cúbica suelta (Loose Cubic Yard) - Abreviatura: lcy;Objeto
+4;B50_015_015;Características físicas de operación;Subgrupo
+5;B50_015_015_005;Masa máxima permitida por eje;Sección
+6;B50_015_015_005_005;Carga máxima admisible por eje para trocha métrica;Objeto
+6;B50_015_015_005_010;Carga máxima admisible por eje para trocha estándar;Objeto
+5;B50_015_015_010;Tensión nominal de alimentación;Sección
+6;B50_015_015_010_005;Tensión nominal de electrificación de tracción;Objeto
+5;B50_015_015_015;Frecuencia nominal de alimentación;Sección
+5;B50_015_015_020;Velocidad máxima operacional permitida;Sección
+3;B50_020;Parámetros de inventario y caracterización vial;Grupo
+4;B50_020_005;Identificación y trazabilidad;Subgrupo
+5;B50_020_005_005;Código de vía;Sección
+5;B50_020_005_010;Código de vía vinculada;Sección
+5;B50_020_005_015;Nombre de vía;Sección
+5;B50_020_005_020;Fecha de diligenciamiento;Sección
+5;B50_020_005_025;Fuente de los datos;Sección
+6;B50_020_005_025_005;Plano o diseño original;Objeto
+6;B50_020_005_025_010;Levantamiento topográfico (GPS o estación total);Objeto
+6;B50_020_005_025_015;Levantamiento LiDAR terrestre;Objeto
+6;B50_020_005_025_020;Levantamiento LiDAR aéreo;Objeto
+6;B50_020_005_025_025;Imagen satelital de alta resolución;Objeto
+6;B50_020_005_025_030;Imagen satelital de media resolución;Objeto
+6;B50_020_005_025_035;Inspección visual en campo (medición directa);Objeto
+6;B50_020_005_025_040;Inspección visual en campo (sin medición);Objeto
+6;B50_020_005_025_045;Referencia indirecta (fuente secundaria);Objeto
+5;B50_020_005_030;Observaciones;Sección
+5;B50_020_005_035;Código de señal;Sección
+4;B50_020_010;Atributos operativos y configuración;Subgrupo
+5;B50_020_010_005;Condición de concesión;Sección
+5;B50_020_010_010;Tipo de eje;Sección
+6;B50_020_010_010_005;Calzada sencilla;Objeto
+6;B50_020_010_010_010;Calzada doble;Objeto
+6;B50_020_010_010_015;Glorieta;Objeto
+6;B50_020_010_010_020;Ramal de enlace único sentido;Objeto
+6;B50_020_010_010_025;Ramal de enlace doble sentido;Objeto
+5;B50_020_010_015;Sentido de circulación;Sección
+6;B50_020_010_015_005;Sentido A-B de la vía;Objeto
+6;B50_020_010_015_010;Sentido B-A de la vía;Objeto
+6;B50_020_010_015_015;Doble sentido;Objeto
+5;B50_020_010_020;Sección transversal;Sección
+6;B50_020_010_020_005;Circular;Objeto
+6;B50_020_010_020_010;Triangular;Objeto
+6;B50_020_010_020_015;Rectangular;Objeto
+6;B50_020_010_020_020;Trapezoidal;Objeto
+5;B50_020_010_025;Categoría de la vía;Sección
+6;B50_020_010_025_005;Primer orden;Objeto
+6;B50_020_010_025_010;Segundo orden;Objeto
+6;B50_020_010_025_015;Tercer orden;Objeto
+6;B50_020_010_025_020;No ha sido categorizada aún;Objeto
+5;B50_020_010_030;Competencia administrativa;Sección
+6;B50_020_010_030_005;Instituto Nacional de Vías (INVIAS);Objeto
+6;B50_020_010_030_010;Agencia Nacional de Infraestructura (ANI);Objeto
+6;B50_020_010_030_015;Instituto Nacional de Vías Regionales (INVIR);Objeto
+6;B50_020_010_030_020;Gobernación;Objeto
+6;B50_020_010_030_025;Municipio;Objeto
+6;B50_020_010_030_030;Distrito;Objeto
+5;B50_020_010_035;Lado de la vía;Sección
+6;B50_020_010_035_005;Lado en sentido A-B;Objeto
+6;B50_020_010_035_010;Lado en sentido B-A;Objeto
+4;B50_020_015;Cantidades y mediciones de componentes;Subgrupo
+5;B50_020_015_005;Número de captafaros;Sección
+5;B50_020_015_010;Número de módulos;Sección
+5;B50_020_015_015;Número de postes;Sección
+5;B50_020_015_020;Número de separadores;Sección
+5;B50_020_015_025;Número de terminales;Sección
+5;B50_020_015_030;Número de estaciones de pago;Sección
+5;B50_020_015_035;Número de luces;Sección
+5;B50_020_015_040;Número de carriles;Sección
+4;B50_020_020;Condición y atributos tecnológicos;Subgrupo
+5;B50_020_020_005;Porcentaje promedio de sección obstruida;Sección
+5;B50_020_020_010;Indicador de pintura;Sección
+5;B50_020_020_015;Tiene IPv6;Sección
+5;B50_020_020_020;Protocolo de comunicación;Sección
+6;B50_020_020_020_005;Serial;Objeto
+6;B50_020_020_020_010;IP;Objeto
+6;B50_020_020_020_015;ONVIF;Objeto
+6;B50_020_020_020_020;HTTP;Objeto
+6;B50_020_020_020_025;FTP;Objeto
+6;B50_020_020_020_030;SMTP;Objeto
+6;B50_020_020_020_035;SSH;Objeto
+6;B50_020_020_020_040;SNMP;Objeto
+6;B50_020_020_020_045;DNS;Objeto
+6;B50_020_020_020_050;AFP;Objeto
+6;B50_020_020_020_055;NFS;Objeto
+6;B50_020_020_020_060;iSNS;Objeto
+6;B50_020_020_020_065;SAP;Objeto
+6;B50_020_020_020_070;UDP;Objeto
+6;B50_020_020_020_075;TCP;Objeto
+6;B50_020_020_020_080;RIP;Objeto
+6;B50_020_020_020_085;IGP;Objeto
+6;B50_020_020_020_090;IPX/SPX;Objeto
+6;B50_020_020_020_095;FDDI;Objeto
+6;B50_020_020_020_100;ARP;Objeto
+6;B50_020_020_020_105;PPP;Objeto
+6;B50_020_020_020_110;ISDN;Objeto
+6;B50_020_020_020_115;DLS;Objeto
+6;B50_020_020_020_120;DHCP;Objeto
+6;B50_020_020_020_125;POP3;Objeto
+6;B50_020_020_020_130;UTMC;Objeto
+6;B50_020_020_020_135;NTCIP;Objeto
+6;B50_020_020_020_140;OCIT;Objeto
+6;B50_020_020_020_145;UMTC;Objeto
+6;B50_020_020_020_150;DATEX II;Objeto
+6;B50_020_020_020_155;SCP;Objeto
+5;B50_020_020_025;Medio de transmisión;Sección
+6;B50_020_020_025_005;Luz infrarroja;Objeto
+6;B50_020_020_025_010;Luz láser;Objeto
+6;B50_020_020_025_015;GSM / 2G / GPRS / EDGE / HSPA+ / LTE / WiMAX / 5G;Objeto
+6;B50_020_020_025_020;Wi-Fi (802.11a/b/g/n/ah/p);Objeto
+6;B50_020_020_025_025;Zigbee / WirelessHART;Objeto
+6;B50_020_020_025_030;Bluetooth;Objeto
+6;B50_020_020_025_035;6LoWPAN / LoRa;Objeto
+5;B50_020_020_030;Pago electrónico;Sección
+4;B50_020_025;Atributos de clasificación y tipología;Subgrupo
+5;B50_020_025_005;Tipo de pavimento;Sección
+5;B50_020_025_010;Tipo de drenaje;Sección
+5;B50_020_025_015;Material de construcción;Sección
+5;B50_020_025_020;Tipo de dispositivo ITS;Sección
+5;B50_020_025_025;Tipo de suministro energético;Sección
+5;B50_020_025_030;Tipo de señal de tránsito;Sección
+5;B50_020_025_035;Tipo de muro;Sección
+5;B50_020_025_040;Estado general del elemento;Sección
+6;B50_020_025_040_005;Bueno;Objeto
+6;B50_020_025_040_010;Regular;Objeto
+6;B50_020_025_040_015;Malo;Objeto
+6;B50_020_025_040_020;Crítico;Objeto
+6;B50_020_025_040_025;Intransitable;Objeto
+6;B50_020_025_040_030;Pésimo;Objeto
+6;B50_020_025_040_035;No funcional;Objeto
+6;B50_020_025_040_040;Limpio;Objeto
+6;B50_020_025_040_045;Medianamente colmatado;Objeto
+6;B50_020_025_040_050;Colmatado;Objeto
+4;B50_020_030;Opciones de afirmación y parámetros generales;Subgrupo
+5;B50_020_030_005;Opciones lógicas;Sección
+6;B50_020_030_005_005;Sí;Objeto
+6;B50_020_030_005_010;No;Objeto
+5;B50_020_030_010;Otras opciones paramétricas;Sección
+6;B50_020_030_010_005;Otro;Objeto
+6;B50_020_030_010_010;No aplica;Objeto
+4;B50_020_035;Evaluación de sitios críticos;Subgrupo
+5;B50_020_035_005;Tipo de sitio crítico;Sección
+6;B50_020_035_005_005;Hundimiento de subrasante o pérdida de la banca;Objeto
+6;B50_020_035_005_010;Detritos en la vía;Objeto
+6;B50_020_035_005_015;Abultamiento sobre o bajo la carretera;Objeto
+6;B50_020_035_005_020;Cambios de forma;Objeto
+6;B50_020_035_005_025;Deformación de estructuras adyacentes;Objeto
+6;B50_020_035_005_030;Erosión;Objeto
+6;B50_020_035_005_035;Derrumbes;Objeto
+6;B50_020_035_005_040;Deslizamientos;Objeto
+6;B50_020_035_005_045;Grietas de tracción en carreteras o en los taludes;Objeto
+5;B50_020_035_010;Severidad del sitio crítico;Sección
+6;B50_020_035_010_005;Sin daño o daño insignificante;Objeto
+6;B50_020_035_010_010;Daño pequeño reparación no necesaria;Objeto
+6;B50_020_035_010_015;Daño pequeño reparación necesaria;Objeto
+6;B50_020_035_010_020;Daño grave reparación urgente;Objeto
+3;B50_025;Condiciones de política pública territorial;Grupo
+4;B50_025_005;Pertenencia a municipios priorizados PDET;Subgrupo
+4;B50_025_010;Pertenencia a municipios ZOMAC;Subgrupo
+4;B50_025_015;Declaratoria de zona de frontera;Subgrupo
+3;B50_030;Parámetros de gestión de proyectos de inversión;Grupo
+4;B50_030_005;Código BPIN;Subgrupo
+4;B50_030_010;Modo de transporte del proyecto;Subgrupo
+4;B50_030_015;Generación del programa de concesiones;Subgrupo
+4;B50_030_020;Categoría administrativa de inversión reportada;Subgrupo
+4;B50_030_025;Año de referencia del registro;Subgrupo
+4;B50_030_030;Período de gobierno de referencia;Subgrupo
+3;B50_035;Propiedades económicas y presupuestales;Grupo
+4;B50_035_005;Valor monetario de inversión reportado;Subgrupo
+4;B50_035_010;Apropiación presupuestal;Subgrupo
+4;B50_035_015;Apropiación sin comprometer;Subgrupo
+4;B50_035_020;Compromisos presupuestales;Subgrupo
+4;B50_035_025;Obligaciones presupuestales;Subgrupo
+4;B50_035_030;Pagos presupuestales;Subgrupo
+4;B50_035_035;Entropía informacional de Shannon de evidencia documental y telemetría (Estación 1);Subgrupo
+4;B50_035_040;Exponente espectral fractal de potencia (1/f^α) de series temporales de telemetría (Estación 4);Subgrupo
+4;B50_035_045;Distancia de transporte óptimo de Wasserstein (W_1) entre distribuciones de deterioro (Estación 5);Subgrupo
+4;B50_035_050;Números de Betti (β_0 conexidad y β_1 cavidades topológicas) del complejo Vietoris-Rips (Estación 6);Subgrupo
+4;B50_035_055;Valor Presente de los Ingresos de Peaje (VPIP), recaudo acumulado y soporte de riesgo de tráfico;Subgrupo
+4;B50_035_060;Presupuesto de inversión de capital (CAPEX), costos de operación y mantenimiento (OPEX) y precios unitarios APU;Subgrupo
+3;B50_040;Métricas de gestión de activos, ciclo de vida y resiliencia (AASHTO TAM);Grupo
+4;B50_040_005;Vida útil de diseño y vida útil remanente de servicio (RSL);Subgrupo
+4;B50_040_010;Costo del ciclo de vida del activo (LCCA) y valor de reposición;Subgrupo
+5;B50_040_010_005;Relación beneficio-costo (RBC), Tasa Interna de Retorno Socioeconómica (TIRS) y Valor Presente Neto Social (VPNS);Sección
+4;B50_040_015;Índice de condición o salud estructural del activo (SHI / BHI / TGI);Subgrupo
+5;B50_040_015_005;Campo de cumplimiento normativo con signo y vector gradiente de subsanación;Sección
+6;B50_040_015_005_005;Campo de cumplimiento normativo geométrico y cinemático de trazado vial y férreo;Objeto
+7;B50_040_015_005_005_005;Vector gradiente inverso de restitución al dominio admisible de diseño geométrico;Subobjeto
+5;B50_040_015_010;Índice de desempeño de costo (CPI) y de cronograma (SPI) de valor ganado;Sección
+4;B50_040_020;Brecha de desempeño del activo (Performance Gap);Subgrupo
+5;B50_040_020_005;Índice de vulnerabilidad geotécnica, hidrológica y climática del corredor (AASHTO TAM);Sección
+5;B50_040_020_010;Factor de equidad territorial e impacto socioeconómico en municipios PDET, ZOMAC y de frontera;Sección
+4;B50_040_025;Criticidad, redundancia modal y vulnerabilidad climática del activo;Subgrupo
+4;B50_040_030;Emisiones evitadas por cambio modal e intensidad energética (tCO2e);Subgrupo

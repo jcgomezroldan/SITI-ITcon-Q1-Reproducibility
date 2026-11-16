@@ -1,0 +1,22 @@
+layer_rank,tabla_origen_ani,layer_label_en,layer_label_es,siti_canonical_table,dominant_geom_type,operational_rows,spatial_rows,total_vertices_2d,mean_vertices_per_feature,ogc_wkb_float64_bytes,geojson_9377_bytes,geojson_4326_bytes,total_geom_uncompressed_bytes,est_coupled_disk_bytes,operational_uncompressed_bytes,est_operational_disk_bytes,ram_asymmetry_ratio_x,geom_share_of_national_total_pct
+1,berma,Paved Shoulder & Lateral Strip,Berma pavimentada y franja lateral,A30,MultiPolygon,22420,22419,12670122,565.15,203215170,383710514,353533119,743868178,243091906,3598026,1530606,206.74,53.3242
+2,calzada,Traffic Lane — Calzada SITI = carril,Calzada SITI = carril vehicular,A30,MultiPolygon,10710,10710,6474498,604.53,103827510,195965109,180672574,379998008,124181196,1801327,766287,210.95,27.2402
+3,separador,Median Strip & Central Reserve,Separador vial y franja central,A30,MultiPolygon,6149,6149,2457832,399.71,39460573,74640771,68672819,144659112,47273778,1078321,458719,134.15,10.3699
+4,cuneta,Longitudinal Drainage Gutter,Cuneta de drenaje longitudinal,A50,MultiLineString,33801,33801,676639,20.02,11434642,23646452,20261409,45349619,14819999,5998670,2551843,7.56,3.2509
+5,defensa_vial,Containment Barrier & Guardrail,Defensa vial y barrera de contención,A50,MultiLineString,16348,16348,276604,16.92,4719928,10035561,8398894,19109340,6244824,3201003,1361711,5.97,1.3699
+6,senal_vertical,Retroreflective Vertical Signage,Señalización vertical retrorreflectiva,A50,Point,87639,87639,87263,1.0,1840419,10118833,5045605,18112721,5919135,18200900,7742690,1.0,1.2984
+7,predio,Cadastral Right-of-Way Parcel,Predio catastral y franja de derecho de vía,A10,MultiPolygon,1425,1425,211845,148.66,3420870,6707392,5946019,12800662,4183184,262779,111787,48.71,0.9176
+8,talud,Engineered Cut/Fill Slope,Talud vial intervenido,A30,MultiPolygon,2074,2074,203070,97.91,3294748,6269781,5730052,12162787,3974730,420758,178991,28.91,0.8719
+9,drenajes,Cross-Drainage Culvert & Hydraulic Work,Obra de drenaje transversal y alcantarilla,A50,Point,18055,18055,18052,1.0,379155,2092061,1032418,3731874,1219555,3845450,1635860,0.97,0.2675
+10,puente,Vehicular Bridge & Viaduct Complex,Puente vehicular y viaducto,A20,MultiPolygon,1194,1194,50276,42.11,830684,1623547,1450673,3137342,1025266,206956,88039,15.16,0.2249
+11,luminarias,Roadway Luminaire & Lighting Pole,Luminaria e iluminación vial,A50,Point,16844,16844,16240,0.96,353724,1935409,958272,3460167,1130763,2986154,1270314,1.16,0.248
+12,tunel,Road Tunnel & Portal Complex,Túnel vial y portal,A20,MultiPolygon,62,62,38589,622.4,618788,1162812,1074547,2257268,737662,11175,4754,201.99,0.1618
+13,ciclorruta,Segregated Cycleway Path,Ciclorruta e infraestructura segregada,A50,MultiPolygon,98,98,35696,364.24,573292,1089200,995776,2104827,687846,17899,7614,117.59,0.1509
+14,muro,Retaining Wall & Earth Structure,Muro de contención,A50,MultiLineString,2744,2744,26347,9.6,470944,1065458,852729,2022052,660795,520982,221627,3.88,0.145
+15,dispositivo_its,ITS Telemetry & Fiber-Optic Node,Dispositivo ITS y nodo de telemetría,A40,Point,6552,6552,6537,1.0,137592,758870,377297,1356604,443331,1253572,533271,1.08,0.0972
+16,estacion_pesaje,Weigh-in-Motion & Static Scale Station,Estación de pesaje vehicular,A20,MultiPolygon,63,62,6310,101.77,102324,194830,178228,378044,123543,11903,5064,31.76,0.0271
+17,estacion_peaje,Toll Collection Plaza,Estación de peaje,A20,MultiPolygon,79,79,4603,58.27,75386,146037,131816,282625,92360,13891,5909,20.35,0.0203
+18,zona_servicio,Roadside Service & Rest Area,Zona de servicio y atención al usuario,A30,MultiPolygon,27,27,1874,69.41,30578,59367,53278,114418,37391,5197,2211,22.02,0.0082
+19,cco,Operational Control Center & Rail Station,Centro de Control Operacional (CCO),A20,MultiPolygon,34,34,1338,39.35,22037,44115,38541,84414,27586,5603,2384,15.07,0.0061
+20,aeropuerto_terminal,Concessioned Airport Terminal,Terminal aeroportuaria concesionada,A20,Point,4,4,4,1.0,84,204,204,540,176,586,249,0.92,0.0
+21,aeropuerto_torre,Airport Control Tower,Torre de control aeroportuario,A20,Point,2,2,2,1.0,42,99,99,264,86,299,127,0.88,0.0

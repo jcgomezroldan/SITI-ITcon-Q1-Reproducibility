@@ -1,0 +1,1279 @@
+﻿Nivel;Código SITI;Descripción;Clasificación
+1;A;Activos de infraestructura;Lenguaje
+2;A10;Zonas geográficas;Tabla
+3;A10_005;Regiones o áreas metropolitanas;Grupo
+4;A10_005_005;Región o área metropolitana de Armenia;Subgrupo
+4;A10_005_010;Región o área metropolitana de Barranquilla;Subgrupo
+4;A10_005_015;Región o área metropolitana de Bogotá - Cundinamarca;Subgrupo
+4;A10_005_020;Región o área metropolitana de Bucaramanga;Subgrupo
+4;A10_005_025;Región o área metropolitana de Cartagena de Indias;Subgrupo
+4;A10_005_030;Región o área metropolitana de Centro Occidente (Pereira);Subgrupo
+4;A10_005_035;Región o área metropolitana de Cúcuta;Subgrupo
+4;A10_005_040;Región o área metropolitana de Girardot;Subgrupo
+4;A10_005_045;Región o área metropolitana de Montería;Subgrupo
+4;A10_005_050;Región o área metropolitana de Neiva;Subgrupo
+4;A10_005_055;Región o área metropolitana de San Juan de Pasto;Subgrupo
+4;A10_005_060;Región o área metropolitana de Sincelejo;Subgrupo
+4;A10_005_065;Región o área metropolitana de Valledupar;Subgrupo
+4;A10_005_070;Región o área metropolitana del Eje Bananero;Subgrupo
+4;A10_005_075;Región o área metropolitana del Piedemonte Amazónico;Subgrupo
+4;A10_005_080;Región o área metropolitana del Valle de Aburrá;Subgrupo
+3;A10_010;Departamentos y municipios;Grupo
+4;A10_010_005;Antioquia;Subgrupo
+5;A10_010_005_001;Medellín;Sección
+5;A10_010_005_002;Abejorral;Sección
+5;A10_010_005_004;Abriaquí;Sección
+5;A10_010_005_021;Alejandría;Sección
+5;A10_010_005_030;Amagá;Sección
+5;A10_010_005_031;Amalfi;Sección
+5;A10_010_005_034;Andes;Sección
+5;A10_010_005_036;Angelópolis;Sección
+5;A10_010_005_038;Angostura;Sección
+5;A10_010_005_040;Anorí;Sección
+5;A10_010_005_042;Santafé de Antioquia;Sección
+5;A10_010_005_044;Anzá;Sección
+5;A10_010_005_045;Apartadó;Sección
+5;A10_010_005_051;Arboletes;Sección
+5;A10_010_005_055;Argelia;Sección
+5;A10_010_005_059;Armenia;Sección
+5;A10_010_005_079;Barbosa;Sección
+5;A10_010_005_086;Belmira;Sección
+5;A10_010_005_088;Bello;Sección
+5;A10_010_005_091;Betania;Sección
+5;A10_010_005_093;Betulia;Sección
+5;A10_010_005_101;Ciudad Bolívar;Sección
+5;A10_010_005_107;Briceño;Sección
+5;A10_010_005_113;Buriticá;Sección
+5;A10_010_005_120;Cáceres;Sección
+5;A10_010_005_125;Caicedo;Sección
+5;A10_010_005_129;Caldas;Sección
+5;A10_010_005_134;Campamento;Sección
+5;A10_010_005_138;Cañasgordas;Sección
+5;A10_010_005_142;Caracolí;Sección
+5;A10_010_005_145;Caramanta;Sección
+5;A10_010_005_147;Carepa;Sección
+5;A10_010_005_148;El Carmen de Viboral;Sección
+5;A10_010_005_150;Carolina;Sección
+5;A10_010_005_154;Caucasia;Sección
+5;A10_010_005_172;Chigorodó;Sección
+5;A10_010_005_190;Cisneros;Sección
+5;A10_010_005_197;Cocorná;Sección
+5;A10_010_005_206;Concepción;Sección
+5;A10_010_005_209;Concordia;Sección
+5;A10_010_005_212;Copacabana;Sección
+5;A10_010_005_234;Dabeiba;Sección
+5;A10_010_005_237;Don Matías;Sección
+5;A10_010_005_240;Ebéjico;Sección
+5;A10_010_005_250;El Bagre;Sección
+5;A10_010_005_264;Entrerríos;Sección
+5;A10_010_005_266;Envigado;Sección
+5;A10_010_005_282;Fredonia;Sección
+5;A10_010_005_284;Frontino;Sección
+5;A10_010_005_306;Giraldo;Sección
+5;A10_010_005_308;Girardota;Sección
+5;A10_010_005_310;Gómez Plata;Sección
+5;A10_010_005_313;Granada;Sección
+5;A10_010_005_315;Guadalupe;Sección
+5;A10_010_005_318;Guarne;Sección
+5;A10_010_005_321;Guatapé;Sección
+5;A10_010_005_347;Heliconia;Sección
+5;A10_010_005_353;Hispania;Sección
+5;A10_010_005_360;Itagüí;Sección
+5;A10_010_005_361;Ituango;Sección
+5;A10_010_005_364;Jardín;Sección
+5;A10_010_005_368;Jericó;Sección
+5;A10_010_005_376;La Ceja;Sección
+5;A10_010_005_380;La Estrella;Sección
+5;A10_010_005_390;La Pintada;Sección
+5;A10_010_005_400;La Unión;Sección
+5;A10_010_005_411;Liborina;Sección
+5;A10_010_005_425;Maceo;Sección
+5;A10_010_005_440;Marinilla;Sección
+5;A10_010_005_467;Montebello;Sección
+5;A10_010_005_475;Murindó;Sección
+5;A10_010_005_480;Mutatá;Sección
+5;A10_010_005_483;Nariño;Sección
+5;A10_010_005_490;Necoclí;Sección
+5;A10_010_005_495;Nechí;Sección
+5;A10_010_005_501;Olaya;Sección
+5;A10_010_005_541;Peñol;Sección
+5;A10_010_005_543;Peque;Sección
+5;A10_010_005_576;Pueblorrico;Sección
+5;A10_010_005_579;Puerto Berrío;Sección
+5;A10_010_005_585;Puerto Nare;Sección
+5;A10_010_005_591;Puerto Triunfo;Sección
+5;A10_010_005_604;Remedios;Sección
+5;A10_010_005_607;Retiro;Sección
+5;A10_010_005_615;Rionegro;Sección
+5;A10_010_005_628;Sabanalarga;Sección
+5;A10_010_005_631;Sabaneta;Sección
+5;A10_010_005_642;Salgar;Sección
+5;A10_010_005_647;San Andrés de Cuerquía;Sección
+5;A10_010_005_649;San Carlos;Sección
+5;A10_010_005_652;San Francisco;Sección
+5;A10_010_005_656;San Jerónimo;Sección
+5;A10_010_005_658;San José de la Montaña;Sección
+5;A10_010_005_659;San Juan de Urabá;Sección
+5;A10_010_005_660;San Luis;Sección
+5;A10_010_005_664;San Pedro;Sección
+5;A10_010_005_665;San Pedro de Urabá;Sección
+5;A10_010_005_667;San Rafael;Sección
+5;A10_010_005_670;San Roque;Sección
+5;A10_010_005_674;San Vicente;Sección
+5;A10_010_005_679;Santa Bárbara;Sección
+5;A10_010_005_686;Santa Rosa de Osos;Sección
+5;A10_010_005_690;Santo Domingo;Sección
+5;A10_010_005_697;El Santuario;Sección
+5;A10_010_005_736;Segovia;Sección
+5;A10_010_005_756;Sonsón;Sección
+5;A10_010_005_761;Sopetrán;Sección
+5;A10_010_005_789;Támesis;Sección
+5;A10_010_005_790;Tarazá;Sección
+5;A10_010_005_792;Tarso;Sección
+5;A10_010_005_809;Titiribí;Sección
+5;A10_010_005_819;Toledo;Sección
+5;A10_010_005_837;Turbo;Sección
+5;A10_010_005_842;Uramita;Sección
+5;A10_010_005_847;Urrao;Sección
+5;A10_010_005_854;Valdivia;Sección
+5;A10_010_005_856;Valparaíso;Sección
+5;A10_010_005_858;Vegachí;Sección
+5;A10_010_005_861;Venecia;Sección
+5;A10_010_005_873;Vigía del Fuerte;Sección
+5;A10_010_005_885;Yalí;Sección
+5;A10_010_005_887;Yarumal;Sección
+5;A10_010_005_890;Yolombó;Sección
+5;A10_010_005_893;Yondó;Sección
+5;A10_010_005_895;Zaragoza;Sección
+4;A10_010_008;Atlántico;Subgrupo
+5;A10_010_008_001;Barranquilla;Sección
+5;A10_010_008_078;Baranoa;Sección
+5;A10_010_008_137;Campo de la Cruz;Sección
+5;A10_010_008_141;Candelaria;Sección
+5;A10_010_008_296;Galapa;Sección
+5;A10_010_008_372;Juan de Acosta;Sección
+5;A10_010_008_421;Luruaco;Sección
+5;A10_010_008_433;Malambo;Sección
+5;A10_010_008_436;Manatí;Sección
+5;A10_010_008_520;Palmar de Varela;Sección
+5;A10_010_008_549;Piojó;Sección
+5;A10_010_008_558;Polonuevo;Sección
+5;A10_010_008_560;Ponedera;Sección
+5;A10_010_008_573;Puerto Colombia;Sección
+5;A10_010_008_606;Repelón;Sección
+5;A10_010_008_634;Sabanagrande;Sección
+5;A10_010_008_638;Sabanalarga;Sección
+5;A10_010_008_675;Santa Lucía;Sección
+5;A10_010_008_685;Santo Tomás;Sección
+5;A10_010_008_758;Soledad;Sección
+5;A10_010_008_770;Suán;Sección
+5;A10_010_008_832;Tubará;Sección
+5;A10_010_008_849;Usiacurí;Sección
+4;A10_010_011;Bogotá;Subgrupo
+5;A10_010_011_001;Bogotá;Sección
+4;A10_010_013;Bolívar;Subgrupo
+5;A10_010_013_001;Cartagena;Sección
+5;A10_010_013_006;Achí;Sección
+5;A10_010_013_030;Altos del Rosario;Sección
+5;A10_010_013_042;Arenal;Sección
+5;A10_010_013_052;Arjona;Sección
+5;A10_010_013_062;Arroyohondo;Sección
+5;A10_010_013_074;Barranco de Loba;Sección
+5;A10_010_013_140;Calamar;Sección
+5;A10_010_013_160;Cantagallo;Sección
+5;A10_010_013_188;Cicuco;Sección
+5;A10_010_013_212;Córdoba;Sección
+5;A10_010_013_222;Clemencia;Sección
+5;A10_010_013_244;El Carmen de Bolívar;Sección
+5;A10_010_013_248;El Guamo;Sección
+5;A10_010_013_268;El Peñón;Sección
+5;A10_010_013_300;Hatillo de Loba;Sección
+5;A10_010_013_430;Magangué;Sección
+5;A10_010_013_433;Mahates;Sección
+5;A10_010_013_440;Margarita;Sección
+5;A10_010_013_442;María La Baja;Sección
+5;A10_010_013_458;Montecristo;Sección
+5;A10_010_013_468;Mompós;Sección
+5;A10_010_013_473;Morales;Sección
+5;A10_010_013_490;Norosí;Sección
+5;A10_010_013_549;Pinillos;Sección
+5;A10_010_013_580;Regidor;Sección
+5;A10_010_013_600;Río Viejo;Sección
+5;A10_010_013_620;San Cristóbal;Sección
+5;A10_010_013_647;San Estanislao;Sección
+5;A10_010_013_650;San Fernando;Sección
+5;A10_010_013_654;San Jacinto;Sección
+5;A10_010_013_655;San Jacinto del Cauca;Sección
+5;A10_010_013_657;San Juan Nepomuceno;Sección
+5;A10_010_013_667;San Martín de Loba;Sección
+5;A10_010_013_670;San Pablo;Sección
+5;A10_010_013_673;Santa Catalina;Sección
+5;A10_010_013_683;Santa Rosa;Sección
+5;A10_010_013_688;Santa Rosa del Sur;Sección
+5;A10_010_013_744;Simití;Sección
+5;A10_010_013_760;Soplaviento;Sección
+5;A10_010_013_780;Talaigua Nuevo;Sección
+5;A10_010_013_810;Tiquisio;Sección
+5;A10_010_013_836;Turbaco;Sección
+5;A10_010_013_838;Turbaná;Sección
+5;A10_010_013_873;Villanueva;Sección
+5;A10_010_013_894;Zambrano;Sección
+4;A10_010_015;Boyacá;Subgrupo
+5;A10_010_015_001;Tunja;Sección
+5;A10_010_015_022;Almeida;Sección
+5;A10_010_015_047;Aquitania;Sección
+5;A10_010_015_051;Arcabuco;Sección
+5;A10_010_015_087;Belén;Sección
+5;A10_010_015_090;Berbeo;Sección
+5;A10_010_015_092;Betéitiva;Sección
+5;A10_010_015_097;Boavita;Sección
+5;A10_010_015_104;Boyacá;Sección
+5;A10_010_015_106;Briceño;Sección
+5;A10_010_015_109;Buenavista;Sección
+5;A10_010_015_114;Busbanzá;Sección
+5;A10_010_015_131;Caldas;Sección
+5;A10_010_015_135;Campohermoso;Sección
+5;A10_010_015_162;Cerinza;Sección
+5;A10_010_015_172;Chinavita;Sección
+5;A10_010_015_176;Chiquinquirá;Sección
+5;A10_010_015_180;Chiscas;Sección
+5;A10_010_015_183;Chita;Sección
+5;A10_010_015_185;Chitaraque;Sección
+5;A10_010_015_187;Chivatá;Sección
+5;A10_010_015_189;Ciénega;Sección
+5;A10_010_015_204;Cómbita;Sección
+5;A10_010_015_212;Coper;Sección
+5;A10_010_015_215;Corrales;Sección
+5;A10_010_015_218;Covarachía;Sección
+5;A10_010_015_223;Cubará;Sección
+5;A10_010_015_224;Cucaita;Sección
+5;A10_010_015_226;Cuítiva;Sección
+5;A10_010_015_232;Chíquiza;Sección
+5;A10_010_015_236;Chivor;Sección
+5;A10_010_015_238;Duitama;Sección
+5;A10_010_015_244;El Cocuy;Sección
+5;A10_010_015_248;El Espino;Sección
+5;A10_010_015_272;Firavitoba;Sección
+5;A10_010_015_276;Floresta;Sección
+5;A10_010_015_293;Gachantivá;Sección
+5;A10_010_015_296;Gámeza;Sección
+5;A10_010_015_299;Garagoa;Sección
+5;A10_010_015_317;Guacamayas;Sección
+5;A10_010_015_322;Guateque;Sección
+5;A10_010_015_325;Guayatá;Sección
+5;A10_010_015_332;Güicán;Sección
+5;A10_010_015_362;Iza;Sección
+5;A10_010_015_367;Jenesano;Sección
+5;A10_010_015_368;Jericó;Sección
+5;A10_010_015_377;Labranzagrande;Sección
+5;A10_010_015_380;La Capilla;Sección
+5;A10_010_015_401;La Victoria;Sección
+5;A10_010_015_403;La Uvita;Sección
+5;A10_010_015_407;Villa de Leyva;Sección
+5;A10_010_015_425;Macanal;Sección
+5;A10_010_015_442;Maripí;Sección
+5;A10_010_015_455;Miraflores;Sección
+5;A10_010_015_464;Mongua;Sección
+5;A10_010_015_466;Monguí;Sección
+5;A10_010_015_469;Moniquirá;Sección
+5;A10_010_015_476;Motavita;Sección
+5;A10_010_015_480;Muzo;Sección
+5;A10_010_015_491;Nobsa;Sección
+5;A10_010_015_494;Nuevo Colón;Sección
+5;A10_010_015_500;Oicatá;Sección
+5;A10_010_015_507;Otanche;Sección
+5;A10_010_015_511;Pachavita;Sección
+5;A10_010_015_514;Páez;Sección
+5;A10_010_015_516;Paipa;Sección
+5;A10_010_015_518;Pajarito;Sección
+5;A10_010_015_522;Panqueba;Sección
+5;A10_010_015_531;Pauna;Sección
+5;A10_010_015_533;Paya;Sección
+5;A10_010_015_537;Paz de Río;Sección
+5;A10_010_015_542;Pesca;Sección
+5;A10_010_015_550;Pisba;Sección
+5;A10_010_015_572;Puerto Boyacá;Sección
+5;A10_010_015_580;Quípama;Sección
+5;A10_010_015_599;Ramiriquí;Sección
+5;A10_010_015_600;Ráquira;Sección
+5;A10_010_015_621;Rondón;Sección
+5;A10_010_015_632;Saboyá;Sección
+5;A10_010_015_638;Sáchica;Sección
+5;A10_010_015_646;Samacá;Sección
+5;A10_010_015_660;San Eduardo;Sección
+5;A10_010_015_664;San José de Pare;Sección
+5;A10_010_015_667;San Luis de Gaceno;Sección
+5;A10_010_015_673;San Mateo;Sección
+5;A10_010_015_676;San Miguel de Sema;Sección
+5;A10_010_015_681;San Pablo de Borbur;Sección
+5;A10_010_015_686;Santana;Sección
+5;A10_010_015_690;Santa María;Sección
+5;A10_010_015_693;Santa Rosa de Viterbo;Sección
+5;A10_010_015_696;Santa Sofía;Sección
+5;A10_010_015_720;Sativanorte;Sección
+5;A10_010_015_723;Sativasur;Sección
+5;A10_010_015_740;Siachoque;Sección
+5;A10_010_015_753;Soatá;Sección
+5;A10_010_015_755;Socotá;Sección
+5;A10_010_015_757;Socha;Sección
+5;A10_010_015_759;Sogamoso;Sección
+5;A10_010_015_761;Somondoco;Sección
+5;A10_010_015_762;Sora;Sección
+5;A10_010_015_763;Sotaquirá;Sección
+5;A10_010_015_764;Soracá;Sección
+5;A10_010_015_774;Susacón;Sección
+5;A10_010_015_776;Sutamarchán;Sección
+5;A10_010_015_778;Sutatenza;Sección
+5;A10_010_015_790;Tasco;Sección
+5;A10_010_015_798;Tenza;Sección
+5;A10_010_015_804;Tibaná;Sección
+5;A10_010_015_806;Tibasosa;Sección
+5;A10_010_015_808;Tinjacá;Sección
+5;A10_010_015_810;Tipacoque;Sección
+5;A10_010_015_814;Toca;Sección
+5;A10_010_015_816;Togüí;Sección
+5;A10_010_015_820;Tópaga;Sección
+5;A10_010_015_822;Tota;Sección
+5;A10_010_015_832;Tununguá;Sección
+5;A10_010_015_835;Turmequé;Sección
+5;A10_010_015_837;Tuta;Sección
+5;A10_010_015_839;Tutazá;Sección
+5;A10_010_015_842;Úmbita;Sección
+5;A10_010_015_861;Ventaquemada;Sección
+5;A10_010_015_879;Viracachá;Sección
+5;A10_010_015_897;Zetaquirá;Sección
+4;A10_010_017;Caldas;Subgrupo
+5;A10_010_017_001;Manizales;Sección
+5;A10_010_017_013;Aguadas;Sección
+5;A10_010_017_042;Anserma;Sección
+5;A10_010_017_050;Aranzazu;Sección
+5;A10_010_017_088;Belalcázar;Sección
+5;A10_010_017_174;Chinchiná;Sección
+5;A10_010_017_272;Filadelfia;Sección
+5;A10_010_017_380;La Dorada;Sección
+5;A10_010_017_388;La Merced;Sección
+5;A10_010_017_433;Manzanares;Sección
+5;A10_010_017_442;Marmato;Sección
+5;A10_010_017_444;Marquetalia;Sección
+5;A10_010_017_446;Marulanda;Sección
+5;A10_010_017_486;Neira;Sección
+5;A10_010_017_495;Norcasia;Sección
+5;A10_010_017_513;Pácora;Sección
+5;A10_010_017_524;Palestina;Sección
+5;A10_010_017_541;Pensilvania;Sección
+5;A10_010_017_614;Riosucio;Sección
+5;A10_010_017_616;Risaralda;Sección
+5;A10_010_017_653;Salamina;Sección
+5;A10_010_017_662;Samaná;Sección
+5;A10_010_017_665;San José;Sección
+5;A10_010_017_777;Supía;Sección
+5;A10_010_017_867;Victoria;Sección
+5;A10_010_017_873;Villamaría;Sección
+5;A10_010_017_877;Viterbo;Sección
+4;A10_010_018;Caquetá;Subgrupo
+5;A10_010_018_001;Florencia;Sección
+5;A10_010_018_029;Albania;Sección
+5;A10_010_018_094;Belén de los Andaquíes;Sección
+5;A10_010_018_150;Cartagena del Chairá;Sección
+5;A10_010_018_205;Curillo;Sección
+5;A10_010_018_247;El Doncello;Sección
+5;A10_010_018_256;El Paujil;Sección
+5;A10_010_018_410;La Montañita;Sección
+5;A10_010_018_460;Milán;Sección
+5;A10_010_018_479;Morelia;Sección
+5;A10_010_018_592;Puerto Rico;Sección
+5;A10_010_018_610;San José del Fragua;Sección
+5;A10_010_018_753;San Vicente del Caguán;Sección
+5;A10_010_018_756;Solano;Sección
+5;A10_010_018_785;Solita;Sección
+5;A10_010_018_860;Valparaíso;Sección
+4;A10_010_019;Cauca;Subgrupo
+5;A10_010_019_001;Popayán;Sección
+5;A10_010_019_022;Almaguer;Sección
+5;A10_010_019_050;Argelia;Sección
+5;A10_010_019_075;Balboa;Sección
+5;A10_010_019_100;Bolívar;Sección
+5;A10_010_019_110;Buenos Aires;Sección
+5;A10_010_019_130;Cajibío;Sección
+5;A10_010_019_137;Caldono;Sección
+5;A10_010_019_142;Caloto;Sección
+5;A10_010_019_212;Corinto;Sección
+5;A10_010_019_256;El Tambo;Sección
+5;A10_010_019_290;Florencia;Sección
+5;A10_010_019_300;Guachené;Sección
+5;A10_010_019_318;Guapi;Sección
+5;A10_010_019_355;Inzá;Sección
+5;A10_010_019_364;Jambaló;Sección
+5;A10_010_019_392;La Sierra;Sección
+5;A10_010_019_397;La Vega;Sección
+5;A10_010_019_418;López;Sección
+5;A10_010_019_450;Mercaderes;Sección
+5;A10_010_019_455;Miranda;Sección
+5;A10_010_019_473;Morales;Sección
+5;A10_010_019_513;Padilla;Sección
+5;A10_010_019_517;Páez;Sección
+5;A10_010_019_532;Patía;Sección
+5;A10_010_019_533;Piamonte;Sección
+5;A10_010_019_548;Piendamó;Sección
+5;A10_010_019_573;Puerto Tejada;Sección
+5;A10_010_019_585;Puracé;Sección
+5;A10_010_019_622;Rosas;Sección
+5;A10_010_019_693;San Sebastián;Sección
+5;A10_010_019_698;Santander de Quilichao;Sección
+5;A10_010_019_701;Santa Rosa;Sección
+5;A10_010_019_743;Silvia;Sección
+5;A10_010_019_760;Sotará;Sección
+5;A10_010_019_780;Suárez;Sección
+5;A10_010_019_785;Sucre;Sección
+5;A10_010_019_807;Timbío;Sección
+5;A10_010_019_809;Timbiquí;Sección
+5;A10_010_019_821;Toribío;Sección
+5;A10_010_019_824;Totoró;Sección
+5;A10_010_019_845;Villa Rica;Sección
+4;A10_010_020;Cesar;Subgrupo
+5;A10_010_020_001;Valledupar;Sección
+5;A10_010_020_011;Aguachica;Sección
+5;A10_010_020_013;Agustín Codazzi;Sección
+5;A10_010_020_032;Astrea;Sección
+5;A10_010_020_045;Becerril;Sección
+5;A10_010_020_060;Bosconia;Sección
+5;A10_010_020_175;Chimichagua;Sección
+5;A10_010_020_178;Chiriguaná;Sección
+5;A10_010_020_228;Curumaní;Sección
+5;A10_010_020_238;El Copey;Sección
+5;A10_010_020_250;El Paso;Sección
+5;A10_010_020_295;Gamarra;Sección
+5;A10_010_020_310;González;Sección
+5;A10_010_020_383;La Gloria;Sección
+5;A10_010_020_400;La Jagua de Ibirico;Sección
+5;A10_010_020_443;Manaure;Sección
+5;A10_010_020_517;Pailitas;Sección
+5;A10_010_020_550;Pelaya;Sección
+5;A10_010_020_570;Pueblo Bello;Sección
+5;A10_010_020_614;Río de Oro;Sección
+5;A10_010_020_621;La Paz;Sección
+5;A10_010_020_710;San Alberto;Sección
+5;A10_010_020_750;San Diego;Sección
+5;A10_010_020_770;San Martín;Sección
+5;A10_010_020_787;Tamalameque;Sección
+4;A10_010_023;Córdoba;Subgrupo
+5;A10_010_023_001;Montería;Sección
+5;A10_010_023_068;Ayapel;Sección
+5;A10_010_023_079;Buenavista;Sección
+5;A10_010_023_090;Canalete;Sección
+5;A10_010_023_162;Cereté;Sección
+5;A10_010_023_168;Chimá;Sección
+5;A10_010_023_182;Chinú;Sección
+5;A10_010_023_189;Ciénaga de Oro;Sección
+5;A10_010_023_300;Cotorra;Sección
+5;A10_010_023_350;La Apartada;Sección
+5;A10_010_023_417;Lorica;Sección
+5;A10_010_023_419;Los Córdobas;Sección
+5;A10_010_023_464;Momil;Sección
+5;A10_010_023_466;Montelíbano;Sección
+5;A10_010_023_500;Moñitos;Sección
+5;A10_010_023_555;Planeta Rica;Sección
+5;A10_010_023_570;Pueblo Nuevo;Sección
+5;A10_010_023_574;Puerto Escondido;Sección
+5;A10_010_023_580;Puerto Libertador;Sección
+5;A10_010_023_586;Purísima;Sección
+5;A10_010_023_660;Sahagún;Sección
+5;A10_010_023_670;San Andrés Sotavento;Sección
+5;A10_010_023_672;San Antero;Sección
+5;A10_010_023_675;San Bernardo del Viento;Sección
+5;A10_010_023_678;San Carlos;Sección
+5;A10_010_023_682;San José de Uré;Sección
+5;A10_010_023_686;San Pelayo;Sección
+5;A10_010_023_807;Tierralta;Sección
+5;A10_010_023_815;Tuchín;Sección
+5;A10_010_023_855;Valencia;Sección
+4;A10_010_025;Cundinamarca;Subgrupo
+5;A10_010_025_001;Agua de Dios;Sección
+5;A10_010_025_019;Albán;Sección
+5;A10_010_025_035;Anapoima;Sección
+5;A10_010_025_040;Anolaima;Sección
+5;A10_010_025_053;Arbeláez;Sección
+5;A10_010_025_086;Beltrán;Sección
+5;A10_010_025_095;Bituima;Sección
+5;A10_010_025_099;Bojacá;Sección
+5;A10_010_025_120;Cabrera;Sección
+5;A10_010_025_123;Cachipay;Sección
+5;A10_010_025_126;Cajicá;Sección
+5;A10_010_025_148;Caparrapí;Sección
+5;A10_010_025_151;Cáqueza;Sección
+5;A10_010_025_154;Carmen de Carupa;Sección
+5;A10_010_025_168;Chaguaní;Sección
+5;A10_010_025_175;Chía;Sección
+5;A10_010_025_178;Chipaque;Sección
+5;A10_010_025_181;Choachí;Sección
+5;A10_010_025_183;Chocontá;Sección
+5;A10_010_025_200;Cogua;Sección
+5;A10_010_025_214;Cota;Sección
+5;A10_010_025_224;Cucunubá;Sección
+5;A10_010_025_245;El Colegio;Sección
+5;A10_010_025_258;El Peñón;Sección
+5;A10_010_025_260;El Rosal;Sección
+5;A10_010_025_269;Facatativá;Sección
+5;A10_010_025_279;Fómeque;Sección
+5;A10_010_025_281;Fosca;Sección
+5;A10_010_025_286;Funza;Sección
+5;A10_010_025_288;Fúquene;Sección
+5;A10_010_025_290;Fusagasugá;Sección
+5;A10_010_025_293;Gachalá;Sección
+5;A10_010_025_295;Gachancipá;Sección
+5;A10_010_025_297;Gachetá;Sección
+5;A10_010_025_299;Gama;Sección
+5;A10_010_025_307;Girardot;Sección
+5;A10_010_025_312;Granada;Sección
+5;A10_010_025_317;Guachetá;Sección
+5;A10_010_025_320;Guaduas;Sección
+5;A10_010_025_322;Guasca;Sección
+5;A10_010_025_324;Guataquí;Sección
+5;A10_010_025_326;Guatavita;Sección
+5;A10_010_025_328;Guayabal de Síquima;Sección
+5;A10_010_025_335;Guayabetal;Sección
+5;A10_010_025_339;Gutiérrez;Sección
+5;A10_010_025_368;Jerusalén;Sección
+5;A10_010_025_372;Junín;Sección
+5;A10_010_025_377;La Calera;Sección
+5;A10_010_025_386;La Mesa;Sección
+5;A10_010_025_394;La Palma;Sección
+5;A10_010_025_398;La Peña;Sección
+5;A10_010_025_402;La Vega;Sección
+5;A10_010_025_407;Lenguazaque;Sección
+5;A10_010_025_426;Machetá;Sección
+5;A10_010_025_430;Madrid;Sección
+5;A10_010_025_436;Manta;Sección
+5;A10_010_025_438;Medina;Sección
+5;A10_010_025_473;Mosquera;Sección
+5;A10_010_025_483;Nariño;Sección
+5;A10_010_025_486;Nemocón;Sección
+5;A10_010_025_488;Nilo;Sección
+5;A10_010_025_489;Nimaima;Sección
+5;A10_010_025_491;Nocaima;Sección
+5;A10_010_025_506;Venecia;Sección
+5;A10_010_025_513;Pacho;Sección
+5;A10_010_025_518;Paime;Sección
+5;A10_010_025_524;Pandi;Sección
+5;A10_010_025_530;Paratebueno;Sección
+5;A10_010_025_535;Pasca;Sección
+5;A10_010_025_572;Puerto Salgar;Sección
+5;A10_010_025_580;Pulí;Sección
+5;A10_010_025_592;Quebradanegra;Sección
+5;A10_010_025_594;Quetame;Sección
+5;A10_010_025_596;Quipile;Sección
+5;A10_010_025_599;Apulo;Sección
+5;A10_010_025_612;Ricaurte;Sección
+5;A10_010_025_645;San Antonio del Tequendama;Sección
+5;A10_010_025_649;San Bernardo;Sección
+5;A10_010_025_653;San Cayetano;Sección
+5;A10_010_025_658;San Francisco;Sección
+5;A10_010_025_662;San Juan de Río Seco;Sección
+5;A10_010_025_718;Sasaima;Sección
+5;A10_010_025_736;Sesquilé;Sección
+5;A10_010_025_740;Sibaté;Sección
+5;A10_010_025_743;Silvania;Sección
+5;A10_010_025_745;Simijaca;Sección
+5;A10_010_025_754;Soacha;Sección
+5;A10_010_025_758;Sopó;Sección
+5;A10_010_025_769;Subachoque;Sección
+5;A10_010_025_772;Suesca;Sección
+5;A10_010_025_777;Supatá;Sección
+5;A10_010_025_779;Susa;Sección
+5;A10_010_025_781;Sutatausa;Sección
+5;A10_010_025_785;Tabio;Sección
+5;A10_010_025_793;Tausa;Sección
+5;A10_010_025_797;Tena;Sección
+5;A10_010_025_799;Tenjo;Sección
+5;A10_010_025_805;Tibacuy;Sección
+5;A10_010_025_807;Tibirita;Sección
+5;A10_010_025_815;Tocaima;Sección
+5;A10_010_025_817;Tocancipá;Sección
+5;A10_010_025_823;Topaipí;Sección
+5;A10_010_025_839;Ubalá;Sección
+5;A10_010_025_841;Ubaque;Sección
+5;A10_010_025_843;Villa de San Diego de Ubaté;Sección
+5;A10_010_025_845;Une;Sección
+5;A10_010_025_851;Útica;Sección
+5;A10_010_025_862;Vergara;Sección
+5;A10_010_025_867;Vianí;Sección
+5;A10_010_025_871;Villagómez;Sección
+5;A10_010_025_873;Villapinzón;Sección
+5;A10_010_025_875;Villeta;Sección
+5;A10_010_025_878;Viotá;Sección
+5;A10_010_025_885;Yacopí;Sección
+5;A10_010_025_898;Zipacón;Sección
+5;A10_010_025_899;Zipaquirá;Sección
+4;A10_010_027;Chocó;Subgrupo
+5;A10_010_027_001;Quibdó;Sección
+5;A10_010_027_006;Acandí;Sección
+5;A10_010_027_025;Alto Baudó;Sección
+5;A10_010_027_050;Atrato;Sección
+5;A10_010_027_073;Bagadó;Sección
+5;A10_010_027_075;Bahía Solano;Sección
+5;A10_010_027_077;Bajo Baudó;Sección
+5;A10_010_027_099;Bojayá;Sección
+5;A10_010_027_135;El Cantón del San Pablo;Sección
+5;A10_010_027_150;Carmen del Darién;Sección
+5;A10_010_027_160;Cértegui;Sección
+5;A10_010_027_205;Condoto;Sección
+5;A10_010_027_245;El Carmen de Atrato;Sección
+5;A10_010_027_250;El Litoral del San Juan;Sección
+5;A10_010_027_361;Istmina;Sección
+5;A10_010_027_372;Juradó;Sección
+5;A10_010_027_413;Lloró;Sección
+5;A10_010_027_425;Medio Atrato;Sección
+5;A10_010_027_430;Medio Baudó;Sección
+5;A10_010_027_450;Medio San Juan;Sección
+5;A10_010_027_491;Nóvita;Sección
+5;A10_010_027_495;Nuquí;Sección
+5;A10_010_027_580;Río Iró;Sección
+5;A10_010_027_600;Río Quito;Sección
+5;A10_010_027_615;Riosucio;Sección
+5;A10_010_027_660;San José del Palmar;Sección
+5;A10_010_027_745;Sipí;Sección
+5;A10_010_027_787;Tadó;Sección
+5;A10_010_027_800;Unguía;Sección
+5;A10_010_027_810;Unión Panamericana;Sección
+4;A10_010_041;Huila;Subgrupo
+5;A10_010_041_001;Neiva;Sección
+5;A10_010_041_006;Acevedo;Sección
+5;A10_010_041_013;Agrado;Sección
+5;A10_010_041_016;Aipe;Sección
+5;A10_010_041_020;Algeciras;Sección
+5;A10_010_041_026;Altamira;Sección
+5;A10_010_041_078;Baraya;Sección
+5;A10_010_041_132;Campoalegre;Sección
+5;A10_010_041_206;Colombia;Sección
+5;A10_010_041_244;Elías;Sección
+5;A10_010_041_298;Garzón;Sección
+5;A10_010_041_306;Gigante;Sección
+5;A10_010_041_319;Guadalupe;Sección
+5;A10_010_041_349;Hobo;Sección
+5;A10_010_041_357;Íquira;Sección
+5;A10_010_041_359;Isnos;Sección
+5;A10_010_041_378;La Argentina;Sección
+5;A10_010_041_396;La Plata;Sección
+5;A10_010_041_483;Nátaga;Sección
+5;A10_010_041_503;Oporapa;Sección
+5;A10_010_041_518;Paicol;Sección
+5;A10_010_041_524;Palermo;Sección
+5;A10_010_041_530;Palestina;Sección
+5;A10_010_041_548;Pital;Sección
+5;A10_010_041_551;Pitalito;Sección
+5;A10_010_041_615;Rivera;Sección
+5;A10_010_041_660;Saladoblanco;Sección
+5;A10_010_041_668;San Agustín;Sección
+5;A10_010_041_676;Santa María;Sección
+5;A10_010_041_770;Suaza;Sección
+5;A10_010_041_791;Tarquí;Sección
+5;A10_010_041_797;Tesalia;Sección
+5;A10_010_041_799;Tello;Sección
+5;A10_010_041_801;Teruel;Sección
+5;A10_010_041_807;Timaná;Sección
+5;A10_010_041_872;Villavieja;Sección
+5;A10_010_041_885;Yaguará;Sección
+4;A10_010_044;La Guajira;Subgrupo
+5;A10_010_044_001;Riohacha;Sección
+5;A10_010_044_035;Albania;Sección
+5;A10_010_044_078;Barrancas;Sección
+5;A10_010_044_090;Dibulla;Sección
+5;A10_010_044_098;Distracción;Sección
+5;A10_010_044_110;El Molino;Sección
+5;A10_010_044_279;Fonseca;Sección
+5;A10_010_044_378;Hatonuevo;Sección
+5;A10_010_044_420;La Jagua del Pilar;Sección
+5;A10_010_044_430;Maicao;Sección
+5;A10_010_044_560;Manaure;Sección
+5;A10_010_044_650;San Juan del Cesar;Sección
+5;A10_010_044_847;Uribia;Sección
+5;A10_010_044_855;Urumita;Sección
+5;A10_010_044_874;Villanueva;Sección
+4;A10_010_047;Magdalena;Subgrupo
+5;A10_010_047_001;Santa Marta;Sección
+5;A10_010_047_030;Algarrobo;Sección
+5;A10_010_047_053;Aracataca;Sección
+5;A10_010_047_058;Ariguaní;Sección
+5;A10_010_047_161;Cerro San Antonio;Sección
+5;A10_010_047_170;Chibolo;Sección
+5;A10_010_047_189;Ciénaga;Sección
+5;A10_010_047_205;Concordia;Sección
+5;A10_010_047_245;El Banco;Sección
+5;A10_010_047_258;El Piñón;Sección
+5;A10_010_047_268;El Retén;Sección
+5;A10_010_047_288;Fundación;Sección
+5;A10_010_047_318;Guamal;Sección
+5;A10_010_047_460;Nueva Granada;Sección
+5;A10_010_047_541;Pedraza;Sección
+5;A10_010_047_545;Pijiño del Carmen;Sección
+5;A10_010_047_551;Pivijay;Sección
+5;A10_010_047_555;Plato;Sección
+5;A10_010_047_570;Puebloviejo;Sección
+5;A10_010_047_605;Remolino;Sección
+5;A10_010_047_660;Sabanas de San Ángel;Sección
+5;A10_010_047_675;Salamina;Sección
+5;A10_010_047_692;San Sebastián de Buenavista;Sección
+5;A10_010_047_703;San Zenón;Sección
+5;A10_010_047_707;Santa Ana;Sección
+5;A10_010_047_720;Santa Bárbara de Pinto;Sección
+5;A10_010_047_745;Sitionuevo;Sección
+5;A10_010_047_798;Tenerife;Sección
+5;A10_010_047_960;Zapayán;Sección
+5;A10_010_047_980;Zona Bananera;Sección
+4;A10_010_050;Meta;Subgrupo
+5;A10_010_050_001;Villavicencio;Sección
+5;A10_010_050_006;Acacías;Sección
+5;A10_010_050_110;Barranca de Upía;Sección
+5;A10_010_050_124;Cabuyaro;Sección
+5;A10_010_050_150;Castilla La Nueva;Sección
+5;A10_010_050_223;Cubarral;Sección
+5;A10_010_050_226;Cumaral;Sección
+5;A10_010_050_245;El Calvario;Sección
+5;A10_010_050_251;El Castillo;Sección
+5;A10_010_050_270;El Dorado;Sección
+5;A10_010_050_287;Fuente de Oro;Sección
+5;A10_010_050_313;Granada;Sección
+5;A10_010_050_318;Guamal;Sección
+5;A10_010_050_325;Mapiripán;Sección
+5;A10_010_050_330;Mesetas;Sección
+5;A10_010_050_350;La Macarena;Sección
+5;A10_010_050_370;Uribe;Sección
+5;A10_010_050_400;Lejanías;Sección
+5;A10_010_050_450;Puerto Concordia;Sección
+5;A10_010_050_568;Puerto Gaitán;Sección
+5;A10_010_050_573;Puerto López;Sección
+5;A10_010_050_577;Puerto Lleras;Sección
+5;A10_010_050_590;Puerto Rico;Sección
+5;A10_010_050_606;Restrepo;Sección
+5;A10_010_050_680;San Carlos de Guaroa;Sección
+5;A10_010_050_683;San Juan de Arama;Sección
+5;A10_010_050_686;San Juanito;Sección
+5;A10_010_050_689;San Martín;Sección
+5;A10_010_050_711;Vistahermosa;Sección
+4;A10_010_052;Nariño;Subgrupo
+5;A10_010_052_001;Pasto;Sección
+5;A10_010_052_019;Albán;Sección
+5;A10_010_052_022;Aldana;Sección
+5;A10_010_052_036;Ancuyá;Sección
+5;A10_010_052_051;Arboleda;Sección
+5;A10_010_052_079;Barbacoas;Sección
+5;A10_010_052_083;Belén;Sección
+5;A10_010_052_110;Buesaco;Sección
+5;A10_010_052_203;Colón;Sección
+5;A10_010_052_207;Consacá;Sección
+5;A10_010_052_210;Contadero;Sección
+5;A10_010_052_215;Córdoba;Sección
+5;A10_010_052_224;Cuaspud;Sección
+5;A10_010_052_227;Cumbal;Sección
+5;A10_010_052_233;Cumbitara;Sección
+5;A10_010_052_240;Chachagüí;Sección
+5;A10_010_052_250;El Charco;Sección
+5;A10_010_052_254;El Peñol;Sección
+5;A10_010_052_256;El Rosario;Sección
+5;A10_010_052_258;El Tablón de Gómez;Sección
+5;A10_010_052_260;El Tambo;Sección
+5;A10_010_052_287;Funes;Sección
+5;A10_010_052_317;Guachucal;Sección
+5;A10_010_052_320;Guaitarilla;Sección
+5;A10_010_052_323;Gualmatán;Sección
+5;A10_010_052_352;Iles;Sección
+5;A10_010_052_354;Imués;Sección
+5;A10_010_052_356;Ipiales;Sección
+5;A10_010_052_378;La Cruz;Sección
+5;A10_010_052_381;La Florida;Sección
+5;A10_010_052_385;La Llanada;Sección
+5;A10_010_052_390;La Tola;Sección
+5;A10_010_052_399;La Unión;Sección
+5;A10_010_052_405;Leiva;Sección
+5;A10_010_052_411;Linares;Sección
+5;A10_010_052_418;Los Andes;Sección
+5;A10_010_052_427;Magüi;Sección
+5;A10_010_052_435;Mallama;Sección
+5;A10_010_052_473;Mosquera;Sección
+5;A10_010_052_480;Nariño;Sección
+5;A10_010_052_490;Olaya Herrera;Sección
+5;A10_010_052_506;Ospina;Sección
+5;A10_010_052_520;Francisco Pizarro;Sección
+5;A10_010_052_540;Policarpa;Sección
+5;A10_010_052_560;Potosí;Sección
+5;A10_010_052_565;Providencia;Sección
+5;A10_010_052_573;Puerres;Sección
+5;A10_010_052_585;Pupiales;Sección
+5;A10_010_052_612;Ricaurte;Sección
+5;A10_010_052_621;Roberto Payán;Sección
+5;A10_010_052_678;Samaniego;Sección
+5;A10_010_052_683;Sandoná;Sección
+5;A10_010_052_685;San Bernardo;Sección
+5;A10_010_052_687;San Lorenzo;Sección
+5;A10_010_052_693;San Pablo;Sección
+5;A10_010_052_694;San Pedro de Cartago;Sección
+5;A10_010_052_696;Santa Bárbara;Sección
+5;A10_010_052_699;Santacruz;Sección
+5;A10_010_052_720;Sapuyes;Sección
+5;A10_010_052_786;Taminango;Sección
+5;A10_010_052_788;Tangua;Sección
+5;A10_010_052_835;San Andrés de Tumaco;Sección
+5;A10_010_052_838;Túquerres;Sección
+5;A10_010_052_885;Yacuanquer;Sección
+4;A10_010_054;Norte de Santander;Subgrupo
+5;A10_010_054_001;Cúcuta;Sección
+5;A10_010_054_003;Ábrego;Sección
+5;A10_010_054_051;Arboledas;Sección
+5;A10_010_054_099;Bochalema;Sección
+5;A10_010_054_109;Bucarasica;Sección
+5;A10_010_054_125;Cácota;Sección
+5;A10_010_054_128;Cachirá;Sección
+5;A10_010_054_172;Chinácota;Sección
+5;A10_010_054_174;Chitagá;Sección
+5;A10_010_054_206;Convención;Sección
+5;A10_010_054_223;Cucutilla;Sección
+5;A10_010_054_239;Durania;Sección
+5;A10_010_054_245;El Carmen;Sección
+5;A10_010_054_250;El Tarra;Sección
+5;A10_010_054_261;El Zulia;Sección
+5;A10_010_054_313;Gramalote;Sección
+5;A10_010_054_344;Hacarí;Sección
+5;A10_010_054_347;Herrán;Sección
+5;A10_010_054_377;Labateca;Sección
+5;A10_010_054_385;La Esperanza;Sección
+5;A10_010_054_398;La Playa;Sección
+5;A10_010_054_405;Los Patios;Sección
+5;A10_010_054_418;Lourdes;Sección
+5;A10_010_054_480;Mutiscua;Sección
+5;A10_010_054_498;Ocaña;Sección
+5;A10_010_054_518;Pamplona;Sección
+5;A10_010_054_520;Pamplonita;Sección
+5;A10_010_054_553;Puerto Santander;Sección
+5;A10_010_054_599;Ragonvalia;Sección
+5;A10_010_054_660;Salazar;Sección
+5;A10_010_054_670;San Calixto;Sección
+5;A10_010_054_673;San Cayetano;Sección
+5;A10_010_054_680;Santiago;Sección
+5;A10_010_054_720;Sardinata;Sección
+5;A10_010_054_743;Silos;Sección
+5;A10_010_054_800;Teorama;Sección
+5;A10_010_054_810;Tibú;Sección
+5;A10_010_054_820;Toledo;Sección
+5;A10_010_054_871;Villa Caro;Sección
+5;A10_010_054_874;Villa del Rosario;Sección
+4;A10_010_063;Quindío;Subgrupo
+5;A10_010_063_001;Armenia;Sección
+5;A10_010_063_111;Buenavista;Sección
+5;A10_010_063_130;Calarcá;Sección
+5;A10_010_063_190;Circasia;Sección
+5;A10_010_063_212;Córdoba;Sección
+5;A10_010_063_272;Filandia;Sección
+5;A10_010_063_302;Génova;Sección
+5;A10_010_063_401;La Tebaida;Sección
+5;A10_010_063_470;Montenegro;Sección
+5;A10_010_063_548;Pijao;Sección
+5;A10_010_063_594;Quimbaya;Sección
+5;A10_010_063_690;Salento;Sección
+4;A10_010_066;Risaralda;Subgrupo
+5;A10_010_066_001;Pereira;Sección
+5;A10_010_066_045;Apía;Sección
+5;A10_010_066_075;Balboa;Sección
+5;A10_010_066_088;Belén de Umbría;Sección
+5;A10_010_066_170;Dosquebradas;Sección
+5;A10_010_066_318;Guática;Sección
+5;A10_010_066_383;La Celia;Sección
+5;A10_010_066_400;La Virginia;Sección
+5;A10_010_066_440;Marsella;Sección
+5;A10_010_066_456;Mistrató;Sección
+5;A10_010_066_572;Pueblo Rico;Sección
+5;A10_010_066_594;Quinchía;Sección
+5;A10_010_066_682;Santa Rosa de Cabal;Sección
+5;A10_010_066_687;Santuario;Sección
+4;A10_010_068;Santander;Subgrupo
+5;A10_010_068_001;Bucaramanga;Sección
+5;A10_010_068_013;Aguada;Sección
+5;A10_010_068_020;Albania;Sección
+5;A10_010_068_051;Aratoca;Sección
+5;A10_010_068_077;Barbosa;Sección
+5;A10_010_068_079;Barichara;Sección
+5;A10_010_068_081;Barrancabermeja;Sección
+5;A10_010_068_092;Betulia;Sección
+5;A10_010_068_101;Bolívar;Sección
+5;A10_010_068_121;Cabrera;Sección
+5;A10_010_068_132;California;Sección
+5;A10_010_068_147;Capitanejo;Sección
+5;A10_010_068_152;Carcasí;Sección
+5;A10_010_068_160;Cepitá;Sección
+5;A10_010_068_162;Cerrito;Sección
+5;A10_010_068_167;Charalá;Sección
+5;A10_010_068_169;Charta;Sección
+5;A10_010_068_176;Chimá;Sección
+5;A10_010_068_179;Chipatá;Sección
+5;A10_010_068_190;Cimitarra;Sección
+5;A10_010_068_207;Concepción;Sección
+5;A10_010_068_209;Confines;Sección
+5;A10_010_068_211;Contratación;Sección
+5;A10_010_068_217;Coromoro;Sección
+5;A10_010_068_229;Curití;Sección
+5;A10_010_068_235;El Carmen de Chucurí;Sección
+5;A10_010_068_245;El Guacamayo;Sección
+5;A10_010_068_250;El Peñón;Sección
+5;A10_010_068_255;El Playón;Sección
+5;A10_010_068_264;Encino;Sección
+5;A10_010_068_266;Enciso;Sección
+5;A10_010_068_271;Florián;Sección
+5;A10_010_068_276;Floridablanca;Sección
+5;A10_010_068_296;Galán;Sección
+5;A10_010_068_298;Gámbita;Sección
+5;A10_010_068_307;Girón;Sección
+5;A10_010_068_318;Guaca;Sección
+5;A10_010_068_320;Guadalupe;Sección
+5;A10_010_068_322;Guapotá;Sección
+5;A10_010_068_324;Guavatá;Sección
+5;A10_010_068_327;Güepsa;Sección
+5;A10_010_068_344;Hato;Sección
+5;A10_010_068_368;Jesús María;Sección
+5;A10_010_068_370;Jordán;Sección
+5;A10_010_068_377;La Belleza;Sección
+5;A10_010_068_385;Landázuri;Sección
+5;A10_010_068_397;La Paz;Sección
+5;A10_010_068_406;Lebríja;Sección
+5;A10_010_068_418;Los Santos;Sección
+5;A10_010_068_425;Macaravita;Sección
+5;A10_010_068_432;Málaga;Sección
+5;A10_010_068_444;Matanza;Sección
+5;A10_010_068_464;Mogotes;Sección
+5;A10_010_068_468;Molagavita;Sección
+5;A10_010_068_498;Ocamonte;Sección
+5;A10_010_068_500;Oiba;Sección
+5;A10_010_068_502;Onzaga;Sección
+5;A10_010_068_522;Palmar;Sección
+5;A10_010_068_524;Palmas del Socorro;Sección
+5;A10_010_068_533;Páramo;Sección
+5;A10_010_068_547;Piedecuesta;Sección
+5;A10_010_068_549;Pinchote;Sección
+5;A10_010_068_572;Puente Nacional;Sección
+5;A10_010_068_573;Puerto Parra;Sección
+5;A10_010_068_575;Puerto Wilches;Sección
+5;A10_010_068_615;Rionegro;Sección
+5;A10_010_068_655;Sabana de Torres;Sección
+5;A10_010_068_669;San Andrés;Sección
+5;A10_010_068_673;San Benito;Sección
+5;A10_010_068_679;San Gil;Sección
+5;A10_010_068_682;San Joaquín;Sección
+5;A10_010_068_684;San José de Miranda;Sección
+5;A10_010_068_686;San Miguel;Sección
+5;A10_010_068_689;San Vicente de Chucurí;Sección
+5;A10_010_068_705;Santa Bárbara;Sección
+5;A10_010_068_720;Santa Helena del Opón;Sección
+5;A10_010_068_745;Simacota;Sección
+5;A10_010_068_755;Socorro;Sección
+5;A10_010_068_770;Suaita;Sección
+5;A10_010_068_773;Sucre;Sección
+5;A10_010_068_780;Suratá;Sección
+5;A10_010_068_820;Tona;Sección
+5;A10_010_068_855;Valle de San José;Sección
+5;A10_010_068_861;Vélez;Sección
+5;A10_010_068_867;Vetas;Sección
+5;A10_010_068_872;Villanueva;Sección
+5;A10_010_068_895;Zapatoca;Sección
+4;A10_010_070;Sucre;Subgrupo
+5;A10_010_070_001;Sincelejo;Sección
+5;A10_010_070_110;Buenavista;Sección
+5;A10_010_070_124;Caimito;Sección
+5;A10_010_070_204;Colosó;Sección
+5;A10_010_070_215;Corozal;Sección
+5;A10_010_070_221;Coveñas;Sección
+5;A10_010_070_230;Chalán;Sección
+5;A10_010_070_233;El Roble;Sección
+5;A10_010_070_235;Galeras;Sección
+5;A10_010_070_265;Guaranda;Sección
+5;A10_010_070_400;La Unión;Sección
+5;A10_010_070_418;Los Palmitos;Sección
+5;A10_010_070_429;Majagual;Sección
+5;A10_010_070_473;Morroa;Sección
+5;A10_010_070_508;Ovejas;Sección
+5;A10_010_070_523;Palmito;Sección
+5;A10_010_070_670;Sampués;Sección
+5;A10_010_070_678;San Benito Abad;Sección
+5;A10_010_070_702;San Juan de Betulia;Sección
+5;A10_010_070_708;San Marcos;Sección
+5;A10_010_070_713;San Onofre;Sección
+5;A10_010_070_717;San Pedro;Sección
+5;A10_010_070_742;San Luis de Sincé;Sección
+5;A10_010_070_771;Sucre;Sección
+5;A10_010_070_820;Santiago de Tolú;Sección
+5;A10_010_070_823;Tolú Viejo;Sección
+4;A10_010_073;Tolima;Subgrupo
+5;A10_010_073_001;Ibagué;Sección
+5;A10_010_073_024;Alpujarra;Sección
+5;A10_010_073_026;Alvarado;Sección
+5;A10_010_073_030;Ambalema;Sección
+5;A10_010_073_043;Anzoátegui;Sección
+5;A10_010_073_055;Armero;Sección
+5;A10_010_073_067;Ataco;Sección
+5;A10_010_073_124;Cajamarca;Sección
+5;A10_010_073_148;Carmen de Apicalá;Sección
+5;A10_010_073_152;Casabianca;Sección
+5;A10_010_073_168;Chaparral;Sección
+5;A10_010_073_200;Coello;Sección
+5;A10_010_073_217;Coyaima;Sección
+5;A10_010_073_226;Cunday;Sección
+5;A10_010_073_236;Dolores;Sección
+5;A10_010_073_268;Espinal;Sección
+5;A10_010_073_270;Falan;Sección
+5;A10_010_073_275;Flandes;Sección
+5;A10_010_073_283;Fresno;Sección
+5;A10_010_073_319;Guamo;Sección
+5;A10_010_073_347;Herveo;Sección
+5;A10_010_073_349;Honda;Sección
+5;A10_010_073_352;Icononzo;Sección
+5;A10_010_073_408;Lérida;Sección
+5;A10_010_073_411;Líbano;Sección
+5;A10_010_073_443;Mariquita;Sección
+5;A10_010_073_449;Melgar;Sección
+5;A10_010_073_461;Murillo;Sección
+5;A10_010_073_483;Natagaima;Sección
+5;A10_010_073_504;Ortega;Sección
+5;A10_010_073_520;Palocabildo;Sección
+5;A10_010_073_547;Piedras;Sección
+5;A10_010_073_555;Planadas;Sección
+5;A10_010_073_563;Prado;Sección
+5;A10_010_073_585;Purificación;Sección
+5;A10_010_073_616;Rioblanco;Sección
+5;A10_010_073_622;Roncesvalles;Sección
+5;A10_010_073_624;Rovira;Sección
+5;A10_010_073_671;Saldaña;Sección
+5;A10_010_073_675;San Antonio;Sección
+5;A10_010_073_678;San Luis;Sección
+5;A10_010_073_686;Santa Isabel;Sección
+5;A10_010_073_770;Suárez;Sección
+5;A10_010_073_854;Valle de San Juan;Sección
+5;A10_010_073_861;Venadillo;Sección
+5;A10_010_073_870;Villahermosa;Sección
+5;A10_010_073_873;Villarica;Sección
+4;A10_010_076;Valle del Cauca;Subgrupo
+5;A10_010_076_001;Cali;Sección
+5;A10_010_076_020;Alcalá;Sección
+5;A10_010_076_036;Andalucía;Sección
+5;A10_010_076_041;Ansermanuevo;Sección
+5;A10_010_076_054;Argelia;Sección
+5;A10_010_076_100;Bolívar;Sección
+5;A10_010_076_109;Buenaventura;Sección
+5;A10_010_076_111;Guadalajara de Buga;Sección
+5;A10_010_076_113;Bugalagrande;Sección
+5;A10_010_076_122;Caicedonia;Sección
+5;A10_010_076_126;Calima;Sección
+5;A10_010_076_130;Candelaria;Sección
+5;A10_010_076_147;Cartago;Sección
+5;A10_010_076_233;Dagua;Sección
+5;A10_010_076_243;El Águila;Sección
+5;A10_010_076_246;El Cairo;Sección
+5;A10_010_076_248;El Cerrito;Sección
+5;A10_010_076_250;El Dovio;Sección
+5;A10_010_076_275;Florida;Sección
+5;A10_010_076_306;Ginebra;Sección
+5;A10_010_076_318;Guacarí;Sección
+5;A10_010_076_364;Jamundí;Sección
+5;A10_010_076_377;La Cumbre;Sección
+5;A10_010_076_400;La Unión;Sección
+5;A10_010_076_403;La Victoria;Sección
+5;A10_010_076_497;Obando;Sección
+5;A10_010_076_520;Palmira;Sección
+5;A10_010_076_563;Pradera;Sección
+5;A10_010_076_606;Restrepo;Sección
+5;A10_010_076_616;Riofrío;Sección
+5;A10_010_076_622;Roldanillo;Sección
+5;A10_010_076_670;San Pedro;Sección
+5;A10_010_076_736;Sevilla;Sección
+5;A10_010_076_823;Toro;Sección
+5;A10_010_076_828;Trujillo;Sección
+5;A10_010_076_834;Tuluá;Sección
+5;A10_010_076_845;Ulloa;Sección
+5;A10_010_076_863;Versalles;Sección
+5;A10_010_076_869;Vijes;Sección
+5;A10_010_076_890;Yotoco;Sección
+5;A10_010_076_892;Yumbo;Sección
+5;A10_010_076_895;Zarzal;Sección
+4;A10_010_081;Arauca;Subgrupo
+5;A10_010_081_001;Arauca;Sección
+5;A10_010_081_065;Arauquita;Sección
+5;A10_010_081_220;Cravo Norte;Sección
+5;A10_010_081_300;Fortul;Sección
+5;A10_010_081_591;Puerto Rondón;Sección
+5;A10_010_081_736;Saravena;Sección
+5;A10_010_081_794;Tame;Sección
+4;A10_010_085;Casanare;Subgrupo
+5;A10_010_085_001;Yopal;Sección
+5;A10_010_085_010;Aguazul;Sección
+5;A10_010_085_015;Chámeza;Sección
+5;A10_010_085_125;Hato Corozal;Sección
+5;A10_010_085_136;La Salina;Sección
+5;A10_010_085_139;Maní;Sección
+5;A10_010_085_162;Monterrey;Sección
+5;A10_010_085_225;Nunchía;Sección
+5;A10_010_085_230;Orocué;Sección
+5;A10_010_085_250;Paz de Ariporo;Sección
+5;A10_010_085_263;Pore;Sección
+5;A10_010_085_279;Recetor;Sección
+5;A10_010_085_300;Sabanalarga;Sección
+5;A10_010_085_315;Sácama;Sección
+5;A10_010_085_325;San Luis de Palenque;Sección
+5;A10_010_085_400;Támara;Sección
+5;A10_010_085_410;Tauramena;Sección
+5;A10_010_085_430;Trinidad;Sección
+5;A10_010_085_440;Villanueva;Sección
+4;A10_010_086;Putumayo;Subgrupo
+5;A10_010_086_001;Mocoa;Sección
+5;A10_010_086_219;Colón;Sección
+5;A10_010_086_320;Orito;Sección
+5;A10_010_086_568;Puerto Asís;Sección
+5;A10_010_086_569;Puerto Caicedo;Sección
+5;A10_010_086_571;Puerto Guzmán;Sección
+5;A10_010_086_573;Leguízamo;Sección
+5;A10_010_086_749;Sibundoy;Sección
+5;A10_010_086_755;San Francisco;Sección
+5;A10_010_086_757;San Miguel;Sección
+5;A10_010_086_760;Santiago;Sección
+5;A10_010_086_865;Valle del Guamuez;Sección
+5;A10_010_086_885;Villagarzón;Sección
+4;A10_010_088;Archipiélago de San Andrés, Providencia y Santa Catalina;Subgrupo
+5;A10_010_088_001;San Andrés;Sección
+5;A10_010_088_564;Providencia;Sección
+4;A10_010_091;Amazonas;Subgrupo
+5;A10_010_091_001;Leticia;Sección
+5;A10_010_091_263;El Encanto;Sección
+5;A10_010_091_405;La Chorrera;Sección
+5;A10_010_091_407;La Pedrera;Sección
+5;A10_010_091_430;La Victoria;Sección
+5;A10_010_091_460;Miriti - Paraná;Sección
+5;A10_010_091_530;Puerto Alegría;Sección
+5;A10_010_091_536;Puerto Arica;Sección
+5;A10_010_091_540;Puerto Nariño;Sección
+5;A10_010_091_669;Puerto Santander;Sección
+5;A10_010_091_798;Tarapacá;Sección
+4;A10_010_094;Guainía;Subgrupo
+5;A10_010_094_001;Inírida;Sección
+5;A10_010_094_343;Barranco Minas;Sección
+5;A10_010_094_663;Mapiripana;Sección
+5;A10_010_094_883;San Felipe;Sección
+5;A10_010_094_884;Puerto Colombia;Sección
+5;A10_010_094_885;La Guadalupe;Sección
+5;A10_010_094_886;Cacahual;Sección
+5;A10_010_094_887;Pana Pana;Sección
+5;A10_010_094_888;Morichal;Sección
+4;A10_010_095;Guaviare;Subgrupo
+5;A10_010_095_001;San José del Guaviare;Sección
+5;A10_010_095_015;Calamar;Sección
+5;A10_010_095_025;El Retorno;Sección
+5;A10_010_095_200;Miraflores;Sección
+4;A10_010_097;Vaupés;Subgrupo
+5;A10_010_097_001;Mitú;Sección
+5;A10_010_097_161;Carurú;Sección
+5;A10_010_097_511;Pacoa;Sección
+5;A10_010_097_666;Taraira;Sección
+5;A10_010_097_777;Papunaua;Sección
+5;A10_010_097_889;Yavaraté;Sección
+4;A10_010_099;Vichada;Subgrupo
+5;A10_010_099_001;Puerto Carreño;Sección
+5;A10_010_099_524;La Primavera;Sección
+5;A10_010_099_624;Santa Rosalía;Sección
+5;A10_010_099_773;Cumaribo;Sección
+3;A10_015;Regiones administrativas y de planificación - RAP;Grupo
+4;A10_015_005;RAP Amazonía;Subgrupo
+4;A10_015_010;RAP Caribe;Subgrupo
+4;A10_015_015;RAP Eje Cafetero;Subgrupo
+4;A10_015_020;RAP Especial Región Central;Subgrupo
+4;A10_015_025;RAP Pacífico;Subgrupo
+3;A10_020;Regiones geográficas de Colombia;Grupo
+4;A10_020_005;Región Caribe;Subgrupo
+4;A10_020_010;Región Centro Oriente;Subgrupo
+4;A10_020_015;Región Centro Sur;Subgrupo
+4;A10_020_020;Región Eje Cafetero - Antioquia;Subgrupo
+4;A10_020_025;Región Llano;Subgrupo
+4;A10_020_030;Región Pacífico;Subgrupo
+3;A10_025;Otras zonas geográficas funcionales;Grupo
+4;A10_025_005;Barrio;Subgrupo
+4;A10_025_010;Centro poblado;Subgrupo
+4;A10_025_015;Conurbación;Subgrupo
+4;A10_025_020;Corredor estratégico de transporte;Subgrupo
+4;A10_025_025;Corredor geotécnico;Subgrupo
+4;A10_025_030;Localidad;Subgrupo
+4;A10_025_035;Manzana;Subgrupo
+4;A10_025_040;Predio;Subgrupo
+4;A10_025_045;Zona de conectividad tecnológica;Subgrupo
+4;A10_025_050;Zona de desarrollo especial;Subgrupo
+4;A10_025_055;Zona de desarrollo urbano sostenible;Subgrupo
+4;A10_025_060;Zona de expansión;Subgrupo
+4;A10_025_065;Zona de influencia de grandes infraestructuras;Subgrupo
+5;A10_025_065_005;Franja de reserva y aislamiento de corredor férreo;Sección
+6;A10_025_065_005_005;Franja de reserva de corredor férreo en suelo rural y suburbano;Objeto
+7;A10_025_065_005_005_005;Franja de reserva de corredor férreo en tramo de ladera con susceptibilidad geotécnica;Subobjeto
+5;A10_025_065_010;Polígono de servidumbre y utilidad pública de infraestructura de transporte;Sección
+6;A10_025_065_010_005;Polígono de servidumbre de tránsito y acceso operativo permanente;Objeto
+7;A10_025_065_010_005_005;Polígono de servidumbre de acceso operativo a portal de túnel y galería de evacuación;Subobjeto
+5;A10_025_065_015;Predio e inmueble afectado por adquisición predial y derecho de vía;Sección
+4;A10_025_070;Zona de influencia de infraestructura multimodal;Subgrupo
+4;A10_025_075;Zona de influencia económica;Subgrupo
+4;A10_025_080;Zona de malla vial;Subgrupo
+4;A10_025_085;Zona de producción sostenible;Subgrupo
+4;A10_025_090;Zona de proximidad;Subgrupo
+4;A10_025_095;Zona especial de exclusión o restricción de movilidad;Subgrupo
+4;A10_025_100;Zona fronteriza de conectividad internacional;Subgrupo
+4;A10_025_105;Zona prioritaria para infraestructura de transporte;Subgrupo
+4;A10_025_110;Zona urbana;Subgrupo
+4;A10_025_115;Zona turística;Subgrupo
+4;A10_025_120;Zonas de amenaza y riesgo;Subgrupo
+5;A10_025_120_005;Zona de amenaza alta con riesgo alto no mitigable;Sección
+5;A10_025_120_010;Zona de amenaza alta con riesgo medio mitigable;Sección
+5;A10_025_120_015;Zona de amenaza media con riesgo bajo mitigable;Sección
+5;A10_025_120_020;Zona de amenaza baja con riesgo bajo;Sección
+4;A10_025_125;Zonas de interés ambiental y para la conservación;Subgrupo
+5;A10_025_125_005;Bosque urbano;Sección
+5;A10_025_125_010;Cuenca hidrográfica;Sección
+5;A10_025_125_015;Distrito regional de manejo integrado - RUNAP;Sección
+5;A10_025_125_020;Humedal o sitio RAMSAR;Sección
+5;A10_025_125_025;Jurisdicción de cuenca hidrográfica;Sección
+5;A10_025_125_030;Páramo;Sección
+5;A10_025_125_035;Paisaje sostenible;Sección
+5;A10_025_125_040;Parque distrital natural;Sección
+5;A10_025_125_045;Parque estructurante;Sección
+5;A10_025_125_050;Parque nacional natural;Sección
+5;A10_025_125_055;Zona de conservación;Sección
+5;A10_025_125_060;Zona de plan especial de manejo y protección;Sección
+5;A10_025_125_065;Zona de reserva forestal protectora;Sección
+5;A10_025_125_070;Zona de reserva forestal protectora productora;Sección
+5;A10_025_125_075;Zona de reserva natural;Sección
+5;A10_025_125_080;Zona protegida SINAP;Sección
+5;A10_025_125_085;Zonas complementarias para la conservación;Sección
+6;A10_025_125_085_005;Zona agroecológica;Objeto
+6;A10_025_125_085_010;Zona de conservación de la biodiversidad;Objeto
+6;A10_025_125_085_015;Zona de manejo paisajístico;Objeto
+6;A10_025_125_085_020;Zona de manejo silvicultural;Objeto
+6;A10_025_125_085_025;Zona de recuperación paisajística y ambiental;Objeto
+6;A10_025_125_085_030;Zona de articulación urbana y restablecimiento;Objeto
+6;A10_025_125_085_035;Zona de conservación y restauración;Objeto
+6;A10_025_125_085_040;Zona de uso, goce y disfrute;Objeto
+5;A10_025_125_090;Zona amortiguadora del Sistema Nacional de Áreas Protegidas - RUNAP;Sección
+4;A10_025_130;Zonas de interés social o cultural;Subgrupo
+5;A10_025_130_005;Zona de patrimonio cultural material;Sección
+6;A10_025_130_005_005;Zona de interés arqueológico;Objeto
+6;A10_025_130_005_010;Zona de interés arquitectónico o histórico;Objeto
+6;A10_025_130_005_015;Otras zona de patrimonio cultural material;Objeto
+5;A10_025_130_010;Zona de patrimonio cultural inmaterial;Sección
+6;A10_025_130_010_005;Zona de aglomeración de producción artesanal;Objeto
+6;A10_025_130_010_010;Zona dende se concentran oficios tradicionales, saberes y prácticas culturales;Objeto
+6;A10_025_130_010_015;Otras zona de patrimonio cultural inmaterial;Objeto
+5;A10_025_130_015;Zona de reserva campesina;Sección
+5;A10_025_130_020;Zona de resguardo indígena;Sección
+5;A10_025_130_025;Zona PDET (Programa de desarrollo con enfoque territorial);Sección
+5;A10_025_130_030;Zona ZOMAC (Zonas mas afectadas por el conflicto armado);Sección
+5;A10_025_130_035;Otras zonas de interés social o cultural;Sección
+4;A10_025_135;Zonas rurales;Subgrupo
+5;A10_025_135_005;Zona rural;Sección
+5;A10_025_135_010;Zona rural en proceso de integración;Sección
+5;A10_025_135_015;Zona rural de difícil acceso;Sección
+4;A10_025_140;Zonas vulnerables a desastres naturales;Subgrupo
+5;A10_025_140_005;Zona de condición de amenaza por avenidas torrenciales y/o creciente súbita;Sección
+5;A10_025_140_010;Zona de condición de amenaza por incendios forestales;Sección
+5;A10_025_140_015;Zona de condición de amenaza por inundación;Sección
+5;A10_025_140_020;Zona de condición de amenaza por movimientos en masa;Sección
+5;A10_025_140_025;Zona de condición de riesgo por avenidas torrenciales y/o creciente súbita;Sección
+5;A10_025_140_030;Zona de condición de riesgo por incendios forestales;Sección
+5;A10_025_140_035;Zona de condición de riesgo por inundación;Sección
+5;A10_025_140_040;Zona de condición de riesgo por movimientos en masa;Sección

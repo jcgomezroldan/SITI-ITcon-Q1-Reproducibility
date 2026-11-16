@@ -1,0 +1,169 @@
+{
+  "checkpoint_id": "ITCON_Q1_WAVE_2_OF_7",
+  "wave_id": "WAVE_2_OF_7",
+  "wave_title": "Wave 2 of 7: Orthogonal Taxonomy Factorization (Language A _|_ Language B), Combinatorial State-Space Compression (3,333.04x bipartite; 112.35x C2), Longitudinal Phi_ont Across Five CAS Stages (S0–S4), and Supplementary Appendix B",
+  "status": "PASS",
+  "timestamp_utc": "2026-11-02T16:38:38.963465+00:00",
+  "prerequisite_wave1_checkpoint_status": "PASS",
+  "prerequisite_wave1_resumen_sha256": "b301b76616b69992d2cda9b83a5ab42a603ba32c40f2437fab199db59c721019",
+  "guardrails_compliance": {
+    "G-PHYS_os_O_RDONLY_enforced": true,
+    "G-PHYS_production_bytes_modified": 0,
+    "G-PHYS_all_artifacts_st_blocks_gt_0": true,
+    "G-AST_anti_theater_gate": {
+      "filename": "wave2_orthogonal_ab_factorization_phi_ont.py",
+      "total_test_methods": 3,
+      "all_bipolar_compliant": true,
+      "zero_static_json_reads": true,
+      "total_live_engine_calls": 29,
+      "total_nominal_assertions": 12,
+      "total_adversarial_traps": 3,
+      "methods": [
+        {
+          "test_name": "test_01_combinatorial_factorization_and_readonly_bipolar",
+          "lineno": 1528,
+          "live_engine_calls_count": 10,
+          "nominal_assertions_count": 4,
+          "adversarial_traps_count": 1,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        },
+        {
+          "test_name": "test_02_estado4_compression_112_35x_and_zero_intratabular_meronymy_bipolar",
+          "lineno": 1542,
+          "live_engine_calls_count": 10,
+          "nominal_assertions_count": 4,
+          "adversarial_traps_count": 1,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        },
+        {
+          "test_name": "test_03_apu_73640_and_cold_ingestion_638_parquets_bipolar",
+          "lineno": 1560,
+          "live_engine_calls_count": 9,
+          "nominal_assertions_count": 4,
+          "adversarial_traps_count": 1,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        }
+      ]
+    },
+    "G-SEM_terminological_rectification_phi_ont_vs_sii": true,
+    "G-SEM_three_layer_invariance_c1_c2_c3": true,
+    "G-SEM_calzada_equals_carril_A30_035_005_040": true,
+    "G-SEM_esal_invariable_singular": true,
+    "G-HASH_sha256_verified": true,
+    "G-SYNC-TABLE_programmatic_cell_by_cell_verified": true
+  },
+  "key_scientific_metrics": {
+    "language_a_active_unique_classes": 4686,
+    "language_b_active_unique_classes": 11544,
+    "bipartite_cartesian_product_a_times_b": 54095184,
+    "tetradimensional_5d_apu_cartesian_product": 12179189911680,
+    "siti_additive_active_classes_c1": 16230,
+    "c2_deduplicated_intertabular_edges": 793,
+    "c2_assembly_recipes": 13,
+    "confrontation_matrix_total_units": 18112,
+    "monolithic_1to1_capture_pct": 23.35,
+    "monolithic_plus_skos_capture_pct": 26.94,
+    "monolithic_semantic_rupture_pct": 73.06,
+    "estado4_composite_units": 11137,
+    "estado4_implicit_relational_pairs": 89096,
+    "c2_topological_compression_ratio_x": 112.35,
+    "apu_national_items": 526,
+    "apu_regional_books": 140,
+    "apu_regional_rows_reconstructed": 73640,
+    "c3_core_analytical_rows_audited": 2510964,
+    "ani_principal_assets_evaluated": 226324,
+    "ani_master_concessions": 50,
+    "ani_itemized_partitions": 47,
+    "ani_functional_layers": 21,
+    "ani_ifc43_classes": 17,
+    "cold_ingestion_total_receipts": 603,
+    "cold_ingestion_open_structurable_receipts": 554,
+    "cold_ingestion_extracted_parquet_tables": 638,
+    "cold_ingestion_extracted_parquet_rows": 32983,
+    "phi_ont_taxonomic_asset_pct": 100.0,
+    "phi_ont_doc_matrix_18112_pct": 100.0,
+    "phi_ont_relational_c2_793_pct": 100.0,
+    "phi_ont_cold_ingestion_open554_pct": 100.0,
+    "phi_ont_cold_ingestion_raw603_pct": 91.87,
+    "phi_ont_composite_core3_progression_5_stages": "23.85% (S0) -> 42.30% (S1) -> 81.05% (S2) -> 100.00% (S3) -> 100.00% (S4)"
+  },
+  "sealed_wave2_artifacts": {
+    "06_Verification_Scripts_and_Checkpoints/wave2_orthogonal_ab_factorization_phi_ont.py": {
+      "size_bytes": 81543,
+      "st_blocks": 168,
+      "mtime_ns": 1793637486376683709,
+      "sha256": "33a46744496e7bcaae26e49073ab2a371bb603c1fe1e13f1b6ad009286941eca"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_2_Orthogonal_Factorization_and_Phi_Ont/wave2_18112_matrix_by_library_and_state.parquet": {
+      "size_bytes": 8011,
+      "st_blocks": 16,
+      "mtime_ns": 1793637518951947415,
+      "sha256": "d5675b83cff37c77990c5c693e645ba44a6e7f4be72927c303eb26d402d340f5"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_2_Orthogonal_Factorization_and_Phi_Ont/wave2_18112_matrix_by_library_and_state.csv": {
+      "size_bytes": 3182,
+      "st_blocks": 8,
+      "mtime_ns": 1793637518952418038,
+      "sha256": "aeab5f5fe99b91a2b5664db8a5da2fe518eb10854bbdb61325d43dc50c39ded3"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_2_Orthogonal_Factorization_and_Phi_Ont/wave2_50_concessions_21_layers_17_ifc_audit.parquet": {
+      "size_bytes": 13750,
+      "st_blocks": 32,
+      "mtime_ns": 1793637518953347533,
+      "sha256": "ce9d94b9e69815de540a8cc781abec4a4864cf4aae2dd0d474dcc660dfd6f7f4"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_2_Orthogonal_Factorization_and_Phi_Ont/wave2_50_concessions_21_layers_17_ifc_audit.csv": {
+      "size_bytes": 20133,
+      "st_blocks": 40,
+      "mtime_ns": 1793637518953797738,
+      "sha256": "052609ebc9a73a52cb3a440b5065f6a204647ef9d57016845b9c8cab1639619d"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_2_Orthogonal_Factorization_and_Phi_Ont/wave2_apu_decoupling_526_items_73640_regional.parquet": {
+      "size_bytes": 67702,
+      "st_blocks": 136,
+      "mtime_ns": 1793637518956292058,
+      "sha256": "03f3f68829be9c7989774f223d0fecac0e18fd9615f2fd06ee780df0e17e8b37"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_2_Orthogonal_Factorization_and_Phi_Ont/wave2_apu_decoupling_526_items_73640_regional.csv": {
+      "size_bytes": 747331,
+      "st_blocks": 1464,
+      "mtime_ns": 1793637518962512315,
+      "sha256": "0b03db6b90da215144ea20062b5d334071a85ba9244707e7b6df3422380f6094"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_2_Orthogonal_Factorization_and_Phi_Ont/wave2_603_cde_receipts_and_638_parquets_audit.csv": {
+      "size_bytes": 4053,
+      "st_blocks": 8,
+      "mtime_ns": 1793637518963078520,
+      "sha256": "26fcdef0c715dea7169e228e76957de38bd7950e622c011ee5c7b5a68a80f8d7"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_2_Orthogonal_Factorization_and_Phi_Ont/wave2_phi_ont_evolution_5_cas_stages.csv": {
+      "size_bytes": 2330,
+      "st_blocks": 8,
+      "mtime_ns": 1793637518963251353,
+      "sha256": "4c789e498a2ad48517b116a41b3b2a947737ccfc26da2b8e8336d7e88b8991a2"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_2_Orthogonal_Factorization_and_Phi_Ont/wave2_phi_ont_evolution_5_cas_stages.json": {
+      "size_bytes": 7803,
+      "st_blocks": 16,
+      "mtime_ns": 1793637518963395144,
+      "sha256": "fdc608937d0dcf04566ea81abab39d2bfe9dbf7daf35bdd62aba5c4834748c2b"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_2_Orthogonal_Factorization_and_Phi_Ont/wave2_phi_ont_master_summary.json": {
+      "size_bytes": 48021,
+      "st_blocks": 96,
+      "mtime_ns": 1793637518964161098,
+      "sha256": "a2399b993969d414ae1bc4de58694e74cbd312f6b9d449596d2815a5bc7515b0"
+    },
+    "01_Supplementary_Appendices_A_to_F/Appendix_B_Orthogonal_AB_Decoupling_and_Phi_Ont.md": {
+      "size_bytes": 32560,
+      "st_blocks": 104,
+      "mtime_ns": 1793645448479295579,
+      "sha256": "e419a6f56412218ec438f4b577d3e27f0532973c826a6d626af9b2d4ecdb9365"
+    }
+  },
+  "step_0_wave3_auto_reconciliation_utc": "2026-11-02T18:50:48.479495+00:00",
+  "prerequisite_wave1_summary_sha256": "249f7296bdb7462ae3305e139d74f14e5ddc06058cd2e3473072dcea0d07c359"
+}

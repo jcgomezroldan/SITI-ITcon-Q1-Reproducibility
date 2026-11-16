@@ -1,0 +1,151 @@
+{
+  "checkpoint_id": "ITCON_Q1_WAVE_5_OF_7",
+  "wave_id": "WAVE_5_OF_7",
+  "wave_title": "Wave 5 of 7: Physical Separation Between Bimodal Geodesic Geometry (64-bit EPSG:9377 Anchors + 32-bit Local ENU / OpenUSD) and Columnar Operational Storage (8-Column SoA + UUIDv7 Unboxed EAV Scheme E3), and Supplementary Appendix E",
+  "status": "PASS",
+  "timestamp_utc": "2026-11-02T21:14:29.212386+00:00",
+  "prerequisite_wave1_checkpoint_status": "PASS",
+  "prerequisite_wave2_checkpoint_status": "PASS",
+  "prerequisite_wave3_checkpoint_status": "PASS",
+  "prerequisite_wave4_checkpoint_status": "PASS",
+  "step_0_wave4_refinement_status": "PASS",
+  "guardrails_compliance": {
+    "G-PHYS_os_O_RDONLY_enforced": true,
+    "G-PHYS_production_bytes_modified": 0,
+    "G-PHYS_all_artifacts_st_blocks_gt_0": true,
+    "G-SYNC-TABLE_appendix_d_and_e_100pct_programmatic": true,
+    "G-SYNC-TABLE_zero_truncated_titles": true,
+    "G-AST_anti_theater_gate": {
+      "filename": "wave5_bimodal_geometry_vs_unboxed_eav_soa.py",
+      "total_test_methods": 4,
+      "all_bipolar_compliant": true,
+      "zero_static_json_reads": true,
+      "total_live_engine_calls": 39,
+      "total_nominal_assertions": 25,
+      "total_adversarial_traps": 6,
+      "methods": [
+        {
+          "test_name": "test_01_step0_ola4_and_readonly_mass_asymmetry_bipolar",
+          "lineno": 1813,
+          "live_engine_calls_count": 5,
+          "nominal_assertions_count": 7,
+          "adversarial_traps_count": 1,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        },
+        {
+          "test_name": "test_02_late_spatial_materialization_scalability_bipolar",
+          "lineno": 1831,
+          "live_engine_calls_count": 6,
+          "nominal_assertions_count": 5,
+          "adversarial_traps_count": 1,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        },
+        {
+          "test_name": "test_03_unboxed_eav_soa_immutability_and_uuidv7_bipolar",
+          "lineno": 1847,
+          "live_engine_calls_count": 14,
+          "nominal_assertions_count": 6,
+          "adversarial_traps_count": 3,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        },
+        {
+          "test_name": "test_04_bimodal_geodesic_enu64_vs_float32_jitter_bipolar",
+          "lineno": 1911,
+          "live_engine_calls_count": 14,
+          "nominal_assertions_count": 7,
+          "adversarial_traps_count": 1,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        }
+      ]
+    },
+    "G-SEM_invariants_verified": {
+      "three_layers_only": true,
+      "language_a_orthogonal_language_b": true,
+      "calzada_equals_carril_A30_035_005_040": true,
+      "esal_invariable_singular": true,
+      "zero_is_active_mutable_flags_in_c3_eav": true
+    }
+  },
+  "key_scientific_metrics": {
+    "step_0_q07_ciclorruta_rows": 98,
+    "step_0_q24_dispositivo_its_rows": 6552,
+    "step_0_all_50_queries_nonzero_parity": true,
+    "spatial_ani_disk_bytes": 455875112,
+    "spatial_ani_uncompressed_bytes": 1394990868,
+    "operational_activos_disk_bytes": 18480056,
+    "operational_activos_uncompressed_bytes": 43441449,
+    "disk_mass_asymmetry_ratio_x": 24.6685,
+    "uncompressed_ram_asymmetry_ratio_x": 32.112,
+    "projected_soa_disk_io_reduction_ratio_x": 2071.36,
+    "r1_coupled_226324_mean_ms": 83.002,
+    "r2_decoupled_226324_mean_ms": 3.7277,
+    "speedup_r1_vs_r2_226324_x": 22.27,
+    "wide_lang_b_null_sparsity_pct": 99.896,
+    "wide_b50_null_sparsity_pct": 98.374,
+    "unboxed_eav_soa_structural_null_pct": 0.0,
+    "unboxed_eav_simd_speedup_vs_boxed_x": 1.51,
+    "direct_float32_epsg9377_mean_jitter_mm": 143.548,
+    "direct_float32_epsg9377_max_vertex_jitter_mm": 279.2402,
+    "direct_float32_epsg9377_max_diff_seg_jitter_mm": 543.2884,
+    "bimodal_enu_5011_mean_jitter_mm": 0.005175,
+    "bimodal_enu_5011_max_jitter_mm": 0.012311,
+    "bimodal_enu_precision_gain_factor_x": 25697.39,
+    "gpu_vertex_vram_savings_pct": 50.0
+  },
+  "sealed_wave5_artifacts": {
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_5_Bimodal_Geodesy_and_Unboxed_EAV/wave5_aos_vs_soa_scalability_226324_assets.csv": {
+      "size_bytes": 1424,
+      "st_blocks": 8,
+      "sha256": "a1021a825ca174a7f7a8812ffc18600323448b2061e79aa251dc2714f681aabb"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_5_Bimodal_Geodesy_and_Unboxed_EAV/wave5_aos_vs_soa_scalability_226324_assets.parquet": {
+      "size_bytes": 4039,
+      "st_blocks": 8,
+      "sha256": "c17aefe06ff5f315945446e8c21513a71aeeb6a823f67ff493f6fe3516621203"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_5_Bimodal_Geodesy_and_Unboxed_EAV/wave5_geometric_mass_profile_21_ani_layers_wkb_vs_soa.csv": {
+      "size_bytes": 4129,
+      "st_blocks": 16,
+      "sha256": "903a3d42135ade464a4e2e03fa034b3736487761aaa8d0af616af15753022a59"
+    },
+    "perfil_masa_geometrica_21_capas_ani_wkb_vs_operacion.json": {
+      "size_bytes": 20921,
+      "st_blocks": 48,
+      "sha256": "0836ee9bc266f46f6fb7375c468bd25a2ebc0f7132c844bc71ad52d71f68e43a"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_5_Bimodal_Geodesy_and_Unboxed_EAV/wave5_unboxed_eav_soa_vs_wide_sparse_benchmark.csv": {
+      "size_bytes": 4463,
+      "st_blocks": 16,
+      "sha256": "4ff87b9bede9090c1b7791cb9d29b39c51fa7f5f1547b853cd6d55bea9169f00"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_5_Bimodal_Geodesy_and_Unboxed_EAV/wave5_unboxed_eav_soa_vs_wide_sparse_benchmark.json": {
+      "size_bytes": 17294,
+      "st_blocks": 40,
+      "sha256": "6c14b733bbfe86a16a2e2def0128e02e3b24083eda57c5d750227c44096ad7fe"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_5_Bimodal_Geodesy_and_Unboxed_EAV/wave5_bimodal_precision_226322_ani_5011_enu_vs_float32.csv": {
+      "size_bytes": 7964,
+      "st_blocks": 16,
+      "sha256": "57cbad4a57fd5605bb46b80dabc91de1a727689fffb86ee88bb2abe4b366e4d5"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_5_Bimodal_Geodesy_and_Unboxed_EAV/wave5_bimodal_precision_226322_ani_5011_enu_vs_float32.json": {
+      "size_bytes": 27528,
+      "st_blocks": 56,
+      "sha256": "894ff636155a6b2c494a7da4a66c2b0eb8f7d803d062fd7a5c44095c2817a259"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_5_Bimodal_Geodesy_and_Unboxed_EAV/wave5_geometry_vs_operation_master_summary.json": {
+      "size_bytes": 85939,
+      "st_blocks": 168,
+      "sha256": "4cb07dcd709ab84c77c1f7482fa1739e9f44a124c2f22d0bfad9f5ab8ae37e4e"
+    },
+    "01_Supplementary_Appendices_A_to_F/Appendix_E_Bimodal_Geometry_vs_Unboxed_EAV_Telemetry.md": {
+      "size_bytes": 33202,
+      "st_blocks": 104,
+      "sha256": "a23b30dfc04425d567fdab95308625ad4ace4d2f195fc24d76e299a72fef64cb"
+    }
+  }
+}

@@ -1,0 +1,363 @@
+﻿Nivel;Código SITI;Descripción;Clasificación
+1;A;Activos de infraestructura;Lenguaje
+2;A30;Áreas y espacios funcionales;Tabla
+3;A30_005;Áreas de infraestructura aeroportuaria;Grupo
+3;A30_010;Áreas de infraestructura de transporte por cable;Grupo
+3;A30_015;Áreas de infraestructura férrea;Grupo
+4;A30_015_005;Vía de escape de seguridad o rampa de frenado;Subgrupo
+4;A30_015_010;Espacio de gálibo ferroviario;Subgrupo
+5;A30_015_010_005;Espacio de gálibo libre de obstáculos estructurales;Sección
+5;A30_015_010_010;Espacio de gálibo cinemático de circulación;Sección
+5;A30_015_010_015;Espacio de gálibo de cargamento ferroviario;Sección
+5;A30_015_010_020;Espacio de gálibo eléctrico y de catenaria;Sección
+4;A30_015_015;Andén de pasajeros de nivel alto;Subgrupo
+4;A30_015_020;Vía de cargadero industrial;Subgrupo
+4;A30_015_025;Andén de pasajeros de nivel bajo;Subgrupo
+4;A30_015_030;Vía de patio de clasificación;Subgrupo
+4;A30_015_035;Vía de apartadó y cruce;Subgrupo
+4;A30_015_040;Borde de andén ferroviario;Subgrupo
+4;A30_015_045;Vía general de circulación;Subgrupo
+4;A30_015_050;Cantón o sección de línea férrea;Subgrupo
+4;A30_015_055;Vía auxiliar de apartadó o apartadero;Subgrupo
+4;A30_015_060;Vía desviada de aparato de cambio;Subgrupo
+4;A30_015_065;Vía férrea sobre balasto;Subgrupo
+4;A30_015_070;Vía férrea en placa;Subgrupo
+4;A30_015_075;Zona de cambiavías y garganta de desvío ferroviario;Subgrupo
+4;A30_015_080;Franja de derecho de vía y corredor férreo;Subgrupo
+5;A30_015_080_005;Zona de seguridad y retiro lateral ferroviario;Sección
+5;A30_015_080_010;Cuneta y franja de drenaje longitudinal ferroviario;Sección
+5;A30_015_080_015;Zona de transición de rigidez entre vía en balasto y estructura rígida;Sección
+6;A30_015_080_015_005;Zona de transición de rigidez ferroviaria en aproximación a estribo de puente;Objeto
+7;A30_015_080_015_005_005;Zona de transición de rigidez ferroviaria en empalme entre vía en balasto y placa de puente;Subobjeto
+5;A30_015_080_020;Paseo lateral de evacuación y mantenimiento ferroviario;Sección
+4;A30_015_085;Puentes, viaductos y pasos elevados ferroviarios;Subgrupo
+5;A30_015_085_005;Puente ferroviario sobre curso de agua;Sección
+5;A30_015_085_010;Viaducto ferroviario;Sección
+5;A30_015_085_015;Pontón ferroviario;Sección
+4;A30_015_090;Túneles, galerías y pasos subterráneos ferroviarios;Subgrupo
+5;A30_015_090_005;Túnel ferroviario de línea;Sección
+5;A30_015_090_010;Galería de protección y falso túnel ferroviario;Sección
+4;A30_015_095;Foso de inspección y área de maniobras de taller ferroviario;Subgrupo
+3;A30_020;Áreas de infraestructura fluvial;Grupo
+3;A30_025;Áreas de infraestructura marítima;Grupo
+3;A30_030;Áreas de infraestructura lacustre;Grupo
+3;A30_035;Áreas de infraestructura carretera (puentes, túneles, intercambiadores, etc.);Grupo
+4;A30_035_005;Áreas de clasificación y división transversal de la carretera;Subgrupo
+5;A30_035_005_005;Área de contención vehicular;Sección
+5;A30_035_005_010;Área de retiro vial;Sección
+5;A30_035_005_015;Área verde;Sección
+5;A30_035_005_020;Andén;Sección
+5;A30_035_005_025;Berma;Sección
+5;A30_035_005_030;Berma - cuneta;Sección
+5;A30_035_005_035;Bordillo;Sección
+5;A30_035_005_040;Calzada o carril vehicular;Sección
+5;A30_035_005_045;Ciclorruta;Sección
+5;A30_035_005_050;Cuneta o área de drenaje;Sección
+5;A30_035_005_055;Derecho de vía;Sección
+5;A30_035_005_060;Isla o isleta;Sección
+5;A30_035_005_065;Separador vial;Sección
+5;A30_035_005_070;Zona funcional de puente, viaducto y paso elevado carretero;Sección
+5;A30_035_005_075;Zona funcional de túnel carretero, galería de evacuación y portal;Sección
+4;A30_035_010;Áreas funcionales ubicadas a lo largo del trazado vial;Subgrupo
+5;A30_035_010_005;Carril de aceleración y/o desaceleración;Sección
+5;A30_035_010_010;Eje;Sección
+5;A30_035_010_015;Estación de peaje;Sección
+6;A30_035_010_015_005;Calzada o carril de peaje;Objeto
+5;A30_035_010_020;Estación de pesaje;Sección
+6;A30_035_010_020_005;Calzada o carril de pesaje;Objeto
+7;A30_035_010_020_005_005;Carril de preselección de pesaje dinámico en movimiento;Subobjeto
+5;A30_035_010_025;Estación de servicios y/o suministro de combustibles y lubricantes;Sección
+5;A30_035_010_030;Intercambiador vial;Sección
+5;A30_035_010_035;Intersección o cruce vial a nivel;Sección
+6;A30_035_010_035_005;Intersección en t;Objeto
+6;A30_035_010_035_010;Intersección tipo diamante;Objeto
+6;A30_035_010_035_015;Intersección tipo trébol;Objeto
+5;A30_035_010_040;Intersección o cruce vial bajo nivel (deprimido);Sección
+5;A30_035_010_045;Puentes y viaductos;Sección
+6;A30_035_010_045_005;Según su función o uso;Objeto
+7;A30_035_010_045_005_005;Puente agrícola o industrial;Subobjeto
+7;A30_035_010_045_005_010;Puente de emergencia;Subobjeto
+7;A30_035_010_045_005_015;Puente mixto (multimodal);Subobjeto
+7;A30_035_010_045_005_020;Puente para paso de fauna (incluye puentes de dosel);Subobjeto
+7;A30_035_010_045_005_025;Puente para paso de servicios o infraestructuras;Subobjeto
+7;A30_035_010_045_005_030;Puente para tránsito no motorizado (peatonal y bicicletas);Subobjeto
+7;A30_035_010_045_005_035;Puente vehicular;Subobjeto
+6;A30_035_010_045_010;Según su estructura principal (SIGP - INVIAS);Objeto
+7;A30_035_010_045_010_000;No registrado;Subobjeto
+7;A30_035_010_045_010_010;Losa;Subobjeto
+7;A30_035_010_045_010_020;Losa / viga en concreto;Subobjeto
+7;A30_035_010_045_010_021;Losa / viga en acero;Subobjeto
+7;A30_035_010_045_010_030;Viga cajón en concreto;Subobjeto
+7;A30_035_010_045_010_031;Viga cajón en acero;Subobjeto
+7;A30_035_010_045_010_040;Armadura;Subobjeto
+7;A30_035_010_045_010_050;Arco;Subobjeto
+7;A30_035_010_045_010_060;Provisional;Subobjeto
+7;A30_035_010_045_010_070;Atirantado;Subobjeto
+7;A30_035_010_045_010_080;Colgante;Subobjeto
+7;A30_035_010_045_010_090;Extradosado;Subobjeto
+7;A30_035_010_045_010_099;Ingenieril / artesanal;Subobjeto
+6;A30_035_010_045_015;Según su configuración del tablero;Objeto
+7;A30_035_010_045_015_005;Puente con tablero articulado;Subobjeto
+7;A30_035_010_045_015_010;Puente con tablero doble (mixto);Subobjeto
+7;A30_035_010_045_015_015;Puente con tablero doble (vehicular - ferrocarril);Subobjeto
+7;A30_035_010_045_015_020;Puente con tablero doble (vehicular - peatonal);Subobjeto
+7;A30_035_010_045_015_025;Puente con tablero doble (vehicular - vehicular);Subobjeto
+7;A30_035_010_045_015_030;Puente con tablero en arco inclinado;Subobjeto
+7;A30_035_010_045_015_035;Puente con tablero flotante;Subobjeto
+7;A30_035_010_045_015_040;Puente con tablero helicoidal;Subobjeto
+7;A30_035_010_045_015_045;Puente con tablero inferior en celosía;Subobjeto
+7;A30_035_010_045_015_050;Puente con tablero internedio en celosía;Subobjeto
+7;A30_035_010_045_015_055;Puente con tablero móvil;Subobjeto
+7;A30_035_010_045_015_060;Puente con tablero superior en celosía;Subobjeto
+7;A30_035_010_045_015_065;Puente de tablero alto;Subobjeto
+7;A30_035_010_045_015_070;Puente de tablero bajo;Subobjeto
+7;A30_035_010_045_015_075;Puente de tablero continuo;Subobjeto
+7;A30_035_010_045_015_080;Puente de tablero en voladizo;Subobjeto
+7;A30_035_010_045_015_085;Puente de tablero intermedio (a nivel medio);Subobjeto
+6;A30_035_010_045_020;Según la forma de su sección transversal (SIGP - INVIAS);Objeto
+7;A30_035_010_045_020_000;No registrado;Subobjeto
+7;A30_035_010_045_020_010;Losa (maciza o aligerada);Subobjeto
+7;A30_035_010_045_020_020;Vigas rectangulares;Subobjeto
+7;A30_035_010_045_020_021;Vigas en I;Subobjeto
+7;A30_035_010_045_020_022;Vigas en U;Subobjeto
+7;A30_035_010_045_020_023;Múltiples perfiles cerrados;Subobjeto
+7;A30_035_010_045_020_024;Vigas en T;Subobjeto
+7;A30_035_010_045_020_025;Vigas en T invertida;Subobjeto
+7;A30_035_010_045_020_030;Viga cajón, sencillo;Subobjeto
+7;A30_035_010_045_020_031;Viga cajón, múltiples celdas;Subobjeto
+7;A30_035_010_045_020_040;Armadura de paso inferior;Subobjeto
+7;A30_035_010_045_020_041;Armadura de paso superior;Subobjeto
+7;A30_035_010_045_020_042;Armadura de paso a través;Subobjeto
+7;A30_035_010_045_020_050;Arco inferior, abierto;Subobjeto
+7;A30_035_010_045_020_051;Arco inferior, cerrado;Subobjeto
+7;A30_035_010_045_020_052;Arco superior;Subobjeto
+7;A30_035_010_045_020_060;Modular, tipo Bailey;Subobjeto
+7;A30_035_010_045_020_061;Modular, tipo Calender Hamilton;Subobjeto
+7;A30_035_010_045_020_062;Modular, tipo Mabey;Subobjeto
+7;A30_035_010_045_020_063;Modular, tipo Acrow;Subobjeto
+7;A30_035_010_045_020_064;Modular, INVIAS;Subobjeto
+7;A30_035_010_045_020_070;No ingenieril / Artesanal;Subobjeto
+7;A30_035_010_045_020_090;Otro;Subobjeto
+7;A30_035_010_045_020_091;No visible;Subobjeto
+6;A30_035_010_045_025;Según el método constructivo que afecta su estructura (SIGP - INVIAS);Objeto
+7;A30_035_010_045_025_000;No registrado;Subobjeto
+7;A30_035_010_045_025_010;Vaciado In Situ;Subobjeto
+7;A30_035_010_045_025_020;Prefabricado;Subobjeto
+7;A30_035_010_045_025_030;Postensado;Subobjeto
+7;A30_035_010_045_025_040;Dovelas sucesivas;Subobjeto
+7;A30_035_010_045_025_050;Tramos segmentados;Subobjeto
+7;A30_035_010_045_025_051;Empujado;Subobjeto
+7;A30_035_010_045_025_090;Otro;Subobjeto
+7;A30_035_010_045_025_091;No visible;Subobjeto
+7;A30_035_010_045_025_092;Desconocido;Subobjeto
+7;A30_035_010_045_025_099;No aplica;Subobjeto
+6;A30_035_010_045_030;Según su permanencia de instalación;Objeto
+7;A30_035_010_045_030_005;Puente permanente;Subobjeto
+7;A30_035_010_045_030_010;Puente temporal, modular o desmontable;Subobjeto
+7;A30_035_010_045_030_015;Puente semi-permanente;Subobjeto
+6;A30_035_010_045_035;Puente ferroviario con tablero de vía en balasto;Objeto
+6;A30_035_010_045_040;Puente ferroviario con tablero abierto sin balasto;Objeto
+5;A30_035_010_050;Rampa de emergencia;Sección
+5;A30_035_010_055;Tramo o área vial en desuso;Sección
+5;A30_035_010_060;Túneles;Sección
+6;A30_035_010_060_005;Según su función o uso;Objeto
+7;A30_035_010_060_005_005;Túnel agrícola o industrial;Subobjeto
+7;A30_035_010_060_005_010;Túnel de emergencia;Subobjeto
+7;A30_035_010_060_005_015;Túnel mixto (multimodal);Subobjeto
+7;A30_035_010_060_005_020;Túnel para paso de fauna (ecoductos o falsos túneles);Subobjeto
+7;A30_035_010_060_005_025;Túnel para paso de servicios o infraestructuras;Subobjeto
+7;A30_035_010_060_005_030;Túnel para tránsito no motorizado (peatonal y bicicletas);Subobjeto
+7;A30_035_010_060_005_035;Túnel vehicular;Subobjeto
+6;A30_035_010_060_010;Según su configuración estructural;Objeto
+7;A30_035_010_060_010_005;Túnel de doble piso;Subobjeto
+7;A30_035_010_060_010_010;Túnel de múltiples niveles;Subobjeto
+7;A30_035_010_060_010_015;Túnel de sección variable;Subobjeto
+7;A30_035_010_060_010_020;Túnel de tubo único;Subobjeto
+7;A30_035_010_060_010_025;Túnel en espiral;Subobjeto
+7;A30_035_010_060_010_030;Túnel multicelular;Subobjeto
+7;A30_035_010_060_010_035;Túneles gemelos;Subobjeto
+6;A30_035_010_060_015;Según sus elementos estructurales especiales;Objeto
+7;A30_035_010_060_015_005;Túnel con arco invertido;Subobjeto
+7;A30_035_010_060_015_010;Túnel con losa superior e inferior;Subobjeto
+7;A30_035_010_060_015_015;Túnel con marcos rígidos;Subobjeto
+6;A30_035_010_060_020;Según la forma de su sección transversal;Objeto
+7;A30_035_010_060_020_005;Túnel circular;Subobjeto
+7;A30_035_010_060_020_010;Túnel de doble arco;Subobjeto
+7;A30_035_010_060_020_015;Túnel de herradura;Subobjeto
+7;A30_035_010_060_020_020;Túnel elíptico;Subobjeto
+7;A30_035_010_060_020_025;Túnel en forma de huevo;Subobjeto
+7;A30_035_010_060_020_030;Túnel en forma de pera;Subobjeto
+7;A30_035_010_060_020_035;Túnel en forma de riñón;Subobjeto
+7;A30_035_010_060_020_040;Túnel rectangular;Subobjeto
+7;A30_035_010_060_020_045;Túnel de sección parabólica;Subobjeto
+7;A30_035_010_060_020_050;Túnel de sección poligonal o segmental;Subobjeto
+6;A30_035_010_060_025;Según el método constructivo que afecta su estructura;Objeto
+7;A30_035_010_060_025_005;Microtúnel;Subobjeto
+7;A30_035_010_060_025_010;Túnel construido mediante vaciado;Subobjeto
+7;A30_035_010_060_025_015;Túnel de corte y cubierta;Subobjeto
+7;A30_035_010_060_025_020;Túnel excavado con perforación y voladura;Subobjeto
+7;A30_035_010_060_025_025;Túnel excavado con tuneladora;Subobjeto
+7;A30_035_010_060_025_030;Túnel inmerso;Subobjeto
+6;A30_035_010_060_030;Según su tipo de revestimiento;Objeto
+7;A30_035_010_060_030_005;Túnel no revestido;Subobjeto
+7;A30_035_010_060_030_010;Túnel con revestimiento compuesto;Subobjeto
+7;A30_035_010_060_030_015;Túnel con revestimiento segmental;Subobjeto
+6;A30_035_010_060_035;Según su permanencia de instalación;Objeto
+7;A30_035_010_060_035_005;Túnel permanente;Subobjeto
+7;A30_035_010_060_035_010;Túnel temporal o modular;Subobjeto
+7;A30_035_010_060_035_015;Túnel semi-permanente;Subobjeto
+6;A30_035_010_060_040;Túnel ferroviario de vía única para trocha métrica;Objeto
+6;A30_035_010_060_045;Túnel ferroviario de doble vía para trocha estándar;Objeto
+5;A30_035_010_065;Zona de pesaje dinámico vehicular en movimiento (WIM);Sección
+6;A30_035_010_065_005;Zona de pesaje dinámico vehicular de alta velocidad en carril expreso;Objeto
+7;A30_035_010_065_005_005;Zona de pesaje dinámico vehicular con derivación automática a estación de báscula fija;Subobjeto
+5;A30_035_010_070;Bahía de inspección optoelectrónica y control operativo vial;Sección
+5;A30_035_010_075;Zona de frenado de emergencia y rampa de escape para vehículos pesados;Sección
+5;A30_035_010_080;Bahía y estación de recarga energética para transporte carretero de bajas emisiones;Sección
+3;A30_040;Otras áreas comunes a todos los modos de transporte;Grupo
+4;A30_040_005;Área de cesión;Subgrupo
+4;A30_040_010;Áreas de espacio público peatonal para el encuentro;Subgrupo
+5;A30_040_010_005;Espacio privado afecto al uso público;Sección
+5;A30_040_010_010;Espacio público de encuentro rural;Sección
+5;A30_040_010_015;Franja de circulación peatonal;Sección
+5;A30_040_010_020;Franja de paisajismo y calidad urbana;Sección
+5;A30_040_010_025;Parque;Sección
+5;A30_040_010_030;Plaza;Sección
+5;A30_040_010_035;Plazoleta;Sección
+5;A30_040_010_040;Zona verde;Sección
+4;A30_040_015;Áreas funcionales en edificaciones;Subgrupo
+5;A30_040_015_005;Áreas comerciales;Sección
+6;A30_040_015_005_005;Cajeros automáticos;Objeto
+6;A30_040_015_005_010;Tiendas y locales comerciales;Objeto
+5;A30_040_015_010;Áreas de acceso y control;Sección
+6;A30_040_015_010_005;Área de entrega de credenciales;Objeto
+6;A30_040_015_010_010;Área de seguridad y control de acceso;Objeto
+6;A30_040_015_010_015;Área de torniquetes y barreras de entrada;Objeto
+6;A30_040_015_010_020;Recepción o portería;Objeto
+5;A30_040_015_015;Áreas de almacenamiento;Sección
+6;A30_040_015_015_005;Almacén general;Objeto
+6;A30_040_015_015_010;Bodega de archivo;Objeto
+6;A30_040_015_015_015;Depósito temporal;Objeto
+6;A30_040_015_015_020;Espacio para materiales peligrosos;Objeto
+5;A30_040_015_020;Áreas de alimentación y descanso;Sección
+6;A30_040_015_020_005;Área de máquinas expendedoras;Objeto
+6;A30_040_015_020_010;Cafetería;Objeto
+6;A30_040_015_020_015;Cocina;Objeto
+6;A30_040_015_020_020;Comedor;Objeto
+6;A30_040_015_020_025;Sala de descanso;Objeto
+6;A30_040_015_020_030;Sala de personal operativo;Objeto
+5;A30_040_015_025;Áreas de circulación;Sección
+6;A30_040_015_025_005;Área de ascensores;Objeto
+6;A30_040_015_025_010;Área de escaleras;Objeto
+6;A30_040_015_025_015;Área de rampas;Objeto
+6;A30_040_015_025_020;Pasillos y corredores;Objeto
+6;A30_040_015_025_025;Vestíbulo de ascensores;Objeto
+5;A30_040_015_030;Áreas de estacionamiento y acceso vehicular;Sección
+6;A30_040_015_030_005;Área de carga y descarga;Objeto
+6;A30_040_015_030_010;Área de parada para transporte público;Objeto
+6;A30_040_015_030_015;Área para vehículos eléctricos (estaciones de carga);Objeto
+6;A30_040_015_030_020;Estacionamiento en superficie;Objeto
+6;A30_040_015_030_025;Estacionamiento para bicicletas;Objeto
+6;A30_040_015_030_030;Estacionamiento subterráneo;Objeto
+6;A30_040_015_030_035;Parqueadero para visitantes;Objeto
+5;A30_040_015_035;Áreas de infraestructura tecnológica;Sección
+6;A30_040_015_035_005;Antenas y equipos de comunicación;Objeto
+6;A30_040_015_035_010;Centro de control de operaciones y procesamiento de datos;Objeto
+6;A30_040_015_035_015;Sala de equipos TIC;Objeto
+5;A30_040_015_040;Áreas de mantenimiento y servicios generales;Sección
+6;A30_040_015_040_005;Cuarto de generadores y SAI (sistema de alimentación ininterrumpida);Objeto
+6;A30_040_015_040_010;Cuarto y ductos de basura y reciclaje;Objeto
+6;A30_040_015_040_015;Cuarto y ductos de ventilación;Objeto
+6;A30_040_015_040_020;Depósito de herramientas y equipos;Objeto
+6;A30_040_015_040_025;Patios de maniobras;Objeto
+6;A30_040_015_040_030;Sala de control de edificios inteligentes (SGE);Objeto
+6;A30_040_015_040_035;Taller de mantenimiento;Objeto
+5;A30_040_015_045;Áreas de recepción y atención;Sección
+6;A30_040_015_045_005;Área de atención al ciudadano;Objeto
+6;A30_040_015_045_010;Mostrador de información;Objeto
+6;A30_040_015_045_015;Recepción o portería;Objeto
+6;A30_040_015_045_020;Sala de espera;Objeto
+6;A30_040_015_045_025;Vestíbulo o lobby;Objeto
+5;A30_040_015_050;Áreas de seguridad y emergencia;Sección
+6;A30_040_015_050_005;Enfermería o sala de primeros auxilios;Objeto
+6;A30_040_015_050_010;Punto de encuentro de emergencia;Objeto
+6;A30_040_015_050_015;Punto de encuentro para evacuación;Objeto
+6;A30_040_015_050_020;Puesto de vigilancia o seguridad;Objeto
+6;A30_040_015_050_025;Sala de crisis o centro de comando;Objeto
+6;A30_040_015_050_030;Salida de emergencia;Objeto
+5;A30_040_015_055;Áreas de servicios higiénicos;Sección
+6;A30_040_015_055_005;Baño para personas con discapacidad;Objeto
+6;A30_040_015_055_010;Baño para hombres;Objeto
+6;A30_040_015_055_015;Baño para mujeres;Objeto
+6;A30_040_015_055_020;Baño mixto;Objeto
+6;A30_040_015_055_025;Baño privado en oficina;Objeto
+6;A30_040_015_055_030;Vestidores y duchas;Objeto
+5;A30_040_015_060;Áreas de soporte y servicios internos;Sección
+6;A30_040_015_060_005;Almacén de suministros y papelería;Objeto
+6;A30_040_015_060_010;Archivo general;Objeto
+6;A30_040_015_060_015;Centro de copiado e impresión;Objeto
+6;A30_040_015_060_020;Cuarto de limpieza (utensilios de aseo);Objeto
+6;A30_040_015_060_025;Cuarto de residuos y reciclaje;Objeto
+6;A30_040_015_060_030;Sala de correo y mensajería;Objeto
+5;A30_040_015_065;Áreas de trabajo;Sección
+6;A30_040_015_065_005;Área de trabajo colaborativo (coworking);Objeto
+6;A30_040_015_065_010;Área de trabajo individual;Objeto
+6;A30_040_015_065_015;Auditorio o salón de eventos;Objeto
+6;A30_040_015_065_020;Espacio de cocreación;Objeto
+6;A30_040_015_065_025;Oficina abierta;Objeto
+6;A30_040_015_065_030;Oficina de dirección y gerencia;Objeto
+6;A30_040_015_065_035;Oficina privada;Objeto
+6;A30_040_015_065_040;Sala de capacitación;Objeto
+6;A30_040_015_065_045;Sala de conferencias;Objeto
+6;A30_040_015_065_050;Sala de innovación o laboratorio;Objeto
+6;A30_040_015_065_055;Sala de juntas;Objeto
+6;A30_040_015_065_060;Sala de prototipado;Objeto
+6;A30_040_015_065_065;Sala de reuniones;Objeto
+6;A30_040_015_065_070;Sala de videoconferencia;Objeto
+5;A30_040_015_070;Áreas exteriores;Sección
+6;A30_040_015_070_005;Balcón;Objeto
+6;A30_040_015_070_010;Cerramiento o barrera perimetral;Objeto
+6;A30_040_015_070_015;Fachada;Objeto
+6;A30_040_015_070_020;Jardines y áreas verdes;Objeto
+6;A30_040_015_070_025;Patios internos;Objeto
+6;A30_040_015_070_030;Plazas o plazoletas;Objeto
+6;A30_040_015_070_035;Senderos peatonales;Objeto
+6;A30_040_015_070_040;Terrazas y cubiertas;Objeto
+5;A30_040_015_075;Áreas técnicas y de soporte operativo;Sección
+6;A30_040_015_075_005;Cuarto de máquinas (calefacción, ventilación y aire acondicionado, ascensores);Objeto
+6;A30_040_015_075_010;Cuarto de servidores y centro de datos;Objeto
+6;A30_040_015_075_015;Cuarto de telecomunicaciones;Objeto
+6;A30_040_015_075_020;Cuarto eléctrico;Objeto
+6;A30_040_015_075_025;Sala de control de acceso y seguridad;Objeto
+6;A30_040_015_075_030;Sala de control y monitoreo del edificio;Objeto
+6;A30_040_015_075_035;Sala de equipos de bombeo y agua;Objeto
+5;A30_040_015_080;Otras áreas de servicios;Sección
+6;A30_040_015_080_005;Área para actividades comunitarias;Objeto
+6;A30_040_015_080_010;Área para mascotas;Objeto
+6;A30_040_015_080_015;Biblioteca o centro de documentación;Objeto
+6;A30_040_015_080_020;Capilla;Objeto
+6;A30_040_015_080_025;Centro de entrenamiento;Objeto
+6;A30_040_015_080_030;Gimnasio;Objeto
+6;A30_040_015_080_035;Guardería o sala de lactancia;Objeto
+6;A30_040_015_080_040;Otras áreas en edificaciones;Objeto
+6;A30_040_015_080_045;Sala de exposiciones;Objeto
+6;A30_040_015_080_050;Sala de juegos o recreación;Objeto
+4;A30_040_020;Áreas viales comunes;Subgrupo
+5;A30_040_020_005;Área comercializable sobre la vía (en renta o algún tipo de captación de recursos);Sección
+5;A30_040_020_010;Área de acceso y salida vehicular;Sección
+5;A30_040_020_015;Área de acceso y tránsito no motorizado (peatonal y bicicleta);Sección
+5;A30_040_020_020;Área de barreras de seguridad;Sección
+5;A30_040_020_025;Área de carga y descarga;Sección
+5;A30_040_020_030;Área de control ambiental;Sección
+5;A30_040_020_035;Área de control de velocidad;Sección
+5;A30_040_020_040;Área de control fronterizo;Sección
+5;A30_040_020_045;Área de estacionamiento;Sección
+5;A30_040_020_050;Área de infraestructura inteligente;Sección
+5;A30_040_020_055;Área de infraestructura temporal;Sección
+5;A30_040_020_060;Área de mantenimiento de la infraestructura;Sección
+5;A30_040_020_065;Área de retiro vial (faja de retiro vial);Sección
+5;A30_040_020_070;Área de revisión técnica vehicular;Sección
+5;A30_040_020_075;Área de seguridad y emergencias;Sección
+5;A30_040_020_080;Área de servicio y descanso;Sección
+5;A30_040_020_085;Área para vehículos especiales;Sección
+3;A30_045;Área de cruce vial-ferroviario al mismo nivel;Grupo

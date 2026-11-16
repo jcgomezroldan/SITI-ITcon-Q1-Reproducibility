@@ -1,0 +1,29 @@
+panel,unit_id,unit_label_es,unit_label_en,evaluated_count,h_s0_bits,h_s1_bits,h_s2_bits,h_s3_bits,h_s4_bits,phi_s0_ref_pct,phi_s1_ref_pct,phi_s2_ref_pct,phi_s3_ref_pct,phi_s4_ref_pct,phi_s4_emp_pct
+PANEL_C_10_TABLES,A10,Complejos y redes de infraestructura,Infrastructure complexes & networks,1278,2.827681,1.826716,0.857121,0.243108,0.189508,18.7448,47.5082,75.3701,93.0141,94.5544,94.522
+PANEL_C_10_TABLES,A20,Sistemas funcionales por modo,Modal functional transport systems,351,2.8155,1.806055,0.854468,0.244224,0.183957,19.0948,48.1019,75.4463,92.9821,94.7139,94.6824
+PANEL_C_10_TABLES,A30,Zonas y espacios de transporte,Transport spatial zones & corridors,361,2.853115,1.855427,0.874188,0.248701,0.19236,18.0139,46.6831,74.8797,92.8534,94.4724,94.4395
+PANEL_C_10_TABLES,A40,Sistemas y elementos constructivos,Constructive systems & elements,913,2.888274,1.902857,0.897358,0.255746,0.199668,17.0036,45.3202,74.2139,92.651,94.2624,94.2283
+PANEL_C_10_TABLES,A50,Componentes técnicos y dispositivos,Technical components & devices,1783,2.880847,1.900995,0.860066,0.245903,0.190125,17.217,45.3737,75.2855,92.9338,94.5366,94.5041
+PANEL_C_10_TABLES,B10,"Fases, contratos y documentos","Lifecycle phases, contracts & documents",635,2.858916,1.797741,0.86274,0.245667,0.180708,17.8473,48.3408,75.2086,92.9406,94.8072,94.7764
+PANEL_C_10_TABLES,B20,"Actores, roles y entidades","Institutional actors, roles & entities",5253,2.844352,1.851957,0.932731,0.264483,0.202985,18.2658,46.7828,73.1974,92.3999,94.1671,94.1324
+PANEL_C_10_TABLES,B30,"Recursos, materiales y equipos","Construction resources, materials & equipment",870,2.856675,1.802163,0.858356,0.244201,0.180859,17.9116,48.2137,75.3346,92.9827,94.8029,94.772
+PANEL_C_10_TABLES,B40,Actividades y procesos de obra,Lifecycle construction & O&M activities,4048,2.797407,1.857439,1.032182,0.295189,0.234527,19.6147,46.6253,70.3396,91.5175,93.2607,93.2207
+PANEL_C_10_TABLES,B50,"Propiedades, costos e indicadores","Technical properties, costs & KPIs",738,2.871446,1.823193,0.877276,0.249569,0.184323,17.4872,47.6094,74.7909,92.8285,94.7034,94.6719
+PANEL_C_10_TABLES,MEAN_PANEL_C_10_TABLES,"Media del Panel C (10 Tablas Canónicas, 16.230 Clases)","Panel C Mean (10 Canonical Tables, 16,230 Active Classes)",16230,2.849421,1.842454,0.890649,0.253679,0.193902,18.1201,47.0559,74.4066,92.7104,94.4281,94.395
+PANEL_D_10_LIBRARIES,historico_y_desarrollo,Biblioteca historico_y_desarrollo,Repository historico_y_desarrollo,7293,3.133308,2.044345,0.888686,0.305463,0.205282,9.9624,41.2545,74.4631,91.2223,94.1011,94.066
+PANEL_D_10_LIBRARIES,docs,Biblioteca docs,Repository docs,4628,3.311904,2.19026,0.952391,0.318026,0.218874,4.8303,37.0615,72.6324,90.8613,93.7105,93.6731
+PANEL_D_10_LIBRARIES,Biblioteca_tecnica_INVIAS,Biblioteca Biblioteca_tecnica_INVIAS,Repository Biblioteca_tecnica_INVIAS,2275,2.982506,1.916985,0.780028,0.288103,0.185343,14.2958,44.9142,77.5854,91.7212,94.6741,94.6424
+PANEL_D_10_LIBRARIES,Documentos concesion,Biblioteca Documentos concesion,Repository Documentos concesion,2150,2.526469,1.376174,0.59432,0.254286,0.151056,27.4003,60.4548,82.9218,92.6929,95.6593,95.6335
+PANEL_D_10_LIBRARIES,Biblioteca_tecnica_ANI,Biblioteca Biblioteca_tecnica_ANI,Repository Biblioteca_tecnica_ANI,723,2.553882,1.417494,0.613827,0.257261,0.154209,26.6126,59.2674,82.3613,92.6074,95.5687,95.5424
+PANEL_D_10_LIBRARIES,Biblioteca_ontologias_transporte,Biblioteca Biblioteca_ontologias_transporte,Repository Biblioteca_ontologias_transporte,562,3.055957,1.958513,0.82195,0.295268,0.193872,12.1851,43.7209,76.3807,91.5153,94.429,94.3958
+PANEL_D_10_LIBRARIES,Power BI - planeacion ANI,Biblioteca Power BI - planeacion ANI,Repository Power BI - planeacion ANI,382,2.383631,1.221176,0.542223,0.243964,0.140882,31.5049,64.9087,84.4189,92.9896,95.9517,95.9276
+PANEL_D_10_LIBRARIES,otros documentos,Biblioteca otros documentos,Repository otros documentos,42,3.016359,2.10353,0.684419,0.274756,0.167028,13.323,39.5537,80.3328,92.1047,95.2003,95.1718
+PANEL_D_10_LIBRARIES,Fase_activa_nueva,Biblioteca Fase_activa_nueva,Repository Fase_activa_nueva,29,2.960957,2.054826,0.70059,0.27621,0.168392,14.915,40.9533,79.8681,92.0629,95.1611,95.1324
+PANEL_D_10_LIBRARIES,Biblioteca_tecnica_PMI,Biblioteca Biblioteca_tecnica_PMI,Repository Biblioteca_tecnica_PMI,28,3.070538,1.997849,0.829495,0.296608,0.194505,11.7662,42.5905,76.1639,91.4768,94.4108,94.3775
+PANEL_D_10_LIBRARIES,MEAN_PANEL_D_10_LIBRARIES,"Media del Panel D (10 Bibliotecas, 18.112 Unidades)","Panel D Mean (10 Repositories, 18,112 Documentary Units)",18112,2.899551,1.828115,0.740793,0.280994,0.177944,16.6796,47.468,78.7128,91.9254,94.8867,94.8563
+PANEL_E_5_LANGUAGES,SKOS_ES,Español (variantes y alias revisados),Spanish (reviewed aliases & variants),995,2.798834,1.747964,0.789821,0.220407,0.156536,19.5737,49.7711,77.304,93.6665,95.5019,95.4751
+PANEL_E_5_LANGUAGES,SKOS_EN,Inglés (traducciones técnicas IFC/AASHTO),English (IFC/AASHTO technical translations),639,2.762684,1.698092,0.753694,0.208161,0.142415,20.6125,51.2042,78.3421,94.0184,95.9076,95.8833
+PANEL_E_5_LANGUAGES,SKOS_FR,Francés (traducciones técnicas PIARC/AFNOR),French (PIARC/AFNOR technical translations),485,2.756053,1.713816,0.763318,0.211125,0.145568,20.8031,50.7524,78.0656,93.9332,95.817,95.7921
+PANEL_E_5_LANGUAGES,SKOS_PT,Portugués (traducciones técnicas DNIT/ABNT),Portuguese (DNIT/ABNT technical translations),387,2.723925,1.669322,0.73105,0.20082,0.132875,21.7263,52.031,78.9928,94.2293,96.1817,96.159
+PANEL_E_5_LANGUAGES,SKOS_DE,Alemán (traducciones técnicas FGSV/DIN),German (FGSV/DIN technical translations),386,2.724065,1.669504,0.731241,0.200864,0.132893,21.7223,52.0257,78.9873,94.2281,96.1812,96.1585
+PANEL_E_5_LANGUAGES,MEAN_PANEL_E_5_LANGUAGES,"Media del Panel E (5 Idiomas SKOS, 2.892 Expresiones)","Panel E Mean (5 W3C SKOS Languages, 2,892 Expressions)",2892,2.753112,1.69974,0.753825,0.208275,0.142057,20.8876,51.1569,78.3384,94.0151,95.9179,95.8936

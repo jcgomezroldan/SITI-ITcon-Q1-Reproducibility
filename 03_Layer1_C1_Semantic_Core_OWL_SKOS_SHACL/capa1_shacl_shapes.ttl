@@ -1,0 +1,1308 @@
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix siti: <https://siti.ani.gov.co/ontologia/v1#> .
+
+# ==============================================================================
+# SITI — CAPA 1 (C1): FORMAS SHACL DE CLAUSURA DE MUNDO CERRADO (OWA -> CWA)
+# Archivo: Fase_activa_nueva/SITI/capa1_ontologia/capa1_shacl_shapes.ttl
+# Publicación Semántica Base: 9a3cc6d9a341e551b95fecf286948fb2
+# Unificación integral de Plan Maestro Ola 1 (§3.2) y Gran Blueprint Maestro (§2.1.3)
+# ==============================================================================
+
+<https://siti.ani.gov.co/ontologia/v1#Capa1ShaclShapesGraph>
+    a owl:Ontology ;
+    rdfs:label "Contratos Declarativos SHACL de Clausura Epistémica OWA -> CWA de SITI (Fase V-B Ola 1)"@es ;
+    siti:activeCasPublication "9a3cc6d9a341e551b95fecf286948fb2"^^xsd:string ;
+    siti:versionTag "2026-10-21.fase5-unboxed.ola1.1"^^xsd:string .
+
+# ------------------------------------------------------------------------------
+# 1. [B3553] Clausura Epistémica OWA -> CWA para Recepción Contractual en
+#    Estación 2 (SITI_ARQUETIPOS / SITI_REGLAS)
+# ------------------------------------------------------------------------------
+siti:SitiAssetContractualClosureShape
+    a sh:NodeShape ;
+    rdfs:label "Forma SHACL de clausura contractual para activos físicos A10..A50"@es ;
+    sh:targetClass siti:A10_ComplejoInfraestructura ,
+                   siti:A20_SistemaFuncional ,
+                   siti:A30_ZonaEspacioTransporte ,
+                   siti:A40_ElementoConstructivo ,
+                   siti:A50_ComponenteTecnico ;
+    sh:closed false ;
+    sh:property [
+        sh:path siti:hasSitiCanonicalCode ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:pattern "^(A10|A20|A30|A40|A50)_[0-9]{3}(_[0-9]{3,5})*$" ;
+        sh:message "Violación C1 [B3553]: Todo activo radicado debe poseer exactamente un código canónico SITI A10..A50 válido verificado en catalogo_semantico.parquet."@es ;
+    ] ;
+    sh:property [
+        sh:path siti:hasAssetUuidV5 ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:pattern "^[0-9a-f]{8}-[0-9a-f]{4}-5[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$" ;
+        sh:message "Violación C1 [B3161]: El identificador estructural del activo debe ser un UUIDv5 determinista válido (RFC 4122 / RFC 9562)."@es ;
+    ] ;
+    sh:property [
+        sh:path siti:hasCrsEpsgCode ;
+        sh:datatype xsd:integer ;
+        sh:hasValue 9377 ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Violación Geodésica [B3138]: El sistema de referencia oficial obligatorio es MAGNA-SIRGAS Origen Nacional (EPSG:9377)."@es ;
+    ] .
+
+# ------------------------------------------------------------------------------
+# 2. Regla SHACL de Prohibición de Meronimia Intratabular (Regla always_on
+#    siti-invarianza-3-capas.md — DAG LIVRPS A10 -> A20 -> A30 -> A40 -> A50)
+# ------------------------------------------------------------------------------
+siti:SitiIntertabularCompositionShape
+    a sh:NodeShape ;
+    rdfs:label "Forma SHACL de invarianza intertabular y bloqueo de meronimia intratabular"@es ;
+    sh:targetSubjectsOf siti:esParteDeIntertabular ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "Violación Taxonómica: Prohibida la meronimia intratabular (Ax -> Ax) o inversión jerárquica fuera del DAG A10->A20->A30->A40->A50."@es ;
+        sh:select """
+            PREFIX siti: <https://siti.ani.gov.co/ontologia/v1#>
+            SELECT $this ?parent ?codeChild ?codeParent
+            WHERE {
+                $this siti:esParteDeIntertabular ?parent .
+                $this siti:hasSitiCanonicalCode ?codeChild .
+                ?parent siti:hasSitiCanonicalCode ?codeParent .
+                FILTER (
+                    SUBSTR(?codeChild, 1, 3) = SUBSTR(?codeParent, 1, 3) ||
+                    SUBSTR(?codeChild, 1, 3) < SUBSTR(?codeParent, 1, 3)
+                )
+            }
+        """ ;
+    ] .
+
+# ------------------------------------------------------------------------------
+# 3. Forma SHACL de Clausura CWA para Actas de Liquidación Fiduciaria
+#    Smart Escrow 85/15 (Producto O-2 · Volumen II §2.1.3 Gran Blueprint Maestro)
+# ------------------------------------------------------------------------------
+siti:SmartEscrow8515MetrologicalShape
+    a sh:NodeShape ;
+    rdfs:label "Forma SHACL CWA de control metrológico y fiduciario para Acta de pago B10_010_040_0050"@es ;
+    sh:targetClass siti:B10_010_040_0050 ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type rdfs:label skos:notation ) ;
+    sh:property [
+        sh:path siti:metrologicalGrade ;
+        sh:datatype xsd:string ;
+        sh:hasValue "GRADO_A_RTK" ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Bloqueo CWA Estación 2/4: El giro fiduciario Smart Escrow 85/15 exige grado metrológico GRADO_A_RTK."@es ;
+    ] ;
+    sh:property [
+        sh:path siti:medianReprojectionErrorPx ;
+        sh:datatype xsd:double ;
+        sh:maxInclusive 1.25 ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Bloqueo CWA Estación 2/4: El error mediano de reproyección fotogramétrica/4DGS debe ser <= 1,25 px."@es ;
+    ] ;
+    sh:property [
+        sh:path siti:scfSignedComplianceValue ;
+        sh:datatype xsd:double ;
+        sh:maxInclusive 0.0 ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Bloqueo CWA [B4088, B4172]: El Campo de Cumplimiento con Signo S(X_t) debe ser exactamente <= 0,0."@es ;
+    ] ;
+    sh:property [
+        sh:path siti:erpWriteBackEmitted ;
+        sh:datatype xsd:boolean ;
+        sh:hasValue false ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Bloqueo CWA [B4521]: Prohibida la escritura automática en el ERP sin firma humana HITL."@es ;
+    ] .
+
+# ------------------------------------------------------------------------------
+# 4. Forma SHACL de Clausura CWA de Raíz de Confianza en Hardware TPM 2.0 y
+#    Pruebas de Conocimiento Cero ZKP de 64 Bytes (H-18 · Volumen II §2.1.3)
+# ------------------------------------------------------------------------------
+siti:HardwareTrustTpmZkpShape
+    a sh:NodeShape ;
+    rdfs:label "Forma SHACL CWA de atestación física TPM 2.0 y ZK-Proof de 64 bytes para sensores críticos A50"@es ;
+    sh:targetClass siti:A50_035_025_050 ,
+                   siti:A50_035_025_060 ,
+                   siti:A50_035_015_035 ,
+                   siti:A50_035_015_005 ,
+                   siti:A50_035_035_115 ;
+    sh:property [
+        sh:path siti:isHardwareVerified ;
+        sh:datatype xsd:boolean ;
+        sh:hasValue true ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Bloqueo CWA H-18 [B3690]: La telemetría crítica requiere atestación física TPM 2.0 (is_hardware_verified = true)."@es ;
+    ] ;
+    sh:property [
+        sh:path siti:zkpPedersenSchnorrBytes ;
+        sh:datatype xsd:integer ;
+        sh:hasValue 64 ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Bloqueo CWA H-18 [B3684]: La prueba de conocimiento cero Pedersen/Schnorr debe medir exactamente 64 bytes."@es ;
+    ] .
+
+# ==============================================================================
+# 5. CATÁLOGO UNIFICADO DE 100 FORMAS SHACL PARAMÉTRICAS B50 (PAR-B50-0001..0100)
+#    Integración directa en el grafo canónico capa1_shacl_shapes.ttl (Puerta 2.5)
+# ==============================================================================
+@prefix siti: <http://www.semanticweb.org/jcgr/SITI/> .
+
+# Formas SHACL de prevalidación normativa (Puerta 1 / Puerta 2 - SITI)
+
+siti:Shape_PAR_B50_0001_DesignSpeed a sh:NodeShape ;
+    sh:targetClass siti:A20_035_005_005 , siti:A30_035_005_040 ;
+    siti:b50Concept siti:B50_015_015 ;
+    rdfs:label "Velocidad de diseño del tramo homogéneo (R01)"@es ;
+    sh:property [
+        sh:path siti:DesignSpeed ;
+        sh:name "Pset_RoadDesignCriteria.DesignSpeed" ;
+        sh:description "Umbral normativo: [30.0, 120.0] [km/h] (Regla R01 - Velocidad de diseño Vtr (Manual de Diseño Geométrico INVIAS Tabla 2.1))"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 30.0 ; sh:maxInclusive 120.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0002_MinimumHorizontalRadius a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:A30_035_010_010 ;
+    siti:b50Concept siti:B50_015_005_070 ;
+    rdfs:label "Radio mínimo de curvatura circular horizontal (R02)"@es ;
+    sh:property [
+        sh:path siti:MinimumHorizontalRadius ;
+        sh:name "Pset_AlignmentHorizontal.MinimumHorizontalRadius" ;
+        sh:description "Umbral normativo: >= 29.0 [m] (Regla R02 - Radio mínimo según velocidad y peralte máximo (Tabla 3.2 INVIAS))"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 29.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0003_MaximumSuperelevation a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 ;
+    siti:b50Concept siti:B50_015_005_065 ;
+    rdfs:label "Peralte máximo admisible en curva horizontal carretera (R03)"@es ;
+    sh:property [
+        sh:path siti:MaximumSuperelevation ;
+        sh:name "Pset_AlignmentCant.MaximumSuperelevation" ;
+        sh:description "Umbral normativo: [2.0, 8.0] [%] (Regla R03 - Peralte máximo e_max 8 % en vías primarias y secundarias)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 2.0 ; sh:maxInclusive 8.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0004_ClothoidParameterA a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:A30_015_045 ;
+    siti:b50Concept siti:B50_015_005_085 ;
+    rdfs:label "Parámetro mínimo de clotoide de transición A = sqrt(R*L) (R04)"@es ;
+    sh:property [
+        sh:path siti:ClothoidParameterA ;
+        sh:name "Pset_AlignmentHorizontal.ClothoidParameterA" ;
+        sh:description "Umbral normativo: >= 25.0 [m] (Regla R04 - Longitud mínima de espiral de transición Euler-Fresnel (Sección 3.3 INVIAS))"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 25.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0005_StoppingSightDistance a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 ;
+    siti:b50Concept siti:B50_015_005_025 ;
+    rdfs:label "Distancia mínima de visibilidad de parada Dp (R05)"@es ;
+    sh:property [
+        sh:path siti:StoppingSightDistance ;
+        sh:name "Pset_RoadDesignCriteria.StoppingSightDistance" ;
+        sh:description "Umbral normativo: >= 30.0 [m] (Regla R05 - Distancia de visibilidad de parada y adelantamiento (Tabla 2.4 INVIAS))"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 30.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0006_MaximumLongitudinalGrade a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:A20_035_005_005 ;
+    siti:b50Concept siti:B50_015_005_075 ;
+    rdfs:label "Pendiente longitudinal máxima del perfil vial (R06)"@es ;
+    sh:property [
+        sh:path siti:MaximumLongitudinalGrade ;
+        sh:name "Pset_AlignmentVertical.MaximumLongitudinalGrade" ;
+        sh:description "Umbral normativo: [0.5, 12.0] [%] (Regla R06 - Pendiente máxima según categoría de vía y terreno (Tabla 4.1 INVIAS))"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 0.5 ; sh:maxInclusive 12.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0007_Width a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:A30_035_005_025 ;
+    siti:b50Concept siti:B50_015_005_035 ;
+    rdfs:label "Ancho mínimo de carril y berma de sección transversal (R07)"@es ;
+    sh:property [
+        sh:path siti:Width ;
+        sh:name "Qto_RoadPartBaseQuantities.Width" ;
+        sh:description "Umbral normativo: >= 3.00 [m] (Regla R07 - Ancho de calzada/carril (3,65 m primaria) y berma (Tabla 5.2 INVIAS))"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 3.00 ;
+    ] .
+
+siti:Shape_PAR_B50_0008_AnnualAverageDailyTraffic a sh:NodeShape ;
+    sh:targetClass siti:A20_035_005_005 , siti:A30_035_010_015 ;
+    siti:b50Concept siti:B50_010_035_020 ;
+    rdfs:label "Tránsito promedio diario anual TPDA de diseño (R08)"@es ;
+    sh:property [
+        sh:path siti:AnnualAverageDailyTraffic ;
+        sh:name "Pset_TrafficAnalysis.AnnualAverageDailyTraffic" ;
+        sh:description "Umbral normativo: >= 0 [veh/d] (Regla R08 - Proyección de demanda vehicular TPDA)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 0 ;
+    ] .
+
+siti:Shape_PAR_B50_0009_CumulativeDesignESAL a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:A40_045_005_030 ;
+    siti:b50Concept siti:B50_010_035_005 ;
+    rdfs:label "Número acumulado de ejes equivalentes de 80 kN en el carril de diseño (ESAL) (R09)"@es ;
+    sh:property [
+        sh:path siti:CumulativeDesignESAL ;
+        sh:name "Pset_PavementDesign.CumulativeDesignESAL" ;
+        sh:description "Umbral normativo: >= 100000.0 [ESAL] (Regla R09 - Ejes equivalentes acumulados de 8,2 t (ESAL en singular invariable))"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 100000.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0010_VolumeToCapacityRatio a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 ;
+    siti:b50Concept siti:B50_010_035_005 ;
+    rdfs:label "Relación volumen a capacidad (V/C) y nivel de servicio HCM (R10)"@es ;
+    sh:property [
+        sh:path siti:VolumeToCapacityRatio ;
+        sh:name "Pset_TrafficAnalysis.VolumeToCapacityRatio" ;
+        sh:description "Umbral normativo: [0.0, 1.0] [1] (Regla R10 - Capacidad y Niveles de Servicio en Carreteras INVIAS)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 0.0 ; sh:maxInclusive 1.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0011_MaximumGrossVehicleWeight a sh:NodeShape ;
+    sh:targetClass siti:A30_035_010_020 , siti:A30_035_010_065 , siti:A40_055_010_015 ;
+    siti:b50Concept siti:B50_015_015 ;
+    rdfs:label "Peso bruto vehicular máximo reglamentario en báscula (R11)"@es ;
+    sh:property [
+        sh:path siti:MaximumGrossVehicleWeight ;
+        sh:name "Pset_WeighStationCriteria.MaximumGrossVehicleWeight" ;
+        sh:description "Umbral normativo: <= 52.0 [t] (Regla R11 - Control de pesos y dimensiones vehiculares (Resolución 4100 / WIM))"@es ;
+        sh:severity sh:Violation ;
+        sh:maxInclusive 52.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0012_EffectivePeakGroundAccelerationAa a sh:NodeShape ;
+    sh:targetClass siti:A40_085_005 , siti:A50_040_045_040 ;
+    siti:b50Concept siti:B50_015_015 ;
+    rdfs:label "Coeficiente de aceleración pico efectiva sísmica Aa (CCP-14) (R12)"@es ;
+    sh:property [
+        sh:path siti:EffectivePeakGroundAccelerationAa ;
+        sh:name "Pset_BridgeDesignCriteria.EffectivePeakGroundAccelerationAa" ;
+        sh:description "Umbral normativo: [0.05, 0.50] [g] (Regla R12 - Amenaza sísmica en puentes según Norma Colombiana de Diseño de Puentes CCP-14)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 0.05 ; sh:maxInclusive 0.50 ;
+    ] .
+
+siti:Shape_PAR_B50_0013_DesignLiveLoadTruckCC14 a sh:NodeShape ;
+    sh:targetClass siti:A40_085_005_005 , siti:A30_015_085 ;
+    siti:b50Concept siti:B50_015_015 ;
+    rdfs:label "Carga viva vehicular de diseño camión CCP-14 (HL-93) (R13)"@es ;
+    sh:property [
+        sh:path siti:DesignLiveLoadTruckCC14 ;
+        sh:name "Pset_BridgeDesignCriteria.DesignLiveLoadTruckCC14" ;
+        sh:description "Umbral normativo: >= 320.0 [kN] (Regla R13 - Camión de diseño CCP-14 (320 kN) y carga Cooper E en puentes férreos)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 320.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0014_MinimumVerticalClearance a sh:NodeShape ;
+    sh:targetClass siti:A40_085_005_005 , siti:A30_035_005_040 ;
+    siti:b50Concept siti:B50_015_005_040 ;
+    rdfs:label "Gálibo vertical libre mínimo bajo estructura de puente o paso superior (R14)"@es ;
+    sh:property [
+        sh:path siti:MinimumVerticalClearance ;
+        sh:name "Pset_BridgeClearance.MinimumVerticalClearance" ;
+        sh:description "Umbral normativo: >= 5.10 [m] (Regla R14 - Gálibo vertical mínimo de 5,10 m en puentes sobre carreteras nacionales)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 5.10 ;
+    ] .
+
+siti:Shape_PAR_B50_0015_ScourCriticalIndex a sh:NodeShape ;
+    sh:targetClass siti:A50_040_045_040 , siti:A40_085_005_010 ;
+    siti:b50Concept siti:B50_010_015_015_030 ;
+    rdfs:label "Índice de vulnerabilidad a socavación hidráulica en pilas y estribos (R15)"@es ;
+    sh:property [
+        sh:path siti:ScourCriticalIndex ;
+        sh:name "Pset_BridgeCondition.ScourCriticalIndex" ;
+        sh:description "Umbral normativo: [1.0, 5.0] [1] (Regla R15 - Evaluación de socavación y estabilidad hidráulica en puentes)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 1.0 ; sh:maxInclusive 5.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0016_MaximumCarbonMonoxideConcentration a sh:NodeShape ;
+    sh:targetClass siti:A40_085_010 , siti:A50_035_035_030 ;
+    siti:b50Concept siti:B50_010_035_005_020 ;
+    rdfs:label "Concentración máxima admisible de monóxido de carbono (CO) en el interior del túnel (R16)"@es ;
+    sh:property [
+        sh:path siti:MaximumCarbonMonoxideConcentration ;
+        sh:name "Pset_TunnelEnvironment.MaximumCarbonMonoxideConcentration" ;
+        sh:description "Umbral normativo: <= 70.0 [ppm] (Regla R16 - Calidad del aire y ventilación en túneles viales (Manual de Túneles INVIAS))"@es ;
+        sh:severity sh:Violation ;
+        sh:maxInclusive 70.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0017_ExtinctionCoefficientOpacimetry a sh:NodeShape ;
+    sh:targetClass siti:A40_085_010 , siti:A50_035_035_040 ;
+    siti:b50Concept siti:B50_010_035_005_020 ;
+    rdfs:label "Coeficiente de extinción óptica por opacidad de humos en túnel K (R17)"@es ;
+    sh:property [
+        sh:path siti:ExtinctionCoefficientOpacimetry ;
+        sh:name "Pset_TunnelEnvironment.ExtinctionCoefficientOpacimetry" ;
+        sh:description "Umbral normativo: <= 0.005 [1/m] (Regla R17 - Visibilidad e iluminación mínima en interior de túneles)"@es ;
+        sh:severity sh:Violation ;
+        sh:maxInclusive 0.005 ;
+    ] .
+
+siti:Shape_PAR_B50_0018_EmergencyGalleryMaximumSpacing a sh:NodeShape ;
+    sh:targetClass siti:A40_085_010 , siti:A30_015_090 ;
+    siti:b50Concept siti:B50_015_005_025 ;
+    rdfs:label "Separación longitudinal máxima entre galerías de evacuación en túneles (R18)"@es ;
+    sh:property [
+        sh:path siti:EmergencyGalleryMaximumSpacing ;
+        sh:name "Pset_TunnelSafety.EmergencyGalleryMaximumSpacing" ;
+        sh:description "Umbral normativo: <= 500.0 [m] (Regla R18 - Galerías de evacuación y nichos SOS en túneles)"@es ;
+        sh:severity sh:Violation ;
+        sh:maxInclusive 500.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0019_VerticalSignRetroreflectivityRA a sh:NodeShape ;
+    sh:targetClass siti:A50_015_010_020 , siti:A50_015_010_055 ;
+    siti:b50Concept siti:B50_010_035_010_015 ;
+    rdfs:label "Coeficiente mínimo de retrorreflexión de señalización vertical RA (R19)"@es ;
+    sh:property [
+        sh:path siti:VerticalSignRetroreflectivityRA ;
+        sh:name "Pset_SignallingCondition.VerticalSignRetroreflectivityRA" ;
+        sh:description "Umbral normativo: >= 180.0 [cd/(lx.m2)] (Regla R19 - Retrorreflectividad de señales verticales NTC 4739 / Manual de Señalización 2024)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 180.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0020_HorizontalMarkingRetroreflectivityRL a sh:NodeShape ;
+    sh:targetClass siti:A50_015_010_015 , siti:A50_015_010_060 ;
+    siti:b50Concept siti:B50_010_035_010_015 ;
+    rdfs:label "Coeficiente mínimo de retrorreflectividad de demarcación horizontal RL (R20)"@es ;
+    sh:property [
+        sh:path siti:HorizontalMarkingRetroreflectivityRL ;
+        sh:name "Pset_SignallingCondition.HorizontalMarkingRetroreflectivityRL" ;
+        sh:description "Umbral normativo: >= 160.0 [mcd/(lx.m2)] (Regla R20 - Retrorreflectividad de demarcación horizontal blanca y amarilla)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 160.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0021_ContainmentLevelMASH a sh:NodeShape ;
+    sh:targetClass siti:A50_015_005_010_005 , siti:A50_015_005_010_010 , siti:A50_015_005_020 ;
+    siti:b50Concept siti:B50_015_015 ;
+    rdfs:label "Nivel de contención certificado de barrera de seguridad vial (MASH TL-3 / EN 1317 N2-H2) (R21)"@es ;
+    sh:property [
+        sh:path siti:ContainmentLevelMASH ;
+        sh:name "Pset_SafetyBarrier.ContainmentLevelMASH" ;
+        sh:description "Umbral normativo: IN ('TL-3', 'TL-4', 'N2', 'H1', 'H2', 'H4b') [adimensional] (Regla R21 - Desempeño al impacto de sistemas de contención vehicular)"@es ;
+        sh:severity sh:Violation ;
+        sh:in ('TL-3' 'TL-4' 'N2' 'H1' 'H2' 'H4b') ;
+    ] .
+
+siti:Shape_PAR_B50_0022_CaliforniaBearingRatioCBR a sh:NodeShape ;
+    sh:targetClass siti:B30_010_075 , siti:B30_010_005 , siti:A40_045_005_030 ;
+    siti:b50Concept siti:B50_005_035_005 ;
+    rdfs:label "Relación de soporte de California (CBR) mínima para subrasante y capas granulares (R22)"@es ;
+    sh:property [
+        sh:path siti:CaliforniaBearingRatioCBR ;
+        sh:name "Pset_SubgradeMaterial.CaliforniaBearingRatioCBR" ;
+        sh:description "Umbral normativo: >= 5.0 [%] (Regla R22 - Capacidad de soporte CBR INV E-148 y Artículos 320/330 INVIAS)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 5.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0023_LosAngelesAbrasionWearMaximum a sh:NodeShape ;
+    sh:targetClass siti:B30_010_005 , siti:B30_010_030_155 ;
+    siti:b50Concept siti:B50_005_035_010 ;
+    rdfs:label "Desgaste máximo admisible en la máquina de Los Ángeles para agregados de base y rodadura (R23)"@es ;
+    sh:property [
+        sh:path siti:LosAngelesAbrasionWearMaximum ;
+        sh:name "Pset_AggregateMaterial.LosAngelesAbrasionWearMaximum" ;
+        sh:description "Umbral normativo: <= 25.0 [%] (Regla R23 - Resistencia al desgaste de agregados pétreos INV E-218 / Art. 450 INVIAS)"@es ;
+        sh:severity sh:Violation ;
+        sh:maxInclusive 25.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0024_CompressiveStrengthFc28d a sh:NodeShape ;
+    sh:targetClass siti:B30_010_020_060 , siti:B30_010_020_165 , siti:A50_040_045_040 ;
+    siti:b50Concept siti:B50_005_035_020 ;
+    rdfs:label "Resistencia especificada a la compresión del concreto hidráulico a 28 días f'c (R24)"@es ;
+    sh:property [
+        sh:path siti:CompressiveStrengthFc28d ;
+        sh:name "Pset_ConcreteMaterialProperties.CompressiveStrengthFc28d" ;
+        sh:description "Umbral normativo: >= 21.0 [MPa] (Regla R24 - Resistencia estructural del concreto Artículo 630 INVIAS y UHPC (>120 MPa))"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 21.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0025_InternationalRoughnessIndexIRI a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:A40_045_005_030 ;
+    siti:b50Concept siti:B50_010_035_005_005_025 ;
+    rdfs:label "Índice de regularidad internacional máximo admisible en operación (IRI) (R25)"@es ;
+    sh:property [
+        sh:path siti:InternationalRoughnessIndexIRI ;
+        sh:name "Pset_PavementSurfaceCondition.InternationalRoughnessIndexIRI" ;
+        sh:description "Umbral normativo: <= 3.0 [m/km] (Regla R25 - Umbral contractual de IRI (<= 3,0 m/km promedio hectométrico AT4))"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 0.5 ; sh:maxInclusive 3.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0026_NormalizedCentralDeflectionD0 a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:A40_045_005_030 , siti:A50_035_025_080 ;
+    siti:b50Concept siti:B50_010_035_005_005_040 ;
+    rdfs:label "Deflexión central máxima normalizada a 20 °C y 40 kN medida con FWD (D0) (R26)"@es ;
+    sh:property [
+        sh:path siti:NormalizedCentralDeflectionD0 ;
+        sh:name "Pset_PavementStructuralCondition.NormalizedCentralDeflectionD0" ;
+        sh:description "Umbral normativo: <= 600.0 [um] (Regla R26 - Evaluación estructural mediante deflectómetro de impacto FWD (Indicador E11))"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 10.0 ; sh:maxInclusive 600.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0027_TrackGaugeDeviationTolerance a sh:NodeShape ;
+    sh:targetClass siti:A30_015_065 , siti:A30_015_070 , siti:A50_050_055_055 ;
+    siti:b50Concept siti:B50_010_015_015_005 ;
+    rdfs:label "Tolerancia admisible de variación del ancho de trocha nominal de 914 mm (IF-1)"@es ;
+    sh:property [
+        sh:path siti:TrackGaugeDeviationTolerance ;
+        sh:name "Pset_RailwayTrackGeometry.TrackGaugeDeviationTolerance" ;
+        sh:description "Umbral normativo: [-5.0, 20.0] [mm] (Indicador IF-1 - Geometría de vía: tolerancia de trocha [-5 mm, +20 mm] según clase FRA/AREMA)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive -5.0 ; sh:maxInclusive 20.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0028_MaximumVerticalRailHeadWear a sh:NodeShape ;
+    sh:targetClass siti:A50_050_055_055 , siti:A50_050_055_060 , siti:A20_015_070_010 ;
+    siti:b50Concept siti:B50_010_015_015_010 ;
+    rdfs:label "Desgaste vertical y lateral máximo admisible de la cabeza del riel sin fractura interna (IF-2)"@es ;
+    sh:property [
+        sh:path siti:MaximumVerticalRailHeadWear ;
+        sh:name "Pset_RailCondition.MaximumVerticalRailHeadWear" ;
+        sh:description "Umbral normativo: <= 12.0 [mm] (Indicador IF-2 - Estado de rieles y defectología ultrasónica (0 defectos críticos sin acordonar))"@es ;
+        sh:severity sh:Violation ;
+        sh:maxInclusive 12.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0029_EffectiveSleeperAndFasteningPercentage a sh:NodeShape ;
+    sh:targetClass siti:A50_040_015_035_005 , siti:A50_050_035_040 , siti:A50_050_035_070 ;
+    siti:b50Concept siti:B50_010_015_015_015 ;
+    rdfs:label "Porcentaje mínimo de durmientes y fijaciones elásticas efectivas por kilómetro (IF-3)"@es ;
+    sh:property [
+        sh:path siti:EffectiveSleeperAndFasteningPercentage ;
+        sh:name "Pset_SleeperAndFasteningCondition.EffectiveSleeperAndFasteningPercentage" ;
+        sh:description "Umbral normativo: >= 95.0 [%] (Indicador IF-3 - Estado de durmientes y efectividad de sujeciones elásticas)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 95.0 ; sh:maxInclusive 100.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0030_BallastFoulingIndexMaximum a sh:NodeShape ;
+    sh:targetClass siti:A30_015_065 , siti:A30_015_080_010 , siti:A50_045_005_035_005 ;
+    siti:b50Concept siti:B50_010_015_015_020 ;
+    rdfs:label "Índice máximo de colmatación de balasto (Fouling Index) y sección libre de cunetas (IF-4)"@es ;
+    sh:property [
+        sh:path siti:BallastFoulingIndexMaximum ;
+        sh:name "Pset_BallastAndDrainageCondition.BallastFoulingIndexMaximum" ;
+        sh:description "Umbral normativo: <= 20.0 [%] (Indicador IF-4 - Limpieza de balasto y eficiencia hidráulica de drenaje ferroviario)"@es ;
+        sh:severity sh:Violation ;
+        sh:maxInclusive 20.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0031_SwitchBladeClosureGapMaximum a sh:NodeShape ;
+    sh:targetClass siti:A30_015_075 , siti:A50_050_055_005 , siti:A50_050_060 ;
+    siti:b50Concept siti:B50_010_015_015_025 ;
+    rdfs:label "Holgura máxima de acople entre aguja y contraguja en cambiavías (IF-5)"@es ;
+    sh:property [
+        sh:path siti:SwitchBladeClosureGapMaximum ;
+        sh:name "Pset_TurnoutCondition.SwitchBladeClosureGapMaximum" ;
+        sh:description "Umbral normativo: <= 4.0 [mm] (Indicador IF-5 - Estado funcional y geométrico de aparatos de vía y cerrojos)"@es ;
+        sh:severity sh:Violation ;
+        sh:maxInclusive 4.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0032_RailwayStructureHealthIndex a sh:NodeShape ;
+    sh:targetClass siti:A30_015_085 , siti:A30_015_090 , siti:A30_015_080_015 ;
+    siti:b50Concept siti:B50_010_015_015_030 ;
+    rdfs:label "Índice de condición estructural de puentes, viaductos, pontones y túneles férreos (IF-6)"@es ;
+    sh:property [
+        sh:path siti:RailwayStructureHealthIndex ;
+        sh:name "Pset_RailwayBridgeCondition.RailwayStructureHealthIndex" ;
+        sh:description "Umbral normativo: >= 75.0 [puntos] (Indicador IF-6 - Condición estructural de obras de paso férreas)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 75.0 ; sh:maxInclusive 100.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0033_VegetationClearanceHeightMaximum a sh:NodeShape ;
+    sh:targetClass siti:A10_025_065_005 , siti:A30_015_080_005 , siti:A30_015_080_020 ;
+    siti:b50Concept siti:B50_010_015_015_035 ;
+    rdfs:label "Altura máxima de vegetación controlada en la franja de seguridad del corredor férreo (IF-7)"@es ;
+    sh:property [
+        sh:path siti:VegetationClearanceHeightMaximum ;
+        sh:name "Pset_RightOfWayMaintenance.VegetationClearanceHeightMaximum" ;
+        sh:description "Umbral normativo: <= 0.30 [m] (Indicador IF-7 - Mantenimiento de franja de corredor, rocería y cerramientos)"@es ;
+        sh:severity sh:Violation ;
+        sh:maxInclusive 0.30 ;
+    ] .
+
+siti:Shape_PAR_B50_0034_LevelCrossingAndSignallingAvailability a sh:NodeShape ;
+    sh:targetClass siti:A30_045 , siti:A40_145_015_020 , siti:A50_050_055_065 ;
+    siti:b50Concept siti:B50_010_015_015_040 ;
+    rdfs:label "Disponibilidad operativa de pasos a nivel activos, enclavamientos y control de tráfico (IF-8)"@es ;
+    sh:property [
+        sh:path siti:LevelCrossingAndSignallingAvailability ;
+        sh:name "Pset_LevelCrossingAndSignalling.LevelCrossingAndSignallingAvailability" ;
+        sh:description "Umbral normativo: >= 99.0 [%] (Indicador IF-8 - Operatividad de pasos a nivel, señalización y sistemas de control)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 99.0 ; sh:maxInclusive 100.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0035_TrackSlotOperationalAvailability a sh:NodeShape ;
+    sh:targetClass siti:A20_015_010_005 , siti:B10_035_015_005_015 , siti:B10_035_015_005_025 ;
+    siti:b50Concept siti:B50_010_015_015_045 ;
+    rdfs:label "Disponibilidad operativa mensual de la vía férrea y cumplimiento de surcos programados (IF-9)"@es ;
+    sh:property [
+        sh:path siti:TrackSlotOperationalAvailability ;
+        sh:name "Pset_RailwayOperationalAvailability.TrackSlotOperationalAvailability" ;
+        sh:description "Umbral normativo: >= 98.5 [%] (Indicador IF-9 - Disponibilidad de la vía férrea y confiabilidad de surcos)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 98.5 ; sh:maxInclusive 100.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0036_FleetOperationalAvailability a sh:NodeShape ;
+    sh:targetClass siti:B30_015_020_005 , siti:B30_015_020_010 , siti:B30_015_020_025 ;
+    siti:b50Concept siti:B50_010_015_015_050 ;
+    rdfs:label "Disponibilidad mecánica y confiabilidad de la flota de material rodante afecta a la concesión (IF-10)"@es ;
+    sh:property [
+        sh:path siti:FleetOperationalAvailability ;
+        sh:name "Pset_RollingStockAvailability.FleetOperationalAvailability" ;
+        sh:description "Umbral normativo: >= 90.0 [%] (Indicador IF-10 - Disponibilidad de locomotoras, vagones y equipos de vía)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 90.0 ; sh:maxInclusive 100.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0037_MaximumTrackClearanceResponseTime a sh:NodeShape ;
+    sh:targetClass siti:A20_015_010_005 , siti:B30_015_020_020_015 , siti:A20_015_065_005 ;
+    siti:b50Concept siti:B50_010_015_015_055 ;
+    rdfs:label "Tiempo máximo de respuesta y despeje de vía ante incidentes o descarrilamientos (IF-11)"@es ;
+    sh:property [
+        sh:path siti:MaximumTrackClearanceResponseTime ;
+        sh:name "Pset_IncidentResponse.MaximumTrackClearanceResponseTime" ;
+        sh:description "Umbral normativo: <= 6.0 [h] (Indicador IF-11 - Tiempo de atención y restablecimiento de circulación)"@es ;
+        sh:severity sh:Violation ;
+        sh:maxInclusive 6.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0038_DerailmentAndAccidentRatePerMillionTrainKm a sh:NodeShape ;
+    sh:targetClass siti:A20_015_010_005 , siti:A20_015_070_005 , siti:A40_145_030_020 ;
+    siti:b50Concept siti:B50_010_015_015_060 ;
+    rdfs:label "Índice de accidentalidad y tasa de descarrilamientos por millón de trenes-kilómetro (IF-12)"@es ;
+    sh:property [
+        sh:path siti:DerailmentAndAccidentRatePerMillionTrainKm ;
+        sh:name "Pset_RailwaySafety.DerailmentAndAccidentRatePerMillionTrainKm" ;
+        sh:description "Umbral normativo: <= 1.5 [eventos/10^6 tren-km] (Indicador IF-12 - Seguridad operacional ferroviaria)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 0.0 ; sh:maxInclusive 1.5 ;
+    ] .
+
+siti:Shape_PAR_B50_0039_TransitionZoneVerticalDeflectionMax a sh:NodeShape ;
+    sh:targetClass siti:A30_015_080_015 , siti:A50_050_035_070 ;
+    siti:b50Concept siti:B50_005_015_015 ;
+    rdfs:label "Deflexión vertical elástica máxima bajo carga por eje en zona de transición terraplén-puente"@es ;
+    sh:property [
+        sh:path siti:TransitionZoneVerticalDeflectionMax ;
+        sh:name "Pset_TrackTransitionMechanics.TransitionZoneVerticalDeflectionMax" ;
+        sh:description "Umbral normativo: <= 2.5 [mm] (Capítulo 3 - Gradiente de rigidez vertical en transiciones ferroviarias)"@es ;
+        sh:severity sh:Violation ;
+        sh:maxInclusive 2.5 ;
+    ] .
+
+siti:Shape_PAR_B50_0040_RemainingServiceLifeRSL a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:A40_085_005 , siti:A30_015_065 ;
+    siti:b50Concept siti:B50_040_005 ;
+    rdfs:label "Vida útil remanente de servicio estimada del activo antes de rehabilitación estructural (RSL)"@es ;
+    sh:property [
+        sh:path siti:RemainingServiceLifeRSL ;
+        sh:name "Pset_AssetLifeCycleAASHTO.RemainingServiceLifeRSL" ;
+        sh:description "Umbral normativo: >= 5.0 [a] (Chapter 5 - Remaining Service Life (RSL) Thresholds)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 0.0 ; sh:maxInclusive 100.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0041_NetPresentValueLifeCycleCost a sh:NodeShape ;
+    sh:targetClass siti:B10_005_015 , siti:B10_035_015_005_015 , siti:A20_035_005_020 ;
+    siti:b50Concept siti:B50_040_010 ;
+    rdfs:label "Costo total del ciclo de vida descontado en valor presente neto (LCCA - AASHTO TAM)"@es ;
+    sh:property [
+        sh:path siti:NetPresentValueLifeCycleCost ;
+        sh:name "Qto_AssetEconomicQuantities.NetPresentValueLifeCycleCost" ;
+        sh:description "Umbral normativo: >= 0.0 [COP] (Chapter 4 - Life-Cycle Cost Analysis (LCCA))"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 0.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0042_SignedComplianceFieldValue a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:A30_015_065 , siti:B10_010_010_210 ;
+    siti:b50Concept siti:B50_040_015_005 ;
+    rdfs:label "Valor escalar del Campo de Cumplimiento con Signo S(X_t) en prevalidación aislada (Estación 2)"@es ;
+    sh:property [
+        sh:path siti:SignedComplianceFieldValue ;
+        sh:name "Pset_SitiNormativeValidator.SignedComplianceFieldValue" ;
+        sh:description "Umbral normativo: <= 0.0 [1] (Estación 2 (SITI_REGLAS) - Condición de admisibilidad normativa S(X_t) <= 0)"@es ;
+        sh:severity sh:Violation ;
+        sh:maxInclusive 0.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0043_CostAndSchedulePerformanceIndex a sh:NodeShape ;
+    sh:targetClass siti:B10_005_015 , siti:B10_005_030 , siti:B10_035_015_005_015 ;
+    siti:b50Concept siti:B50_040_015_010 ;
+    rdfs:label "Índice de desempeño de costo (CPI = EV/AC) y de cronograma (SPI = EV/PV) de la unidad funcional"@es ;
+    sh:property [
+        sh:path siti:CostAndSchedulePerformanceIndex ;
+        sh:name "Pset_EarnedValueManagementPMI.CostAndSchedulePerformanceIndex" ;
+        sh:description "Umbral normativo: >= 0.95 [1] (PMBOK 7 / PMBOK 8 / OPM - Control de valor ganado en proyectos de infraestructura)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 0.50 ; sh:maxInclusive 2.00 ;
+    ] .
+
+siti:Shape_PAR_B50_0044_ShannonForensicEntropyBitsPerByte a sh:NodeShape ;
+    sh:targetClass siti:B10_010_010_210 , siti:B10_010_010_215 ;
+    siti:b50Concept siti:B50_020_005 ;
+    rdfs:label "Entropía de Shannon H(X) mínima del paquete de evidencia forense en el Libro Mayor (Estación 1)"@es ;
+    sh:property [
+        sh:path siti:ShannonForensicEntropyBitsPerByte ;
+        sh:name "Pset_SitiZeroTrustIdentity.ShannonForensicEntropyBitsPerByte" ;
+        sh:description "Umbral normativo: >= 4.50 [bit/B] (Estación 1 (SITI_IDENTIDAD) - Umbral anti-falsificación H(X) >= 4,50 bits/byte)"@es ;
+        sh:severity sh:Violation ;
+        sh:minInclusive 4.50 ; sh:maxInclusive 8.00 ;
+    ] .
+
+siti:Shape_PAR_B50_0045_FractalPowerSpectralDensitySlopeAlpha a sh:NodeShape ;
+    sh:targetClass siti:A40_105_020_040 , siti:A40_105_020_045 , siti:A50_035_025_085 ;
+    siti:b50Concept siti:B50_040_015 ;
+    rdfs:label "Exponente espectral 1/f^alpha de veracidad física de telemetría ante inyección sintética (Estación 4)"@es ;
+    sh:property [
+        sh:path siti:FractalPowerSpectralDensitySlopeAlpha ;
+        sh:name "Pset_SitiSpectralTelemetry.FractalPowerSpectralDensitySlopeAlpha" ;
+        sh:description "Umbral normativo: [0.50, 2.50] [1] (Estación 4 (SITI_TELEMETRIA) - Auditoría espectral FFT 1/f^alpha)"@es ;
+        sh:minInclusive 0.50 ; sh:maxInclusive 2.50 ;
+    ] .
+
+siti:Shape_PAR_B50_0046_VolumetricOverlapTwoSigmaRatio a sh:NodeShape ;
+    sh:targetClass siti:B10_035_015_005_015 , siti:B20_040_005_015 , siti:B40_025_010_005 ;
+    siti:b50Concept siti:B50_035_025 ;
+    rdfs:label "Fracción de solapamiento volumétrico +/- 2 sigma para giro fiduciario automático 85/15 (Estación 4)"@es ;
+    sh:property [
+        sh:path siti:VolumetricOverlapTwoSigmaRatio ;
+        sh:name "Pset_SitiStochasticEscrow.VolumetricOverlapTwoSigmaRatio" ;
+        sh:description "Umbral normativo: >= 85.0 [%] (Estación 4 (SITI_INTERVENCIONES) - Liquidación fiduciaria condicional 85/15)"@es ;
+        sh:minInclusive 85.0 ; sh:maxInclusive 100.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0047_EarthMoverWassersteinDistanceW1 a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:B50_010_035_005_005_025 , siti:B50_010_035_005_005_040 ;
+    siti:b50Concept siti:B50_040_020 ;
+    rdfs:label "Distancia de Wasserstein W_1 máxima entre el deterioro observado y el modelo de fatiga ESAL (Estación 5)"@es ;
+    sh:property [
+        sh:path siti:EarthMoverWassersteinDistanceW1 ;
+        sh:name "Pset_SitiWassersteinCorrelation.EarthMoverWassersteinDistanceW1" ;
+        sh:description "Umbral normativo: <= 0.15 [1] (Estación 5 (SITI_CORRELACIONES) - Divergencia óptima de transporte W_1)"@es ;
+        sh:minInclusive 0.0 ; sh:maxInclusive 0.15 ;
+    ] .
+
+siti:Shape_PAR_B50_0048_VietorisRipsBettiNumberB1 a sh:NodeShape ;
+    sh:targetClass siti:A20_015_010_005 , siti:A20_035_005_020 , siti:B10_005_005 ;
+    siti:b50Concept siti:B50_040_025 ;
+    rdfs:label "Número de Betti beta_1 de cavidades o puntos ciegos paramétricos entre las capas C1, C2 y C3 (Estación 6)"@es ;
+    sh:property [
+        sh:path siti:VietorisRipsBettiNumberB1 ;
+        sh:name "Pset_SitiTopologicalHomology.VietorisRipsBettiNumberB1" ;
+        sh:description "Umbral normativo: == 0 [1] (Estación 6 (SITI_HOMOLOGIA) - Clausura topológica sin huecos homológicos (beta_1 = 0))"@es ;
+        sh:maxInclusive 0 ;
+    ] .
+
+siti:Shape_PAR_B50_0049_RailNeutralTemperatureRange a sh:NodeShape ;
+    sh:targetClass siti:A50_050_055_060 , siti:A30_015_065 ;
+    siti:b50Concept siti:B50_005_015_020 ;
+    rdfs:label "Rango admisible de temperatura neutra de riel (TNR) en vía continua soldada"@es ;
+    sh:property [
+        sh:path siti:RailNeutralTemperatureRange ;
+        sh:name "Pset_RailThermalStability.RailNeutralTemperatureRange" ;
+        sh:description "Umbral normativo: [32.0, 42.0] [degC] (Capítulo 2 - Temperatura neutra de riel (TNR) en corredores tropicales colombianos)"@es ;
+        sh:minInclusive 32.0 ; sh:maxInclusive 42.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0050_NadalDerailmentQuotientMaximum a sh:NodeShape ;
+    sh:targetClass siti:A30_015_045 , siti:B30_015_020_005 , siti:B30_015_020_010 ;
+    siti:b50Concept siti:B50_010_015_030 ;
+    rdfs:label "Cociente límite de descarrilamiento de Nadal (Y/Q) en curva"@es ;
+    sh:property [
+        sh:path siti:NadalDerailmentQuotientMaximum ;
+        sh:name "Pset_VehicleTrackInteraction.NadalDerailmentQuotientMaximum" ;
+        sh:description "Umbral normativo: <= 0.80 [1] (Capítulo 3 - Criterio de Nadal Y/Q <= 0,80 según EN 14363 / UIC 518)"@es ;
+        sh:maxInclusive 0.80 ;
+    ] .
+
+siti:Shape_PAR_B50_0051_DynamicModulusMinimumAt20C10Hz a sh:NodeShape ;
+    sh:targetClass siti:B30_010_030_165 , siti:A40_045_005_030 ;
+    siti:b50Concept siti:B50_005_035_035 ;
+    rdfs:label "Módulo dinámico mínimo de mezcla asfáltica de alto módulo (MAM) a 20 °C y 10 Hz"@es ;
+    sh:property [
+        sh:path siti:DynamicModulusMinimumAt20C10Hz ;
+        sh:name "Pset_AsphaltMixtureMechanical.DynamicModulusMinimumAt20C10Hz" ;
+        sh:description "Umbral normativo: >= 11000.0 [MPa] (Artículo 452 INVIAS - Módulo dinámico mínimo en mezclas de alto módulo)"@es ;
+        sh:minInclusive 11000.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0052_ResilientModulusMinimumSubbase a sh:NodeShape ;
+    sh:targetClass siti:B30_010_005_170 , siti:A40_045_005_030 ;
+    siti:b50Concept siti:B50_005_035_035 ;
+    rdfs:label "Módulo resiliente mínimo de base y subbase granular bajo carga cíclica triaxial"@es ;
+    sh:property [
+        sh:path siti:ResilientModulusMinimumSubbase ;
+        sh:name "Pset_GranularBaseMechanical.ResilientModulusMinimumSubbase" ;
+        sh:description "Umbral normativo: >= 250.0 [MPa] (Ensayo INV E-156 - Módulo resiliente de capas granulares)"@es ;
+        sh:minInclusive 250.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0053_WetMicroDevalMaximumLoss a sh:NodeShape ;
+    sh:targetClass siti:B30_010_005_160 , siti:B30_010_030_155 ;
+    siti:b50Concept siti:B50_005_035_040 ;
+    rdfs:label "Desgaste máximo en ensayo Micro-Deval húmedo para agregados de rodadura y balasto"@es ;
+    sh:property [
+        sh:path siti:WetMicroDevalMaximumLoss ;
+        sh:name "Pset_AggregateDurability.WetMicroDevalMaximumLoss" ;
+        sh:description "Umbral normativo: <= 15.0 [%] (Norma INV E-238 y Artículo 450 INVIAS - Coeficiente Micro-Deval húmedo)"@es ;
+        sh:maxInclusive 15.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0054_EnergyAbsorptionPlateTestToughness a sh:NodeShape ;
+    sh:targetClass siti:B30_010_020_170 , siti:A40_085_010 ;
+    siti:b50Concept siti:B50_005_035_020 ;
+    rdfs:label "Energía mínima absorbida en ensayo de placa cuadrada EFNARC para concreto lanzado con fibras"@es ;
+    sh:property [
+        sh:path siti:EnergyAbsorptionPlateTestToughness ;
+        sh:name "Pset_ShotcreteMechanical.EnergyAbsorptionPlateTestToughness" ;
+        sh:description "Umbral normativo: >= 700.0 [J] (Manual de Túneles INVIAS - Tenacidad de concreto lanzado reforzado con fibras)"@es ;
+        sh:minInclusive 700.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0055_UltimateTensileStrengthStrand a sh:NodeShape ;
+    sh:targetClass siti:B30_010_040_180 , siti:A40_085_005_005 ;
+    siti:b50Concept siti:B50_005_035_020 ;
+    rdfs:label "Resistencia mínima a la rotura por tracción de torón de preesfuerzo de 7 alambres"@es ;
+    sh:property [
+        sh:path siti:UltimateTensileStrengthStrand ;
+        sh:name "Pset_PrestressingSteel.UltimateTensileStrengthStrand" ;
+        sh:description "Umbral normativo: >= 1860.0 [MPa] (Artículo 641 INVIAS / ASTM A416 Grado 270 (1860 MPa))"@es ;
+        sh:minInclusive 1860.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0056_RailHeadBrinellHardnessMinimum a sh:NodeShape ;
+    sh:targetClass siti:B30_010_040_175 , siti:A50_050_055_055 , siti:A50_050_055_060 ;
+    siti:b50Concept siti:B50_005_035_020 ;
+    rdfs:label "Dureza Brinell superficial mínima en cabeza de riel perlítico tratado térmicamente"@es ;
+    sh:property [
+        sh:path siti:RailHeadBrinellHardnessMinimum ;
+        sh:name "Pset_RailSteelMetallurgy.RailHeadBrinellHardnessMinimum" ;
+        sh:description "Umbral normativo: >= 340.0 [HBW] (Capítulo 2 - Rieles de dureza intermedia y alta dureza AREMA (>= 340 HBW))"@es ;
+        sh:minInclusive 340.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0057_TensileStrengthAt2PercentStrain a sh:NodeShape ;
+    sh:targetClass siti:B30_010_025_140 , siti:A40_090_005_070 ;
+    siti:b50Concept siti:B50_005_035_020 ;
+    rdfs:label "Resistencia a la tracción al 2 % de deformación de geomalla estructural"@es ;
+    sh:property [
+        sh:path siti:TensileStrengthAt2PercentStrain ;
+        sh:name "Pset_GeogridMechanical.TensileStrengthAt2PercentStrain" ;
+        sh:description "Umbral normativo: >= 12.0 [kN/m] (Especificación de geomallas biaxiales y triaxiales de refuerzo)"@es ;
+        sh:minInclusive 12.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0058_AirVoidsContentRange a sh:NodeShape ;
+    sh:targetClass siti:B30_010_030_160 , siti:A40_045_005_030 ;
+    siti:b50Concept siti:B50_005_035_030 ;
+    rdfs:label "Contenido de vacíos con aire en mezcla asfáltica drenante (Artículo 453 INVIAS)"@es ;
+    sh:property [
+        sh:path siti:AirVoidsContentRange ;
+        sh:name "Pset_PorousAsphaltDrainage.AirVoidsContentRange" ;
+        sh:description "Umbral normativo: [18.0, 25.0] [%] (Artículo 453 INVIAS - Porcentaje de vacíos en mezcla drenante)"@es ;
+        sh:minInclusive 18.0 ; sh:maxInclusive 25.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0059_SidewayForceCoefficientMinimum a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:B50_010_035_005_005_030 ;
+    siti:b50Concept siti:B50_010_035_005_005_030 ;
+    rdfs:label "Coeficiente mínimo de resistencia al deslizamiento transversal SFC (Indicador E4)"@es ;
+    sh:property [
+        sh:path siti:SidewayForceCoefficientMinimum ;
+        sh:name "Pset_PavementSurfaceSafety.SidewayForceCoefficientMinimum" ;
+        sh:description "Umbral normativo: >= 0.53 [1] (Apéndice Técnico 4 ANI - Umbral de fricción transversal E4 >= 0,53)"@es ;
+        sh:minInclusive 0.53 ;
+    ] .
+
+siti:Shape_PAR_B50_0060_MeanProfileDepthMacrotextureMinimum a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:B50_010_035_005_005_035 ;
+    siti:b50Concept siti:B50_010_035_005_005_035 ;
+    rdfs:label "Profundidad media mínima de macrotextura superficial MPD (Indicador E5)"@es ;
+    sh:property [
+        sh:path siti:MeanProfileDepthMacrotextureMinimum ;
+        sh:name "Pset_PavementSurfaceSafety.MeanProfileDepthMacrotextureMinimum" ;
+        sh:description "Umbral normativo: >= 0.70 [mm] (Apéndice Técnico 4 ANI - Umbral de macrotextura E5 >= 0,70 mm)"@es ;
+        sh:minInclusive 0.70 ;
+    ] .
+
+siti:Shape_PAR_B50_0061_NormalizedCentralDeflectionD0Max a sh:NodeShape ;
+    sh:targetClass siti:A40_045_005_030 , siti:A50_035_025_080 , siti:B50_010_035_005_005_040 ;
+    siti:b50Concept siti:B50_010_035_005_005_040 ;
+    rdfs:label "Deflexión central máxima admisible D0 por FWD en pavimento flexible (Indicador E11)"@es ;
+    sh:property [
+        sh:path siti:NormalizedCentralDeflectionD0Max ;
+        sh:name "Pset_PavementStructuralCondition.NormalizedCentralDeflectionD0Max" ;
+        sh:description "Umbral normativo: <= 0.65 [mm] (Evaluación deflectométrica FWD - Indicador estructural E11)"@es ;
+        sh:maxInclusive 0.65 ;
+    ] .
+
+siti:Shape_PAR_B50_0062_RigidPavementIRIMaximum a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:B50_010_035_005_010_035 ;
+    siti:b50Concept siti:B50_010_035_005_010_035 ;
+    rdfs:label "Índice de regularidad internacional máximo en pavimento rígido (Indicador E21)"@es ;
+    sh:property [
+        sh:path siti:RigidPavementIRIMaximum ;
+        sh:name "Pset_RigidPavementCondition.RigidPavementIRIMaximum" ;
+        sh:description "Umbral normativo: <= 2.60 [m/km] (Apéndice Técnico 4 ANI - Umbral de IRI en pavimento rígido E21 <= 2,60 m/km)"@es ;
+        sh:maxInclusive 2.60 ;
+    ] .
+
+siti:Shape_PAR_B50_0063_JointSealDamageMaximumPercentage a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:B50_010_035_005_010_040 ;
+    siti:b50Concept siti:B50_010_035_005_010_040 ;
+    rdfs:label "Porcentaje máximo de longitud de juntas con sello deteriorado o desportillamiento (Indicador E24)"@es ;
+    sh:property [
+        sh:path siti:JointSealDamageMaximumPercentage ;
+        sh:name "Pset_RigidPavementCondition.JointSealDamageMaximumPercentage" ;
+        sh:description "Umbral normativo: <= 5.0 [%] (Apéndice Técnico 4 ANI - Umbral de sello de juntas y desportillamiento E24)"@es ;
+        sh:maxInclusive 5.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0064_SlabCornerDeflectionDifferentialMax a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:B50_010_035_005_010_045 ;
+    siti:b50Concept siti:B50_010_035_005_010_045 ;
+    rdfs:label "Deflexión diferencial máxima en esquina de losa rígida para detección de vacíos (Indicador E16)"@es ;
+    sh:property [
+        sh:path siti:SlabCornerDeflectionDifferentialMax ;
+        sh:name "Pset_RigidPavementCondition.SlabCornerDeflectionDifferentialMax" ;
+        sh:description "Umbral normativo: <= 0.25 [mm] (Deflectometría en pavimento rígido - Indicador estructural E16)"@es ;
+        sh:maxInclusive 0.25 ;
+    ] .
+
+siti:Shape_PAR_B50_0065_WeightedMonthlyComplianceThreshold a sh:NodeShape ;
+    sh:targetClass siti:B10_035_015_005_015 , siti:B10_010_020_005 , siti:B50_010_035_025 ;
+    siti:b50Concept siti:B50_010_035_025 ;
+    rdfs:label "Umbral mínimo de índice de cumplimiento mensual para desembolso del 100 % de retribución"@es ;
+    sh:property [
+        sh:path siti:WeightedMonthlyComplianceThreshold ;
+        sh:name "Pset_ConcessionPaymentGovernance.WeightedMonthlyComplianceThreshold" ;
+        sh:description "Umbral normativo: >= 95.0 [%] (Regla de deducción y umbral de pago pleno de la Unidad Funcional)"@es ;
+        sh:minInclusive 95.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0066_SpectralFractalExponentAlphaRange a sh:NodeShape ;
+    sh:targetClass siti:B50_035_040 , siti:A50_035_025_020 , siti:A50_035_025_085 ;
+    siti:b50Concept siti:B50_035_040 ;
+    rdfs:label "Rango de exponente espectral fractal 1/f^α para validación de telemetría física real (Estación 4)"@es ;
+    sh:property [
+        sh:path siti:SpectralFractalExponentAlphaRange ;
+        sh:name "Pset_CyberneticStation4Telemetry.SpectralFractalExponentAlphaRange" ;
+        sh:description "Umbral normativo: [0.65, 1.45] [1] (Estación 4 - Operador SITI_TELEMETRIA y filtro anti-fraude espectral FFT)"@es ;
+        sh:minInclusive 0.65 ; sh:maxInclusive 1.45 ;
+    ] .
+
+siti:Shape_PAR_B50_0067_WassersteinDistanceMaximumDrift a sh:NodeShape ;
+    sh:targetClass siti:B50_035_045 , siti:A30_035_005_040 ;
+    siti:b50Concept siti:B50_035_045 ;
+    rdfs:label "Distancia máxima admisible de transporte óptimo de Wasserstein W_1 sin recalibración (Estación 5)"@es ;
+    sh:property [
+        sh:path siti:WassersteinDistanceMaximumDrift ;
+        sh:name "Pset_CyberneticStation5Correlations.WassersteinDistanceMaximumDrift" ;
+        sh:description "Umbral normativo: <= 0.12 [1] (Estación 5 - Operador SITI_CORRELACIONES y deriva estocástica W_1)"@es ;
+        sh:maxInclusive 0.12 ;
+    ] .
+
+siti:Shape_PAR_B50_0068_VietorisRipsFirstBettiNumberTarget a sh:NodeShape ;
+    sh:targetClass siti:B50_035_050 , siti:B40_025_020_015 ;
+    siti:b50Concept siti:B50_035_050 ;
+    rdfs:label "Número de Betti de primer orden (β_1) requerido para ausencia de cavidades paramétricas (Estación 6)"@es ;
+    sh:property [
+        sh:path siti:VietorisRipsFirstBettiNumberTarget ;
+        sh:name "Pset_CyberneticStation6Homology.VietorisRipsFirstBettiNumberTarget" ;
+        sh:description "Umbral normativo: == 0 [1] (Estación 6 - Operador SITI_HOMOLOGIA (β_0 = 1, β_1 = 0))"@es ;
+        sh:minInclusive 0 ; sh:maxInclusive 0 ;
+    ] .
+
+siti:Shape_PAR_B50_0069_MinimumHandoverRemainingServiceLife a sh:NodeShape ;
+    sh:targetClass siti:B40_025_020_005 , siti:A40_045_005_030 , siti:A30_015_065 ;
+    siti:b50Concept siti:B50_040_005 ;
+    rdfs:label "Vida útil remanente mínima exigible en pavimento y vía férrea al momento de la reversión a la ANI"@es ;
+    sh:property [
+        sh:path siti:MinimumHandoverRemainingServiceLife ;
+        sh:name "Pset_AssetHandoverRequirements.MinimumHandoverRemainingServiceLife" ;
+        sh:description "Umbral normativo: >= 5.0 [a] (Cláusula de reversión de bienes concesionados y vida útil remanente)"@es ;
+        sh:minInclusive 5.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0070_ClimateHydrologicalReturnPeriodDesign a sh:NodeShape ;
+    sh:targetClass siti:A40_085_005 , siti:A40_095_005 , siti:B50_040_020_005 ;
+    siti:b50Concept siti:B50_040_020_005 ;
+    rdfs:label "Período de retorno hidrológico mínimo de diseño para puentes y obras mayores de drenaje"@es ;
+    sh:property [
+        sh:path siti:ClimateHydrologicalReturnPeriodDesign ;
+        sh:name "Pset_CorridorResilience.ClimateHydrologicalReturnPeriodDesign" ;
+        sh:description "Umbral normativo: >= 100.0 [a] (Manual de Drenaje para Carreteras INVIAS y resiliencia climática AASHTO TAM)"@es ;
+        sh:minInclusive 100.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0071_PDETZOMACBeneficiaryMunicipalityCount a sh:NodeShape ;
+    sh:targetClass siti:B10_005_015_005 , siti:A20_015_010_005 , siti:A20_035_005_020 ;
+    siti:b50Concept siti:B50_040_020_010 ;
+    rdfs:label "Número de municipios PDET, ZOMAC o de frontera conectados directamente por el corredor"@es ;
+    sh:property [
+        sh:path siti:PDETZOMACBeneficiaryMunicipalityCount ;
+        sh:name "Pset_TerritorialEquityPortfolio.PDETZOMACBeneficiaryMunicipalityCount" ;
+        sh:description "Umbral normativo: >= 1 [municipios] (Cruce espacial y programático con los 170 municipios PDET y 344 ZOMAC)"@es ;
+        sh:minInclusive 1 ;
+    ] .
+
+siti:Shape_PAR_B50_0072_EscapeRampArresterBedMinimumLength a sh:NodeShape ;
+    sh:targetClass siti:A30_035_010_075 ;
+    siti:b50Concept siti:B50_015_005_025 ;
+    rdfs:label "Longitud efectiva mínima del lecho de frenado en rampa de escape para camiones"@es ;
+    sh:property [
+        sh:path siti:EscapeRampArresterBedMinimumLength ;
+        sh:name "Pset_EscapeRampDesign.EscapeRampArresterBedMinimumLength" ;
+        sh:description "Umbral normativo: >= 90.0 [m] (Manual de Diseño Geométrico INVIAS - Diseño de rampas de frenado de emergencia)"@es ;
+        sh:minInclusive 90.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0073_MaximumShearStrainElastomericIsolator a sh:NodeShape ;
+    sh:targetClass siti:A50_040_045_055 , siti:A40_085_005 ;
+    siti:b50Concept siti:B50_015_015 ;
+    rdfs:label "Deformación angular máxima por cortante bajo sismo de diseño en aislador de puente"@es ;
+    sh:property [
+        sh:path siti:MaximumShearStrainElastomericIsolator ;
+        sh:name "Pset_BridgeSeismicBearing.MaximumShearStrainElastomericIsolator" ;
+        sh:description "Umbral normativo: <= 250.0 [%] (Norma CCP-14 - Aislamiento sísmico y apoyos de puentes)"@es ;
+        sh:maxInclusive 250.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0074_GateArmClosingTimeRange a sh:NodeShape ;
+    sh:targetClass siti:A50_015_010_065 , siti:A30_015_080_005 ;
+    siti:b50Concept siti:B50_015_015 ;
+    rdfs:label "Tiempo de abatimiento completo de barrera automatizada en paso a nivel férreo"@es ;
+    sh:property [
+        sh:path siti:GateArmClosingTimeRange ;
+        sh:name "Pset_LevelCrossingBarrierGate.GateArmClosingTimeRange" ;
+        sh:description "Umbral normativo: [10.0, 20.0] [s] (Indicador IF-8 y operación segura de pasos a nivel automatizados)"@es ;
+        sh:minInclusive 10.0 ; sh:maxInclusive 20.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0075_LongitudinalCriticalVelocityMinimum a sh:NodeShape ;
+    sh:targetClass siti:A40_085_010_050 , siti:A40_085_010 ;
+    siti:b50Concept siti:B50_015_015 ;
+    rdfs:label "Velocidad crítica longitudinal mínima de aire para evitar retroceso de humo (Backlayering) en túnel"@es ;
+    sh:property [
+        sh:path siti:LongitudinalCriticalVelocityMinimum ;
+        sh:name "Pset_TunnelJetFanVentilation.LongitudinalCriticalVelocityMinimum" ;
+        sh:description "Umbral normativo: >= 2.50 [m/s] (Reglas R16 y R17 - Velocidad crítica de ventilación longitudinal en túneles)"@es ;
+        sh:minInclusive 2.50 ;
+    ] .
+
+siti:Shape_PAR_B50_0076_MinimumInternalStabilitySafetyFactor a sh:NodeShape ;
+    sh:targetClass siti:A40_090_005_070 , siti:B30_010_025_140 ;
+    siti:b50Concept siti:B50_015_015 ;
+    rdfs:label "Factor de seguridad mínimo contra arrancamiento (pullout) y rotura en muro de suelo reforzado"@es ;
+    sh:property [
+        sh:path siti:MinimumInternalStabilitySafetyFactor ;
+        sh:name "Pset_MSERetainingSystem.MinimumInternalStabilitySafetyFactor" ;
+        sh:description "Umbral normativo: >= 1.50 [1] (Diseño geotécnico de sistemas de contención en tierra estabilizada mecánicamente (MSE))"@es ;
+        sh:minInclusive 1.50 ;
+    ] .
+
+siti:Shape_PAR_B50_0077_MaximumRuttingDepthE2 a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:A40_045_005_030 , siti:B50_010_035_005_005_045 ;
+    siti:b50Concept siti:B50_010_035_005_005_045 ;
+    rdfs:label "Profundidad máxima admisible de ahuellamiento en pavimento flexible (Indicador E2)"@es ;
+    sh:property [
+        sh:path siti:MaximumRuttingDepthE2 ;
+        sh:name "Pset_FlexiblePavementCondition.MaximumRuttingDepthE2" ;
+        sh:description "Umbral normativo: <= 20.0 [mm] (Regla R24 y Apéndice Técnico 4 ANI - Umbral de ahuellamiento E2 <= 20 mm)"@es ;
+        sh:maxInclusive 20.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0078_MaximumFatigueCrackingAreaPercentageE3 a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:A40_045_005_030 , siti:B50_010_035_005_005_050 ;
+    siti:b50Concept siti:B50_010_035_005_005_050 ;
+    rdfs:label "Porcentaje máximo de área afectada por fisuración por fatiga en pavimento flexible (Indicador E3)"@es ;
+    sh:property [
+        sh:path siti:MaximumFatigueCrackingAreaPercentageE3 ;
+        sh:name "Pset_FlexiblePavementCondition.MaximumFatigueCrackingAreaPercentageE3" ;
+        sh:description "Umbral normativo: <= 1.0 [%] (Regla R24 y Apéndice Técnico 4 ANI - Umbral de fisuración E3 <= 1,0 % y 0 baches)"@es ;
+        sh:maxInclusive 1.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0079_MaximumJointSandLossAndDeformation a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_045 , siti:B50_010_035_005_030 ;
+    siti:b50Concept siti:B50_010_035_005_030 ;
+    rdfs:label "Deformación vertical máxima en pavimento articulado de adoquines"@es ;
+    sh:property [
+        sh:path siti:MaximumJointSandLossAndDeformation ;
+        sh:name "Pset_InterlockingBlockPavement.MaximumJointSandLossAndDeformation" ;
+        sh:description "Umbral normativo: <= 10.0 [mm] (Artículo 510 INVIAS - Tolerancia superficial en pavimentos articulados)"@es ;
+        sh:maxInclusive 10.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0080_BridgeConditionIndexMinimumBCI a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_070 , siti:A40_085_005 , siti:B50_010_035_010_025 ;
+    siti:b50Concept siti:B50_010_035_010_025 ;
+    rdfs:label "Índice mínimo de condición estructural de puentes carreteros sin daño crítico (Indicador E15)"@es ;
+    sh:property [
+        sh:path siti:BridgeConditionIndexMinimumBCI ;
+        sh:name "Pset_BridgeConditionAssessment.BridgeConditionIndexMinimumBCI" ;
+        sh:description "Umbral normativo: >= 75.0 [puntos] (Reglas R12 a R15 y Apéndice Técnico 4 ANI - Indicador E15 de puentes)"@es ;
+        sh:minInclusive 75.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0081_MinimumVerticalClearanceGaliboRoadBridge a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_070 , siti:A40_085_005_005 ;
+    siti:b50Concept siti:B50_010_035_010_025 ;
+    rdfs:label "Gálibo vertical libre mínimo bajo superestructura de puente vehicular nuevo o rehabilitado"@es ;
+    sh:property [
+        sh:path siti:MinimumVerticalClearanceGaliboRoadBridge ;
+        sh:name "Pset_BridgeGeometryClearance.MinimumVerticalClearanceGaliboRoadBridge" ;
+        sh:description "Umbral normativo: >= 5.10 [m] (Norma CCP-14 y Manual de Diseño Geométrico INVIAS - Gálibo vertical >= 5,10 m)"@es ;
+        sh:minInclusive 5.10 ;
+    ] .
+
+siti:Shape_PAR_B50_0082_MaximumCrossSectionObstructionE10 a sh:NodeShape ;
+    sh:targetClass siti:A40_055_005 , siti:A50_045_005_035_005 , siti:B50_010_035_010_030 ;
+    siti:b50Concept siti:B50_010_035_010_030 ;
+    rdfs:label "Porcentaje máximo admisible de obstrucción por sedimentos en alcantarillas y cunetas (Indicador E10)"@es ;
+    sh:property [
+        sh:path siti:MaximumCrossSectionObstructionE10 ;
+        sh:name "Pset_DrainageMaintenanceCondition.MaximumCrossSectionObstructionE10" ;
+        sh:description "Umbral normativo: <= 20.0 [%] (Reglas R09 a R11 y Apéndice Técnico 4 ANI - Indicador E10 de drenaje)"@es ;
+        sh:maxInclusive 20.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0083_MaximumVolumeToCapacityRatioVC a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:B50_010_035_030 , siti:B40_025_015_010 ;
+    siti:b50Concept siti:B50_010_035_030 ;
+    rdfs:label "Relación volumen/capacidad máxima admisible (V/C) antes de gatillar ampliación de calzada"@es ;
+    sh:property [
+        sh:path siti:MaximumVolumeToCapacityRatioVC ;
+        sh:name "Pset_TrafficOperationalCapacity.MaximumVolumeToCapacityRatioVC" ;
+        sh:description "Umbral normativo: <= 0.85 [1] (Manual de Capacidad y Niveles de Servicio INVIAS / HCM)"@es ;
+        sh:maxInclusive 0.85 ;
+    ] .
+
+siti:Shape_PAR_B50_0084_MaximumQueueVehiclesPerLaneE18 a sh:NodeShape ;
+    sh:targetClass siti:A30_035_010_015 , siti:B40_025_005_025 , siti:B50_010_035_035 ;
+    siti:b50Concept siti:B50_010_035_035 ;
+    rdfs:label "Número máximo de vehículos en cola por carril de peaje en hora pico (Indicador E18 / O1)"@es ;
+    sh:property [
+        sh:path siti:MaximumQueueVehiclesPerLaneE18 ;
+        sh:name "Pset_TollPlazaServiceLevel.MaximumQueueVehiclesPerLaneE18" ;
+        sh:description "Umbral normativo: <= 10 [vehiculos] (Apéndice Técnico 4 ANI - Indicador de cola de peaje E18 / O1)"@es ;
+        sh:maxInclusive 10 ;
+    ] .
+
+siti:Shape_PAR_B50_0085_MaximumIncidentSignallingAndAmbulanceTime a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_040 , siti:B40_025_005_020 , siti:B50_010_035_040 ;
+    siti:b50Concept siti:B50_010_035_040 ;
+    rdfs:label "Tiempo máximo de arribo y señalización inicial ante incidente o accidente vial (Indicador O4/O5)"@es ;
+    sh:property [
+        sh:path siti:MaximumIncidentSignallingAndAmbulanceTime ;
+        sh:name "Pset_EmergencyResponseService.MaximumIncidentSignallingAndAmbulanceTime" ;
+        sh:description "Umbral normativo: <= 20.0 [min] (Apéndice Técnico 4 ANI - Tiempos de respuesta a emergencias)"@es ;
+        sh:maxInclusive 20.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0086_MinimumITSSubsystemUptimePercentageE19 a sh:NodeShape ;
+    sh:targetClass siti:A40_055_010_015 , siti:A40_065_005_075 , siti:B50_010_035_045 ;
+    siti:b50Concept siti:B50_010_035_045 ;
+    rdfs:label "Porcentaje mínimo mensual de disponibilidad en línea de paneles PMV, pesaje WIM e ITS (Indicador E19)"@es ;
+    sh:property [
+        sh:path siti:MinimumITSSubsystemUptimePercentageE19 ;
+        sh:name "Pset_ITSSystemAvailability.MinimumITSSubsystemUptimePercentageE19" ;
+        sh:description "Umbral normativo: >= 99.0 [%] (Apéndice Técnico 4 y AT9 ANI - Disponibilidad de subsistemas ITS >= 99 %)"@es ;
+        sh:minInclusive 99.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0087_VPIPRealizationRatioRange a sh:NodeShape ;
+    sh:targetClass siti:B10_010_010_255 , siti:B10_010_010_260 , siti:B50_035_055 ;
+    siti:b50Concept siti:B50_035_055 ;
+    rdfs:label "Razón de realización acumulada del Valor Presente de Ingresos de Peaje (VPIP / VPIP_meta)"@es ;
+    sh:property [
+        sh:path siti:VPIPRealizationRatioRange ;
+        sh:name "Pset_ConcessionRevenueModel.VPIPRealizationRatioRange" ;
+        sh:description "Umbral normativo: [0.0, 1.0] [1] (Seguimiento de recaudo acumulado frente al VPIP contractual)"@es ;
+        sh:minInclusive 0.0 ; sh:maxInclusive 1.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0088_DirectCostPlusAIUPercentageLimit a sh:NodeShape ;
+    sh:targetClass siti:B10_010_030_015 , siti:B40_020_035 , siti:B50_035_060 ;
+    siti:b50Concept siti:B50_035_060 ;
+    rdfs:label "Rango normativo de Administración, Imprevistos y Utilidad (AIU) sobre costo directo de obra pública"@es ;
+    sh:property [
+        sh:path siti:DirectCostPlusAIUPercentageLimit ;
+        sh:name "Pset_APUEconomicValuation.DirectCostPlusAIUPercentageLimit" ;
+        sh:description "Umbral normativo: [20.0, 35.0] [%] (Estructura de costos directos e indirectos (AIU) en presupuestos INVIAS)"@es ;
+        sh:minInclusive 20.0 ; sh:maxInclusive 35.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0089_DesignReturnPeriodSeismicBridge a sh:NodeShape ;
+    sh:targetClass siti:A40_085_005 , siti:A40_085_005_015 , siti:B50_005_035_045 ;
+    siti:b50Concept siti:B50_005_035_045 ;
+    rdfs:label "Período de retorno sísmico mínimo de diseño para puentes bajo la Norma CCP-14 LRFD"@es ;
+    sh:property [
+        sh:path siti:DesignReturnPeriodSeismicBridge ;
+        sh:name "Pset_SeismicBridgeDesignCCP14.DesignReturnPeriodSeismicBridge" ;
+        sh:description "Umbral normativo: >= 1000.0 [a] (Regla R12 y Norma CCP-14 - Sismo de diseño con período de retorno de 1000 años)"@es ;
+        sh:minInclusive 1000.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0090_MinimumHydraulicFreeboardBridgeDeck a sh:NodeShape ;
+    sh:targetClass siti:A30_035_005_070 , siti:A40_085_005_005 , siti:B50_005_035_050 ;
+    siti:b50Concept siti:B50_005_035_050 ;
+    rdfs:label "Revancha o borde libre hidráulico mínimo entre el nivel de aguas máximas (NAM) y la cota inferior de superestructura"@es ;
+    sh:property [
+        sh:path siti:MinimumHydraulicFreeboardBridgeDeck ;
+        sh:name "Pset_HydraulicBridgeFreeboard.MinimumHydraulicFreeboardBridgeDeck" ;
+        sh:description "Umbral normativo: >= 1.50 [m] (Regla R13 y Manual de Drenaje INVIAS - Borde libre hidráulico en puentes >= 1,50 m)"@es ;
+        sh:minInclusive 1.50 ;
+    ] .
+
+siti:Shape_PAR_B50_0091_MinimumBenefitCostRatioViability a sh:NodeShape ;
+    sh:targetClass siti:B10_005_015_005 , siti:B10_010_005_065 , siti:B50_040_010_005 ;
+    siti:b50Concept siti:B50_040_010_005 ;
+    rdfs:label "Relación beneficio-costo socioeconómica mínima (RBC) para viabilidad de inversión pública"@es ;
+    sh:property [
+        sh:path siti:MinimumBenefitCostRatioViability ;
+        sh:name "Pset_SocioeconomicEvaluationLCCA.MinimumBenefitCostRatioViability" ;
+        sh:description "Umbral normativo: >= 1.00 [1] (Criterio de viabilidad socioeconómica RBC >= 1,0 en LCCA y BPIN)"@es ;
+        sh:minInclusive 1.00 ;
+    ] .
+
+siti:Shape_PAR_B50_0092_MinimumCompressiveStrengthBridgeSuperstructure a sh:NodeShape ;
+    sh:targetClass siti:B30_010_020_180 , siti:A40_085_005_005 ;
+    siti:b50Concept siti:B50_005_035_020 ;
+    rdfs:label "Resistencia mínima especificada a compresión a 28 días (f'c) para superestructuras de puentes (Clase C/D Art. 630)"@es ;
+    sh:property [
+        sh:path siti:MinimumCompressiveStrengthBridgeSuperstructure ;
+        sh:name "Pset_StructuralConcreteArt630.MinimumCompressiveStrengthBridgeSuperstructure" ;
+        sh:description "Umbral normativo: >= 28.0 [MPa] (Artículo 630 INVIAS y CCP-14 - Resistencia f'c >= 28 MPa en superestructura)"@es ;
+        sh:minInclusive 28.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0093_MinimumFlexuralModulusOfRupture28d a sh:NodeShape ;
+    sh:targetClass siti:B30_010_020_185 , siti:A40_045_005_035 ;
+    siti:b50Concept siti:B50_005_035_020 ;
+    rdfs:label "Módulo de rotura mínimo a la flexión a 28 días (MR) para concreto de pavimento rígido (Art. 500 INVIAS)"@es ;
+    sh:property [
+        sh:path siti:MinimumFlexuralModulusOfRupture28d ;
+        sh:name "Pset_RigidPavementConcreteArt500.MinimumFlexuralModulusOfRupture28d" ;
+        sh:description "Umbral normativo: >= 4.20 [MPa] (Artículo 500 INVIAS - Módulo de rotura a flexión MR >= 4,2 MPa)"@es ;
+        sh:minInclusive 4.20 ;
+    ] .
+
+siti:Shape_PAR_B50_0094_ElasticRecoveryMinimumAt25C a sh:NodeShape ;
+    sh:targetClass siti:B30_010_030_170 , siti:A40_045_005_030 ;
+    siti:b50Concept siti:B50_005_035_030 ;
+    rdfs:label "Recuperación elástica mínima por torsión o ductilómetro a 25 °C en asfalto modificado con polímeros SBS"@es ;
+    sh:property [
+        sh:path siti:ElasticRecoveryMinimumAt25C ;
+        sh:name "Pset_ModifiedBitumenArt413.ElasticRecoveryMinimumAt25C" ;
+        sh:description "Umbral normativo: >= 70.0 [%] (Artículo 413 INVIAS - Recuperación elástica de cementos asfálticos modificados)"@es ;
+        sh:minInclusive 70.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0095_CaliforniaBearingRatioCBRMinimumBaseClassA a sh:NodeShape ;
+    sh:targetClass siti:B30_010_005_175 , siti:B40_020_035_915 ;
+    siti:b50Concept siti:B50_005_035_040 ;
+    rdfs:label "Capacidad de soporte CBR mínima para base granular Clase A al 98 % de compactación (Art. 330 INVIAS)"@es ;
+    sh:property [
+        sh:path siti:CaliforniaBearingRatioCBRMinimumBaseClassA ;
+        sh:name "Pset_GranularBaseArt330.CaliforniaBearingRatioCBRMinimumBaseClassA" ;
+        sh:description "Umbral normativo: >= 95.0 [%] (Artículo 330 INVIAS - CBR >= 95 % en base granular Clase A para tránsito NT3)"@es ;
+        sh:minInclusive 95.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0096_GrabTensileStrengthMinimumSurvival a sh:NodeShape ;
+    sh:targetClass siti:B30_010_025_150 , siti:B40_020_035_910 ;
+    siti:b50Concept siti:B50_005_035_020 ;
+    rdfs:label "Resistencia mínima a la tracción Grab (INV E-901) para supervivencia de geotextil de separación"@es ;
+    sh:property [
+        sh:path siti:GrabTensileStrengthMinimumSurvival ;
+        sh:name "Pset_GeotextileArt231.GrabTensileStrengthMinimumSurvival" ;
+        sh:description "Umbral normativo: >= 700.0 [N] (Artículo 231 INVIAS - Propiedades mecánicas de supervivencia de geotextiles)"@es ;
+        sh:minInclusive 700.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0097_MinimumInPlaneHydraulicTransmissivity a sh:NodeShape ;
+    sh:targetClass siti:B30_010_025_155 , siti:B40_020_035_935 ;
+    siti:b50Concept siti:B50_005_035_030 ;
+    rdfs:label "Caudal mínimo de drenaje en el plano por metro de ancho en geocompuesto de subdrenaje (Art. 673 INVIAS)"@es ;
+    sh:property [
+        sh:path siti:MinimumInPlaneHydraulicTransmissivity ;
+        sh:name "Pset_DrainageGeocompositeArt673.MinimumInPlaneHydraulicTransmissivity" ;
+        sh:description "Umbral normativo: >= 0.50 [l/(s.m)] (Artículo 673 INVIAS - Capacidad de flujo planar en geodrenes viales)"@es ;
+        sh:minInclusive 0.50 ;
+    ] .
+
+siti:Shape_PAR_B50_0098_ShoreADurometerHardnessRange a sh:NodeShape ;
+    sh:targetClass siti:B30_010_065_160 , siti:A50_040_045_055 , siti:A50_040_045_060 ;
+    siti:b50Concept siti:B50_015_015 ;
+    rdfs:label "Rango de dureza Shore A exigible en compuesto de policloropreno (neopreno) para apoyos de puentes"@es ;
+    sh:property [
+        sh:path siti:ShoreADurometerHardnessRange ;
+        sh:name "Pset_NeopreneBearingCompound.ShoreADurometerHardnessRange" ;
+        sh:description "Umbral normativo: [50.0, 70.0] [ShoreA] (Norma CCP-14 y Artículo 685 INVIAS - Dureza Shore A 60 ± 10 en neopreno para apoyos)"@es ;
+        sh:minInclusive 50.0 ; sh:maxInclusive 70.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0099_MaximumMovementCapacityRange a sh:NodeShape ;
+    sh:targetClass siti:A50_040_045_060 , siti:A40_085_005_015 ;
+    siti:b50Concept siti:B50_015_015 ;
+    rdfs:label "Capacidad mínima de desplazamiento horizontal total en junta de dilatación de puente"@es ;
+    sh:property [
+        sh:path siti:MaximumMovementCapacityRange ;
+        sh:name "Pset_BridgeExpansionJointDevice.MaximumMovementCapacityRange" ;
+        sh:description "Umbral normativo: >= 50.0 [mm] (Artículo 680 INVIAS - Capacidad de movimiento en juntas de dilatación de tablero)"@es ;
+        sh:minInclusive 50.0 ;
+    ] .
+
+siti:Shape_PAR_B50_0100_MaximumSwitchBladeToStockRailGap a sh:NodeShape ;
+    sh:targetClass siti:A50_050_060_010 , siti:A30_015_075 , siti:B50_010_015_015_025 ;
+    siti:b50Concept siti:B50_010_015_015_025 ;
+    rdfs:label "Holgura máxima admisible entre punta de aguja acoplada y contraaguja en aparato de desvío (IF-5)"@es ;
+    sh:property [
+        sh:path siti:MaximumSwitchBladeToStockRailGap ;
+        sh:name "Pset_RailwayTurnoutSwitchBlade.MaximumSwitchBladeToStockRailGap" ;
+        sh:description "Umbral normativo: <= 3.0 [mm] (Indicador IF-5 - Tolerancia de acoplamiento de espadín/aguja contra riel de respaldo <= 3,0 mm)"@es ;
+        sh:maxInclusive 3.0 ;
+    ] .

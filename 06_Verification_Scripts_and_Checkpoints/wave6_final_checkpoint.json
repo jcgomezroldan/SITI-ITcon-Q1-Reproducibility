@@ -1,0 +1,474 @@
+{
+  "checkpoint_id": "ITCON_Q1_WAVE_6_OF_7_FINAL_CLOSURE",
+  "wave_id": "WAVE_6_OF_7_FINAL",
+  "wave_title": "Wave 6 of 7: Longitudinal Semantic Interoperability Index (SII) Synthesis (S0–S4, V1–V4), Dirichlet Simplex Sensitivity (B=10,000), Six-Way Architectural Ablation (Abl-1..Abl-6), Disjoint Four-Namespace Identity, Hot Evolution PF1, Cold Quarantine PF5, Five National Archetypes (ARCH-01..05), Tables 1–7, and Supplementary Appendix F",
+  "status": "PASS",
+  "active_cas_revision": "b6bd01f850790ad22d399b95545f73d2",
+  "timestamp_utc": "2026-11-03T00:36:30.087104+00:00",
+  "wave6b_elapsed_seconds": 2.291,
+  "guardrails_compliance": {
+    "G-PHYS_os_O_RDONLY_enforced": true,
+    "G-PHYS_production_and_sealed_waves_bytes_modified": 0,
+    "G-PHYS_all_artifacts_st_blocks_gt_0": true,
+    "G-SYNC-TABLE_all_6_appendices_and_24_table_files_synced": true,
+    "G-SYNC-TABLE_zero_obsolete_labels_14000x_0022mm_1573km": true,
+    "G-AST_anti_theater_gate_ola6a": {
+      "filename": "wave6_longitudinal_sii_dirichlet_archetypes.py",
+      "total_test_methods": 4,
+      "all_bipolar_compliant": true,
+      "zero_static_json_reads": true,
+      "total_live_engine_calls": 36,
+      "total_nominal_assertions": 14,
+      "total_adversarial_traps": 8,
+      "methods": [
+        {
+          "test_name": "test_01_longitudinal_sii_monotonicity_and_wilcoxon_bipolar",
+          "lineno": 1827,
+          "live_engine_calls_count": 7,
+          "nominal_assertions_count": 5,
+          "adversarial_traps_count": 2,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        },
+        {
+          "test_name": "test_02_dirichlet_simplex_dominance_and_ablation_bipolar",
+          "lineno": 1845,
+          "live_engine_calls_count": 4,
+          "nominal_assertions_count": 4,
+          "adversarial_traps_count": 2,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        },
+        {
+          "test_name": "test_03_triple_disjoint_uuid_and_unboxed_eav_bipolar",
+          "lineno": 1866,
+          "live_engine_calls_count": 20,
+          "nominal_assertions_count": 3,
+          "adversarial_traps_count": 3,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        },
+        {
+          "test_name": "test_04_pf5_shacl_cwa_and_neologism_quarantine_bipolar",
+          "lineno": 1904,
+          "live_engine_calls_count": 5,
+          "nominal_assertions_count": 2,
+          "adversarial_traps_count": 1,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        }
+      ]
+    },
+    "G-AST_anti_theater_gate_ola6b": {
+      "filename": "wave6b_materialize_package_and_closure.py",
+      "total_test_methods": 3,
+      "all_bipolar_compliant": true,
+      "zero_static_json_reads": true,
+      "total_live_engine_calls": 22,
+      "total_nominal_assertions": 11,
+      "total_adversarial_traps": 4,
+      "methods": [
+        {
+          "test_name": "test_01_manuscript_8_tables_csv_md_tex_sync_bipolar",
+          "lineno": 663,
+          "live_engine_calls_count": 9,
+          "nominal_assertions_count": 4,
+          "adversarial_traps_count": 1,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        },
+        {
+          "test_name": "test_02_macro_regime_rows_zero_spurious_zeros_bipolar",
+          "lineno": 695,
+          "live_engine_calls_count": 4,
+          "nominal_assertions_count": 3,
+          "adversarial_traps_count": 1,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        },
+        {
+          "test_name": "test_03_arch01_to_05_in_memory_latency_coherence_bipolar",
+          "lineno": 707,
+          "live_engine_calls_count": 9,
+          "nominal_assertions_count": 4,
+          "adversarial_traps_count": 2,
+          "static_json_calls_count": 0,
+          "bipolar_compliant": true
+        }
+      ]
+    },
+    "G-SEM_three_layer_architectural_invariants": {
+      "all_invariants_satisfied": true,
+      "metrics": {
+        "owl_object_properties": 159,
+        "owl_restrictions": 814,
+        "shacl_node_shapes": 104,
+        "openbim_psets_qtos": 849,
+        "c2_subclase_edges": 16228,
+        "c2_intertabular_edges": 793,
+        "c2_assembly_recipes": 13,
+        "level4_5_connected": 40,
+        "intratabular_meronymy_violations": 0,
+        "uuid_collisions": 0,
+        "orphan_codes_c3": 0
+      }
+    }
+  },
+  "six_waves_headline_scientific_summary": {
+    "wave1_corpus_and_cas": {
+      "c1_active_unique_classes": 16230,
+      "c1_skos_expressions": 2892,
+      "c1_rdf_triples": 438194,
+      "c1_owl_restrictions": 814,
+      "c1_shacl_shapes": 104,
+      "c2_lpg_nodes": 16232,
+      "c2_intertabular_edges": 793,
+      "c3_core_domain_parquets": 824,
+      "c3_core_domain_rows": 2510964,
+      "primary_libraries_preserved_bytes": 5765230336
+    },
+    "wave2_orthogonal_ab_and_phi_ont": {
+      "bipartite_compression_c1_x": 3332.96,
+      "c2_deduplication_compression_x": 112.35,
+      "phi_ont_core3_s0_to_s4_pct": [
+        23.85,
+        42.3,
+        81.05,
+        100.0,
+        100.0
+      ],
+      "phi_ont_raw603_s4_pct": 97.97,
+      "orphan_siti_codes_in_226324_assets": 0
+    },
+    "wave3_shannon_entropy_and_phi_sem": {
+      "panel_a_47_h_bits_s0_to_s4": [
+        2.8878,
+        1.7277,
+        0.7992,
+        0.2294,
+        0.1578
+      ],
+      "panel_a_47_phi_sem_s0_to_s4_pct": [
+        17.02,
+        50.06,
+        76.9,
+        93.37,
+        95.47
+      ],
+      "shacl_bipolar_240_cases_f1_pct": 100.0
+    },
+    "wave4_query_time_reconstruction_and_phi_eff": {
+      "m3_mean_ms_50_queries": 0.705,
+      "m1_mean_ms_50_queries": 14.957,
+      "m2_mean_ms_50_queries": 8.286,
+      "speedup_m1_vs_m3_x": 21.21,
+      "speedup_m2_vs_m3_x": 11.75,
+      "phi_eff_vs_m1_s4_pct": 95.29,
+      "markov_blanket_mean_isolation_pct": 99.92
+    },
+    "wave5_geometry_vs_operation_separation": {
+      "disk_mass_asymmetry_wkb_vs_activos_x": 24.67,
+      "non_spatial_io_saved_pct": 99.95,
+      "unboxed_eav_ram_compression_vs_e1a_x": 244.2,
+      "bimodal_enu_max_jitter_mm": 0.0123,
+      "national_225244_bimodal_max_jitter_mm": 0.0131,
+      "enu_precision_gain_x": 25697.39,
+      "national_precision_gain_x": 26358.07
+    },
+    "wave6_longitudinal_sii_dirichlet_and_archetypes": {
+      "sii_v1_canonical_equal_s0_to_s4_pct": [
+        17.9904,
+        41.1556,
+        75.1891,
+        95.8392,
+        96.9175
+      ],
+      "sii_v1_design_s0_to_s4_pct": [
+        18.2347,
+        41.6579,
+        75.5676,
+        95.9236,
+        96.9991
+      ],
+      "sii_s4_regimes_equal_pct": {
+        "V1_EFFECTIVE": 96.9175,
+        "V1_CONDITIONAL": 96.9175,
+        "V2_SQL": 95.6508,
+        "V3_RAW603": 96.24,
+        "V4_COMPOSITE": 98.3554
+      },
+      "panel_a_47_wilcoxon_s0_s4": {
+        "panel_label_en": "Panel A (Itemized Partitions)",
+        "n_units": 47,
+        "transition": "S0 -> S4",
+        "mean_start_pct": 19.1512,
+        "mean_end_pct": 96.2572,
+        "mean_delta_pp": 77.106,
+        "sd_delta_pp": 1.3881,
+        "boot_ci95_low_pp": 76.7627,
+        "boot_ci95_high_pp": 77.5495,
+        "wilcoxon_w": 0.0,
+        "wilcoxon_z": 5.9683,
+        "wilcoxon_p": 1.4210854715202004e-14,
+        "cohens_d": 55.547,
+        "hedges_g": 54.6364
+      },
+      "panel_b_50_wilcoxon_s0_s4": {
+        "panel_label_en": "Panel B (Master Concessions)",
+        "n_units": 50,
+        "transition": "S0 -> S4",
+        "mean_start_pct": 18.727,
+        "mean_end_pct": 96.2604,
+        "mean_delta_pp": 77.5334,
+        "sd_delta_pp": 1.9471,
+        "boot_ci95_low_pp": 77.0365,
+        "boot_ci95_high_pp": 78.1146,
+        "wilcoxon_w": 0.0,
+        "wilcoxon_z": 6.154,
+        "wilcoxon_p": 1.7763568394002505e-15,
+        "cohens_d": 39.8201,
+        "hedges_g": 39.2075
+      },
+      "dirichlet_10000_strict_dominance_prob_pct": 100.0,
+      "disjoint_uuids_audited": 258906,
+      "pf1_hot_evolution_elapsed_s": 87.716,
+      "pf1_c3_spatial_bytes_rewritten": 0,
+      "arch01_to_05_in_memory_latencies": [
+        {
+          "archetype_id": "ARCH-01",
+          "latency_mean_ms": 0.8264,
+          "latency_sd_ms": 0.0761,
+          "markov_blanket_size": 97
+        },
+        {
+          "archetype_id": "ARCH-02",
+          "latency_mean_ms": 0.7306,
+          "latency_sd_ms": 0.0629,
+          "markov_blanket_size": 68
+        },
+        {
+          "archetype_id": "ARCH-03",
+          "latency_mean_ms": 0.6496,
+          "latency_sd_ms": 0.038,
+          "markov_blanket_size": 52
+        },
+        {
+          "archetype_id": "ARCH-04",
+          "latency_mean_ms": 0.4765,
+          "latency_sd_ms": 0.038,
+          "markov_blanket_size": 17
+        },
+        {
+          "archetype_id": "ARCH-05",
+          "latency_mean_ms": 0.5557,
+          "latency_sd_ms": 0.0579,
+          "markov_blanket_size": 6
+        }
+      ]
+    }
+  },
+  "sealed_appendices_6": {
+    "Appendix_A_Three_Layer_Corpus_and_CAS_Lineage.md": {
+      "size_bytes": 40402,
+      "st_blocks": 104,
+      "mtime_ns": 1793635699766800555,
+      "sha256": "a018203ecf15c865ad0db2ac9db02035cc966387c8c47c8d2ce448ce1b69b5af"
+    },
+    "Appendix_B_Orthogonal_AB_Decoupling_and_Phi_Ont.md": {
+      "size_bytes": 32560,
+      "st_blocks": 104,
+      "mtime_ns": 1793645448479295579,
+      "sha256": "e419a6f56412218ec438f4b577d3e27f0532973c826a6d626af9b2d4ecdb9365"
+    },
+    "Appendix_C_Shannon_Entropy_SKOS_and_Phi_Sem.md": {
+      "size_bytes": 32587,
+      "st_blocks": 120,
+      "mtime_ns": 1793645449614950110,
+      "sha256": "5c46b140c6492e102f149f3bc8bd762a1c6ff70394f537d55c3fe9c39b2b5abf"
+    },
+    "Appendix_D_Query_Time_Relationship_Reconstruction_Benchmark.md": {
+      "size_bytes": 40912,
+      "st_blocks": 128,
+      "mtime_ns": 1793649510533988826,
+      "sha256": "e3849c5fcf6562e64163a5825d72e9fd5de53e47630788cb62620534b7ebd9b6"
+    },
+    "Appendix_E_Bimodal_Geometry_vs_Unboxed_EAV_Telemetry.md": {
+      "size_bytes": 33202,
+      "st_blocks": 104,
+      "mtime_ns": 1793654069216012976,
+      "sha256": "a23b30dfc04425d567fdab95308625ad4ace4d2f195fc24d76e299a72fef64cb"
+    },
+    "Appendix_F_Longitudinal_SII_Evolution_and_Sensitivity.md": {
+      "size_bytes": 30325,
+      "st_blocks": 104,
+      "mtime_ns": 1793666189377617243,
+      "sha256": "42d46f9cf72e5e85af17bc4b6a03f9157068b66d5dadb0a6407024a420c5d326"
+    }
+  },
+  "sealed_wave6_artifacts": {
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_6_Longitudinal_SII_Dirichlet_and_Archetypes/wave6_sii_evolution_5_stages_and_50_concessions.csv": {
+      "size_bytes": 16765,
+      "st_blocks": 40,
+      "sha256": "3741afedb0ce20263d7a551a7ed8b5c54662346d07af8d2e8191acbd6e9c73c4"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_6_Longitudinal_SII_Dirichlet_and_Archetypes/wave6_sii_evolution_5_stages_and_50_concessions.parquet": {
+      "size_bytes": 11078,
+      "st_blocks": 24,
+      "sha256": "70cb5a4844f637901e72b3381dfbd8eb2e8ad736c0a6358d8ea688e929b3430b"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_6_Longitudinal_SII_Dirichlet_and_Archetypes/wave6_global_sii_master_summary.json": {
+      "size_bytes": 84590,
+      "st_blocks": 168,
+      "sha256": "653eb0146fd0067094de3c76337f15cba45fdfb1fc7f5180cc476b52c21552b2"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_6_Longitudinal_SII_Dirichlet_and_Archetypes/wave6_dirichlet_10000_sensitivity_and_ablation.csv": {
+      "size_bytes": 4461,
+      "st_blocks": 16,
+      "sha256": "fbbf9160d868ba5f845cebea178384093e966646d0722d2f5466843fdb6f2aed"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_6_Longitudinal_SII_Dirichlet_and_Archetypes/wave6_dirichlet_10000_sensitivity_and_ablation.json": {
+      "size_bytes": 17773,
+      "st_blocks": 40,
+      "sha256": "56044b089997ac5a1bab301eaf684f63c2edcb6d966f46526d5b44daa74605ef"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_6_Longitudinal_SII_Dirichlet_and_Archetypes/wave6_dirichlet_10000_sensitivity_and_ablation.parquet": {
+      "size_bytes": 6353,
+      "st_blocks": 16,
+      "sha256": "6d2c828540eca937d19def57455286dc16fcc4d8ca684be3e716e37d9f704b37"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_6_Longitudinal_SII_Dirichlet_and_Archetypes/wave6_5_national_handover_archetypes_end_to_end.csv": {
+      "size_bytes": 2710,
+      "st_blocks": 8,
+      "sha256": "85b9971ec81ef21ae928993e1a459936456a061718e7da1807b55611f871f7e0"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_6_Longitudinal_SII_Dirichlet_and_Archetypes/wave6_5_national_handover_archetypes_end_to_end.json": {
+      "size_bytes": 6287,
+      "st_blocks": 16,
+      "sha256": "021eecee8a941b2335bf80640793d8e60ca187fb8c879a47b9a326e8a36b0b44"
+    }
+  },
+  "total_waves_1_to_6_inventoried_files": 104,
+  "all_waves_1_to_5_checkpoints_status": {
+    "wave1": {
+      "checkpoint_filename": "wave1_checkpoint.json",
+      "checkpoint_id": "ITCON_Q1_WAVE_1_OF_7",
+      "status": "PASS",
+      "size_bytes": 5885,
+      "sha256": "b0db62e54a852be0dfd757bf5e517cf67b8b354984e1a5bc7c0e5b8a070dbcfc"
+    },
+    "wave2": {
+      "checkpoint_filename": "wave2_checkpoint.json",
+      "checkpoint_id": "ITCON_Q1_WAVE_2_OF_7",
+      "status": "PASS",
+      "size_bytes": 7941,
+      "sha256": "e1f01c96d5eba2ef7b03ad34204fefab59df1188a0235611e8cf32a21bb9eaae"
+    },
+    "wave3": {
+      "checkpoint_filename": "wave3_checkpoint.json",
+      "checkpoint_id": "ITCON_Q1_WAVE_3_OF_7",
+      "status": "PASS",
+      "size_bytes": 6713,
+      "sha256": "5691d5e4dda2c71161368787e247672e15b4aa128e1506da6cebef346cb4b783"
+    },
+    "wave4": {
+      "checkpoint_filename": "wave4_checkpoint.json",
+      "checkpoint_id": "ITCON_Q1_WAVE_4_OF_7",
+      "status": "PASS",
+      "size_bytes": 7416,
+      "sha256": "3a3c43d6ef30382dcca3ebad719fac4b830312c60f8677e3ae20320aa3610584"
+    },
+    "wave5": {
+      "checkpoint_filename": "wave5_checkpoint.json",
+      "checkpoint_id": "ITCON_Q1_WAVE_5_OF_7",
+      "status": "PASS",
+      "size_bytes": 6788,
+      "sha256": "0c26da5dfd0e41c9ac52ab3df41ebbf3994bcf2b09d9a738f491b0a2a0d7c107"
+    }
+  },
+  "sealed_manuscript_tables_1_to_7": {
+    "Table_1_Master_Corpus_and_Denominators.csv": {
+      "size_bytes": 4457,
+      "sha256": "6f2a1f1e8b4da21822d6bfbae5e6dde5205e472207163ff9f0647d4129a378f1"
+    },
+    "Table_1_Master_Corpus_and_Denominators.md": {
+      "size_bytes": 4591,
+      "sha256": "0fdd1f31ad3b55f817d3d8e3673d73e46472af69d14366e5fc0c3767c2cfa3d3"
+    },
+    "Table_1_Master_Corpus_and_Denominators.tex": {
+      "size_bytes": 5043,
+      "sha256": "c7101e8d513ed153d920d3e8a103d689b49eb99536ce3f29a9f645b165f530b3"
+    },
+    "Table_2_Orthogonal_AB_Factorization_and_Phi_Ont.csv": {
+      "size_bytes": 2318,
+      "sha256": "47ebd26b946d2e6c4c39540e9e305bbe359c5a3b6cd5559ec7b00301bb6d1266"
+    },
+    "Table_2_Orthogonal_AB_Factorization_and_Phi_Ont.md": {
+      "size_bytes": 2460,
+      "sha256": "c64d3a4b90706de9a8d87ad6c2e38048f5bbb294770df9049e6c80643163bfc2"
+    },
+    "Table_2_Orthogonal_AB_Factorization_and_Phi_Ont.tex": {
+      "size_bytes": 2887,
+      "sha256": "1be9f051bde67a0e7e172db183b4fa6c20974a1d96920bca28ee6d40814cb05b"
+    },
+    "Table_3_Shannon_Entropy_Collapse_and_Phi_Sem.csv": {
+      "size_bytes": 2604,
+      "sha256": "caa795401c5fc330fa01186f56a22918a3cccab02a153edfd481086fe5f07a38"
+    },
+    "Table_3_Shannon_Entropy_Collapse_and_Phi_Sem.md": {
+      "size_bytes": 2750,
+      "sha256": "fb26392166d04a5ce9c41349057e39bd0ce0e763449a69cd1e1e1dde5ab500bd"
+    },
+    "Table_3_Shannon_Entropy_Collapse_and_Phi_Sem.tex": {
+      "size_bytes": 3180,
+      "sha256": "58cfbf978307b1dffcdc5bb38d48d6aba4f5886a291436d0b4cf05d52360d249"
+    },
+    "Table_4_Query_Time_Reconstruction_and_Phi_Eff.csv": {
+      "size_bytes": 3587,
+      "sha256": "16a1eb4072294100d0a08f828b0e8685f5fc7d0a943326a6956dfc174f16e2ae"
+    },
+    "Table_4_Query_Time_Reconstruction_and_Phi_Eff.md": {
+      "size_bytes": 3869,
+      "sha256": "9eada19818eefa8e3fb0028b8ba450a78b9f707c4f48279ba8d52788ec02fce3"
+    },
+    "Table_4_Query_Time_Reconstruction_and_Phi_Eff.tex": {
+      "size_bytes": 4438,
+      "sha256": "7875a79839ebb1cb0de3c86861eba989d3b1203d202c35954a694bf90f46e20d"
+    },
+    "Table_5_Physical_Geometry_vs_Operation_Separation.csv": {
+      "size_bytes": 3358,
+      "sha256": "1b7d04b3d3c41f2fafbfaf0bfceeb0e209001bee871785ff93d333a4f3b3875a"
+    },
+    "Table_5_Physical_Geometry_vs_Operation_Separation.md": {
+      "size_bytes": 3432,
+      "sha256": "5e37e39af3d8ec46f9018ec7be36ccf62a17cc146d59502202307fad0b835cc1"
+    },
+    "Table_5_Physical_Geometry_vs_Operation_Separation.tex": {
+      "size_bytes": 3863,
+      "sha256": "4029ae1bb2e0b5fbc0e0acdd78003654cd2d17f21f434df34a16512f7efc6d74"
+    },
+    "Table_6_Consolidated_Longitudinal_SII_and_Dirichlet_Sensitivity.csv": {
+      "size_bytes": 3584,
+      "sha256": "8ee609166f0f2d39ed2e7cc8683487bf1500bdb0ac0bf355c7f256de0287f47c"
+    },
+    "Table_6_Consolidated_Longitudinal_SII_and_Dirichlet_Sensitivity.md": {
+      "size_bytes": 3834,
+      "sha256": "2366cb6c24be197c0ba3202f51a160006bb75e40f637dc0d42227257abb3cdfe"
+    },
+    "Table_6_Consolidated_Longitudinal_SII_and_Dirichlet_Sensitivity.tex": {
+      "size_bytes": 4389,
+      "sha256": "c323c947423fcd8165256fce800124baa668e9de67402ac23bcae1d1b3621430"
+    },
+    "Table_7_Five_National_Handover_Archetypes_End_to_End.csv": {
+      "size_bytes": 4981,
+      "sha256": "c5e748047ecf896cbd970de526502cc5f61bb8b26ef9a6846945be7a3e040725"
+    },
+    "Table_7_Five_National_Handover_Archetypes_End_to_End.md": {
+      "size_bytes": 5121,
+      "sha256": "8b25295ddcc1a810d363ea06b27fc7be49a70a70ffea708be0ab6b1bbd03cf59"
+    },
+    "Table_7_Five_National_Handover_Archetypes_End_to_End.tex": {
+      "size_bytes": 5693,
+      "sha256": "fd98a54842d925d1c193b7e13570ea9379f5e194cbe276fe295e15135c9854ea"
+    }
+  }
+}

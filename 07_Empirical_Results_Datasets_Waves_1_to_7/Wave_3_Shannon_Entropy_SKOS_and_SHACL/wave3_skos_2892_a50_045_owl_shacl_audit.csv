@@ -1,0 +1,12 @@
+siti_table,table_domain_es,table_domain_en,active_unique_classes,classes_with_skos,skos_coverage_of_table_pct,skos_pref_labels_es,lang_es,lang_en,lang_fr,lang_pt,lang_de,kind_alias,kind_translation,kind_canonical_label_index,total_skos_entries,total_lexical_forms
+A10,Complejos y redes de infraestructura,Infrastructure complexes & networks,1278,13,1.02,1278,14,8,1,0,0,14,9,0,23,1301
+A20,Sistemas funcionales por modo,Modal functional transport systems,351,31,8.83,351,32,16,3,0,0,32,19,0,51,402
+A30,Zonas y espacios de transporte,Transport spatial zones & corridors,361,32,8.86,361,40,25,11,1,1,40,38,0,78,439
+A40,Sistemas y elementos constructivos,Constructive systems & elements,913,266,29.13,913,260,260,250,242,242,260,994,0,1254,2167
+A50,Componentes técnicos y dispositivos,Technical components & devices,1783,172,9.65,1783,174,162,142,134,133,174,569,2,745,2528
+B10,"Fases, contratos y documentos","Lifecycle phases, contracts & documents",635,50,7.87,635,51,27,14,0,0,51,41,0,92,727
+B20,"Actores, roles y entidades","Institutional actors, roles & entities",5253,41,0.78,5253,35,19,12,0,0,35,31,0,66,5319
+B30,"Recursos, materiales y equipos","Construction resources, materials & equipment",870,55,6.32,870,65,26,13,0,0,65,39,0,104,974
+B40,Actividades y procesos de obra,Lifecycle construction & O&M activities,4048,48,1.19,4048,228,25,13,0,0,228,38,0,266,4314
+B50,"Propiedades, costos e indicadores","Technical properties, costs & KPIs",738,106,14.36,738,96,71,26,10,10,97,116,0,213,951
+TOTAL_10_TABLES,Total Ontología SITI C1 (10 Tablas),Total SITI C1 Ontology (10 Tables),16230,814,5.02,16230,995,639,485,387,386,996,1894,2,2892,19122

@@ -1,0 +1,449 @@
+{
+  "recipes": [
+    {
+      "a10_code": "A10_025_065_015",
+      "a10_label": "Predio, faja de retiro obligatorio y área de reserva del derecho de vía",
+      "a20_code": "A20_035_005_020",
+      "a20_label": "Complejo de carreteras y autopistas (corredor vial concesionado)",
+      "a30_code": "A30_035_005_040",
+      "a30_label": "Calzada / carril de circulación vehicular (invariante Calzada SITI = carril)",
+      "a40_code": "A40_045_005_030",
+      "a40_label": "Sistema de pavimento flexible (o A40_045_005_035 pavimento rígido)",
+      "a50_code": "A50_015_005_025",
+      "a50_label": "Barrera de contención vehicular, defensa metálica y demarcación funcional",
+      "b30_codes": [
+        "B30_010_030_170",
+        "B30_010_005_175",
+        "B30_010_020_185",
+        "B30_010_050_155"
+      ],
+      "b40_codes": [
+        "B40_020_035_915",
+        "B40_020_035_920",
+        "B40_020_035_925",
+        "B40_025_005_010",
+        "B40_025_010_010"
+      ],
+      "b50_codes": [
+        "B50_010_035_005_005_035",
+        "B50_010_035_005_005_045",
+        "B50_010_035_005_005_050",
+        "B50_010_035_010_005"
+      ],
+      "chain_pattern": "A10 -> A20 -> A30 -> A40 -> A50 (+ B30 / B40 / B50)",
+      "cypher_path": "(a10:ClaseC1 {codigo:'A10_025_065_015'})-[:CONTIENE_SISTEMA]->(a20:ClaseC1 {codigo:'A20_035_005_020'})-[:INTEGRA_ZONA_ESPACIAL]->(a30:ClaseC1 {codigo:'A30_035_005_040'})-[:INTEGRA_ELEMENTO_CONSTRUCTIVO]->(a40:ClaseC1 {codigo:'A40_045_005_030'})-[:SOPORTA_COMPONENTE]->(a50:ClaseC1 {codigo:'A50_015_005_025'})",
+      "meronymy_proof": "Cero partes físicas metidas como subtipos dentro de A30 o A40; la calzada (A30), el paquete estructural (A40) y la barrera/señal (A50) pertenecen a tablas distintas y se ensamblan en C2.",
+      "normative_authority": "Manual de Diseño Geométrico INVIAS / Apéndices Técnicos 1, 2, 3 y 4 ANI",
+      "recipe_category": "ENSAMBLAJE_ACTIVO_FISico_A10_A50",
+      "recipe_id": "REC-A-01",
+      "recipe_name": "Carretera concesionada y sección de pavimento (flexible, rígido o articulado)"
+    },
+    {
+      "a10_code": "A10_025_065_015",
+      "a10_label": "Predio, cauce fluvial y área de reserva del derecho de vía",
+      "a20_code": "A20_035_005_020",
+      "a20_label": "Complejo de carreteras y autopistas",
+      "a30_code": "A30_035_005_070",
+      "a30_label": "Zona de puente vehicular, viaducto y paso elevado carretero",
+      "a40_code": "A40_085_005_005",
+      "a40_label": "Sistema de superestructura de puente (junto con subestructura A40_085_005_010 y sistema de apoyo A40_085_005_015)",
+      "a50_code": "A50_040_045_055",
+      "a50_label": "Dispositivo de apoyo estructural y aislador sísmico (junto con junta de dilatación A50_040_045_060)",
+      "b30_codes": [
+        "B30_010_020_180",
+        "B30_010_040_180",
+        "B30_010_065_160"
+      ],
+      "b40_codes": [
+        "B40_020_035_930",
+        "B40_025_010_020"
+      ],
+      "b50_codes": [
+        "B50_010_035_010_025",
+        "B50_005_035_045",
+        "B50_005_035_050"
+      ],
+      "chain_pattern": "A10 -> A20 -> A30 -> A40 -> A50 (+ B30 / B40 / B50)",
+      "cypher_path": "(a10:ClaseC1 {codigo:'A10_025_065_015'})-[:CONTIENE_SISTEMA]->(a20:ClaseC1 {codigo:'A20_035_005_020'})-[:INTEGRA_ZONA_ESPACIAL]->(a30:ClaseC1 {codigo:'A30_035_005_070'})-[:INTEGRA_ELEMENTO_CONSTRUCTIVO]->(a40:ClaseC1 {codigo:'A40_085_005_015'})-[:SOPORTA_COMPONENTE]->(a50:ClaseC1 {codigo:'A50_040_045_055'})",
+      "meronymy_proof": "La zona del puente (A30_035_005_070), la superestructura/subestructura (A40_085_005_005/010/015) y los apoyos/juntas (A50_040_045_055/060) se conectan intertabularmente sin meronimia intratabular.",
+      "normative_authority": "Norma Colombiana de Diseño de Puentes CCP-14 (LRFD) y Capítulo 600 INVIAS",
+      "recipe_category": "ENSAMBLAJE_ACTIVO_FISico_A10_A50",
+      "recipe_id": "REC-A-02",
+      "recipe_name": "Puente vehicular, viaducto o paso elevado sismorresistente (CCP-14)"
+    },
+    {
+      "a10_code": "A10_025_065_015",
+      "a10_label": "Predio superficial y servidumbre subterránea del macizo rocoso",
+      "a20_code": "A20_035_005_020",
+      "a20_label": "Complejo de carreteras y autopistas",
+      "a30_code": "A30_035_005_075",
+      "a30_label": "Zona de túnel carretero, galería subterránea y portal de aproximación",
+      "a40_code": "A40_065_005_075",
+      "a40_label": "Sistema de información al usuario con paneles PMV e iluminación de túnel (junto con sostenimiento A40_090_010)",
+      "a50_code": "A50_045_005_035_005",
+      "a50_label": "Cuneta y colector de drenaje de infiltración y líquidos inflamables",
+      "b30_codes": [
+        "B30_010_020_180",
+        "B30_010_040_180",
+        "B30_010_025_155"
+      ],
+      "b40_codes": [
+        "B40_020_035_930",
+        "B40_020_035_940",
+        "B40_025_005_025"
+      ],
+      "b50_codes": [
+        "B50_010_035_045",
+        "B50_010_035_040"
+      ],
+      "chain_pattern": "A10 -> A20 -> A30 -> A40 -> A50 (+ B30 / B40 / B50)",
+      "cypher_path": "(a10:ClaseC1 {codigo:'A10_025_065_015'})-[:CONTIENE_SISTEMA]->(a20:ClaseC1 {codigo:'A20_035_005_020'})-[:INTEGRA_ZONA_ESPACIAL]->(a30:ClaseC1 {codigo:'A30_035_005_075'})-[:INTEGRA_ELEMENTO_CONSTRUCTIVO]->(a40:ClaseC1 {codigo:'A40_065_005_075'})-[:SOPORTA_COMPONENTE]->(a50:ClaseC1 {codigo:'A50_015_005_025'})",
+      "meronymy_proof": "Separa la cavidad funcional del túnel (A30) de su revestimiento/equipamiento ITS (A40) y sus dispositivos unitarios (A50).",
+      "normative_authority": "Manual de Diseño y Construcción de Túneles para Carreteras INVIAS y Apéndice Técnico 4 ANI",
+      "recipe_category": "ENSAMBLAJE_ACTIVO_FISico_A10_A50",
+      "recipe_id": "REC-A-03",
+      "recipe_name": "Túnel carretero, galería de evacuación y equipamiento electromecánico ITS"
+    },
+    {
+      "a10_code": "A10_025_065_015",
+      "a10_label": "Predio y franja del corredor férreo nacional",
+      "a20_code": "A20_040_070_010",
+      "a20_label": "Patio férreo de clasificación, formación de trenes y laderos (junto con vía férrea A20_040_005_005)",
+      "a30_code": "A30_015_075",
+      "a30_label": "Zona de desvíos férreos, escapes, cambiavías y aparatos de vía",
+      "a40_code": "A40_140_010",
+      "a40_label": "Sistema de superestructura de vía férrea (vía en placa o balasto)",
+      "a50_code": "A50_050_060_010",
+      "a50_label": "Aparato de desvío férreo, espadín/aguja, corazón de cruzamiento y contrarriel (junto con sujeción A50_050_055_010)",
+      "b30_codes": [
+        "B30_010_040_175",
+        "B30_010_005_165",
+        "B30_010_020_175",
+        "B30_015_015_035",
+        "B30_015_020_035"
+      ],
+      "b40_codes": [
+        "B40_025_005_015",
+        "B40_025_010_015"
+      ],
+      "b50_codes": [
+        "B50_010_015_015_005",
+        "B50_010_015_015_010",
+        "B50_010_015_015_025",
+        "B50_005_015_015"
+      ],
+      "chain_pattern": "A10 -> A20 -> A30 -> A40 -> A50 (+ B30 / B40 / B50)",
+      "cypher_path": "(a10:ClaseC1 {codigo:'A10_025_065_015'})-[:CONTIENE_SISTEMA]->(a20:ClaseC1 {codigo:'A20_040_070_010'})-[:INTEGRA_ZONA_ESPACIAL]->(a30:ClaseC1 {codigo:'A30_015_075'})-[:INTEGRA_ELEMENTO_CONSTRUCTIVO]->(a40:ClaseC1 {codigo:'A40_140_010'})-[:SOPORTA_COMPONENTE]->(a50:ClaseC1 {codigo:'A50_050_060_010'})",
+      "meronymy_proof": "El patio/corredor (A20), la zona de cambiavía (A30), la superestructura de vía (A40), el aparato de desvío (A50) y el acero de riel/balasto (B30) están 100 % desacoplados.",
+      "normative_authority": "Apéndices Técnicos 1, 2, 3 y 4 ANI (Modo Férreo) y AREMA Manual for Railway Engineering",
+      "recipe_category": "ENSAMBLAJE_ACTIVO_FISico_A10_A50",
+      "recipe_id": "REC-A-04",
+      "recipe_name": "Corredor férreo troncal, patio de clasificación y aparato de vía (trocha 914 mm / 1435 mm)"
+    },
+    {
+      "a10_code": "A10_005_005",
+      "a10_label": "Municipio y microcuenca aferente al corredor vial",
+      "a20_code": "A20_035_005_020",
+      "a20_label": "Complejo de carreteras y autopistas",
+      "a30_code": "A30_035_005_040",
+      "a30_label": "Calzada / carril y margen hidráulica del derecho de vía",
+      "a40_code": "A40_055_005",
+      "a40_label": "Sistema de drenaje de aguas lluvias y subdrenaje (junto con disipación A40_095_005_010)",
+      "a50_code": "A50_045_005_035_005",
+      "a50_label": "Cuneta revestida, alcantarilla y disipador de energía hidráulica",
+      "b30_codes": [
+        "B30_010_020_180",
+        "B30_010_025_150",
+        "B30_010_025_155"
+      ],
+      "b40_codes": [
+        "B40_020_035_935",
+        "B40_020_035_945",
+        "B40_025_005_020"
+      ],
+      "b50_codes": [
+        "B50_010_035_010_030",
+        "B50_005_035_050"
+      ],
+      "chain_pattern": "A10 -> A20 -> A30 -> A40 -> A50 (+ B30 / B40 / B50)",
+      "cypher_path": "(a10:ClaseC1 {codigo:'A10_005_005'})-[:CONTIENE_SISTEMA]->(a20:ClaseC1 {codigo:'A20_035_005_020'})-[:INTEGRA_ZONA_ESPACIAL]->(a30:ClaseC1 {codigo:'A30_035_005_040'})-[:INTEGRA_ELEMENTO_CONSTRUCTIVO]->(a40:ClaseC1 {codigo:'A40_055_005'})-[:SOPORTA_COMPONENTE]->(a50:ClaseC1 {codigo:'A50_045_005_035_005'})",
+      "meronymy_proof": "Desacopla la obra de drenaje (A40/A50) del concreto y geodrenes (B30) y del ítem APU de excavación/instalación (B40_020_035_935).",
+      "normative_authority": "Manual de Drenaje para Carreteras INVIAS, Reglas R09–R11 y Capítulo 600 INVIAS",
+      "recipe_category": "ENSAMBLAJE_ACTIVO_FISico_A10_A50",
+      "recipe_id": "REC-A-05",
+      "recipe_name": "Sistema de drenaje longitudinal, transversal y geotecnia vial"
+    },
+    {
+      "a10_code": "A10_025_065_015",
+      "a10_label": "Predio de estación de peaje, área de pesaje y centro de control",
+      "a20_code": "A20_035_005_020",
+      "a20_label": "Complejo de carreteras y autopistas",
+      "a30_code": "A30_035_010_015",
+      "a30_label": "Zona de estación de peaje y área de control de carga",
+      "a40_code": "A40_055_010_015",
+      "a40_label": "Sistema de pesaje dinámico en movimiento (WIM) y pórtico electrónico IP/REV",
+      "a50_code": "A50_035_035_010",
+      "a50_label": "Sensor piezoeléctrico/cuarzo de pesaje por eje y lector RFID ISO 18000-6C",
+      "b30_codes": [
+        "B30_010_020_185",
+        "B30_015_015_040"
+      ],
+      "b40_codes": [
+        "B40_025_005_025"
+      ],
+      "b50_codes": [
+        "B50_010_035_035",
+        "B50_010_035_045",
+        "B50_035_055"
+      ],
+      "chain_pattern": "A10 -> A20 -> A30 -> A40 -> A50 (+ B30 / B40 / B50)",
+      "cypher_path": "(a10:ClaseC1 {codigo:'A10_025_065_015'})-[:CONTIENE_SISTEMA]->(a20:ClaseC1 {codigo:'A20_035_005_020'})-[:INTEGRA_ZONA_ESPACIAL]->(a30:ClaseC1 {codigo:'A30_035_010_015'})-[:INTEGRA_ELEMENTO_CONSTRUCTIVO]->(a40:ClaseC1 {codigo:'A40_055_010_015'})-[:SOPORTA_COMPONENTE]->(a50:ClaseC1 {codigo:'A50_035_035_010'})",
+      "meronymy_proof": "Vincula la plaza de peaje (A30), el sistema WIM/IP-REV (A40) y el sensor (A50) con la losa rígida (B30_010_020_185) y el VPIP (B50_035_055).",
+      "normative_authority": "Apéndices Técnicos 1, 4 y 9 ANI y Resolución de Interoperabilidad Colpass IP/REV",
+      "recipe_category": "ENSAMBLAJE_ACTIVO_FISico_A10_A50",
+      "recipe_id": "REC-A-06",
+      "recipe_name": "Estación de peaje electrónico IP/REV (Colpass), báscula dinámica WIM y CCO"
+    },
+    {
+      "a10_code": "A10_005_005",
+      "a10_label": "Municipio portuario / nodo logístico con condición PDET/ZOMAC/Frontera",
+      "a20_code": "A20_020_005",
+      "a20_label": "Complejo portuario marítimo o fluvial conectado con patio férreo A20_040_070_010",
+      "a30_code": "A30_015_075",
+      "a30_label": "Zona de espuela férrea portuaria y patio de transferencia intermodal",
+      "a40_code": "A40_140_010",
+      "a40_label": "Sistema de vía en placa de concreto en muelle y patio de contenedores",
+      "a50_code": "A50_050_060_010",
+      "a50_label": "Aparato de desvío férreo y tope de final de vía en patio portuario",
+      "b30_codes": [
+        "B30_015_020_035",
+        "B30_015_020_040",
+        "B30_010_040_175"
+      ],
+      "b40_codes": [
+        "B40_025_005_015",
+        "B40_025_015_005"
+      ],
+      "b50_codes": [
+        "B50_010_015_015_045",
+        "B50_010_015_015_050",
+        "B50_040_010_005"
+      ],
+      "chain_pattern": "A10 -> A20 -> A30 -> A40 -> A50 (+ B30 / B40 / B50)",
+      "cypher_path": "(a10:ClaseC1 {codigo:'A10_005_005'})-[:CONTIENE_SISTEMA]->(a20:ClaseC1 {codigo:'A20_020_005'})-[:INTEGRA_ZONA_ESPACIAL]->(a30:ClaseC1 {codigo:'A30_015_075'})-[:INTEGRA_ELEMENTO_CONSTRUCTIVO]->(a40:ClaseC1 {codigo:'A40_140_010'})-[:SOPORTA_COMPONENTE]->(a50:ClaseC1 {codigo:'A50_050_060_010'})",
+      "meronymy_proof": "Articula dos complejos modales (A20 puerto y A20 patio férreo) mediante relación intermodal explícita en C2.",
+      "normative_authority": "Plan Maestro de Transporte Intermodal (PMTI) y Apéndice Técnico 1 ANI",
+      "recipe_category": "ENSAMBLAJE_ACTIVO_FISico_A10_A50",
+      "recipe_id": "REC-A-07",
+      "recipe_name": "Nodo intermodal puerto-ferrocarril-carretera y transferencia de carga"
+    },
+    {
+      "a10_code": "A10_005_005",
+      "a10_label": "Municipios beneficiados (con banderas B50_025_005 PDET / B50_025_010 ZOMAC)",
+      "a20_code": "A20_035_005_020",
+      "a20_label": "Proyecto de concesión vial o férrea (A20_040_005_005)",
+      "a30_code": "A30_035_010_015",
+      "a30_label": "Estaciones de peaje que alimentan la subcuenta de recaudo",
+      "a40_code": "A40_045_005_030",
+      "a40_label": "Unidades Funcionales (UF) objeto de inversión CAPEX",
+      "a50_code": "A50_035_035_010",
+      "a50_label": "Puntos de aforo y recaudo auditados por OETR",
+      "b30_codes": [
+        "B30_015_015_040"
+      ],
+      "b40_codes": [
+        "B40_025_005_025",
+        "B40_025_015_010"
+      ],
+      "b50_codes": [
+        "B50_040_010_005",
+        "B50_035_055",
+        "B50_035_060",
+        "B50_035_035"
+      ],
+      "chain_pattern": "B20 -> B10 -> B50 -> A20",
+      "cypher_path": "(b20e:ClaseC1 {codigo:'B20_030_005_020'})-[:EMITE_DOCUMENTO]->(b10s:ClaseC1 {codigo:'B10_010_005_065'})-[:DEFINE_INDICADOR]->(b50r:ClaseC1 {codigo:'B50_040_010_005'}), (b20f:ClaseC1 {codigo:'B20_030_005_025'})-[:AUDITA_CUMPLIMIENTO]->(b10f:ClaseC1 {codigo:'B10_010_010_260'})-[:DEFINE_INDICADOR]->(b50v:ClaseC1 {codigo:'B50_035_055'})",
+      "meronymy_proof": "Conecta actores (B20), estudios/apéndices financieros (B10) y métricas económicas (B50) mediante relaciones intertabulares.",
+      "normative_authority": "Ley 1508 de 2012, Apéndice Financiero 1.1 ANI y Guía AASHTO TAM (2022)",
+      "recipe_category": "CIRCUITO_GOBERNANZA_SECTORIAL_B10_B50",
+      "recipe_id": "REC-B-01",
+      "recipe_name": "Estructuración APP, registro BPIN/CONPES, cierre financiero y fiducia"
+    },
+    {
+      "a10_code": "A10_005_005",
+      "a10_label": "Zona geográfica / Región INVIAS del proyecto",
+      "a20_code": "A20_035_005_020",
+      "a20_label": "Corredor vial intervenido",
+      "a30_code": "A30_035_005_040",
+      "a30_label": "Calzada, puente (A30_035_005_070) o túnel (A30_035_005_075)",
+      "a40_code": "A40_045_005_030",
+      "a40_label": "Elemento constructivo ejecutado (pavimento, estructura, drenaje)",
+      "a50_code": "A50_015_005_025",
+      "a50_label": "Componente funcional instalado",
+      "b30_codes": [
+        "B30_010_005_175",
+        "B30_010_020_180",
+        "B30_010_020_185",
+        "B30_010_030_170",
+        "B30_010_040_180",
+        "B30_015_015_045"
+      ],
+      "b40_codes": [
+        "B40_020_035_905",
+        "B40_020_035_910",
+        "B40_020_035_915",
+        "B40_020_035_920",
+        "B40_020_035_925",
+        "B40_020_035_930",
+        "B40_020_035_935",
+        "B40_020_035_940",
+        "B40_020_035_945"
+      ],
+      "b50_codes": [
+        "B50_035_060",
+        "B50_005_035_020",
+        "B50_005_035_030",
+        "B50_005_035_040"
+      ],
+      "chain_pattern": "B20 -> B10 -> B40 -> B30 -> B50 -> A40/A50",
+      "cypher_path": "(b20:ClaseC1 {codigo:'B20_025_005_00010'})-[:EMITE_DOCUMENTO]->(b10:ClaseC1 {codigo:'B10_010_030_015'})<-[:REGIDO_POR_NORMA]-(b40:ClaseC1 {codigo:'B40_020_035_920'})-[:CONSUME_RECURSO_B30]->(b30:ClaseC1 {codigo:'B30_010_030_170'}), (b40)-[:INTERVIENE_ACTIVO]->(a40:ClaseC1 {codigo:'A40_045_005_030'})",
+      "meronymy_proof": "Demuestra cómo cualquier ítem APU compuesto se desacopla en Actividad (B40) + Insumo/Equipo (B30) + Especificación/Precio (B50) + Activo (A40/A50).",
+      "normative_authority": "Especificaciones Generales de Construcción de Carreteras INVIAS y Catálogo Oficial APU (73.640 registros regionales)",
+      "recipe_category": "CIRCUITO_GOBERNANZA_SECTORIAL_B10_B50",
+      "recipe_id": "REC-B-02",
+      "recipe_name": "Presupuestación por Análisis de Precios Unitarios (APU INVIAS Capítulos 200 a 900) y ejecución de obra"
+    },
+    {
+      "a10_code": "A10_025_065_015",
+      "a10_label": "Predio del derecho de vía, área ambientalmente sensible y faja de redes",
+      "a20_code": "A20_035_005_020",
+      "a20_label": "Corredor vial o férreo en liberación",
+      "a30_code": "A30_035_005_040",
+      "a30_label": "Frente de obra habilitado tras acta de disponibilidad predial y licencia",
+      "a40_code": "A40_090_005",
+      "a40_label": "Obras de explanación y traslado de redes",
+      "a50_code": "A50_045_005_035_005",
+      "a50_label": "Obras de mitigación y pasos de fauna",
+      "b30_codes": [
+        "B30_010_025_150"
+      ],
+      "b40_codes": [
+        "B40_010_020_015"
+      ],
+      "b50_codes": [
+        "B50_025_005",
+        "B50_025_010",
+        "B50_035_060"
+      ],
+      "chain_pattern": "B20 -> B10 -> B40 -> A10 -> B50",
+      "cypher_path": "(b20a:ClaseC1 {codigo:'B20_015_005_015'})-[:AUDITA_CUMPLIMIENTO]->(b10a:ClaseC1 {codigo:'B10_010_010_245'}), (b20c:ClaseC1 {codigo:'B20_015_005_020'})-[:AUDITA_CUMPLIMIENTO]->(b10p:ClaseC1 {codigo:'B10_010_010_250'}), (b40:ClaseC1 {codigo:'B40_010_020_015'})-[:INTERVIENE_ACTIVO]->(a10:ClaseC1 {codigo:'A10_025_065_015'})",
+      "meronymy_proof": "Articula ANLA/IGAC/ESP (B20), Apéndices AT5–AT8 (B10) y el proceso de liberación (B40_010_020_015) sobre el predio (A10_025_065_015).",
+      "normative_authority": "Apéndices Técnicos 5, 6, 7 y 8 ANI, Ley 99 de 1993 y Ley 1682 de 2013",
+      "recipe_category": "CIRCUITO_GOBERNANZA_SECTORIAL_B10_B50",
+      "recipe_id": "REC-B-03",
+      "recipe_name": "Liberación de corredor: gestión predial (AT7), ambiental (AT6), social (AT8) e interferencias de redes (AT5)"
+    },
+    {
+      "a10_code": "A10_025_065_015",
+      "a10_label": "Unidad Funcional (UF) evaluada mensualmente",
+      "a20_code": "A20_035_005_020",
+      "a20_label": "Corredor concesionado carretero o férreo",
+      "a30_code": "A30_035_005_040",
+      "a30_label": "Hectómetro / kilómetro de calzada o vía férrea (A30_015_075)",
+      "a40_code": "A40_045_005_030",
+      "a40_label": "Pavimento, puente (A40_085_005_005) o superestructura férrea (A40_140_010)",
+      "a50_code": "A50_015_005_025",
+      "a50_label": "Barrera, señal o aparato de vía auditado",
+      "b30_codes": [
+        "B30_015_015_035",
+        "B30_015_015_040",
+        "B30_015_015_050",
+        "B30_015_015_055"
+      ],
+      "b40_codes": [
+        "B40_025_005_010",
+        "B40_025_010_010",
+        "B40_025_010_015"
+      ],
+      "b50_codes": [
+        "B50_010_035_005_005_035",
+        "B50_010_035_005_005_045",
+        "B50_010_035_005_005_050",
+        "B50_010_015_015_005",
+        "B50_035_035"
+      ],
+      "chain_pattern": "B20 -> B30 -> B50 -> B10 -> B20 (Fiduciaria)",
+      "cypher_path": "(b20i:ClaseC1 {codigo:'B20_030_005_020'})-[:AUDITA_CUMPLIMIENTO]->(b10:ClaseC1 {codigo:'B10_010_010_230'})-[:DEFINE_INDICADOR]->(b50:ClaseC1 {codigo:'B50_035_035'})<-[:AUDITA_CUMPLIMIENTO]-(b20f:ClaseC1 {codigo:'B20_030_005_025'})",
+      "meronymy_proof": "Conecta la interventoría (B20), los equipos FWD/SCRIM/GPR/EM-120 (B30), los indicadores E/IF (B50), el AT4 (B10) y el pago fiduciario (B50_035_035).",
+      "normative_authority": "Apéndice Técnico 4 ANI (Carretero y Férreo) y Apéndice Financiero 1.1",
+      "recipe_category": "CIRCUITO_GOBERNANZA_SECTORIAL_B10_B50",
+      "recipe_id": "REC-B-04",
+      "recipe_name": "Auscultación de alto rendimiento, verificación de indicadores AT4 (E1–E26 / IF-1–IF-12) y deducción de retribución"
+    },
+    {
+      "a10_code": "A10_025_065_015",
+      "a10_label": "Tramo homogéneo del corredor",
+      "a20_code": "A20_035_005_020",
+      "a20_label": "Red vial o férrea bajo gestión de activos",
+      "a30_code": "A30_035_005_040",
+      "a30_label": "Calzada/carril o zona de puente (A30_035_005_070)",
+      "a40_code": "A40_045_005_030",
+      "a40_label": "Paquete estructural de pavimento o puente",
+      "a50_code": "A50_040_045_055",
+      "a50_label": "Apoyo, junta o elemento funcional con vida útil remanente",
+      "b30_codes": [
+        "B30_010_030_170",
+        "B30_010_030_175",
+        "B30_010_020_180"
+      ],
+      "b40_codes": [
+        "B40_025_005_010",
+        "B40_025_010_010",
+        "B40_025_010_020",
+        "B40_025_015_005",
+        "B40_025_015_010"
+      ],
+      "b50_codes": [
+        "B50_030_030",
+        "B50_030_030",
+        "B50_040_010_005"
+      ],
+      "chain_pattern": "A30/A40/A50 -> B50 (Condición/Deterioro) -> B40 (Preservación/Rehabilitación/Reconstrucción) -> B30",
+      "cypher_path": "(a40:ClaseC1 {codigo:'A40_045_005_030'})-[:EVALUADO_POR_INDICADOR]->(b50:ClaseC1 {codigo:'B50_030_030'})<-[:RESTITUYE_INDICADOR]-(b40:ClaseC1 {codigo:'B40_025_010_010'})-[:CONSUME_RECURSO_B30]->(b30:ClaseC1 {codigo:'B30_010_030_170'})",
+      "meronymy_proof": "Vincula el activo físico (A40) con el modelo de vida remanente/deterioro (B50_030), la estrategia de intervención (B40_025) y el insumo (B30).",
+      "normative_authority": "AASHTO Transportation Asset Management Guide (2022) e ISO 55001",
+      "recipe_category": "CIRCUITO_GOBERNANZA_SECTORIAL_B10_B50",
+      "recipe_id": "REC-B-05",
+      "recipe_name": "Ciclo de vida AASHTO TAM (2022), deterioro estocástico y disparo de mantenimiento o rehabilitación"
+    },
+    {
+      "a10_code": "A10_025_065_015",
+      "a10_label": "Geometría geodésica MAGNA-SIRGAS EPSG:9377 del derecho de vía",
+      "a20_code": "A20_035_005_020",
+      "a20_label": "Modelo federado del corredor en el CDE",
+      "a30_code": "A30_035_005_040",
+      "a30_label": "Zonas espaciales IFC 4.3 (IfcRoadPart / IfcRailwayPart / IfcBridgePart)",
+      "a40_code": "A40_085_005_005",
+      "a40_label": "Sistemas constructivos clasificados con IfcClassificationReference SITI",
+      "a50_code": "A50_050_060_010",
+      "a50_label": "Activos unitarios con nivel de información LOIN / LOD certificado",
+      "b30_codes": [
+        "B30_015_015_055"
+      ],
+      "b40_codes": [
+        "B40_010_005_010"
+      ],
+      "b50_codes": [
+        "B50_020_010_010"
+      ],
+      "chain_pattern": "B20 -> B10 -> B40 -> B50 -> A10..A50",
+      "cypher_path": "(b20:ClaseC1 {codigo:'B20_025_005_00024'})-[:EMITE_DOCUMENTO]->(b10:ClaseC1 {codigo:'B10_010_030_010'})<-[:REGIDO_POR_NORMA]-(b40:ClaseC1 {codigo:'B40_010_005_010'})-[:EVALUADO_POR_INDICADOR]->(b50:ClaseC1 {codigo:'B50_020_010_010'})",
+      "meronymy_proof": "Cierra el circuito de entrega digital ISO 19650 sin mezclar documentos (B10), actores (B20), flujos CDE (B40) ni propiedades LOIN (B50).",
+      "normative_authority": "Resolución ANI 20253040046245 de 2025, Guía BIM INVIAS e ISO 19650-1/2/3 / ISO 16739-1:2024",
+      "recipe_category": "CIRCUITO_GOBERNANZA_SECTORIAL_B10_B50",
+      "recipe_id": "REC-B-06",
+      "recipe_name": "Gobernanza digital BIM/GIS (ISO 19650 / Resolución ANI 20253040046245), validación SHACL y entrega de expediente CDE"
+    }
+  ],
+  "total_recipes": 13
+}

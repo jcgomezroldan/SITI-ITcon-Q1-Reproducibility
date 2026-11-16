@@ -1,0 +1,38 @@
+{
+  "title": "SITI Three-Layer Reproducibility Package: Orthogonal Ontology Factorization for Semantic Interoperability in Transport Infrastructure (ITcon Vol. 32, 2027)",
+  "version": "1.0.0-itcon2027",
+  "upload_type": "dataset",
+  "publication_date": "2026-11-11",
+  "creators": [
+    {
+      "name": "Gómez, Juan C.",
+      "affiliation": "Doctoral program in Technology Innovation Management, Universidad de los Andes, and National Infrastructure Agency (ANI), Bogotá, Colombia"
+    },
+    {
+      "name": "Herrera, Rodrigo F.",
+      "affiliation": "School of Civil Engineering, Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile"
+    },
+    {
+      "name": "Castañeda, Karen M.",
+      "affiliation": "School of Civil Engineering, Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile"
+    },
+    {
+      "name": "Correal, Juan F.",
+      "affiliation": "Department of Civil and Environmental Engineering, Universidad de los Andes, Bogotá, Colombia"
+    }
+  ],
+  "description": "Complete three-layer reproducibility package for Colombia's Intermodal Transport Infrastructure Classification System (Sistema de Clasificación de Infraestructura de Transporte Intermodal de Colombia, SITI) — Layer 1 C1 OWL 2 DL/SKOS/SHACL semantic core, Layer 2 C2 schema-level property graph and 13 canonical recipes, Layer 3 C3 Apache Parquet/Arrow columnar lakehouse and bimodal EPSG:9377 + ENU geodesy, Waves 1-6 + DR3-4 six-paradigm ablation scripts and empirical datasets, 9 figures at 300 DPI, 8 manuscript tables, and Supplementary Appendices A-F — accompanying the ITcon Vol. 32 (2027) Q1 research article.",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "semantic interoperability",
+    "linear transport infrastructure",
+    "orthogonal ontology factorization",
+    "closed-world SHACL validation",
+    "columnar spatial lakehouse",
+    "BIM-GIS integration",
+    "ITcon"
+  ],
+  "journal_title": "Journal of Information Technology in Construction (ITcon)",
+  "journal_volume": "32"
+}

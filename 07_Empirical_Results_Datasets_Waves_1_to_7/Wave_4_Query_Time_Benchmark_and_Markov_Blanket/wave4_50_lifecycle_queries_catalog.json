@@ -1,0 +1,952 @@
+{
+  "catalog_version": "2026-11-02.ola4.v2-paso0-refined",
+  "total_queries": 50,
+  "hop_depths_covered": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "recipes_covered": [
+    "REC-A-01",
+    "REC-A-02",
+    "REC-A-03",
+    "REC-A-04",
+    "REC-A-05",
+    "REC-A-06",
+    "REC-A-07",
+    "REC-B-01",
+    "REC-B-02",
+    "REC-B-03",
+    "REC-B-04",
+    "REC-B-05",
+    "REC-B-06"
+  ],
+  "queries": [
+    {
+      "query_id": "Q01",
+      "hop_depth_k": 1,
+      "recipe_id": "REC-A-01",
+      "title_es": "Calzada SITI = carril nacional (conteo columnar A30)",
+      "title_en": "National traffic lane inventory scan (A30)",
+      "raw_lexical_term": "calzada",
+      "anchor_code": "A30_035_005_040",
+      "intertabular_path_tables": [
+        "A30",
+        "A50"
+      ],
+      "c3_dataset_kind": "ACTIVOS_CAPA",
+      "c3_filter_val": "calzada",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q02",
+      "hop_depth_k": 1,
+      "recipe_id": "REC-A-03",
+      "title_es": "Cunetas de drenaje longitudinal desambiguadas (__occ1 A50_045)",
+      "title_en": "Disambiguated longitudinal drainage gutters (__occ1 A50_045)",
+      "raw_lexical_term": "cuneta",
+      "anchor_code": "A50_045_025_005__occ1",
+      "intertabular_path_tables": [
+        "A50",
+        "A30"
+      ],
+      "c3_dataset_kind": "ACTIVOS_CAPA",
+      "c3_filter_val": "cuneta",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q03",
+      "hop_depth_k": 1,
+      "recipe_id": "REC-A-03",
+      "title_es": "Obras de drenaje transversal y alcantarillas (A50_045)",
+      "title_en": "Cross-drainage culverts and hydraulic works (A50_045)",
+      "raw_lexical_term": "drenajes",
+      "anchor_code": "A50_045_025_010__occ1",
+      "intertabular_path_tables": [
+        "A50",
+        "A30"
+      ],
+      "c3_dataset_kind": "ACTIVOS_CAPA",
+      "c3_filter_val": "drenajes",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q04",
+      "hop_depth_k": 1,
+      "recipe_id": "REC-A-02",
+      "title_es": "Complejos de puentes y viaductos nacionales (A20)",
+      "title_en": "National bridge and viaduct complexes (A20)",
+      "raw_lexical_term": "puente",
+      "anchor_code": "A20_005_020_010",
+      "intertabular_path_tables": [
+        "A20",
+        "A30"
+      ],
+      "c3_dataset_kind": "ACTIVOS_CAPA",
+      "c3_filter_val": "puente",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q05",
+      "hop_depth_k": 1,
+      "recipe_id": "REC-A-07",
+      "title_es": "Señalización vertical retrorreflectiva en corredores (A50)",
+      "title_en": "Retroreflective vertical road signage (A50)",
+      "raw_lexical_term": "senal_vertical",
+      "anchor_code": "A50_080_015_010",
+      "intertabular_path_tables": [
+        "A50",
+        "A40"
+      ],
+      "c3_dataset_kind": "ACTIVOS_CAPA",
+      "c3_filter_val": "senal_vertical",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q06",
+      "hop_depth_k": 1,
+      "recipe_id": "REC-A-07",
+      "title_es": "Materialización espacial WKB de luminarias e iluminación vial (EPSG:9377)",
+      "title_en": "Late WKB spatial materialization of roadway luminaires (EPSG:9377)",
+      "raw_lexical_term": "luminarias",
+      "anchor_code": "A50_060_045_005",
+      "intertabular_path_tables": [
+        "A50",
+        "A40"
+      ],
+      "c3_dataset_kind": "SPATIAL_ANI_CAPA",
+      "c3_filter_val": "luminarias",
+      "requires_late_spatial_materialization": true
+    },
+    {
+      "query_id": "Q07",
+      "hop_depth_k": 1,
+      "recipe_id": "REC-A-05",
+      "title_es": "Ciclorrutas e infraestructura segregada no motorizada (A50)",
+      "title_en": "Segregated cycleways and non-motorized paths (A50)",
+      "raw_lexical_term": "ciclorruta",
+      "anchor_code": "A50_015_005_025",
+      "intertabular_path_tables": [
+        "A50",
+        "A30"
+      ],
+      "c3_dataset_kind": "ACTIVOS_CAPA",
+      "c3_filter_val": "ciclorruta",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q08",
+      "hop_depth_k": 1,
+      "recipe_id": "REC-A-01",
+      "title_es": "Materialización espacial WKB de puentes en EPSG:9377 (A20)",
+      "title_en": "Late WKB spatial materialization of bridges in EPSG:9377 (A20)",
+      "raw_lexical_term": "puente",
+      "anchor_code": "A20_005_020_010",
+      "intertabular_path_tables": [
+        "A20",
+        "A30"
+      ],
+      "c3_dataset_kind": "SPATIAL_ANI_CAPA",
+      "c3_filter_val": "puente",
+      "requires_late_spatial_materialization": true
+    },
+    {
+      "query_id": "Q09",
+      "hop_depth_k": 2,
+      "recipe_id": "REC-A-06",
+      "title_es": "Cruce directo A30/A40 <-> B50 de estaciones de peaje y serie OETR",
+      "title_en": "Direct A30/A40 <-> B50 toll booth and OETR traffic series join",
+      "raw_lexical_term": "peajes",
+      "anchor_code": "A20_020_015_045",
+      "intertabular_path_tables": [
+        "A20",
+        "A40",
+        "B50"
+      ],
+      "c3_dataset_kind": "PEAJES_CAT",
+      "c3_filter_val": "I",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q10",
+      "hop_depth_k": 2,
+      "recipe_id": "REC-A-06",
+      "title_es": "Tráfico y recaudo OETR en categoría pesada V (camiones 5 ejes)",
+      "title_en": "OETR traffic and revenue in heavy category V (5-axle trucks)",
+      "raw_lexical_term": "peajes",
+      "anchor_code": "A30_035_005_040",
+      "intertabular_path_tables": [
+        "A30",
+        "B40",
+        "B50"
+      ],
+      "c3_dataset_kind": "PEAJES_CAT",
+      "c3_filter_val": "V",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q11",
+      "hop_depth_k": 2,
+      "recipe_id": "REC-B-03",
+      "title_es": "Afectación predial catastral A10 <-> B10 <-> B20 por corredor",
+      "title_en": "Cadastral land-acquisition A10 <-> B10 <-> B20 cross-check",
+      "raw_lexical_term": "predio",
+      "anchor_code": "A10_010_015_005",
+      "intertabular_path_tables": [
+        "A10",
+        "B10",
+        "B20"
+      ],
+      "c3_dataset_kind": "PREDIOS_ALL",
+      "c3_filter_val": "ALL",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q12",
+      "hop_depth_k": 2,
+      "recipe_id": "REC-A-02",
+      "title_es": "Complejos de túneles viales A20 -> A30 -> A40 ventilación ITS",
+      "title_en": "Road tunnel complexes A20 -> A30 -> A40 ITS ventilation",
+      "raw_lexical_term": "tunel",
+      "anchor_code": "A20_010_015_015",
+      "intertabular_path_tables": [
+        "A20",
+        "A30",
+        "A40"
+      ],
+      "c3_dataset_kind": "ACTIVOS_CAPA",
+      "c3_filter_val": "tunel",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q13",
+      "hop_depth_k": 2,
+      "recipe_id": "REC-A-07",
+      "title_es": "Centros de Control Operacional (CCO) A20 -> A40 -> B50 telemetría",
+      "title_en": "Operational Control Centers (CCO) A20 -> A40 -> B50 telemetry",
+      "raw_lexical_term": "cco",
+      "anchor_code": "A40_045_005_030",
+      "intertabular_path_tables": [
+        "A20",
+        "A40",
+        "B50"
+      ],
+      "c3_dataset_kind": "ACTIVOS_CAPA",
+      "c3_filter_val": "cco",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q14",
+      "hop_depth_k": 2,
+      "recipe_id": "REC-B-04",
+      "title_es": "Depreciación contable BUP/PPE NICSP 17 sobre calzadas y puentes",
+      "title_en": "IPSAS 17 BUP/PPE accounting depreciation on lanes and bridges",
+      "raw_lexical_term": "calzada",
+      "anchor_code": "B10_010_030_015",
+      "intertabular_path_tables": [
+        "A30",
+        "B10",
+        "B50"
+      ],
+      "c3_dataset_kind": "BUP_ELEM",
+      "c3_filter_val": "Calzada",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q15",
+      "hop_depth_k": 2,
+      "recipe_id": "REC-B-06",
+      "title_es": "Gobernanza Zero-Trust PBAC de jurisdicciones A10 <-> B20 ANI",
+      "title_en": "Zero-Trust PBAC governance of A10 <-> B20 ANI jurisdictions",
+      "raw_lexical_term": "agencia nacional de infraestructura",
+      "anchor_code": "B20_025_005_00024",
+      "intertabular_path_tables": [
+        "A10",
+        "B20",
+        "B10"
+      ],
+      "c3_dataset_kind": "PROY_MODO",
+      "c3_filter_val": "Carretero",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q16",
+      "hop_depth_k": 2,
+      "recipe_id": "REC-A-05",
+      "title_es": "Materialización espacial WKB de separadores y barreras A30 -> A50 -> B30",
+      "title_en": "Late WKB spatial materialization of medians & barriers A30 -> A50 -> B30",
+      "raw_lexical_term": "separador",
+      "anchor_code": "A30_035_005_055",
+      "intertabular_path_tables": [
+        "A30",
+        "A50",
+        "B30"
+      ],
+      "c3_dataset_kind": "SPATIAL_ANI_CAPA",
+      "c3_filter_val": "separador",
+      "requires_late_spatial_materialization": true
+    },
+    {
+      "query_id": "Q17",
+      "hop_depth_k": 2,
+      "recipe_id": "REC-A-01",
+      "title_es": "Proyección espacial tardía ENU 64-bit de instancias BIM/GIS",
+      "title_en": "Late 64-bit ENU spatial projection of BIM/GIS instances",
+      "raw_lexical_term": "calzada",
+      "anchor_code": "A30_035_005_040",
+      "intertabular_path_tables": [
+        "A20",
+        "A30",
+        "A50"
+      ],
+      "c3_dataset_kind": "SPATIAL_ENU_TBL",
+      "c3_filter_val": "A50",
+      "requires_late_spatial_materialization": true
+    },
+    {
+      "query_id": "Q18",
+      "hop_depth_k": 3,
+      "recipe_id": "REC-A-04",
+      "title_es": "Modo férreo 914 mm: Corredor A20 -> Vía A30 -> Flota B30 -> AT4 B50",
+      "title_en": "914 mm railway mode: Corridor A20 -> Track A30 -> Fleet B30 -> AT4 B50",
+      "raw_lexical_term": "ferreo",
+      "anchor_code": "A20_005_005_005",
+      "intertabular_path_tables": [
+        "A20",
+        "A30",
+        "B30",
+        "B50"
+      ],
+      "c3_dataset_kind": "FERREO_ALL",
+      "c3_filter_val": "914",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q19",
+      "hop_depth_k": 3,
+      "recipe_id": "REC-A-01",
+      "title_es": "Ensamblaje vial A20 -> Calzada A30 -> Pavimento A50 -> Insumo B30",
+      "title_en": "Road assembly A20 -> Lane A30 -> Pavement A50 -> Material B30",
+      "raw_lexical_term": "calzada",
+      "anchor_code": "A30_035_005_040",
+      "intertabular_path_tables": [
+        "A20",
+        "A30",
+        "A50",
+        "B30"
+      ],
+      "c3_dataset_kind": "ACTIVOS_MAT",
+      "c3_filter_val": "Asfalto",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q20",
+      "hop_depth_k": 3,
+      "recipe_id": "REC-A-03",
+      "title_es": "Hidráulica vial A20 -> Zona A30 -> Cuneta A50_045 -> Concreto B30",
+      "title_en": "Road hydraulics A20 -> Zone A30 -> Gutter A50_045 -> Concrete B30",
+      "raw_lexical_term": "cuneta",
+      "anchor_code": "A50_045_025_005__occ1",
+      "intertabular_path_tables": [
+        "A20",
+        "A30",
+        "A50",
+        "B30"
+      ],
+      "c3_dataset_kind": "ACTIVOS_MAT",
+      "c3_filter_val": "Concreto",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q21",
+      "hop_depth_k": 3,
+      "recipe_id": "REC-B-02",
+      "title_es": "Capítulos APU INVIAS B20 -> Especificación B10 -> Actividad B40 -> A50",
+      "title_en": "INVIAS APU chapters B20 -> Spec B10 -> Activity B40 -> Component A50",
+      "raw_lexical_term": "concreto",
+      "anchor_code": "B40_005_025_015",
+      "intertabular_path_tables": [
+        "B20",
+        "B10",
+        "B40",
+        "A50"
+      ],
+      "c3_dataset_kind": "APU_CHAP",
+      "c3_filter_val": "6",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q22",
+      "hop_depth_k": 3,
+      "recipe_id": "REC-B-04",
+      "title_es": "Reversión de activos BUP A20 -> A30 -> Contrato B10 -> Valor B50",
+      "title_en": "BUP asset handback A20 -> A30 -> Contract B10 -> Valuation B50",
+      "raw_lexical_term": "puente",
+      "anchor_code": "A20_005_020_010",
+      "intertabular_path_tables": [
+        "A20",
+        "A30",
+        "B10",
+        "B50"
+      ],
+      "c3_dataset_kind": "BUP_ELEM",
+      "c3_filter_val": "Puente",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q23",
+      "hop_depth_k": 3,
+      "recipe_id": "REC-A-06",
+      "title_es": "Conciliación OETR Peaje A20 -> Caseta A40 -> Tarifa B50 -> Contrato B10",
+      "title_en": "OETR toll reconciliation A20 -> Booth A40 -> Tariff B50 -> Contract B10",
+      "raw_lexical_term": "peajes",
+      "anchor_code": "A20_020_015_045",
+      "intertabular_path_tables": [
+        "A20",
+        "A40",
+        "B50",
+        "B10"
+      ],
+      "c3_dataset_kind": "PEAJES_CAT",
+      "c3_filter_val": "II",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q24",
+      "hop_depth_k": 3,
+      "recipe_id": "REC-A-07",
+      "title_es": "Fibra óptica y dispositivos ITS A20 -> Sistema A40 -> Nodo A50 -> Indicador B50",
+      "title_en": "Fiber optics and ITS devices A20 -> System A40 -> Node A50 -> Indicator B50",
+      "raw_lexical_term": "dispositivo_its",
+      "anchor_code": "A40_045_005_030",
+      "intertabular_path_tables": [
+        "A20",
+        "A40",
+        "A50",
+        "B50"
+      ],
+      "c3_dataset_kind": "ACTIVOS_CAPA",
+      "c3_filter_val": "dispositivo_its",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q25",
+      "hop_depth_k": 3,
+      "recipe_id": "REC-B-03",
+      "title_es": "Gestión predial y servidumbres A10 -> A20 -> B10 -> Actor B20",
+      "title_en": "Right-of-way and easements A10 -> A20 -> B10 -> Actor B20",
+      "raw_lexical_term": "predio",
+      "anchor_code": "A10_010_015_005",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "B10",
+        "B20"
+      ],
+      "c3_dataset_kind": "ACTIVOS_CAPA",
+      "c3_filter_val": "predio",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q26",
+      "hop_depth_k": 3,
+      "recipe_id": "REC-A-02",
+      "title_es": "Materialización espacial WKB de túneles y portales A20 -> A30 -> A40 -> A50",
+      "title_en": "Late WKB spatial materialization of tunnels A20 -> A30 -> A40 -> A50",
+      "raw_lexical_term": "tunel",
+      "anchor_code": "A20_010_015_015",
+      "intertabular_path_tables": [
+        "A20",
+        "A30",
+        "A40",
+        "A50"
+      ],
+      "c3_dataset_kind": "SPATIAL_ANI_CAPA",
+      "c3_filter_val": "tunel",
+      "requires_late_spatial_materialization": true
+    },
+    {
+      "query_id": "Q27",
+      "hop_depth_k": 4,
+      "recipe_id": "REC-B-02",
+      "title_es": "Presupuesto 5D APU INVIAS: B20 -> B10 -> B40 -> B30 -> B50 (Pavimentos)",
+      "title_en": "5D INVIAS APU budget: B20 -> B10 -> B40 -> B30 -> B50 (Pavements)",
+      "raw_lexical_term": "pavimento asfaltico",
+      "anchor_code": "B30_005_005_015",
+      "intertabular_path_tables": [
+        "B20",
+        "B10",
+        "B40",
+        "B30",
+        "B50"
+      ],
+      "c3_dataset_kind": "APU_CHAP",
+      "c3_filter_val": "4",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q28",
+      "hop_depth_k": 4,
+      "recipe_id": "REC-B-02",
+      "title_es": "Presupuesto 5D APU INVIAS: B20 -> B10 -> B40 -> B30 -> A50 (Movimiento tierras)",
+      "title_en": "5D INVIAS APU budget: B20 -> B10 -> B40 -> B30 -> A50 (Earthworks)",
+      "raw_lexical_term": "excavacion",
+      "anchor_code": "B40_005_010_005",
+      "intertabular_path_tables": [
+        "B20",
+        "B10",
+        "B40",
+        "B30",
+        "A50"
+      ],
+      "c3_dataset_kind": "APU_CHAP",
+      "c3_filter_val": "2",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q29",
+      "hop_depth_k": 4,
+      "recipe_id": "REC-B-02",
+      "title_es": "Presupuesto 5D APU INVIAS: B20 -> B10 -> B40 -> A50 -> B50 (Obras drenaje)",
+      "title_en": "5D INVIAS APU budget: B20 -> B10 -> B40 -> A50 -> B50 (Drainage works)",
+      "raw_lexical_term": "cuneta",
+      "anchor_code": "A50_045_025_005__occ1",
+      "intertabular_path_tables": [
+        "B20",
+        "B10",
+        "B40",
+        "A50",
+        "B50"
+      ],
+      "c3_dataset_kind": "APU_CHAP",
+      "c3_filter_val": "8",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q30",
+      "hop_depth_k": 4,
+      "recipe_id": "REC-A-01",
+      "title_es": "Jerarquía física completa A10 -> A20 -> A30 -> A40 -> A50 (Corredores 4G)",
+      "title_en": "Full physical DAG hierarchy A10 -> A20 -> A30 -> A40 -> A50 (4G Corridors)",
+      "raw_lexical_term": "calzada",
+      "anchor_code": "A30_035_005_040",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A30",
+        "A40",
+        "A50"
+      ],
+      "c3_dataset_kind": "ACTIVOS_TBL",
+      "c3_filter_val": "A30",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q31",
+      "hop_depth_k": 4,
+      "recipe_id": "REC-A-04",
+      "title_es": "Intermodalidad férrea-carretera A10 -> A20 -> A30 -> B30 -> B50",
+      "title_en": "Rail-road intermodality A10 -> A20 -> A30 -> B30 -> B50",
+      "raw_lexical_term": "ferreo",
+      "anchor_code": "A20_005_005_005",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A30",
+        "B30",
+        "B50"
+      ],
+      "c3_dataset_kind": "PROY_MODO",
+      "c3_filter_val": "Ferreo",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q32",
+      "hop_depth_k": 4,
+      "recipe_id": "REC-B-05",
+      "title_es": "Auditoría de fatiga ESAL (singular) A20 -> A30 -> A50 -> B40 -> B50",
+      "title_en": "AASHTO ESAL fatigue audit A20 -> A30 -> A50 -> B40 -> B50",
+      "raw_lexical_term": "calzada",
+      "anchor_code": "A30_035_005_040",
+      "intertabular_path_tables": [
+        "A20",
+        "A30",
+        "A50",
+        "B40",
+        "B50"
+      ],
+      "c3_dataset_kind": "PEAJES_CAT",
+      "c3_filter_val": "III",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q33",
+      "hop_depth_k": 4,
+      "recipe_id": "REC-B-06",
+      "title_es": "Grounding documental tricapa B10 -> B20 -> A20 -> A50 -> B50 (603 recepciones)",
+      "title_en": "Three-layer documentary grounding B10 -> B20 -> A20 -> A50 -> B50 (603 receipts)",
+      "raw_lexical_term": "concesion",
+      "anchor_code": "B10_010_030_015",
+      "intertabular_path_tables": [
+        "B10",
+        "B20",
+        "A20",
+        "A50",
+        "B50"
+      ],
+      "c3_dataset_kind": "INGESTA_STATUS",
+      "c3_filter_val": "complete_structural",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q34",
+      "hop_depth_k": 4,
+      "recipe_id": "REC-A-03",
+      "title_es": "Materialización espacial WKB de obras hidráulicas A10 -> A20 -> A30 -> A50 -> B30",
+      "title_en": "Late WKB spatial materialization of hydraulic works A10 -> A20 -> A30 -> A50 -> B30",
+      "raw_lexical_term": "drenajes",
+      "anchor_code": "A50_045_025_010__occ1",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A30",
+        "A50",
+        "B30"
+      ],
+      "c3_dataset_kind": "SPATIAL_ANI_CAPA",
+      "c3_filter_val": "drenajes",
+      "requires_late_spatial_materialization": true
+    },
+    {
+      "query_id": "Q35",
+      "hop_depth_k": 5,
+      "recipe_id": "REC-B-01",
+      "title_es": "Equidad territorial DANE PDET (170 municipios): A10 -> A20 -> A30 -> B10 -> B20 -> B50",
+      "title_en": "DANE PDET territorial equity (170 municipalities): A10 -> A20 -> A30 -> B10 -> B20 -> B50",
+      "raw_lexical_term": "pdet",
+      "anchor_code": "B50_025_005",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A30",
+        "B10",
+        "B20",
+        "B50"
+      ],
+      "c3_dataset_kind": "MUNI_PROP",
+      "c3_filter_val": "B50_025_005",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q36",
+      "hop_depth_k": 5,
+      "recipe_id": "REC-B-01",
+      "title_es": "Equidad territorial DANE ZOMAC (344 municipios): A10 -> A20 -> A50 -> B10 -> B20 -> B50",
+      "title_en": "DANE ZOMAC territorial equity (344 municipalities): A10 -> A20 -> A50 -> B10 -> B20 -> B50",
+      "raw_lexical_term": "zomac",
+      "anchor_code": "B50_025_010",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A50",
+        "B10",
+        "B20",
+        "B50"
+      ],
+      "c3_dataset_kind": "MUNI_PROP",
+      "c3_filter_val": "B50_025_010",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q37",
+      "hop_depth_k": 5,
+      "recipe_id": "REC-B-01",
+      "title_es": "Municipios fronterizos DANE (173 municipios): A10 -> A20 -> A30 -> A50 -> B20 -> B50",
+      "title_en": "DANE border municipalities (173 municipalities): A10 -> A20 -> A30 -> A50 -> B20 -> B50",
+      "raw_lexical_term": "frontera",
+      "anchor_code": "B50_025_015",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A30",
+        "A50",
+        "B20",
+        "B50"
+      ],
+      "c3_dataset_kind": "MUNI_PROP",
+      "c3_filter_val": "B50_025_015",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q38",
+      "hop_depth_k": 5,
+      "recipe_id": "REC-B-05",
+      "title_es": "Ciclo de vida AASHTO TAM y desempeño: A20 -> A30 -> A50 -> B30 -> B40 -> B50",
+      "title_en": "AASHTO TAM lifecycle and performance: A20 -> A30 -> A50 -> B30 -> B40 -> B50",
+      "raw_lexical_term": "calzada",
+      "anchor_code": "A30_035_005_040",
+      "intertabular_path_tables": [
+        "A20",
+        "A30",
+        "A50",
+        "B30",
+        "B40",
+        "B50"
+      ],
+      "c3_dataset_kind": "MATRIZ_LIB",
+      "c3_filter_val": "Biblioteca_tecnica_INVIAS",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q39",
+      "hop_depth_k": 5,
+      "recipe_id": "REC-B-04",
+      "title_es": "Conciliación BUP/PPE + Contrato + Actor + Insumo: A20 -> A30 -> B10 -> B20 -> B30 -> B50",
+      "title_en": "BUP/PPE + Contract + Actor + Material reconciliation: A20 -> A30 -> B10 -> B20 -> B30 -> B50",
+      "raw_lexical_term": "peajes",
+      "anchor_code": "B10_010_030_015",
+      "intertabular_path_tables": [
+        "A20",
+        "A30",
+        "B10",
+        "B20",
+        "B30",
+        "B50"
+      ],
+      "c3_dataset_kind": "BUP_ELEM",
+      "c3_filter_val": "Dispositivo ITS",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q40",
+      "hop_depth_k": 5,
+      "recipe_id": "REC-A-05",
+      "title_es": "Seguridad vial e iluminación: A10 -> A20 -> A30 -> A40 -> A50 -> B50",
+      "title_en": "Road safety and lighting: A10 -> A20 -> A30 -> A40 -> A50 -> B50",
+      "raw_lexical_term": "luminarias",
+      "anchor_code": "A50_060_045_005",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A30",
+        "A40",
+        "A50",
+        "B50"
+      ],
+      "c3_dataset_kind": "ACTIVOS_TBL",
+      "c3_filter_val": "A50",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q41",
+      "hop_depth_k": 5,
+      "recipe_id": "REC-A-06",
+      "title_es": "Elasticidad y recaudo OETR categoría IV: A10 -> A20 -> A40 -> B10 -> B20 -> B50",
+      "title_en": "OETR category IV tariff and revenue: A10 -> A20 -> A40 -> B10 -> B20 -> B50",
+      "raw_lexical_term": "peajes",
+      "anchor_code": "A20_020_015_045",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A40",
+        "B10",
+        "B20",
+        "B50"
+      ],
+      "c3_dataset_kind": "PEAJES_CAT",
+      "c3_filter_val": "IV",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q42",
+      "hop_depth_k": 5,
+      "recipe_id": "REC-A-01",
+      "title_es": "Materialización espacial WKB de calzadas nacionales: A10 -> A20 -> A30 -> A50 -> B10 -> B50",
+      "title_en": "Late WKB spatial materialization of national lanes: A10 -> A20 -> A30 -> A50 -> B10 -> B50",
+      "raw_lexical_term": "calzada",
+      "anchor_code": "A30_035_005_040",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A30",
+        "A50",
+        "B10",
+        "B50"
+      ],
+      "c3_dataset_kind": "SPATIAL_ANI_CAPA",
+      "c3_filter_val": "calzada",
+      "requires_late_spatial_materialization": true
+    },
+    {
+      "query_id": "Q43",
+      "hop_depth_k": 6,
+      "recipe_id": "REC-B-05",
+      "title_es": "Reconstrucción hexadimensional ESTADO_4 (A, B10, B20, B30, B40, B50) + Smart Escrow 85/15",
+      "title_en": "6-hop ESTADO_4 tuple reconstruction (A, B10, B20, B30, B40, B50) + 85/15 Smart Escrow",
+      "raw_lexical_term": "calzada",
+      "anchor_code": "A30_035_005_040",
+      "intertabular_path_tables": [
+        "A20",
+        "A30",
+        "B10",
+        "B20",
+        "B30",
+        "B40",
+        "B50"
+      ],
+      "c3_dataset_kind": "MATRIZ_ACTION",
+      "c3_filter_val": "DECOUPLED_INTO_A_B10_B20_B30_B40_B50",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q44",
+      "hop_depth_k": 6,
+      "recipe_id": "REC-B-02",
+      "title_es": "Cadena completa 5D APU + Activos + Contratos: A20 -> A30 -> A50 -> B10 -> B20 -> B40 -> B50",
+      "title_en": "Full 5D APU + Assets + Contracts chain: A20 -> A30 -> A50 -> B10 -> B20 -> B40 -> B50",
+      "raw_lexical_term": "concreto",
+      "anchor_code": "B30_005_005_015",
+      "intertabular_path_tables": [
+        "A20",
+        "A30",
+        "A50",
+        "B10",
+        "B20",
+        "B40",
+        "B50"
+      ],
+      "c3_dataset_kind": "MATRIZ_LIB",
+      "c3_filter_val": "Documentos concesion",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q45",
+      "hop_depth_k": 6,
+      "recipe_id": "REC-B-01",
+      "title_es": "Planeación estratégica ANI Power BI + DANE + Contratos: A10 -> A20 -> B10 -> B20 -> B30 -> B40 -> B50",
+      "title_en": "ANI Power BI strategic planning + DANE + Contracts: A10 -> A20 -> B10 -> B20 -> B30 -> B40 -> B50",
+      "raw_lexical_term": "agencia nacional de infraestructura",
+      "anchor_code": "B20_025_005_00024",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "B10",
+        "B20",
+        "B30",
+        "B40",
+        "B50"
+      ],
+      "c3_dataset_kind": "MATRIZ_LIB",
+      "c3_filter_val": "Power BI - planeacion ANI",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q46",
+      "hop_depth_k": 6,
+      "recipe_id": "REC-B-06",
+      "title_es": "Auditoría forense Zero-Trust + Manuales ANI/INVIAS: A10 -> A30 -> A50 -> B10 -> B20 -> B40 -> B50",
+      "title_en": "Zero-Trust forensic audit + ANI/INVIAS Manuals: A10 -> A30 -> A50 -> B10 -> B20 -> B40 -> B50",
+      "raw_lexical_term": "senal_vertical",
+      "anchor_code": "A50_080_015_010",
+      "intertabular_path_tables": [
+        "A10",
+        "A30",
+        "A50",
+        "B10",
+        "B20",
+        "B40",
+        "B50"
+      ],
+      "c3_dataset_kind": "MATRIZ_LIB",
+      "c3_filter_val": "Biblioteca_tecnica_ANI",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q47",
+      "hop_depth_k": 6,
+      "recipe_id": "REC-A-04",
+      "title_es": "Trazabilidad intermodal férrea-portuaria-vial: A10 -> A20 -> A30 -> A40 -> B10 -> B30 -> B50",
+      "title_en": "Rail-port-road intermodal traceability: A10 -> A20 -> A30 -> A40 -> B10 -> B30 -> B50",
+      "raw_lexical_term": "ferreo",
+      "anchor_code": "A20_005_005_005",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A30",
+        "A40",
+        "B10",
+        "B30",
+        "B50"
+      ],
+      "c3_dataset_kind": "MATRIZ_LIB",
+      "c3_filter_val": "Biblioteca_ontologias_transporte",
+      "requires_late_spatial_materialization": false
+    },
+    {
+      "query_id": "Q48",
+      "hop_depth_k": 6,
+      "recipe_id": "REC-A-01",
+      "title_es": "Reconstrucción 6-saltos con Materialización Espacial ENU 64-bit / OpenUSD (5.011 instancias)",
+      "title_en": "6-hop reconstruction with Late 64-bit ENU / OpenUSD Spatial Materialization (5,011 instances)",
+      "raw_lexical_term": "calzada",
+      "anchor_code": "A30_035_005_040",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A30",
+        "A40",
+        "A50",
+        "B10",
+        "B50"
+      ],
+      "c3_dataset_kind": "SPATIAL_ENU_ALL",
+      "c3_filter_val": "ALL",
+      "requires_late_spatial_materialization": true
+    },
+    {
+      "query_id": "Q49",
+      "hop_depth_k": 6,
+      "recipe_id": "REC-A-02",
+      "title_es": "Reconstrucción 6-saltos con Materialización Espacial WKB de Señalización e ITS (EPSG:9377)",
+      "title_en": "6-hop reconstruction with Late WKB Spatial Materialization of Signage & ITS (EPSG:9377)",
+      "raw_lexical_term": "senal_vertical",
+      "anchor_code": "A50_080_015_010",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A30",
+        "A40",
+        "A50",
+        "B40",
+        "B50"
+      ],
+      "c3_dataset_kind": "SPATIAL_ANI_CAPA",
+      "c3_filter_val": "senal_vertical",
+      "requires_late_spatial_materialization": true
+    },
+    {
+      "query_id": "Q50",
+      "hop_depth_k": 6,
+      "recipe_id": "REC-A-03",
+      "title_es": "Reconstrucción 6-saltos con Materialización Espacial WKB de Cunetas A50_045 (EPSG:9377)",
+      "title_en": "6-hop reconstruction with Late WKB Spatial Materialization of A50_045 Gutters (EPSG:9377)",
+      "raw_lexical_term": "cuneta",
+      "anchor_code": "A50_045_025_005__occ1",
+      "intertabular_path_tables": [
+        "A10",
+        "A20",
+        "A30",
+        "A50",
+        "B10",
+        "B30",
+        "B50"
+      ],
+      "c3_dataset_kind": "SPATIAL_ANI_CAPA",
+      "c3_filter_val": "cuneta",
+      "requires_late_spatial_materialization": true
+    }
+  ]
+}

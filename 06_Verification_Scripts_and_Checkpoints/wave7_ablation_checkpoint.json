@@ -1,0 +1,40 @@
+{
+  "checkpoint_id": "ITCON_Q1_WAVE_7_SIX_PARADIGM_ABLATION",
+  "status": "PASS",
+  "timestamp_utc": "2026-11-10T21:10:55.726618+00:00",
+  "elapsed_seconds": 52.504,
+  "cards_closed": [
+    "C25",
+    "C26",
+    "C40",
+    "C41",
+    "C68",
+    "C70",
+    "C71",
+    "C72"
+  ],
+  "production_bytes_modified": 0,
+  "wave_title": "Wave 7 of 7: Controlled Same-Engine Six-Paradigm Query-Time Ablation (M1, M1b, M2, M2b, M2c, M3), OLS Hop-Scaling & ANCOVA Interaction F-Tests, Colombian Data-Protection PII Audit, and Table 8 Cryptographic Reproducibility Manifest",
+  "sealed_wave7_artifacts": {
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_7_Six_Paradigm_Ablation_and_Manifests/wave7_six_paradigm_ablation_50_queries.csv": {
+      "size_bytes": 16076,
+      "sha256": "09899589c697d70fddf9757ac96393a58d37aeef2335350ee9228ad3cf49b3b3",
+      "sha256_16": "09899589c697d70f"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_7_Six_Paradigm_Ablation_and_Manifests/wave7_ols_hop_slopes_and_ancova_interactions.json": {
+      "size_bytes": 32084,
+      "sha256": "a5dad59684f3ec34fb9ed43e30b4ac8b8ecace2e1b894aab5bfc1d1fa3ce093e",
+      "sha256_16": "a5dad59684f3ec34"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_7_Six_Paradigm_Ablation_and_Manifests/wave7_table8_cryptographic_manifest.json": {
+      "size_bytes": 39412,
+      "sha256": "354832b5e19853c4a0226689c0540efb4270c85d5a566583e2e5d08baf4dc776",
+      "sha256_16": "354832b5e19853c4"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_7_Six_Paradigm_Ablation_and_Manifests/wave7_six_paradigm_ablation_master_summary.json": {
+      "size_bytes": 176468,
+      "sha256": "e63e9657e04abf5f9544b65c0f730ec87f79d23aebc74f8a4029b691cc4455b5",
+      "sha256_16": "e63e9657e04abf5f"
+    }
+  }
+}

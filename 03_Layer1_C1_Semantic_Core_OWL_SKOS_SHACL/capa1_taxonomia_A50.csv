@@ -1,0 +1,1785 @@
+﻿Nivel;Código SITI;Descripción;Clasificación
+1;A;Activos de infraestructura;Lenguaje
+2;A50;Componentes funcionales;Tabla
+3;A50_005;Componentes arquitectónicos y estéticos;Grupo
+4;A50_005_005;Acabados y revestimientos;Subgrupo
+5;A50_005_005_005;Acabados antidesgaste;Sección
+5;A50_005_005_010;Acabados antideslizantes;Sección
+5;A50_005_005_015;Acabados térmicos;Sección
+5;A50_005_005_020;Acabados texturizados;Sección
+5;A50_005_005_025;Hormigón arquitectónico;Sección
+5;A50_005_005_030;Molduras de pared y techo;Sección
+5;A50_005_005_035;Paneles acústicos;Sección
+5;A50_005_005_040;Pintura protectora;Sección
+5;A50_005_005_045;Pintura reflectante;Sección
+5;A50_005_005_050;Recubrimientos decorativos;Sección
+5;A50_005_005_055;Revestimiento impermeable;Sección
+5;A50_005_005_060;Revestimiento prefabricado;Sección
+5;A50_005_005_065;Revestimientos acústicos;Sección
+5;A50_005_005_070;Revestimientos ignífugos;Sección
+4;A50_005_010;Cubiertas y techos;Subgrupo
+5;A50_005_010_005;Cubierta inclinada;Sección
+5;A50_005_010_010;Cubierta plana;Sección
+5;A50_005_010_015;Cubierta retráctil;Sección
+5;A50_005_010_020;Cubierta ventilada;Sección
+5;A50_005_010_025;Cubierta con aislamiento térmico;Sección
+5;A50_005_010_030;Techo a un agua;Sección
+5;A50_005_010_035;Techo a dos aguas;Sección
+5;A50_005_010_040;Techo tipo shed;Sección
+5;A50_005_010_045;Techo tensado;Sección
+5;A50_005_010_050;Techo verde;Sección
+4;A50_005_015;Fachadas;Subgrupo
+5;A50_005_015_005;Fachada bioclimática;Sección
+5;A50_005_015_010;Fachada modular;Sección
+5;A50_005_015_015;Fachada textil;Sección
+5;A50_005_015_020;Fachada ventilada;Sección
+5;A50_005_015_025;Fachada verde;Sección
+5;A50_005_015_030;Fachada prefabricada;Sección
+5;A50_005_015_035;Fachada con revestimiento intercambiable;Sección
+5;A50_005_015_040;Fachada con protección solar integrada;Sección
+4;A50_005_020;Iluminación y ventilación natural;Subgrupo
+5;A50_005_020_005;Celosías ajustables;Sección
+5;A50_005_020_010;Celosías fijas;Sección
+5;A50_005_020_015;Claraboyas tubulares;Sección
+5;A50_005_020_020;Lucernario fijo;Sección
+5;A50_005_020_025;Lucernario retráctil;Sección
+5;A50_005_020_030;Ventanales con protección solar;Sección
+5;A50_005_020_035;Ventanales panorámicos;Sección
+4;A50_005_025;Molduras y detalles decorativos;Subgrupo
+5;A50_005_025_005;Alcorques decorativos;Sección
+5;A50_005_025_010;Cornisas clásicas;Sección
+5;A50_005_025_015;Cornisas modernas;Sección
+5;A50_005_025_020;Frisos decorativos;Sección
+5;A50_005_025_025;Ménsulas ornamentales;Sección
+5;A50_005_025_030;Molduras minimalistas;Sección
+5;A50_005_025_035;Rosetones ornamentales;Sección
+5;A50_005_025_040;Zócalos decorativos;Sección
+4;A50_005_030;Muros y divisiones arquitectónicas;Subgrupo
+5;A50_005_030_005;Muros acústicos;Sección
+5;A50_005_030_010;Muros decorativos;Sección
+5;A50_005_030_015;Muros modulares;Sección
+5;A50_005_030_020;Muros vegetales;Sección
+5;A50_005_030_025;Rejas de diseño geométrico;Sección
+5;A50_005_030_030;Rejas decorativas clásicas;Sección
+4;A50_005_035;Pasamanos y barandas;Subgrupo
+5;A50_005_035_005;Barandas de protección;Sección
+5;A50_005_035_010;Barandas decorativas;Sección
+5;A50_005_035_015;Guardacuerpos modulares;Sección
+5;A50_005_035_020;Pasamanos ergonómicos;Sección
+5;A50_005_035_025;Pasamanos ornamentales;Sección
+4;A50_005_040;Puertas y ventanas;Subgrupo
+5;A50_005_040_005;Marcos arquitectónicos ajustables;Sección
+5;A50_005_040_010;Portones automáticos;Sección
+5;A50_005_040_015;Portones ornamentales;Sección
+5;A50_005_040_020;Puertas de acceso controlado;Sección
+5;A50_005_040_025;Puertas ornamentales;Sección
+5;A50_005_040_030;Ventanas correderas;Sección
+5;A50_005_040_035;Ventanas de apertura abatible;Sección
+5;A50_005_040_040;Ventanas panorámicas;Sección
+5;A50_005_040_045;Ventanas retráctiles;Sección
+5;A50_005_040_050;Verjas de seguridad decorativas;Sección
+3;A50_010;Componentes de mobiliario y equipamiento interior en edificaciones;Grupo
+4;A50_010_005;Accesorios de exhibición y presentación;Subgrupo
+5;A50_010_005_005;Atril;Sección
+5;A50_010_005_010;Aviso desplegable;Sección
+5;A50_010_005_015;Cartelera;Sección
+5;A50_010_005_020;Columna informativa;Sección
+5;A50_010_005_025;Estructura para gráficos;Sección
+5;A50_010_005_030;Expositor;Sección
+5;A50_010_005_035;Marco para anuncios;Sección
+5;A50_010_005_040;Panel de visualización;Sección
+5;A50_010_005_045;Pizarra;Sección
+5;A50_010_005_050;Portafolletos;Sección
+5;A50_010_005_055;Soporte de señalización;Sección
+5;A50_010_005_060;Tótem informativo;Sección
+5;A50_010_005_065;Vitrina de exhibición;Sección
+5;A50_010_005_070;Tablero de anuncios;Sección
+4;A50_010_010;Equipamiento de cocina y comedor;Subgrupo
+5;A50_010_010_005;Alacena;Sección
+5;A50_010_010_010;Cafetera;Sección
+5;A50_010_010_015;Calentador de agua;Sección
+5;A50_010_010_020;Carro de servicio;Sección
+5;A50_010_010_025;Contenedor de residuos;Sección
+5;A50_010_010_030;Dispensador de agua;Sección
+5;A50_010_010_035;Estantería para utensilios;Sección
+5;A50_010_010_040;Horno;Sección
+5;A50_010_010_045;Lavaplatos;Sección
+5;A50_010_010_050;Licuadora;Sección
+5;A50_010_010_055;Microondas;Sección
+5;A50_010_010_060;Módulo de cocina;Sección
+5;A50_010_010_065;Placa de cocción;Sección
+5;A50_010_010_070;Refrigerador;Sección
+5;A50_010_010_075;Tostadora;Sección
+4;A50_010_015;Equipos de oficina;Subgrupo
+5;A50_010_015_005;Archivador;Sección
+5;A50_010_015_010;Bandeja de documentos;Sección
+5;A50_010_015_015;Computador;Sección
+5;A50_010_015_020;Destructora de documentos;Sección
+5;A50_010_015_025;Escáner;Sección
+5;A50_010_015_030;Estante para archivos;Sección
+5;A50_010_015_035;Fotocopiadora;Sección
+5;A50_010_015_040;Gabinete de archivo;Sección
+5;A50_010_015_045;Impresora;Sección
+5;A50_010_015_050;Organizador de escritorio;Sección
+5;A50_010_015_055;Separador de documentos;Sección
+5;A50_010_015_060;Soporte para archivos;Sección
+5;A50_010_015_065;Teléfono;Sección
+5;A50_010_015_070;Unidad de almacenamiento de escritorio;Sección
+5;A50_010_015_075;Unidad de archivo;Sección
+4;A50_010_020;Estaciones de trabajo informáticas;Subgrupo
+5;A50_010_020_005;Cabina insonorizada;Sección
+5;A50_010_020_010;Consola de monitoreo;Sección
+5;A50_010_020_015;Estructura para pantallas múltiples;Sección
+5;A50_010_020_020;Estación de trabajo ajustable;Sección
+5;A50_010_020_025;Lámpara de escritorio;Sección
+5;A50_010_020_030;Monitor;Sección
+5;A50_010_020_035;Plataforma para teclado;Sección
+5;A50_010_020_040;Reposapiés;Sección
+5;A50_010_020_045;Silla ergonómica;Sección
+5;A50_010_020_050;Soporte para CPU;Sección
+5;A50_010_020_055;Soporte para documentos;Sección
+5;A50_010_020_060;Teclado ergonómico;Sección
+5;A50_010_020_065;Unidad de respaldo de energía;Sección
+5;A50_010_020_070;Unidad de trabajo informática;Sección
+4;A50_010_025;Mobiliario estético y decorativo;Subgrupo
+5;A50_010_025_005;Banco decorativo;Sección
+5;A50_010_025_010;Barra de soporte;Sección
+5;A50_010_025_015;Candelabro;Sección
+5;A50_010_025_020;Dispensador de gel de pie;Sección
+5;A50_010_025_025;Estante decorativo;Sección
+5;A50_010_025_030;Jardinera;Sección
+5;A50_010_025_035;Marco decorativo;Sección
+5;A50_010_025_040;Parasol;Sección
+5;A50_010_025_045;Perchero de pie;Sección
+5;A50_010_025_050;Separador decorativo;Sección
+5;A50_010_025_055;Soporte de exhibición;Sección
+5;A50_010_025_060;Tabique decorativo;Sección
+5;A50_010_025_065;Vitrina decorativa;Sección
+5;A50_010_025_070;Zócalo;Sección
+5;A50_010_025_075;Módulo decorativo;Sección
+4;A50_010_030;Mobiliario modular;Subgrupo
+5;A50_010_030_005;Armario;Sección
+5;A50_010_030_010;Cajonera;Sección
+5;A50_010_030_015;Contenedor de almacenamiento;Sección
+5;A50_010_030_020;Estantería ajustable;Sección
+5;A50_010_030_025;Estantería modular;Sección
+5;A50_010_030_030;Gabinete modular;Sección
+5;A50_010_030_035;Módulo de almacenamiento;Sección
+5;A50_010_030_040;Mueble modular;Sección
+5;A50_010_030_045;Panel divisor modular;Sección
+5;A50_010_030_050;Rack modular;Sección
+5;A50_010_030_055;Sistema de archivo apilable;Sección
+5;A50_010_030_060;Unidad de almacenamiento;Sección
+5;A50_010_030_065;Unidad de cajones;Sección
+5;A50_010_030_070;Unidad de cubículos;Sección
+5;A50_010_030_075;Unidad de archivo móvil;Sección
+4;A50_010_035;Mostradores y módulos de atención;Subgrupo
+5;A50_010_035_005;Cubículo de atención;Sección
+5;A50_010_035_010;Estación de información;Sección
+5;A50_010_035_015;Módulo de atención;Sección
+5;A50_010_035_020;Mostrador de atención;Sección
+5;A50_010_035_025;Mostrador de información;Sección
+5;A50_010_035_030;Mostrador de servicio;Sección
+5;A50_010_035_035;Mostrador para tickets;Sección
+5;A50_010_035_040;Mostrador de orientación;Sección
+5;A50_010_035_045;Mostrador de recepción;Sección
+5;A50_010_035_050;Punto de ayuda;Sección
+5;A50_010_035_055;Punto de contacto;Sección
+5;A50_010_035_060;Punto de información;Sección
+5;A50_010_035_065;Punto de orientación;Sección
+5;A50_010_035_070;Ventanilla de atención;Sección
+5;A50_010_035_075;Mostrador de consulta;Sección
+4;A50_010_040;Racks y estantes de almacenamiento;Subgrupo
+5;A50_010_040_005;Estante ajustable;Sección
+5;A50_010_040_010;Estante apilable;Sección
+5;A50_010_040_015;Estante de archivo;Sección
+5;A50_010_040_020;Estante de almacenamiento;Sección
+5;A50_010_040_025;Estante modular;Sección
+5;A50_010_040_030;Estante para documentos;Sección
+5;A50_010_040_035;Estante para insumos;Sección
+5;A50_010_040_040;Estantería con cerradura;Sección
+5;A50_010_040_045;Estantería de materiales;Sección
+5;A50_010_040_050;Rack de almacenamiento;Sección
+5;A50_010_040_055;Rack de documentos;Sección
+5;A50_010_040_060;Rack para dispositivos electrónicos;Sección
+5;A50_010_040_065;Rack para herramientas;Sección
+5;A50_010_040_070;Rack para piezas de repuesto;Sección
+5;A50_010_040_075;Unidad de almacenamiento rodante;Sección
+4;A50_010_045;Soportes y estaciones de trabajo;Subgrupo
+5;A50_010_045_005;Base móvil;Sección
+5;A50_010_045_010;Estación de consulta;Sección
+5;A50_010_045_015;Estación de trabajo de pie;Sección
+5;A50_010_045_020;Lámpara ajustable;Sección
+5;A50_010_045_025;Soporte para pantalla;Sección
+5;A50_010_045_030;Soporte de cámara;Sección
+5;A50_010_045_035;Soporte de proyector;Sección
+5;A50_010_045_040;Soporte ergonómico para tablets;Sección
+5;A50_010_045_045;Soporte para monitor de escritorio;Sección
+5;A50_010_045_050;Soporte para TV;Sección
+5;A50_010_045_055;Soporte para pizarra;Sección
+5;A50_010_045_060;Soporte para tablets;Sección
+5;A50_010_045_065;Unidad de soporte ajustable;Sección
+5;A50_010_045_070;Unidad de trabajo portátil;Sección
+5;A50_010_045_075;Estación de consulta;Sección
+4;A50_010_050;Taquillas y armarios de almacenamiento;Subgrupo
+5;A50_010_050_005;Armario con cerradura;Sección
+5;A50_010_050_010;Armario de pared;Sección
+5;A50_010_050_015;Caja de seguridad;Sección
+5;A50_010_050_020;Estante interno;Sección
+5;A50_010_050_025;Gabinete de almacenamiento;Sección
+5;A50_010_050_030;Casillero de alta seguridad;Sección
+5;A50_010_050_035;Casillero individual;Sección
+5;A50_010_050_040;Casillero temporal;Sección
+5;A50_010_050_045;Taquilla;Sección
+5;A50_010_050_050;Taquilla con cerradura;Sección
+5;A50_010_050_055;Unidad de almacenamiento compartida;Sección
+5;A50_010_050_060;Unidad de almacenamiento en pared;Sección
+5;A50_010_050_065;Unidad de almacenamiento con acceso restringido;Sección
+5;A50_010_050_070;Unidad de almacenamiento temporal;Sección
+5;A50_010_050_075;Unidad de seguridad;Sección
+4;A50_010_055;Otros componentes comunes;Subgrupo
+5;A50_010_055_005;Banco;Sección
+5;A50_010_055_010;Lámpara de techo;Sección
+5;A50_010_055_015;Mesa de trabajo;Sección
+5;A50_010_055_020;Mesa de comedor;Sección
+5;A50_010_055_025;Mesa modular;Sección
+5;A50_010_055_030;Mesa plegable;Sección
+5;A50_010_055_035;Monitor;Sección
+5;A50_010_055_040;Silla;Sección
+5;A50_010_055_045;Silla de oficina;Sección
+5;A50_010_055_050;Silla de recepción;Sección
+5;A50_010_055_055;Silla plegable;Sección
+5;A50_010_055_060;Soporte de monitor;Sección
+5;A50_010_055_065;Tablero;Sección
+5;A50_010_055_070;Taburete;Sección
+5;A50_010_055_075;TV;Sección
+3;A50_015;Componentes de señalización y seguridad;Grupo
+4;A50_015_005;Sistemas de contención vehicular;Subgrupo
+5;A50_015_005_005;Amortiguadores de impacto;Sección
+6;A50_015_005_005_005;No redirectivos;Objeto
+6;A50_015_005_005_010;Redirectivos;Objeto
+5;A50_015_005_010;Barreras;Sección
+6;A50_015_005_010_005;Barrera longitudinal flexible;Objeto
+6;A50_015_005_010_010;Barreras longitudinales rígido;Objeto
+6;A50_015_005_010_015;Barreras longitudinales semirígido;Objeto
+6;A50_015_005_010_020;Protección para motos rígido;Objeto
+6;A50_015_005_010_025;Protección para motos semirígido;Objeto
+6;A50_015_005_010_030;Protección para peatones barreras peatonales;Objeto
+6;A50_015_005_010_035;Protección para peatones parapetos para peatones;Objeto
+6;A50_015_005_010_040;Terminal abatido y esviado;Objeto
+6;A50_015_005_010_045;Terminal absorbente de energía (TAE);Objeto
+6;A50_015_005_010_050;Terminal empotrado en talud de corte;Objeto
+6;A50_015_005_010_055;Terminales atenuadores de impacto (TAI);Objeto
+6;A50_015_005_010_060;Transición coherente;Objeto
+6;A50_015_005_010_065;Transición compleja;Objeto
+6;A50_015_005_010_070;Transición natural;Objeto
+5;A50_015_005_015;Rampas de emergencia;Sección
+6;A50_015_005_015_005;Gravitales;Objeto
+6;A50_015_005_015_010;Montículos de arena;Objeto
+6;A50_015_005_015_015;Lechos de frenado;Objeto
+6;A50_015_005_015_020;Sistema de detención de camiones (TAS);Objeto
+5;A50_015_005_020;Terminal amortiguador de impacto para barrera longitudinal de contención;Sección
+6;A50_015_005_020_005;Terminal amortiguador de impacto redirectivo y no traspasable;Objeto
+7;A50_015_005_020_005_005;Terminal amortiguador de impacto redirectivo telescópico reutilizable de alta disipación;Subobjeto
+5;A50_015_005_025;Segregador físico y confinamiento de ciclorruta y carril exclusivo no motorizado;Sección
+6;A50_015_005_025_005;Segregador táctil y visual de canalización exclusiva de ciclorruta;Objeto
+7;A50_015_005_025_005_005;Segregador abatible de canalización de ciclorruta en intersección de prioridad ciclista;Subobjeto
+4;A50_015_010;Señalización vial;Subgrupo
+5;A50_015_010_005;Otros dispositivos para la regulación del tránsito;Sección
+6;A50_015_010_005_005;Bandas alertadores longitudinales;Objeto
+6;A50_015_010_005_010;Bandas alertadores transversales;Objeto
+6;A50_015_010_005_015;Bordillos;Objeto
+6;A50_015_010_005_020;Bordillos;Objeto
+6;A50_015_010_005_025;Boyas y tachones;Objeto
+6;A50_015_010_005_030;Captafaros;Objeto
+6;A50_015_010_005_035;Delineador de corona (hitos de arista);Objeto
+6;A50_015_010_005_040;Delineador de curva horizontal;Objeto
+6;A50_015_010_005_045;Delineadores tubulares flexibles;Objeto
+6;A50_015_010_005_050;Estoperoles;Objeto
+6;A50_015_010_005_055;Hito de vértice;Objeto
+6;A50_015_010_005_060;Hito de vértice luminoso;Objeto
+6;A50_015_010_005_065;Limitadores de gálibo vertical;Objeto
+6;A50_015_010_005_070;Luces;Objeto
+6;A50_015_010_005_075;Marcador de obstáculo vertical;Objeto
+6;A50_015_010_005_080;Marcadores al final de una vía;Objeto
+6;A50_015_010_005_085;Marcadores laterales;Objeto
+6;A50_015_010_005_090;Resalto parabólico o circular;Objeto
+6;A50_015_010_005_095;Resalto portátil;Objeto
+6;A50_015_010_005_100;Resalto tipo cojín;Objeto
+6;A50_015_010_005_105;Resalto trapezoidal o pompeyano;Objeto
+6;A50_015_010_005_110;Sardineles;Objeto
+6;A50_015_010_005_115;Segregadores temporales;Objeto
+6;A50_015_010_005_120;Tabiques, cintas plásticas y mallas;Objeto
+6;A50_015_010_005_125;Tachones;Objeto
+6;A50_015_010_005_130;Topes vehiculares horizontales;Objeto
+6;A50_015_010_005_135;Topes vehiculares verticales;Objeto
+5;A50_015_010_010;Semáforos;Sección
+6;A50_015_010_010_005;Semáforo de tiempos fijos o predeterminados;Objeto
+6;A50_015_010_010_010;Semáforo especial;Objeto
+6;A50_015_010_010_015;Semáforo para pasos peatonales, estos pueden ser de tiempos fijos o accionados por los peatones;Objeto
+6;A50_015_010_010_020;Semáforo parcialmente accionados por el tránsito;Objeto
+6;A50_015_010_010_025;Semáforo sonoro intermitentes o de destello de pare;Objeto
+6;A50_015_010_010_030;Semáforo sonoro intermitentes o de destello para indicar peligro;Objeto
+6;A50_015_010_010_035;Semáforo sonoro intermitentes o de destello para intersecciones;Objeto
+6;A50_015_010_010_040;Semáforo sonoro para el control de buses en corredores de autobuses de tránsito rápido;Objeto
+6;A50_015_010_010_045;Semáforo sonoro para indicar la aproximación de trenes;Objeto
+6;A50_015_010_010_050;Semáforo sonoro para maniobras de vehículos de emergencia;Objeto
+6;A50_015_010_010_055;Semáforo sonoro para regular el uso de carriles;Objeto
+6;A50_015_010_010_060;Semáforo totalmente accionados por el tránsito;Objeto
+5;A50_015_010_015;Señales horizontales o demarcaciones;Sección
+6;A50_015_010_015_005;Achurados;Objeto
+6;A50_015_010_015_010;Bandas alertadoras;Objeto
+6;A50_015_010_015_015;Carril prioritario vehículos de emergencia;Objeto
+6;A50_015_010_015_020;Ciclorruta;Objeto
+6;A50_015_010_015_025;Cruce cebra;Objeto
+6;A50_015_010_015_030;Cruce con restricción de bloqueo;Objeto
+6;A50_015_010_015_035;Cruce controlado por señal ceda el paso;Objeto
+6;A50_015_010_015_040;Cruce controlado por señal pare;Objeto
+6;A50_015_010_015_045;Cruce de ferrocarril;Objeto
+6;A50_015_010_015_050;Cruce escolar;Objeto
+6;A50_015_010_015_055;Cruce ferroviario a nivel con barreras;Objeto
+6;A50_015_010_015_060;Cruce peatonal;Objeto
+6;A50_015_010_015_065;Cruce peatonal todo rojo;Objeto
+6;A50_015_010_015_070;Cruce regulado por semáforos;Objeto
+6;A50_015_010_015_075;Cruce sendero peatonal;Objeto
+6;A50_015_010_015_080;Cruz de san andrés;Objeto
+6;A50_015_010_015_085;Definición de zonas de no adelantar;Objeto
+6;A50_015_010_015_090;Demarcación de aproximación a obstrucciones;Objeto
+6;A50_015_010_015_095;Demarcación de bordillos, sardineles e isletas;Objeto
+6;A50_015_010_015_100;Demarcación de continuidad de carriles en intersecciones;Objeto
+6;A50_015_010_015_105;Demarcación de paraderos;Objeto
+6;A50_015_010_015_110;Demarcación de tránsito divergente y convergente;Objeto
+6;A50_015_010_015_115;Demarcación para carriles exclusivos solo bus;Objeto
+6;A50_015_010_015_120;Despacio;Objeto
+6;A50_015_010_015_125;Distanciadores;Objeto
+6;A50_015_010_015_130;Estacionamiento de taxi;Objeto
+6;A50_015_010_015_135;Estacionamiento de uso masivo;Objeto
+6;A50_015_010_015_140;Estacionamiento exclusivo para personas con discapacidad;Objeto
+6;A50_015_010_015_145;Flecha de frente;Objeto
+6;A50_015_010_015_150;Flecha de frente y de giro;Objeto
+6;A50_015_010_015_155;Flecha de frente y de salida;Objeto
+6;A50_015_010_015_160;Flecha de giro;Objeto
+6;A50_015_010_015_165;Flecha de incorporación;Objeto
+6;A50_015_010_015_170;Flecha de incorporación a carriles de tránsito exclusivo;Objeto
+6;A50_015_010_015_175;Indicadores de hidrante;Objeto
+6;A50_015_010_015_180;Línea de seda el paso;Objeto
+6;A50_015_010_015_185;Líneas centrales continuas dobles que separan flujos opuestos;Objeto
+6;A50_015_010_015_190;Líneas centrales continuas que separan flujos opuestos;Objeto
+6;A50_015_010_015_195;Líneas centrales mixtas que separan flujos opuestos;Objeto
+6;A50_015_010_015_200;Líneas centrales segmentadas separandos flujos opuestos;Objeto
+6;A50_015_010_015_205;Líneas de carril continuas;Objeto
+6;A50_015_010_015_210;Líneas de carriles segmentadas;Objeto
+6;A50_015_010_015_215;Líneas de cruce;Objeto
+6;A50_015_010_015_220;Líneas de detención;Objeto
+6;A50_015_010_015_225;Líneas segmentadas de borde de calzada;Objeto
+6;A50_015_010_015_230;Pare;Objeto
+6;A50_015_010_015_235;Paso peatonal con resalto tipo trapezoidal o pompeyano;Objeto
+6;A50_015_010_015_240;Prohibido parquear;Objeto
+6;A50_015_010_015_245;Reductor de velocidad, resaltos;Objeto
+6;A50_015_010_015_250;Solo;Objeto
+6;A50_015_010_015_255;Transiciones por reducción de carriles;Objeto
+6;A50_015_010_015_260;Velocidad máxima;Objeto
+6;A50_015_010_015_265;Zona de peatones;Objeto
+6;A50_015_010_015_270;Zona escolar;Objeto
+5;A50_015_010_020;Señales verticales;Sección
+6;A50_015_010_020_002;Aeropuerto;Objeto
+6;A50_015_010_020_004;Alquiler de autos;Objeto
+6;A50_015_010_020_006;Altura libre;Objeto
+6;A50_015_010_020_008;Altura máxima permitida;Objeto
+6;A50_015_010_020_010;Ancho libre;Objeto
+6;A50_015_010_020_012;Ancho máximo permitido;Objeto
+6;A50_015_010_020_014;Animales en la vía;Objeto
+6;A50_015_010_020_016;Arrecife coralino;Objeto
+6;A50_015_010_020_018;Artesanías;Objeto
+6;A50_015_010_020_020;Atractivo natural;Objeto
+6;A50_015_010_020_022;Balizas de acercamiento;Objeto
+6;A50_015_010_020_024;Barrera;Objeto
+6;A50_015_010_020_026;Bienes arqueológicos;Objeto
+6;A50_015_010_020_028;Bifurcación a la derecha;Objeto
+6;A50_015_010_020_030;Bifurcación a la izquierda;Objeto
+6;A50_015_010_020_032;Bifurcación en “Y”;Objeto
+6;A50_015_010_020_034;Cascada;Objeto
+6;A50_015_010_020_036;Caverna;Objeto
+6;A50_015_010_020_038;Ceda el paso;Objeto
+6;A50_015_010_020_040;Ciclistas en la vía;Objeto
+6;A50_015_010_020_042;Circulación con luces bajas;Objeto
+6;A50_015_010_020_044;Circulación con luces bajas;Objeto
+6;A50_015_010_020_046;Circulación en ambos sentidos;Objeto
+6;A50_015_010_020_048;Circulación prohibida de bicicletas;Objeto
+6;A50_015_010_020_050;Circulación prohibida de peatones;Objeto
+6;A50_015_010_020_052;Comunidad indígena;Objeto
+6;A50_015_010_020_054;Conservar espaciamiento;Objeto
+6;A50_015_010_020_056;Conservar espaciamiento;Objeto
+6;A50_015_010_020_058;Cruce de ciclistas;Objeto
+6;A50_015_010_020_060;Cruce de personas con discapacidad visual;Objeto
+6;A50_015_010_020_062;Cruce ferroviario a nivel con barreras;Objeto
+6;A50_015_010_020_064;Cruce ferroviario a nivel sin barreras;Objeto
+6;A50_015_010_020_066;Cruz de san andrés;Objeto
+6;A50_015_010_020_068;Curva cerrada a la derecha;Objeto
+6;A50_015_010_020_070;Curva cerrada a la izquierda;Objeto
+6;A50_015_010_020_072;Curva muy cerrada a la derecha;Objeto
+6;A50_015_010_020_074;Curva muy cerrada a la izquierda;Objeto
+6;A50_015_010_020_076;Curva pronunciada a la derecha;Objeto
+6;A50_015_010_020_078;Curva pronunciada a la izquierda;Objeto
+6;A50_015_010_020_080;Curva y contra-curva cerrada primera a la derecha;Objeto
+6;A50_015_010_020_082;Curva y contra-curva cerrada primera a la izquierda;Objeto
+6;A50_015_010_020_084;Curva y contra-curva pronunciada a la derecha;Objeto
+6;A50_015_010_020_086;Curva y contra-curva pronunciada a la izquierda;Objeto
+6;A50_015_010_020_088;De confirmación;Objeto
+6;A50_015_010_020_090;De localización;Objeto
+6;A50_015_010_020_092;Delineador de curva horizontal;Objeto
+6;A50_015_010_020_094;Depresión;Objeto
+6;A50_015_010_020_096;Desnivel severo;Objeto
+6;A50_015_010_020_098;Dirección obligada o siga de frente;Objeto
+6;A50_015_010_020_100;Discapacitados;Objeto
+6;A50_015_010_020_102;Dos sentidos de tránsito;Objeto
+6;A50_015_010_020_104;Ensanchamiento de la calzada a la derecha;Objeto
+6;A50_015_010_020_106;Ensanchamiento de la calzada a la izquierda;Objeto
+6;A50_015_010_020_108;Ensanchamiento simétrico de la calzada;Objeto
+6;A50_015_010_020_110;Escalada;Objeto
+6;A50_015_010_020_112;Estación de servicio;Objeto
+6;A50_015_010_020_114;Estacionamiento de taxis;Objeto
+6;A50_015_010_020_116;Estáticas;Objeto
+6;A50_015_010_020_118;Fin prohibición o restricción;Objeto
+6;A50_015_010_020_120;Final del pavimento;Objeto
+6;A50_015_010_020_122;Giro a la derecha solamente;Objeto
+6;A50_015_010_020_124;Giro a la izquierda solamente;Objeto
+6;A50_015_010_020_126;Giro en “U” solamente;Objeto
+6;A50_015_010_020_128;Glorieta;Objeto
+6;A50_015_010_020_130;Hospedaje;Objeto
+6;A50_015_010_020_132;Iglesia;Objeto
+6;A50_015_010_020_134;Incorporación de tránsito desde la derecha;Objeto
+6;A50_015_010_020_136;Incorporación de tránsito desde la izquierda;Objeto
+6;A50_015_010_020_138;Indicación de separador de tránsito a la derecha;Objeto
+6;A50_015_010_020_140;Indicación de separador de tránsito a la izquierda;Objeto
+6;A50_015_010_020_142;Iniciación de separador (dos sentidos);Objeto
+6;A50_015_010_020_144;Iniciación de separador (un sentido);Objeto
+6;A50_015_010_020_146;Intersección de vías;Objeto
+6;A50_015_010_020_148;Intersección en “T”;Objeto
+6;A50_015_010_020_150;Intersección escalonada primera derecha;Objeto
+6;A50_015_010_020_152;Intersección escalonada primera izquierda;Objeto
+6;A50_015_010_020_154;Lago;Objeto
+6;A50_015_010_020_156;Maquinaria agrícola en la vía;Objeto
+6;A50_015_010_020_158;Mirador;Objeto
+6;A50_015_010_020_160;Montallantas;Objeto
+6;A50_015_010_020_162;Monumento nacional;Objeto
+6;A50_015_010_020_164;Muelle;Objeto
+6;A50_015_010_020_166;Museo;Objeto
+6;A50_015_010_020_168;Nevado;Objeto
+6;A50_015_010_020_170;Niños jugando;Objeto
+6;A50_015_010_020_172;No bloquear cruce;Objeto
+6;A50_015_010_020_174;No pase;Objeto
+6;A50_015_010_020_176;Nombre de calles y nomenclatura urbana;Objeto
+6;A50_015_010_020_178;Observatorio de flora y fauna;Objeto
+6;A50_015_010_020_180;Paradero de buses;Objeto
+6;A50_015_010_020_182;Páramo;Objeto
+6;A50_015_010_020_184;Parapente;Objeto
+6;A50_015_010_020_186;Pare;Objeto
+6;A50_015_010_020_188;Parque nacional natural;Objeto
+6;A50_015_010_020_190;Peatones a la izquierda;Objeto
+6;A50_015_010_020_192;Pendiente fuerte de ascenso;Objeto
+6;A50_015_010_020_194;Pendiente fuerte de descenso;Objeto
+6;A50_015_010_020_196;Pesca;Objeto
+6;A50_015_010_020_198;Peso máximo bruto permitido;Objeto
+6;A50_015_010_020_200;Peso máximo bruto vehicular permitido;Objeto
+6;A50_015_010_020_202;Playa;Objeto
+6;A50_015_010_020_204;Polideportivo;Objeto
+6;A50_015_010_020_206;Postes de referencia;Objeto
+6;A50_015_010_020_208;Preferencia al sentido contrario;Objeto
+6;A50_015_010_020_210;Primeros auxilios;Objeto
+6;A50_015_010_020_212;Prohibida circulación de bicicletas y motociclos;Objeto
+6;A50_015_010_020_214;Prohibida circulación de buses;Objeto
+6;A50_015_010_020_216;Prohibida circulación de cabalgaduras;Objeto
+6;A50_015_010_020_218;Prohibida circulación de carros de mano;Objeto
+6;A50_015_010_020_220;Prohibida circulación de cuatrimotos;Objeto
+6;A50_015_010_020_222;Prohibida circulación de maquinaria agrícola;Objeto
+6;A50_015_010_020_224;Prohibida circulación de motocarros;Objeto
+6;A50_015_010_020_226;Prohibida circulación de motocicletas;Objeto
+6;A50_015_010_020_228;Prohibida circulación de vehículos automotores;Objeto
+6;A50_015_010_020_230;Prohibida circulación de vehículos de carga;Objeto
+6;A50_015_010_020_232;Prohibida circulación de vehículos de tracción animal;Objeto
+6;A50_015_010_020_234;Prohibido adelantar;Objeto
+6;A50_015_010_020_236;Prohibido adelantar;Objeto
+6;A50_015_010_020_238;Prohibido cambiar de calzada derecha-izquierda;Objeto
+6;A50_015_010_020_240;Prohibido cambiar de calzada izquierda-derecha;Objeto
+6;A50_015_010_020_242;Prohibido circulación de peatones;Objeto
+6;A50_015_010_020_244;Prohibido dejar o recoger pasajeros;Objeto
+6;A50_015_010_020_246;Prohibido el cargue y descargue;Objeto
+6;A50_015_010_020_248;Prohibido girar a la derecha;Objeto
+6;A50_015_010_020_250;Prohibido girar a la derecha con luz roja;Objeto
+6;A50_015_010_020_252;Prohibido girar a la izquierda;Objeto
+6;A50_015_010_020_254;Prohibido girar en U;Objeto
+6;A50_015_010_020_256;Prohibido parquear;Objeto
+6;A50_015_010_020_258;Prohibido parquear o detenerse;Objeto
+6;A50_015_010_020_260;Prohibido pitar;Objeto
+6;A50_015_010_020_262;Proximidad a cruce escolar;Objeto
+6;A50_015_010_020_264;Proximidad a resalto;Objeto
+6;A50_015_010_020_266;Proximidad de ceda el paso;Objeto
+6;A50_015_010_020_268;Proximidad de cruce peatonal;Objeto
+6;A50_015_010_020_270;Proximidad de pare;Objeto
+6;A50_015_010_020_272;Proximidad de semáforo;Objeto
+6;A50_015_010_020_274;Proyección de gravilla;Objeto
+6;A50_015_010_020_276;Puente angosto;Objeto
+6;A50_015_010_020_278;Punto de encuentro por tsunami;Objeto
+6;A50_015_010_020_280;Punto de información turística;Objeto
+6;A50_015_010_020_282;Ráfagas de viento lateral;Objeto
+6;A50_015_010_020_284;Rafting;Objeto
+6;A50_015_010_020_286;Reducción de calzada a ambos lados;Objeto
+6;A50_015_010_020_288;Reducción de la calzada a la izquierda;Objeto
+6;A50_015_010_020_290;Reducción de la calzada a la derecha;Objeto
+6;A50_015_010_020_292;Restaurante;Objeto
+6;A50_015_010_020_294;Retén;Objeto
+6;A50_015_010_020_296;Riesgo de accidente;Objeto
+6;A50_015_010_020_298;Riesgo por tsunami;Objeto
+6;A50_015_010_020_300;Río;Objeto
+6;A50_015_010_020_302;Ruta alternativa;Objeto
+6;A50_015_010_020_304;Ruta departamental;Objeto
+6;A50_015_010_020_306;Ruta marginal de la selva;Objeto
+6;A50_015_010_020_308;Ruta nacional;Objeto
+6;A50_015_010_020_310;Ruta panamericana;Objeto
+6;A50_015_010_020_312;Salida de vehículos de bomberos;Objeto
+6;A50_015_010_020_314;Salida inmediata;Objeto
+6;A50_015_010_020_316;Seguridad vial;Objeto
+6;A50_015_010_020_318;Sendero para excursionistas;Objeto
+6;A50_015_010_020_320;Señal de mensaje variable tipo A;Objeto
+6;A50_015_010_020_322;Señal de mensaje variable tipo aspa-flecha;Objeto
+6;A50_015_010_020_324;Señal de mensaje variable tipo B;Objeto
+6;A50_015_010_020_326;Señal de mensaje variable tipo C;Objeto
+6;A50_015_010_020_328;Señal de mensaje variable tipo portátil;Objeto
+6;A50_015_010_020_329;Señal de mensaje variable tipo oculta;Objeto
+6;A50_015_010_020_330;Servicios sanitarios;Objeto
+6;A50_015_010_020_332;Sitio de parqueo;Objeto
+6;A50_015_010_020_334;Solo salida;Objeto
+6;A50_015_010_020_336;Superficie deslizante;Objeto
+6;A50_015_010_020_338;Superficie rizada;Objeto
+6;A50_015_010_020_340;Taller;Objeto
+6;A50_015_010_020_342;Teléfono;Objeto
+6;A50_015_010_020_344;Termal;Objeto
+6;A50_015_010_020_346;Terminación de vía con separador (dos sentidos);Objeto
+6;A50_015_010_020_348;Terminación de vía con separador (un sentido);Objeto
+6;A50_015_010_020_350;Transbordador;Objeto
+6;A50_015_010_020_352;Tránsito en ambos sentidos;Objeto
+6;A50_015_010_020_354;Tránsito en un sentido;Objeto
+6;A50_015_010_020_356;Transporte ferroviario;Objeto
+6;A50_015_010_020_358;Transporte masivo;Objeto
+6;A50_015_010_020_360;Tres carriles (dos en contraflujo);Objeto
+6;A50_015_010_020_362;Tres carriles (dos en contraflujo);Objeto
+6;A50_015_010_020_364;Tres carriles (uno en contraflujo);Objeto
+6;A50_015_010_020_366;Tres carriles (uno en contraflujo);Objeto
+6;A50_015_010_020_368;Tsunami ruta de evacuación;Objeto
+6;A50_015_010_020_370;Túnel;Objeto
+6;A50_015_010_020_372;Túnel;Objeto
+6;A50_015_010_020_374;Ubicación de cruce de ciclistas;Objeto
+6;A50_015_010_020_376;Ubicación de cruce escolar;Objeto
+6;A50_015_010_020_378;Ubicación de cruce peatonal;Objeto
+6;A50_015_010_020_380;Ubicación de resalto;Objeto
+6;A50_015_010_020_382;Vehículos pesados a la derecha;Objeto
+6;A50_015_010_020_384;Velocidad máxima;Objeto
+6;A50_015_010_020_386;Velocidad máxima permitida;Objeto
+6;A50_015_010_020_388;Velocidad máxima permitida salida;Objeto
+6;A50_015_010_020_390;Velocidad mínima permitida;Objeto
+6;A50_015_010_020_392;Vía lateral derecha;Objeto
+6;A50_015_010_020_394;Vía lateral izquierda;Objeto
+6;A50_015_010_020_396;Vía para ciclistas;Objeto
+6;A50_015_010_020_398;Volcán;Objeto
+6;A50_015_010_020_400;Zona de camping;Objeto
+6;A50_015_010_020_402;Zona de cargue y descargue;Objeto
+6;A50_015_010_020_404;Zona de curvas sucesivas la primera a la derecha;Objeto
+6;A50_015_010_020_406;Zona de curvas sucesivas la primera a la izquierda;Objeto
+6;A50_015_010_020_408;Zona de derrumbes;Objeto
+6;A50_015_010_020_410;Zona de estacionamiento de taxis;Objeto
+6;A50_015_010_020_412;Zona de peatones;Objeto
+6;A50_015_010_020_414;Zona escolar;Objeto
+6;A50_015_010_020_416;Zona especial de parqueo;Objeto
+6;A50_015_010_020_418;Zona exclusiva de paradero;Objeto
+6;A50_015_010_020_420;Zona militar;Objeto
+6;A50_015_010_020_422;Zona recreativa;Objeto
+6;A50_015_010_020_424;Zoológico;Objeto
+6;A50_015_010_020_426;Trabajos en vía;Objeto
+6;A50_015_010_020_428;Maquinaria en la vía;Objeto
+6;A50_015_010_020_430;Auxiliar de tránsito;Objeto
+6;A50_015_010_020_432;Angostamiento a ambos lados;Objeto
+6;A50_015_010_020_434;Angostamiento a la derecha;Objeto
+6;A50_015_010_020_436;Angostamiento a la izquierda;Objeto
+5;A50_015_010_025;Señalización de ciclorrutas;Sección
+6;A50_015_010_025_005;Ascenso fuerte;Objeto
+6;A50_015_010_025_010;Ceda el paso;Objeto
+6;A50_015_010_025_015;Cicloparqueadero;Objeto
+6;A50_015_010_025_020;Circulación compartida;Objeto
+6;A50_015_010_025_025;Circulación no compartida;Objeto
+6;A50_015_010_025_030;Circulación prohibida de mascotas;Objeto
+6;A50_015_010_025_035;Conserve la derecha;Objeto
+6;A50_015_010_025_040;Cruce de ciclorruta con resalto trapezoidal;Objeto
+6;A50_015_010_025_045;Descenso fuerte;Objeto
+6;A50_015_010_025_050;Dirección de la ciclorruta;Objeto
+6;A50_015_010_025_055;Fin de ciclobanda;Objeto
+6;A50_015_010_025_060;Fin de ciclorruta;Objeto
+6;A50_015_010_025_065;Inicio ciclobanda;Objeto
+6;A50_015_010_025_070;Inicio de ciclorruta;Objeto
+6;A50_015_010_025_075;Líneas longitudinales para ciclobandas;Objeto
+6;A50_015_010_025_080;Líneas longitudinales para ciclovías;Objeto
+6;A50_015_010_025_085;Nombre o código de la ciclorruta;Objeto
+6;A50_015_010_025_090;Obligatorio descender de la bicicleta;Objeto
+6;A50_015_010_025_095;Pare;Objeto
+6;A50_015_010_025_100;Semáforos;Objeto
+6;A50_015_010_025_105;Vehículos en la ciclorruta;Objeto
+6;A50_015_010_025_110;Zona compartida bicicletas - peatones;Objeto
+5;A50_015_010_030;Señalización de estaciones de peaje;Sección
+6;A50_015_010_030_005;Barreras de control;Objeto
+6;A50_015_010_030_010;Demarcaciones;Objeto
+6;A50_015_010_030_015;Isletas;Objeto
+6;A50_015_010_030_020;Preseñalización;Objeto
+6;A50_015_010_030_025;Semáforos e indicadores de forma de pago;Objeto
+6;A50_015_010_030_030;Señalización y control de velocidad;Objeto
+5;A50_015_010_035;Señalización de moto vías;Sección
+6;A50_015_010_035_005;Inicio motovía;Objeto
+6;A50_015_010_035_010;Fin motovía;Objeto
+6;A50_015_010_035_015;Solo motocicletas;Objeto
+5;A50_015_010_040;Señalización de túneles;Sección
+6;A50_015_010_040_005;Bahía de estacionamiento para emergencias;Objeto
+6;A50_015_010_040_010;Extintor de incendios;Objeto
+6;A50_015_010_040_015;Hidrante y manguera para apagar incendios;Objeto
+6;A50_015_010_040_020;Ruta de escape a salida de emergencia a la derecha;Objeto
+6;A50_015_010_040_025;Ruta de escape a salida de emergencia a la izquierda;Objeto
+6;A50_015_010_040_030;Salida de emergencia a la derecha;Objeto
+6;A50_015_010_040_035;Salida de emergencia a la izquierda;Objeto
+6;A50_015_010_040_040;Sistema de radio dedicado;Objeto
+6;A50_015_010_040_045;Teléfono de emergencia;Objeto
+5;A50_015_010_045;Señalización de vías peatonales;Sección
+6;A50_015_010_045_005;Isla o refugio peatonal;Objeto
+6;A50_015_010_045_010;Paso cebra en cruce;Objeto
+6;A50_015_010_045_015;Paso cebra en tramo en vía;Objeto
+6;A50_015_010_045_020;Paso peatonal a desnivel;Objeto
+6;A50_015_010_045_025;Paso peatonal regulado por semáforo;Objeto
+5;A50_015_010_050;Señalización para rampas o lechos de frenado de camiones;Sección
+6;A50_015_010_050_005;Delineación de la rampa;Objeto
+6;A50_015_010_050_010;Demarcación especial;Objeto
+6;A50_015_010_050_015;Lugar de inspección de frenos;Objeto
+6;A50_015_010_050_020;Preseñalización;Objeto
+6;A50_015_010_050_025;Señal de dirección;Objeto
+6;A50_015_010_050_030;Señal de salida inmediata;Objeto
+6;A50_015_010_050_035;Señales de prevención;Objeto
+5;A50_015_010_055;Hito de arista y delineador tubular direccional de calzada;Sección
+5;A50_015_010_060;Captafaro y tacha retrorreflectiva de demarcación vial;Sección
+5;A50_015_010_065;Barrera abatible automatizada de control de paso en peaje y paso a nivel;Sección
+4;A50_015_015;Señalización y dispositivos de seguridad ferroviaria;Subgrupo
+5;A50_015_015_005;Señales luminosas y semáforos ferroviarios;Sección
+6;A50_015_015_005_005;Señal luminosa de bloqueo y circulación en vía;Objeto
+6;A50_015_015_005_010;Señal luminosa de entrada, salida o avanzada de estación;Objeto
+6;A50_015_015_005_015;Señal luminosa baja de maniobras y clasificación en patio;Objeto
+5;A50_015_015_010;Señales fijas, indicadores y postes kilométricos ferroviarios;Sección
+6;A50_015_015_010_005;Poste e hito kilométrico o hectométrico ferroviario;Objeto
+6;A50_015_015_010_010;Señal fija de límite de velocidad, rasante, silbato o gálibo ferroviario;Objeto
+6;A50_015_015_010_015;Señal de Cruz de San Andrés para paso a nivel ferroviario;Objeto
+5;A50_015_015_015;Barreras y dispositivos físicos de protección en paso a nivel;Sección
+6;A50_015_015_015_005;Mecanismo y brazo de barrera automática o manual para paso a nivel;Objeto
+6;A50_015_015_015_010;Campana acústica y destellador luminoso de paso a nivel;Objeto
+3;A50_020;Componentes de sostenibilidad y medio ambiente;Grupo
+4;A50_020_005;Captación y gestión de aguas;Subgrupo
+5;A50_020_005_005;Biofiltro de aguas pluviales;Sección
+5;A50_020_005_010;Cámara de infiltración;Sección
+5;A50_020_005_015;Canaleta de recolección de aguas lluvias;Sección
+5;A50_020_005_020;Dispositivo de recarga de acuíferos;Sección
+5;A50_020_005_025;Drenaje sostenible;Sección
+5;A50_020_005_030;Equipo de infiltración vegetada;Sección
+5;A50_020_005_035;Equipo para ahorro de agua;Sección
+5;A50_020_005_040;Equipo para reutilizaci{on de agua lluvia;Sección
+5;A50_020_005_045;Equipo para tratamiento de aguas residuales;Sección
+5;A50_020_005_050;Jardín de lluvia;Sección
+5;A50_020_005_055;Pozo de absorción;Sección
+5;A50_020_005_060;Tanque de almacenamiento de aguas pluviales;Sección
+5;A50_020_005_065;Tanque de retención temporal;Sección
+5;A50_020_005_070;Trinchera de infiltración;Sección
+4;A50_020_010;Eficiencia energética;Subgrupo
+5;A50_020_010_005;Aprovechador de energía residual;Sección
+5;A50_020_010_010;Captador de energía cinética;Sección
+5;A50_020_010_015;Captador geotérmico de baja entalpía;Sección
+5;A50_020_010_020;Controlador de consumo energético;Sección
+5;A50_020_010_025;Controlador de intensidad lumínica;Sección
+5;A50_020_010_030;Generador eólico;Sección
+5;A50_020_010_035;Iluminación de bajo consumo;Sección
+5;A50_020_010_040;Iluminación solar autónoma;Sección
+5;A50_020_010_045;Panel fotovoltaico;Sección
+5;A50_020_010_050;Recuperador de calor;Sección
+5;A50_020_010_055;Regulador térmico pasivo;Sección
+5;A50_020_010_060;Sensor de movimiento para iluminación;Sección
+5;A50_020_010_065;Ventana de control solar;Sección
+5;A50_020_010_070;Ventilación natural controlada;Sección
+4;A50_020_015;Gestión de residuos;Subgrupo
+5;A50_020_015_005;Almacenador de residuos peligrosos;Sección
+5;A50_020_015_010;Bioconversor de residuos;Sección
+5;A50_020_015_015;Compactador de residuos orgánicos;Sección
+5;A50_020_015_020;Compostador de residuos vegetales;Sección
+5;A50_020_015_025;Compostador industrial;Sección
+5;A50_020_015_030;Contenedor de separación de residuos;Sección
+5;A50_020_015_035;Controlador de lixiviados;Sección
+5;A50_020_015_040;Estación de reciclaje;Sección
+5;A50_020_015_045;Incinerador controlado;Sección
+5;A50_020_015_050;Separador de residuos sólidos;Sección
+5;A50_020_015_055;Triturador de residuos orgánicos;Sección
+5;A50_020_015_060;Unidad de compostaje urbano;Sección
+4;A50_020_020;Infraestructura verde, vegetación y elementos naturales;Subgrupo
+5;A50_020_020_005;Árbol;Sección
+5;A50_020_020_010;Arbusto;Sección
+5;A50_020_020_015;Barreras de protección para árboles;Sección
+5;A50_020_020_020;Biotopo artificial;Sección
+5;A50_020_020_025;Cajas de riego;Sección
+5;A50_020_020_030;Cama de plantación ecológica;Sección
+5;A50_020_020_035;Componentes de amortiguación vegetal;Sección
+5;A50_020_020_040;Controlador de plagas natural;Sección
+5;A50_020_020_045;Cubiertas de protección para raíces;Sección
+5;A50_020_020_050;Elementos de soporte para plantas trepadoras;Sección
+5;A50_020_020_055;Enrejados para vegetación vertical;Sección
+5;A50_020_020_060;Jardín de especies nativas;Sección
+5;A50_020_020_065;Jardineras públicas;Sección
+5;A50_020_020_070;Jardines de polinizadores;Sección
+5;A50_020_020_075;Jardines verticales modulares;Sección
+5;A50_020_020_080;Maceteros modulares de gran capacidad;Sección
+5;A50_020_020_085;Mallas para soporte de vegetación;Sección
+5;A50_020_020_090;Módulo de revegetación;Sección
+5;A50_020_020_095;Muros verdes;Sección
+5;A50_020_020_100;Pérgolas con vegetación integrada;Sección
+5;A50_020_020_105;Planta mediana;Sección
+5;A50_020_020_110;Plantación de absorción de CO₂;Sección
+5;A50_020_020_115;Recuperador de suelos degradados;Sección
+5;A50_020_020_120;Riego ecológico;Sección
+5;A50_020_020_125;Riego por captación de agua;Sección
+5;A50_020_020_130;Separadores vegetales;Sección
+5;A50_020_020_135;Soporte de plantas para crecimiento vertical;Sección
+5;A50_020_020_140;Sustratos de crecimiento urbano;Sección
+5;A50_020_020_145;Unidades de retención de agua para plantas;Sección
+5;A50_020_020_150;Vegetación para control de erosión;Sección
+5;A50_020_020_155;Vegetación perenne para control de temperatura;Sección
+4;A50_020_025;Mejora de calidad ambiental;Subgrupo
+5;A50_020_025_005;Barrera acústica natural;Sección
+5;A50_020_025_010;Barrera vegetal para reducción de ruido;Sección
+5;A50_020_025_015;Bioremediador de suelos;Sección
+5;A50_020_025_020;Capturador de carbono;Sección
+5;A50_020_025_025;Cobertura vegetal para mitigación de polvo;Sección
+5;A50_020_025_030;Dispositivo de monitoreo acústico;Sección
+5;A50_020_025_035;Estación de monitoreo de calidad de aire;Sección
+5;A50_020_025_040;Filtro de aire para emisiones;Sección
+5;A50_020_025_045;Monitor de contaminantes;Sección
+5;A50_020_025_050;Pantalla de absorción acústica;Sección
+5;A50_020_025_055;Restaurador de áreas verdes;Sección
+5;A50_020_025_060;Restaurador de ecosistemas;Sección
+5;A50_020_025_065;Sensor de calidad del agua;Sección
+5;A50_020_025_070;Sensor de monitoreo de calidad del aire;Sección
+5;A50_020_025_075;Tejado verde;Sección
+4;A50_020_030;Movilidad sostenible;Subgrupo
+5;A50_020_030_005;Alquiler de bicicletas;Sección
+5;A50_020_030_010;Aparcamiento para bicicletas;Sección
+5;A50_020_030_015;Bicicletero de uso público;Sección
+5;A50_020_030_020;Estación de recarga para vehículos eléctricos;Sección
+5;A50_020_030_025;Gestor de tránsito peatonal;Sección
+5;A50_020_030_030;Infraestructura para peatones y ciclistas;Sección
+5;A50_020_030_035;Parqueadero para vehículos eléctricos;Sección
+5;A50_020_030_040;Parqueos disuasorios;Sección
+5;A50_020_030_045;Punto de descanso en rutas ecológicas;Sección
+5;A50_020_030_050;Punto de reparación de bicicletas;Sección
+5;A50_020_030_055;Recargador solar para bicicletas eléctricas;Sección
+5;A50_020_030_060;Ruta señalizada para bicicletas;Sección
+5;A50_020_030_065;Señalización para ciclovías;Sección
+5;A50_020_030_070;Servicio de mantenimiento para bicicletas;Sección
+5;A50_020_030_075;Soporte de bicicletas;Sección
+4;A50_020_035;Protección y recuperación ambiental;Subgrupo
+5;A50_020_035_005;Amortiguador ambiental;Sección
+5;A50_020_035_010;Barrera de control de erosión;Sección
+5;A50_020_035_015;Bioingeniería de taludes;Sección
+5;A50_020_035_020;Elemento de protección de cauces;Sección
+5;A50_020_035_025;Estabilizador de taludes;Sección
+5;A50_020_035_030;Geotextil para control de erosión;Sección
+5;A50_020_035_035;Malla de control de sedimentos;Sección
+5;A50_020_035_040;Protecciones de biodiversidad;Sección
+5;A50_020_035_045;Recuperador de áreas degradadas;Sección
+5;A50_020_035_050;Restaurador de humedales;Sección
+5;A50_020_035_055;Revegetador de taludes;Sección
+5;A50_020_035_060;Suelo vegetal reforzado;Sección
+4;A50_020_040;Sostenibilidad y adaptación climática;Subgrupo
+5;A50_020_040_005;Absorbente térmico;Sección
+5;A50_020_040_010;Almacenador de energía renovable;Sección
+5;A50_020_040_015;Barrera contra inundaciones;Sección
+5;A50_020_040_020;Captador y reutilizador de aguas;Sección
+5;A50_020_040_025;Cubierta reflectiva;Sección
+5;A50_020_040_030;Drenaje sostenible;Sección
+5;A50_020_040_035;Infraestructura permeable;Sección
+5;A50_020_040_040;Pavimento frío;Sección
+5;A50_020_040_045;Pavimento permeable;Sección
+5;A50_020_040_050;Sombrado natural;Sección
+5;A50_020_040_055;Sombra para áreas públicas;Sección
+5;A50_020_040_060;Superficie de baja emisión de calor;Sección
+3;A50_025;Componentes de urbanismo y prediales;Grupo
+4;A50_025_005;Accesorios de urbanismo;Subgrupo
+5;A50_025_005_005;Bancas urbanas;Sección
+5;A50_025_005_010;Bolardos de seguridad;Sección
+5;A50_025_005_015;Ceniceros públicos;Sección
+5;A50_025_005_020;Dispensadores de bolsas para desechos;Sección
+5;A50_025_005_025;Maceteros urbanos;Sección
+5;A50_025_005_030;Papeleras urbanas;Sección
+5;A50_025_005_035;Pasamanos para accesibilidad;Sección
+5;A50_025_005_040;Pilonas de acceso restringido;Sección
+5;A50_025_005_045;Rejas de protección;Sección
+5;A50_025_005_050;Separadores de tráfico;Sección
+5;A50_025_005_055;Soportes de bicicletas;Sección
+5;A50_025_005_060;Tótems informativos;Sección
+5;A50_025_005_065;Vitrinas de información pública;Sección
+4;A50_025_010;Cercas y vallados;Subgrupo
+5;A50_025_010_005;Barreras peatonales;Sección
+5;A50_025_010_010;Cercas antivandálicas;Sección
+5;A50_025_010_015;Cercas decorativas;Sección
+5;A50_025_010_020;Cercas de protección de fauna;Sección
+5;A50_025_010_025;Cercas móviles;Sección
+5;A50_025_010_030;Cercas para delimitación temporal;Sección
+5;A50_025_010_035;Mallas de protección;Sección
+5;A50_025_010_040;Pantallas de privacidad;Sección
+5;A50_025_010_045;Rejas de seguridad;Sección
+5;A50_025_010_050;Vallados de protección;Sección
+4;A50_025_015;Mobiliario urbano;Subgrupo
+5;A50_025_015_005;Bancos para áreas recreativas;Sección
+5;A50_025_015_010;Barras de ejercicio al aire libre;Sección
+5;A50_025_015_015;Equipos de gimnasia urbana;Sección
+5;A50_025_015_020;Juegos infantiles fijos;Sección
+5;A50_025_015_025;Mesas de pícnic;Sección
+5;A50_025_015_030;Mesas de trabajo al aire libre;Sección
+5;A50_025_015_035;Paneles de descanso;Sección
+5;A50_025_015_040;Pérgolas de sombra;Sección
+5;A50_025_015_045;Pérgolas de soporte de vegetación;Sección
+5;A50_025_015_050;Sombrillas públicas;Sección
+4;A50_025_020;Otros elementos de piso;Subgrupo
+5;A50_025_020_005;Adoquines de concreto permeable;Sección
+5;A50_025_020_010;Adoquines modulares;Sección
+5;A50_025_020_015;Baldosas táctiles de guía;Sección
+5;A50_025_020_020;Baldosas antideslizantes;Sección
+5;A50_025_020_025;Bloques de pavimento reciclado;Sección
+5;A50_025_020_030;Bordillo;Sección
+5;A50_025_020_035;Cubiertas de drenaje urbano;Sección
+5;A50_025_020_040;Losetas de concreto;Sección
+5;A50_025_020_045;Losetas permeables;Sección
+5;A50_025_020_050;Losetas táctiles para accesibilidad;Sección
+5;A50_025_020_055;Rejillas de ventilación peatonal;Sección
+5;A50_025_020_060;Sardinel;Sección
+5;A50_025_020_065;Superficies de suelo ecológico;Sección
+5;A50_025_020_070;Tapas de registro urbanas;Sección
+3;A50_030;Componentes eléctricos (incluye iluminación);Grupo
+4;A50_030_005;Cajas y tableros eléctricos;Subgrupo
+5;A50_030_005_005;Caja de conexiones subterránea;Sección
+5;A50_030_005_010;Caja de distribución;Sección
+5;A50_030_005_015;Caja de empalme;Sección
+5;A50_030_005_020;Caja de inspección de redes secas;Sección
+5;A50_030_005_025;Caja de interruptores diferenciales;Sección
+5;A50_030_005_030;Caja de medidores;Sección
+5;A50_030_005_035;Caja de paso;Sección
+5;A50_030_005_040;Caja de protección de fusibles;Sección
+5;A50_030_005_045;Caja para tomacorrientes en exteriores;Sección
+5;A50_030_005_050;Caja resistente al agua para exteriores;Sección
+5;A50_030_005_055;Cárcamo de protección;Sección
+5;A50_030_005_060;Tablero de distribución;Sección
+5;A50_030_005_065;Tablero de interruptores automáticos;Sección
+5;A50_030_005_070;Tablero de medición de consumo;Sección
+5;A50_030_005_075;Tablero de sincronización;Sección
+5;A50_030_005_080;Tablero general de distribución;Sección
+5;A50_030_005_085;Tablero para control de iluminación;Sección
+4;A50_030_010;Canalizaciones y conductores;Subgrupo
+5;A50_030_010_005;Acometida eléctrica;Sección
+5;A50_030_010_010;Cable de alimentación eléctrica;Sección
+5;A50_030_010_015;Cable de cobre de alta capacidad;Sección
+5;A50_030_010_020;Cable de conexión a tierra;Sección
+5;A50_030_010_025;Cable de par trenzado;Sección
+5;A50_030_010_030;Cable resistente a altas temperaturas;Sección
+5;A50_030_010_035;Cable subterráneo blindado;Sección
+5;A50_030_010_040;Cableado de energía;Sección
+5;A50_030_010_045;Cables de potencia;Sección
+5;A50_030_010_050;Canalización de comunicaciones entubada;Sección
+5;A50_030_010_055;Canalización de comunicaciones en zanja;Sección
+5;A50_030_010_060;Canalización eléctrica baja tensión;Sección
+5;A50_030_010_065;Canalización eléctrica media tensión;Sección
+5;A50_030_010_070;Conduits eléctricos flexibles;Sección
+5;A50_030_010_075;Conduits rígidos para exteriores;Sección
+5;A50_030_010_080;Manguera de protección de cables;Sección
+5;A50_030_010_085;Tubería eléctrica de alta resistencia;Sección
+5;A50_030_010_090;Tubería eléctrica subterránea;Sección
+5;A50_030_010_095;Tuberías eléctricas para áreas húmedas;Sección
+4;A50_030_015;Iluminación de áreas públicas;Subgrupo
+5;A50_030_015_005;Balizas para senderos;Sección
+5;A50_030_015_010;Columnas de iluminación para plazas;Sección
+5;A50_030_015_015;Farolas LED;Sección
+5;A50_030_015_020;Iluminación de emergencia autónoma;Sección
+5;A50_030_015_025;Lámparas de bajo consumo;Sección
+5;A50_030_015_030;Lámparas LED para áreas verdes;Sección
+5;A50_030_015_035;Lámparas urbanas antivandálicas;Sección
+5;A50_030_015_040;Luminarias de alta resistencia;Sección
+5;A50_030_015_045;Luminarias solares autónomas;Sección
+5;A50_030_015_050;Proyectores LED de alta potencia;Sección
+5;A50_030_015_055;Reflectores LED;Sección
+5;A50_030_015_060;Reflectores solares;Sección
+5;A50_030_015_065;Señalizadores luminosos para caminos;Sección
+5;A50_030_015_070;Tótems de iluminación;Sección
+5;A50_030_015_075;Torres de iluminación para parques;Sección
+4;A50_030_020;Iluminación decorativa;Subgrupo
+5;A50_030_020_005;Bombillos de acento para fachadas;Sección
+5;A50_030_020_010;Iluminación arquitectónica de realce;Sección
+5;A50_030_020_015;Iluminación de paisaje;Sección
+5;A50_030_020_020;Iluminación empotrada en suelo;Sección
+5;A50_030_020_025;Iluminación para árboles y vegetación;Sección
+5;A50_030_020_030;Iluminación subacuática para fuentes;Sección
+5;A50_030_020_035;Luces LED para escaleras;Sección
+5;A50_030_020_040;Luces RGB para espacios exteriores;Sección
+5;A50_030_020_045;Proyectores de fachadas;Sección
+5;A50_030_020_050;Reflectores decorativos de exteriores;Sección
+5;A50_030_020_055;Reflectores para áreas recreativas;Sección
+5;A50_030_020_060;Tiras LED decorativas;Sección
+5;A50_030_020_065;Tiras de luces para terrazas;Sección
+5;A50_030_020_070;Iluminación de bajo voltaje para jardines;Sección
+5;A50_030_020_075;Lámparas de pedestal decorativas;Sección
+4;A50_030_025;Iluminación vial y de seguridad;Subgrupo
+5;A50_030_025_005;Barreras iluminadas para tráfico;Sección
+5;A50_030_025_010;Farolas solares para vías;Sección
+5;A50_030_025_015;Iluminación de cruces peatonales;Sección
+5;A50_030_025_020;Iluminación de señales viales;Sección
+5;A50_030_025_025;Lámparas de poste para calles;Sección
+5;A50_030_025_030;Lámparas de poste para carreteras;Sección
+5;A50_030_025_035;Luminarias LED para túneles;Sección
+5;A50_030_025_040;Luminarias para pasos de cebra;Sección
+5;A50_030_025_045;Reflectores para estacionamientos;Sección
+5;A50_030_025_050;Señalizadores luminosos de emergencia;Sección
+5;A50_030_025_055;Señales viales iluminadas;Sección
+5;A50_030_025_060;Torre de iluminación para autopistas;Sección
+5;A50_030_025_065;Luminarias antivandálicas para vías;Sección
+5;A50_030_025_070;Iluminación de estaciones de peaje;Sección
+5;A50_030_025_075;Iluminación de acceso en puentes;Sección
+4;A50_030_030;Interruptores y controles;Subgrupo
+5;A50_030_030_005;Controlador de nivel de iluminación;Sección
+5;A50_030_030_010;Controlador de sobrecarga;Sección
+5;A50_030_030_015;Dimerizadores;Sección
+5;A50_030_030_020;Disyuntores;Sección
+5;A50_030_030_025;Equipos de control de iluminación inteligente;Sección
+5;A50_030_030_030;Interruptores automáticos;Sección
+5;A50_030_030_035;Interruptores de fotocélula;Sección
+5;A50_030_030_040;Interruptores de movimiento;Sección
+5;A50_030_030_045;Interruptores programables;Sección
+5;A50_030_030_050;Módulo de control de iluminación en túneles;Sección
+5;A50_030_030_055;Panel de control de iluminación;Sección
+5;A50_030_030_060;Reguladores de voltaje;Sección
+5;A50_030_030_065;Relé de protección;Sección
+5;A50_030_030_070;Sensores de monitoreo eléctrico;Sección
+5;A50_030_030_075;Timer eléctrico;Sección
+4;A50_030_035;Transformadores y convertidores;Subgrupo
+5;A50_030_035_005;Convertidor de corriente directa a alterna;Sección
+5;A50_030_035_010;Convertidor de frecuencia;Sección
+5;A50_030_035_015;Regulador de voltaje;Sección
+5;A50_030_035_020;Transformador de aislamiento;Sección
+5;A50_030_035_025;Transformador de baja tensión;Sección
+5;A50_030_035_030;Transformador de distribución;Sección
+5;A50_030_035_035;Transformador de media tensión;Sección
+5;A50_030_035_040;Transformador de paso a paso;Sección
+5;A50_030_035_045;Transformador para iluminación de áreas verdes;Sección
+5;A50_030_035_050;Transformador para iluminación de jardines;Sección
+5;A50_030_035_055;Transformador para sistemas de emergencia;Sección
+5;A50_030_035_060;Transformador para uso subterráneo;Sección
+5;A50_030_035_065;Transformador encapsulado para exteriores;Sección
+5;A50_030_035_070;Transformador para instalaciones de alumbrado público;Sección
+5;A50_030_035_075;Convertidor de energía solar a corriente alterna;Sección
+4;A50_030_040;Unidades de alimentación y respaldo;Subgrupo
+5;A50_030_040_005;Banco de baterías de respaldo;Sección
+5;A50_030_040_010;Baterías de respaldo para luminarias de emergencia;Sección
+5;A50_030_040_015;Cargador de baterías para sistemas de emergencia;Sección
+5;A50_030_040_020;Cargador solar para baterías de respaldo;Sección
+5;A50_030_040_025;Componentes de alimentación ininterrumpida (SAI);Sección
+5;A50_030_040_030;Dispositivos UPS (sistemas de alimentación ininterrumpida);Sección
+5;A50_030_040_035;Estación de carga autónoma para zonas remotas;Sección
+5;A50_030_040_040;Generador de respaldo para edificios;Sección
+5;A50_030_040_045;Generador eléctrico portátil;Sección
+5;A50_030_040_050;Generador solar de emergencia;Sección
+5;A50_030_040_055;Inversor de corriente;Sección
+5;A50_030_040_060;Panel solar para carga de equipos;Sección
+5;A50_030_040_065;Power bank para instalaciones fijas;Sección
+5;A50_030_040_070;Rectificador de corriente;Sección
+5;A50_030_040_075;Unidad de respaldo para sistemas críticos;Sección
+4;A50_030_045;Tomas y conectores;Subgrupo
+5;A50_030_045_005;Adaptadores para conexiones temporales;Sección
+5;A50_030_045_010;Base de enchufe industrial;Sección
+5;A50_030_045_015;Conector de alta tensión;Sección
+5;A50_030_045_020;Conector para alumbrado público;Sección
+5;A50_030_045_025;Conector subterráneo;Sección
+5;A50_030_045_030;Enchufe para exterior;Sección
+5;A50_030_045_035;Enchufe para vehículos eléctricos;Sección
+5;A50_030_045_040;Enchufe resistente al agua;Sección
+5;A50_030_045_045;Tomas de corriente de pared;Sección
+5;A50_030_045_050;Tomas de corriente para exteriores;Sección
+5;A50_030_045_055;Tomas múltiple de seguridad;Sección
+5;A50_030_045_060;Tomas para carga rápida;Sección
+5;A50_030_045_065;Tomas para sistemas de carga de baterías;Sección
+5;A50_030_045_070;Conectores rápidos para instalaciones;Sección
+5;A50_030_045_075;Conectores para luminarias;Sección
+4;A50_030_050;Segmento de conductor aéreo de tracción;Subgrupo
+4;A50_030_055;Segmento de hilo de contacto de catenaria;Subgrupo
+4;A50_030_060;Cable de péndola de catenaria;Subgrupo
+3;A50_035;Componentes electrónicos, instrumentación, automatización y telecomunicaciones;Grupo
+4;A50_035_005;Componentes de automatización;Subgrupo
+5;A50_035_005_005;Actuadores eléctricos;Sección
+5;A50_035_005_010;Actuadores hidráulicos;Sección
+5;A50_035_005_015;Actuadores neumáticos;Sección
+5;A50_035_005_020;Controladores lógicos programables (PLC);Sección
+5;A50_035_005_025;Dispositivos de ajuste automático de válvulas;Sección
+5;A50_035_005_030;Equipo de conteo electrónico de tránsito vehicular;Sección
+5;A50_035_005_035;Equipo de control de velocidad;Sección
+5;A50_035_005_040;Módulos de control de temperatura;Sección
+5;A50_035_005_045;Módulos de gestión de alarmas;Sección
+5;A50_035_005_050;Servomecanismos de control;Sección
+5;A50_035_005_055;Tarjetas de control para sistemas automatizados;Sección
+5;A50_035_005_060;Unidades de procesamiento de control;Sección
+5;A50_035_005_065;Variadores de frecuencia;Sección
+4;A50_035_010;Componentes de comunicación;Subgrupo
+5;A50_035_010_005;Antenas de transmisión;Sección
+5;A50_035_010_010;Cableado de comunicaciones de fibra óptica;Sección
+5;A50_035_010_015;Cables coaxiales;Sección
+5;A50_035_010_020;Enlaces de microondas;Sección
+5;A50_035_010_025;Equipo de transmisión de frecuencia modulada de radio;Sección
+5;A50_035_010_030;Equipo de transmisión y recepción de señal;Sección
+5;A50_035_010_035;Equipos de comunicación inalámbrica;Sección
+5;A50_035_010_040;Estaciones base de comunicación;Sección
+5;A50_035_010_045;Módems de alta velocidad;Sección
+5;A50_035_010_050;Panel PMV de señalización;Sección
+5;A50_035_010_055;Puentes de comunicación Ethernet;Sección
+5;A50_035_010_060;Repetidores de señal inalámbrica;Sección
+5;A50_035_010_065;Routers de conexión industrial;Sección
+5;A50_035_010_070;Transceptores de radiofrecuencia;Sección
+5;A50_035_010_075;Unidades de enlace satelital;Sección
+4;A50_035_015;Componentes de control y monitoreo;Subgrupo
+5;A50_035_015_005;Cámaras de vigilancia de alta resolución (CCTV);Sección
+5;A50_035_015_010;Componentes de monitoreo acústico;Sección
+5;A50_035_015_015;Componentes de supervisión de energía;Sección
+5;A50_035_015_020;Componentes de videovigilancia inteligente;Sección
+5;A50_035_015_025;Controladores de acceso biométricos;Sección
+5;A50_035_015_030;Dispositivos de control de acceso con tarjeta;Sección
+5;A50_035_015_035;Equipo de pesaje dinámico para vehículos de carga;Sección
+5;A50_035_015_040;Lectores de huellas digitales;Sección
+5;A50_035_015_045;Monitores de circuito cerrado de televisión (CCTV);Sección
+5;A50_035_015_050;Panel luminoso de advertencia de exceso;Sección
+5;A50_035_015_055;Pantallas de monitoreo remoto;Sección
+5;A50_035_015_060;Unidades de grabación de video digital (DVR);Sección
+5;A50_035_015_065;Cámara de detección automática de incidentes (DAI);Sección
+4;A50_035_020;Componentes de telecomunicaciones;Subgrupo
+5;A50_035_020_005;Componentes de comunicación bidireccional;Sección
+5;A50_035_020_010;Componentes de intercomunicación de emergencia;Sección
+5;A50_035_020_015;Componentes de telecomunicaciones en túneles;Sección
+5;A50_035_020_020;Dispositivos de comunicación de voz IP;Sección
+5;A50_035_020_025;Equipos de comunicación de emergencia;Sección
+5;A50_035_020_030;Estaciones de telefonía para exteriores;Sección
+5;A50_035_020_035;Intercomunicadores industriales;Sección
+5;A50_035_020_040;Puertos de acceso para red de datos;Sección
+5;A50_035_020_045;Receptores de telecomunicaciones satelitales;Sección
+5;A50_035_020_050;Teléfonos de emergencia;Sección
+5;A50_035_020_055;Terminales de comunicación remota;Sección
+5;A50_035_020_060;Torres de telefonía móvil;Sección
+5;A50_035_020_065;Transmisores de datos inalámbricos;Sección
+5;A50_035_020_070;Unidades de intercomunicación para áreas seguras;Sección
+5;A50_035_020_075;Unidades de radiocomunicación para servicios públicos;Sección
+4;A50_035_025;Instrumentación;Subgrupo
+5;A50_035_025_005;Anemómetros;Sección
+5;A50_035_025_010;Barómetros;Sección
+5;A50_035_025_015;Ceilómetros;Sección
+5;A50_035_025_020;Celdas de carga;Sección
+5;A50_035_025_025;Detectores de gases de combustión;Sección
+5;A50_035_025_030;Dispositivos de medición de desplazamiento;Sección
+5;A50_035_025_035;Estaciones meteorológicas;Sección
+5;A50_035_025_040;Extensómetros;Sección
+5;A50_035_025_045;Gálibos de asentamiento;Sección
+5;A50_035_025_050;Inclinómetros;Sección
+5;A50_035_025_055;Medidores de tensión;Sección
+5;A50_035_025_060;Piezómetros;Sección
+5;A50_035_025_065;Pluviómetros;Sección
+5;A50_035_025_070;Sondas de humedad y temperatura;Sección
+5;A50_035_025_075;Tubos de nivel freático;Sección
+5;A50_035_025_080;Deflectómetro de impacto (FWD) y transductor sísmico de rigidez estructural;Sección
+5;A50_035_025_085;Perfilómetro láser inercial de auscultación continua de regularidad superficial;Sección
+5;A50_035_025_090;Inclinómetro digital, piezómetro de cuerda vibrante y sensor geotécnico de taludes;Sección
+4;A50_035_030;Pantallas y unidades de visualización;Subgrupo
+5;A50_035_030_005;Displays LED de gran formato;Sección
+5;A50_035_030_010;Monitores de señalización digital;Sección
+5;A50_035_030_015;Pantallas interactivas;Sección
+5;A50_035_030_020;Pantallas para centros de control;Sección
+5;A50_035_030_025;Pantallas táctiles de operación industrial;Sección
+5;A50_035_030_030;Proyectores de información visual;Sección
+5;A50_035_030_035;Señalización digital para exteriores;Sección
+5;A50_035_030_040;Tableros de mensajes variables;Sección
+5;A50_035_030_045;Tableros de visualización de información;Sección
+5;A50_035_030_050;Televisores para áreas de monitoreo;Sección
+5;A50_035_030_055;Unidades de visualización de estado;Sección
+5;A50_035_030_060;Unidades de visualización de tráfico;Sección
+5;A50_035_030_065;Unidades de visualización de videovigilancia;Sección
+5;A50_035_030_070;Videowalls de alta resolución;Sección
+5;A50_035_030_075;Unidades de visualización de control de accesos;Sección
+4;A50_035_035;Otros sensores especializados;Subgrupo
+5;A50_035_035_005;Sensores de calidad del aire;Sección
+5;A50_035_035_010;Sensores de carga;Sección
+5;A50_035_035_015;Sensores de corriente;Sección
+5;A50_035_035_020;Sensores de deformación;Sección
+5;A50_035_035_025;Sensores de dióxido de carbono (CO2);Sección
+5;A50_035_035_030;Sensores de gases tóxicos;Sección
+5;A50_035_035_035;Sensores de inclinación;Sección
+5;A50_035_035_040;Sensores de luminosidad;Sección
+5;A50_035_035_045;Sensores de movimiento programables;Sección
+5;A50_035_035_050;Sensores de nivel de agua;Sección
+5;A50_035_035_055;Sensores de partículas en suspensión;Sección
+5;A50_035_035_060;Sensores de peso vehicular;Sección
+5;A50_035_035_065;Sensores de presión atmosférica;Sección
+5;A50_035_035_070;Sensores de proximidad;Sección
+5;A50_035_035_075;Sensores de proximidad ultrasónica;Sección
+5;A50_035_035_080;Sensores de temperatura y humedad;Sección
+5;A50_035_035_085;Sensores de velocidad vehicular;Sección
+5;A50_035_035_090;Sensores de vibración estructural;Sección
+5;A50_035_035_095;Sensores de visibilidad;Sección
+5;A50_035_035_100;Sensores de voltaje y corriente;Sección
+5;A50_035_035_105;Sensores infrarrojos;Sección
+5;A50_035_035_110;Sensores piezoeléctricos;Sección
+5;A50_035_035_115;Sensor de rueda y cabezal contador de ejes ferroviarios;Sección
+5;A50_035_035_120;Sensor detector de cajas calientes y frenos agarrotados en vía;Sección
+5;A50_035_035_125;Sensor detector de impacto de rueda ferroviaria;Sección
+4;A50_035_040;Baliza de vía puntual;Subgrupo
+5;A50_035_040_005;Eurobaliza conmutable o fija de señalización ferroviaria;Sección
+5;A50_035_040_010;Transpondedor e interrogador de vía para identificación y control;Sección
+3;A50_040;Componentes estructurales;Grupo
+4;A50_040_005;Anclajes;Subgrupo
+5;A50_040_005_005;Anclajes activos;Sección
+5;A50_040_005_010;Anclajes de tierra;Sección
+5;A50_040_005_015;Anclajes pasivos;Sección
+5;A50_040_005_020;Pernos de anclaje;Sección
+5;A50_040_005_025;Placas de anclaje;Sección
+5;A50_040_005_030;Varillas de anclaje;Sección
+4;A50_040_010;Arcos y bóvedas;Subgrupo
+5;A50_040_010_005;Arcos de soporte;Sección
+5;A50_040_010_010;Arcos estructurales;Sección
+5;A50_040_010_015;Bóvedas de soporte;Sección
+5;A50_040_010_020;Bóvedas prefabricadas;Sección
+5;A50_040_010_025;Estribos;Sección
+5;A50_040_010_030;Tensores para arcos;Sección
+4;A50_040_015;Cabezales y soportes;Subgrupo
+5;A50_040_015_005;Cabezales;Sección
+5;A50_040_015_010;Placas de apoyo;Sección
+5;A50_040_015_015;Soportes;Sección
+5;A50_040_015_020;Tensores;Sección
+5;A50_040_015_025;Torres de soporte;Sección
+5;A50_040_015_030;Travesaños de refuerzo;Sección
+5;A50_040_015_035;Durmientes;Sección
+6;A50_040_015_035_005;Durmiente monobloque de línea;Objeto
+6;A50_040_015_035_010;Durmiente bibloque;Objeto
+6;A50_040_015_035_015;Durmiente especial de longitud variable para desvíos;Objeto
+6;A50_040_015_035_020;Bloque de soporte para vía en placa;Objeto
+6;A50_040_015_035_025;Durmiente para tablero abierto y guarda-rieles;Objeto
+4;A50_040_020;Componentes de apoyo y cimentación;Subgrupo
+5;A50_040_020_005;Amortiguadores sísmicos;Sección
+5;A50_040_020_010;Bloques de cimentación;Sección
+5;A50_040_020_015;Cimentaciones profundas;Sección
+5;A50_040_020_020;Cimentaciones superficiales;Sección
+5;A50_040_020_025;Conectores de pilotes;Sección
+5;A50_040_020_030;Dados de cimentación;Sección
+5;A50_040_020_035;Encepados de pilotes;Sección
+5;A50_040_020_040;Losas de cimentación;Sección
+5;A50_040_020_045;Micro pilotes;Sección
+5;A50_040_020_050;Muros de cimentación;Sección
+5;A50_040_020_055;Pilastras;Sección
+5;A50_040_020_060;Zapatas corridas;Sección
+4;A50_040_025;Componentes de contención;Subgrupo
+5;A50_040_025_005;Barreras de contención;Sección
+5;A50_040_025_010;Barreras contra desprendimientos;Sección
+5;A50_040_025_015;Contrafuertes;Sección
+5;A50_040_025_020;Diques de contención;Sección
+5;A50_040_025_025;Mallas de contención;Sección
+5;A50_040_025_030;Muros anclados;Sección
+5;A50_040_025_035;Muros de contención;Sección
+5;A50_040_025_040;Muros de gravedad;Sección
+5;A50_040_025_045;Muros prefabricados;Sección
+5;A50_040_025_050;Muros pantalla;Sección
+5;A50_040_025_055;Pilotes de contención;Sección
+5;A50_040_025_060;Tablestacas;Sección
+5;A50_040_025_065;Taludes estabilizados;Sección
+5;A50_040_025_070;Tensores de contención;Sección
+4;A50_040_030;Componentes de elevación y soporte;Subgrupo
+5;A50_040_030_005;Armaduras;Sección
+5;A50_040_030_010;Columnas;Sección
+5;A50_040_030_015;Pilares;Sección
+5;A50_040_030_020;Pórticos;Sección
+5;A50_040_030_025;Soportes de vigas;Sección
+5;A50_040_030_030;Tensores estructurales;Sección
+5;A50_040_030_035;Torres de soporte;Sección
+5;A50_040_030_040;Travesaños;Sección
+5;A50_040_030_045;Vigas de carga;Sección
+5;A50_040_030_050;Vigas de soporte;Sección
+4;A50_040_035;Componentes de losas y plataformas;Subgrupo
+5;A50_040_035_005;Losas aligeradas;Sección
+5;A50_040_035_010;Losas de rodadura;Sección
+5;A50_040_035_015;Losas prefabricadas;Sección
+5;A50_040_035_020;Placas alveolares;Sección
+5;A50_040_035_025;Placas de conexión;Sección
+5;A50_040_035_030;Placas de transición;Sección
+5;A50_040_035_035;Placas estructurales;Sección
+5;A50_040_035_040;Superficies de rodadura;Sección
+5;A50_040_035_045;Tramos de plataforma;Sección
+5;A50_040_035_050;Uniones de losas;Sección
+4;A50_040_040;Componentes de refuerzo estructural;Subgrupo
+5;A50_040_040_005;Barras de refuerzo;Sección
+5;A50_040_040_010;Chapas de refuerzo;Sección
+5;A50_040_040_015;Componentes de retención;Sección
+5;A50_040_040_020;Conectores de refuerzo;Sección
+5;A50_040_040_025;Elementos de refuerzo antisísmico;Sección
+5;A50_040_040_030;Mallas de refuerzo;Sección
+5;A50_040_040_035;Placas de refuerzo;Sección
+5;A50_040_040_040;Refuerzos con fibra de carbono (FRP);Sección
+5;A50_040_040_045;Refuerzos prefabricados;Sección
+5;A50_040_040_050;Refuerzos de muros;Sección
+5;A50_040_040_055;Refuerzos de pilares;Sección
+5;A50_040_040_060;Refuerzos de vigas;Sección
+5;A50_040_040_065;Tensores de refuerzo;Sección
+5;A50_040_040_070;Tirantes;Sección
+4;A50_040_045;Componentes para puentes;Subgrupo
+5;A50_040_045_005;Diafragmas de puente;Sección
+5;A50_040_045_010;Elementos de transición;Sección
+5;A50_040_045_015;Tensores de suspensión;Sección
+5;A50_040_045_020;Torres de suspensión;Sección
+5;A50_040_045_025;Tramos móviles;Sección
+5;A50_040_045_030;Uniones de expansión;Sección
+5;A50_040_045_035;Uniones de puente y viaducto;Sección
+5;A50_040_045_040;Estribos de puente;Sección
+5;A50_040_045_045;Pilares de puente;Sección
+5;A50_040_045_050;Superficies de rodadura para puentes;Sección
+5;A50_040_045_055;Dispositivo de apoyo sísmico y aislador de superestructura de puente;Sección
+5;A50_040_045_060;Junta de dilatación estructural de tablero de puente y viaducto;Sección
+4;A50_040_050;Componentes para túneles;Subgrupo
+5;A50_040_050_005;Anillos de dovelas;Sección
+5;A50_040_050_010;Arcos de soporte;Sección
+5;A50_040_050_015;Elementos de revestimiento;Sección
+5;A50_040_050_020;Encofrados;Sección
+5;A50_040_050_025;Escudos de protección;Sección
+5;A50_040_050_030;Losas de soporte;Sección
+5;A50_040_050_035;Perfiles de refuerzo;Sección
+5;A50_040_050_040;Pernos de túnel;Sección
+5;A50_040_050_045;Refuerzos para túneles;Sección
+5;A50_040_050_050;Soportes para revestimiento;Sección
+5;A50_040_050_055;Travesaños;Sección
+5;A50_040_050_060;Uniones de expansión;Sección
+4;A50_040_055;Juntas y conexiones estructurales;Subgrupo
+5;A50_040_055_005;Articulaciones de movimiento;Sección
+5;A50_040_055_010;Conectores de dilatación;Sección
+5;A50_040_055_015;Elementos de conexión;Sección
+5;A50_040_055_020;Juntas de corte sísmico;Sección
+5;A50_040_055_025;Juntas de dilatación;Sección
+5;A50_040_055_030;Juntas de goma;Sección
+5;A50_040_055_035;Juntas impermeabilizantes;Sección
+5;A50_040_055_040;Juntas sísmicas;Sección
+5;A50_040_055_045;Pernos de unión;Sección
+5;A50_040_055_050;Placas de conexión;Sección
+5;A50_040_055_055;Placas de fijación;Sección
+5;A50_040_055_060;Componentes de junta de dilatación;Sección
+5;A50_040_055_065;Componentes de unión modular;Sección
+5;A50_040_055_070;Uniones de montaje;Sección
+5;A50_040_055_075;Uniones soldadas;Sección
+5;A50_040_055_080;Aparato de dilatación de riel;Sección
+5;A50_040_055_085;Brida eclisa de cuatro orificios;Sección
+5;A50_040_055_090;Junta aislante encolada JAE;Sección
+5;A50_040_055_095;Junta mecánica eclisada de vía;Sección
+5;A50_040_055_100;Brida eclisa de seis orificios;Sección
+4;A50_040_060;Pavimentos estructurales;Subgrupo
+5;A50_040_060_005;Tipos de capas de rodadura;Sección
+6;A50_040_060_005_005;Capa de rodadura conformada por adoquines de concreto;Objeto
+6;A50_040_060_005_010;Carpeta de rodadura diferenciada (material o color) para ciclistas;Objeto
+6;A50_040_060_005_015;Losas de concreto hidráulico;Objeto
+6;A50_040_060_005_020;Pavimento asfáltico antideslizante;Objeto
+6;A50_040_060_005_025;Pavimento asfáltico antirruido;Objeto
+6;A50_040_060_005_030;Pavimento asfáltico de alta resistencia;Objeto
+6;A50_040_060_005_035;Pavimento asfáltico drenante;Objeto
+6;A50_040_060_005_040;Pavimento asfáltico flexible;Objeto
+6;A50_040_060_005_045;Pavimento asfáltico fotocatalítico;Objeto
+6;A50_040_060_005_050;Pavimento asfáltico natural o ecológico;Objeto
+6;A50_040_060_005_055;Pavimento asfáltico permeable;Objeto
+6;A50_040_060_005_060;Pavimento asfáltico por capas delgadas;Objeto
+6;A50_040_060_005_065;Pavimento asfáltico reciclado;Objeto
+6;A50_040_060_005_070;Pavimento asfáltico reforzado;Objeto
+6;A50_040_060_005_075;Pavimento asfáltico ultradelgado;Objeto
+6;A50_040_060_005_080;Pavimento rígido;Objeto
+6;A50_040_060_005_085;Pavimento semirrígido;Objeto
+6;A50_040_060_005_090;Pavimento en tierra (sin pavimento);Objeto
+6;A50_040_060_005_095;Pavimento articulado;Objeto
+6;A50_040_060_005_100;Pavimento en adoquín;Objeto
+5;A50_040_060_010;Tipos de capas no superficiales;Sección
+6;A50_040_060_010_005;Capa anticongelante (en zonas de clima frío);Objeto
+6;A50_040_060_010_010;Capa anticontaminante;Objeto
+6;A50_040_060_010_015;Capa de afirmado;Objeto
+6;A50_040_060_010_020;Capa de arena;Objeto
+6;A50_040_060_010_025;Capa de base;Objeto
+6;A50_040_060_010_030;Capa estabilizada;Objeto
+6;A50_040_060_010_035;Capa de compensación;Objeto
+6;A50_040_060_010_040;Capa de filtro;Objeto
+6;A50_040_060_010_045;Capa de forma;Objeto
+6;A50_040_060_010_050;Capa de fundación;Objeto
+6;A50_040_060_010_055;Capa de material de conformación;Objeto
+6;A50_040_060_010_060;Capa de mejora de subrasante;Objeto
+6;A50_040_060_010_065;Capa de refuerzo (en rehabilitación o refuerzo de pavimentos existentes);Objeto
+6;A50_040_060_010_070;Capa de regularización (para corregir irregularidades de la superficie);Objeto
+6;A50_040_060_010_075;Capa de subbase;Objeto
+6;A50_040_060_010_080;Capa de subrasante;Objeto
+6;A50_040_060_010_085;Capa de subrasante o material mejorado para afirmados y terraplenes;Objeto
+6;A50_040_060_010_090;Capa drenante;Objeto
+6;A50_040_060_010_095;Capa granular no tratada para pavimentos articulados;Objeto
+6;A50_040_060_010_100;Capa impermeabilizante;Objeto
+6;A50_040_060_010_105;Capa intermedia;Objeto
+6;A50_040_060_010_110;Capa portante;Objeto
+6;A50_040_060_010_115;Capa soporte;Objeto
+6;A50_040_060_010_120;Capa transicional;Objeto
+6;A50_040_060_010_125;Capa tratada con ligantes hidráulicos;Objeto
+6;A50_040_060_010_130;Capa tratada con otros materiales hidráulicos;Objeto
+5;A50_040_060_015;Capa granular de asiento de vía;Sección
+6;A50_040_060_015_005;Capa de balasto de asiento ferroviario;Objeto
+6;A50_040_060_015_010;Capa de subbalasto y transición ferroviaria;Objeto
+6;A50_040_060_015_015;Losa portante para vía férrea en placa;Objeto
+3;A50_045;Componentes hidráulicos y sanitarios;Grupo
+4;A50_045_005;Accesorios de drenaje;Subgrupo
+5;A50_045_005_005;Actuadores de cilindro hidráulico;Sección
+5;A50_045_005_005;Alcantarillas de captación;Sección
+5;A50_045_005_005;Barreras de estabilidad;Sección
+5;A50_045_005_010;Actuadores de cilindro neumático;Sección
+5;A50_045_005_010;Barreras de impacto para taludes;Sección
+5;A50_045_005_010;Canaletas de drenaje;Sección
+5;A50_045_005_015;Actuadores de diafragma;Sección
+5;A50_045_005_015;Barreras de protección contra erosión;Sección
+5;A50_045_005_015;Cajas de inspección de drenaje;Sección
+5;A50_045_005_020;Actuadores de émbolo;Sección
+5;A50_045_005_020;Bioesteras antierosión;Sección
+5;A50_045_005_020;Codos de drenaje;Sección
+5;A50_045_005_025;Actuadores de palanca;Sección
+5;A50_045_005_025;Coberturas vegetales antierosión;Sección
+5;A50_045_005_025;Colectores de drenaje;Sección
+5;A50_045_005_030;Actuadores de piñón;Sección
+5;A50_045_005_030;Conectores de tubería de drenaje;Sección
+5;A50_045_005_030;Colchones para estabilización de taludes;Sección
+5;A50_045_005_035;Dispositivos de control de erosión;Sección
+5;A50_045_005_035;Actuadores de tornillo;Sección
+5;A50_045_005_035;Desarenadores;Sección
+6;A50_045_005_035_005;Cámara desarenadora y decantadora de sedimentos de escorrentía vial o férrea;Objeto
+5;A50_045_005_040;Geobolsas para taludes;Sección
+5;A50_045_005_040;Actuadores eléctricos;Sección
+5;A50_045_005_040;Filtros de drenaje;Sección
+5;A50_045_005_045;Actuadores lineales;Sección
+5;A50_045_005_045;Fosas de drenaje;Sección
+5;A50_045_005_045;Geoesteras para estabilización de suelo;Sección
+5;A50_045_005_050;Actuadores rotativos;Sección
+5;A50_045_005_050;Mallas de retención para drenaje;Sección
+5;A50_045_005_050;Geomallas antierosión;Sección
+5;A50_045_005_055;Mantas antierosión biodegradables;Sección
+5;A50_045_005_055;Pozos de drenaje;Sección
+5;A50_045_005_055;Actuadores telescópicos;Sección
+5;A50_045_005_060;Actuadores neumáticos de doble acción;Sección
+5;A50_045_005_060;Rejillas de captación;Sección
+5;A50_045_005_060;Membranas de protección contra la erosión;Sección
+5;A50_045_005_065;Sumideros de captación;Sección
+5;A50_045_005_065;Revestimientos para erosión en suelos blandos;Sección
+5;A50_045_005_065;Actuadores neumáticos de simple acción;Sección
+5;A50_045_005_070;Tapices de protección para taludes;Sección
+5;A50_045_005_070;Actuadores de resorte;Sección
+5;A50_045_005_070;Tapas para cámaras de drenaje;Sección
+5;A50_045_005_075;Tapices vegetales para control de erosión;Sección
+5;A50_045_005_075;Actuadores de válvula de bola;Sección
+5;A50_045_005_075;Tuberías de drenaje;Sección
+5;A50_045_005_080;Válvulas de drenaje;Sección
+4;A50_045_010;Bombas y equipos de bombeo;Subgrupo
+5;A50_045_010_005;Amortiguadores de impacto;Sección
+5;A50_045_010_005;Bombas centrífugas;Sección
+5;A50_045_010_010;Bombas de achique;Sección
+5;A50_045_010_010;Amortiguadores de resorte;Sección
+5;A50_045_010_015;Bombas de alta presión;Sección
+5;A50_045_010_015;Amortiguadores de vibración;Sección
+5;A50_045_010_020;Amortiguadores hidráulicos;Sección
+5;A50_045_010_020;Bombas de baja presión;Sección
+5;A50_045_010_025;Bombas de sumidero;Sección
+5;A50_045_010_025;Amortiguadores neumáticos;Sección
+5;A50_045_010_030;Barras de torsión;Sección
+5;A50_045_010_030;Bombas de succión de agua;Sección
+5;A50_045_010_035;Bombas de vacío;Sección
+5;A50_045_010_035;Barras estabilizadoras;Sección
+5;A50_045_010_040;Componentes de absorción de vibraciones;Sección
+5;A50_045_010_040;Bombas sumergibles;Sección
+5;A50_045_010_045;Componentes de presurización hidráulica;Sección
+5;A50_045_010_045;Disipadores de energía;Sección
+5;A50_045_010_050;Dispositivos de control de vibración;Sección
+5;A50_045_010_050;Equipos de bombeo de agua pluvial;Sección
+5;A50_045_010_055;Equipos de bombeo de aguas residuales;Sección
+5;A50_045_010_055;Muelles de compresión;Sección
+5;A50_045_010_060;Muelles de extensión;Sección
+5;A50_045_010_060;Equipos de bombeo de emergencia;Sección
+5;A50_045_010_065;Equipos de bombeo para estaciones de bombeo;Sección
+5;A50_045_010_065;Muelles helicoidales;Sección
+5;A50_045_010_070;Equipos de presión constante;Sección
+5;A50_045_010_070;Soportes de caucho antivibración;Sección
+5;A50_045_010_075;Soportes de muelle;Sección
+5;A50_045_010_075;Turbinas hidráulicas;Sección
+4;A50_045_015;Componentes de captación y almacenamiento de agua;Subgrupo
+5;A50_045_015_005;Aljibes;Sección
+5;A50_045_015_005;Bombas de vacío;Sección
+5;A50_045_015_005;Compactadores de impacto para suelo;Sección
+5;A50_045_015_010;Cámaras de captación de agua;Sección
+5;A50_045_015_010;Bombas de engranajes;Sección
+5;A50_045_015_010;Compactadores de vibración para taludes;Sección
+5;A50_045_015_015;Componentes de compactación de suelo;Sección
+5;A50_045_015_015;Cisternas;Sección
+5;A50_045_015_015;Bombas de tornillo;Sección
+5;A50_045_015_020;Contenedores de almacenamiento de agua;Sección
+5;A50_045_015_020;Componentes de estabilización química;Sección
+5;A50_045_015_020;Bombas de desplazamiento positivo;Sección
+5;A50_045_015_025;Bombas de diafragma;Sección
+5;A50_045_015_025;Componentes de relleno estabilizado;Sección
+5;A50_045_015_025;Depósitos de almacenamiento de agua;Sección
+5;A50_045_015_030;Dispositivos de llenado automático;Sección
+5;A50_045_015_030;Equipos de estabilización química;Sección
+5;A50_045_015_030;Bombas dosificadoras;Sección
+5;A50_045_015_035;Equipos de captación de aguas subterráneas;Sección
+5;A50_045_015_035;Bombas peristálticas;Sección
+5;A50_045_015_035;Equipos de inyección de cemento;Sección
+5;A50_045_015_040;Equipos de captación de aguas superficiales;Sección
+5;A50_045_015_040;Equipos de inyección de resina para suelos;Sección
+5;A50_045_015_040;Bombas rotativas;Sección
+5;A50_045_015_045;Bombas centrífugas de alta presión;Sección
+5;A50_045_015_045;Filtros de captación;Sección
+5;A50_045_015_045;Equipos de preconsolidación de suelos;Sección
+5;A50_045_015_050;Pozos de captación;Sección
+5;A50_045_015_050;Equipos de relleno controlado para suelos;Sección
+5;A50_045_015_050;Bombas para lodos;Sección
+5;A50_045_015_055;Geoceldas de confinamiento para suelo;Sección
+5;A50_045_015_055;Compresores de aire;Sección
+5;A50_045_015_055;Pozos de infiltración;Sección
+5;A50_045_015_060;Tanques de almacenamiento;Sección
+5;A50_045_015_060;Compresores de gas;Sección
+5;A50_045_015_060;Geotextiles de estabilización;Sección
+5;A50_045_015_065;Tanques de captación de agua pluvial;Sección
+5;A50_045_015_065;Dispositivos de succión;Sección
+5;A50_045_015_065;Refuerzos de suelo compacto;Sección
+5;A50_045_015_070;Tanques de presión;Sección
+5;A50_045_015_070;Terraplenes estabilizados;Sección
+5;A50_045_015_070;Inyectores de aire;Sección
+5;A50_045_015_075;Vacuómetros;Sección
+5;A50_045_015_075;Válvulas de almacenamiento;Sección
+5;A50_045_015_075;Tratamiento de suelos con inyecciones de polímeros;Sección
+4;A50_045_020;Componentes de distribución de agua;Subgrupo
+5;A50_045_020_005;Cremalleras de accionamiento;Sección
+5;A50_045_020_005;Cámaras de distribución de agua;Sección
+5;A50_045_020_010;Colectores de distribución;Sección
+5;A50_045_020_010;Dispositivos de arranque suave;Sección
+5;A50_045_020_015;Conectores de distribución;Sección
+5;A50_045_020_015;Embragues de fricción;Sección
+5;A50_045_020_020;Conectores de ramificación;Sección
+5;A50_045_020_020;Engranajes helicoidales;Sección
+5;A50_045_020_025;Distribuidores de agua;Sección
+5;A50_045_020_025;Engranajes rectos;Sección
+5;A50_045_020_030;Dispositivos de cierre de agua;Sección
+5;A50_045_020_030;Ejes de transmisión;Sección
+5;A50_045_020_035;Manifold de distribución;Sección
+5;A50_045_020_035;Poleas de transmisión;Sección
+5;A50_045_020_040;Redes de distribución;Sección
+5;A50_045_020_040;Ruedas dentadas;Sección
+5;A50_045_020_045;Ruedas libres;Sección
+5;A50_045_020_045;Tapas de registro de distribución;Sección
+5;A50_045_020_050;Acopladores de torsión;Sección
+5;A50_045_020_050;Tuberías de distribución;Sección
+5;A50_045_020_055;Válvulas de distribución;Sección
+5;A50_045_020_055;Acopladores flexibles;Sección
+5;A50_045_020_060;Piñones;Sección
+5;A50_045_020_060;Válvulas de paso;Sección
+5;A50_045_020_065;Reductores de velocidad;Sección
+5;A50_045_020_065;Válvulas de seccionamiento;Sección
+5;A50_045_020_070;Rodamientos de carga;Sección
+5;A50_045_020_070;Válvulas reductoras de flujo;Sección
+5;A50_045_020_075;Válvulas de agua para redes;Sección
+5;A50_045_020_075;Variadores de velocidad;Sección
+4;A50_045_025;Componentes de drenaje y conducción de agua;Subgrupo
+5;A50_045_025_005;Componentes de compactación por vibración;Sección
+5;A50_045_025_005;Bandas transportadoras;Sección
+5;A50_045_025_005;Cámaras de drenaje;Sección
+5;A50_045_025_010;Cadenas de transmisión;Sección
+5;A50_045_025_010;Componentes de consolidación dinámica para suelos;Sección
+5;A50_045_025_010;Cabezales de drenaje;Sección
+5;A50_045_025_015;Correas de distribución;Sección
+5;A50_045_025_015;Canaletas de captación de agua de lluvia;Sección
+5;A50_045_025_015;Componentes de densificación de suelos;Sección
+5;A50_045_025_020;Componentes de inyección para mejoramiento de suelos;Sección
+5;A50_045_025_020;Conductos de desagüe;Sección
+5;A50_045_025_020;Correas planas;Sección
+5;A50_045_025_025;Correas trapezoidales;Sección
+5;A50_045_025_025;Componentes de mezcla in situ para suelos;Sección
+5;A50_045_025_025;Colectores pluviales;Sección
+5;A50_045_025_030;Ejes cardán;Sección
+5;A50_045_025_030;Drenajes transversales;Sección
+5;A50_045_025_030;Componentes de perforación para refuerzo de suelo;Sección
+5;A50_045_025_035;Drenes de infiltración;Sección
+5;A50_045_025_035;Engranajes planetarios;Sección
+5;A50_045_025_035;Componentes de refuerzo para suelos blandos;Sección
+5;A50_045_025_040;Piñones de cadena;Sección
+5;A50_045_025_040;Componentes para consolidación de suelos;Sección
+5;A50_045_025_040;Drenes longitudinales;Sección
+5;A50_045_025_045;Componentes para inyección de lechada en suelos;Sección
+5;A50_045_025_045;Drenes subterráneos;Sección
+5;A50_045_025_045;Poleas de transmisión de potencia;Sección
+5;A50_045_025_050;Poleas de correa;Sección
+5;A50_045_025_050;Drenes superficiales;Sección
+5;A50_045_025_050;Componentes para inyección de resina en suelos;Sección
+5;A50_045_025_055;Disipadores de energía de drenaje;Sección
+5;A50_045_025_055;Rodamientos de rodillos;Sección
+5;A50_045_025_055;Componentes para densificación para suelo suelto;Sección
+5;A50_045_025_060;Rodillos de guía;Sección
+5;A50_045_025_060;Pozos de drenaje;Sección
+5;A50_045_025_060;Componentes para preconsolidación por sobrecarga;Sección
+5;A50_045_025_065;Rodillos tensores;Sección
+5;A50_045_025_065;Sumideros;Sección
+5;A50_045_025_065;Geomallas de refuerzo para suelos;Sección
+5;A50_045_025_070;Tambores de transmisión;Sección
+5;A50_045_025_070;Tuberías de drenaje;Sección
+5;A50_045_025_070;Rodillos de compactación de alta densidad;Sección
+5;A50_045_025_075;Zanjas de coronación;Sección
+5;A50_045_025_075;Tensores de correa;Sección
+5;A50_045_025_075;Vibradores de suelo para compactación profunda;Sección
+5;A50_045_025_080;Batea de drenaje;Sección
+5;A50_045_025_085;Estructura para cruce de cuerpo de agua superficial;Sección
+5;A50_045_025_090;Box culvert;Sección
+5;A50_045_025_095;Alcantarilla tubular;Sección
+4;A50_045_030;Componentes de filtración y purificación de agua;Subgrupo
+5;A50_045_030_005;Clarificadores de agua;Sección
+5;A50_045_030_005;Bloqueadores mecánicos;Sección
+5;A50_045_030_010;Dispositivos de eliminación de partículas;Sección
+5;A50_045_030_010;Dispositivos de frenado de emergencia;Sección
+5;A50_045_030_015;Dispositivos de retención de seguridad;Sección
+5;A50_045_030_015;Equipos de retención de impurezas;Sección
+5;A50_045_030_020;Equipos de tratamiento de agua;Sección
+5;A50_045_030_020;Frenos de banda;Sección
+5;A50_045_030_025;Filtros de arena;Sección
+5;A50_045_030_025;Frenos de disco;Sección
+5;A50_045_030_030;Frenos de tambor;Sección
+5;A50_045_030_030;Filtros de carbón activado;Sección
+5;A50_045_030_035;Filtros de malla;Sección
+5;A50_045_030_035;Frenos electromagnéticos;Sección
+5;A50_045_030_040;Filtros de membrana;Sección
+5;A50_045_030_040;Frenos hidráulicos;Sección
+5;A50_045_030_045;Filtros de partículas;Sección
+5;A50_045_030_045;Frenos mecánicos;Sección
+5;A50_045_030_050;Filtros de presión;Sección
+5;A50_045_030_050;Mordazas de freno;Sección
+5;A50_045_030_055;Retenedores mecánicos;Sección
+5;A50_045_030_055;Filtradores de sedimentos;Sección
+5;A50_045_030_060;Dispositivos de bloqueo de ruedas;Sección
+5;A50_045_030_060;Microfiltros de agua;Sección
+5;A50_045_030_065;Calzas de seguridad;Sección
+5;A50_045_030_065;Purificadores de agua;Sección
+5;A50_045_030_070;Dispositivos de control de desaceleración;Sección
+5;A50_045_030_070;Separadores de sólidos;Sección
+5;A50_045_030_075;Retenedores automáticos;Sección
+5;A50_045_030_075;Componentes de filtración de agua;Sección
+4;A50_045_035;Componentes de recolección y tratamiento de aguas residuales;Subgrupo
+5;A50_045_035_005;Celdas de decantación;Sección
+5;A50_045_035_005;Abrazaderas de fijación;Sección
+5;A50_045_035_010;Colectores de aguas residuales;Sección
+5;A50_045_035_010;Bases de anclaje;Sección
+5;A50_045_035_015;Decantadores de aguas residuales;Sección
+5;A50_045_035_015;Bloques de montaje;Sección
+5;A50_045_035_020;Desarenadores de aguas residuales;Sección
+5;A50_045_035_020;Brazos de soporte;Sección
+5;A50_045_035_025;Dispositivos de bombeo de aguas residuales;Sección
+5;A50_045_035_025;Conectores de anclaje;Sección
+5;A50_045_035_030;Dispositivos de alineación;Sección
+5;A50_045_035_030;Equipos de sedimentación;Sección
+5;A50_045_035_035;Elementos de guía;Sección
+5;A50_045_035_035;Equipos de tratamiento de aguas residuales;Sección
+5;A50_045_035_040;Pernos de fijación;Sección
+5;A50_045_035_040;Filtros para aguas residuales;Sección
+5;A50_045_035_045;Pozos de inspección de aguas residuales;Sección
+5;A50_045_035_045;Placas de montaje;Sección
+5;A50_045_035_050;Placas de soporte;Sección
+5;A50_045_035_050;Rejillas de captación de aguas residuales;Sección
+5;A50_045_035_055;Separadores de grasas;Sección
+5;A50_045_035_055;Soportes antivibratorios;Sección
+5;A50_045_035_060;Separadores de sedimentos;Sección
+5;A50_045_035_060;Soportes de anclaje;Sección
+5;A50_045_035_065;Soportes de montaje;Sección
+5;A50_045_035_065;Tuberías para aguas residuales;Sección
+5;A50_045_035_070;Tornillos de ajuste;Sección
+5;A50_045_035_070;Unidades de tratamiento de sólidos;Sección
+5;A50_045_035_075;Válvulas de corte de flujo;Sección
+5;A50_045_035_075;Tornillos de sujeción;Sección
+4;A50_045_040;Control de flujo y presión;Subgrupo
+5;A50_045_040_005;Amortiguadores de resorte;Sección
+5;A50_045_040_005;Caudalímetros electromagnéticos;Sección
+5;A50_045_040_010;Compensadores de presión;Sección
+5;A50_045_040_010;Componentes de resorte de retorno;Sección
+5;A50_045_040_015;Controladores de flujo de agua;Sección
+5;A50_045_040_015;Muelles de compresión;Sección
+5;A50_045_040_020;Dispositivos de control de flujo constante;Sección
+5;A50_045_040_020;Muelles de extensión;Sección
+5;A50_045_040_025;Muelles de impacto;Sección
+5;A50_045_040_025;Medidores de caudal;Sección
+5;A50_045_040_030;Medidores de presión hidráulica;Sección
+5;A50_045_040_030;Muelles de torsión;Sección
+5;A50_045_040_035;Muelles helicoidales;Sección
+5;A50_045_040_035;Reductores de presión;Sección
+5;A50_045_040_040;Resortes de gas;Sección
+5;A50_045_040_040;Reguladores de presión;Sección
+5;A50_045_040_045;Resortes de tensión constante;Sección
+5;A50_045_040_045;Sensores de flujo;Sección
+5;A50_045_040_050;Sensores de presión;Sección
+5;A50_045_040_050;Resortes planos;Sección
+5;A50_045_040_055;Resortes para cargas pesadas;Sección
+5;A50_045_040_055;Turbinas de flujo;Sección
+5;A50_045_040_060;Resortes para válvulas;Sección
+5;A50_045_040_060;Válvulas automáticas de regulación;Sección
+5;A50_045_040_065;Resortes reforzados;Sección
+5;A50_045_040_065;Válvulas de alivio de presión;Sección
+5;A50_045_040_070;Tensores de resorte;Sección
+5;A50_045_040_070;Válvulas de control de presión;Sección
+5;A50_045_040_075;Válvulas reguladoras de caudal;Sección
+4;A50_045_045;Equipos sanitarios;Subgrupo
+5;A50_045_045_005;Hélices de ventilación;Sección
+5;A50_045_045_005;Accesorios de baño;Sección
+5;A50_045_045_010;Impulsores de turbina;Sección
+5;A50_045_045_010;Canaletas de agua sanitaria;Sección
+5;A50_045_045_015;Palas de rotor;Sección
+5;A50_045_045_015;Conectores sanitarios;Sección
+5;A50_045_045_020;Rotores de compresor;Sección
+5;A50_045_045_020;Dispositivos de descarga de agua;Sección
+5;A50_045_045_025;Rotores de generador;Sección
+5;A50_045_045_025;Inodoros;Sección
+5;A50_045_045_030;Lavamanos;Sección
+5;A50_045_045_030;Rotores de turbina;Sección
+5;A50_045_045_035;Rotores de ventilación;Sección
+5;A50_045_045_035;Módulos de ducha;Sección
+5;A50_045_045_040;Ruedas de ventilación;Sección
+5;A50_045_045_040;Separadores de grasa;Sección
+5;A50_045_045_045;Tazas sanitarias;Sección
+5;A50_045_045_045;Turbinas de baja presión;Sección
+5;A50_045_045_050;Turbinas de alta presión;Sección
+5;A50_045_045_050;Trampas de olor;Sección
+5;A50_045_045_055;Unidades de descarga sanitaria;Sección
+5;A50_045_045_055;Turbinas de flujo axial;Sección
+5;A50_045_045_060;Turbinas de flujo radial;Sección
+5;A50_045_045_060;Unidades de vaciado;Sección
+5;A50_045_045_065;Urinales;Sección
+5;A50_045_045_065;Turbinas de vapor;Sección
+5;A50_045_045_070;Turbinas hidráulicas;Sección
+5;A50_045_045_070;Válvulas de desagüe;Sección
+5;A50_045_045_075;Turborreactores;Sección
+5;A50_045_045_075;Válvulas de descarga;Sección
+4;A50_045_050;Válvulas y dispositivos de control hidráulico;Subgrupo
+5;A50_045_050_005;Compuertas de flujo;Sección
+5;A50_045_050_010;Compensadores de movimiento hidráulico;Sección
+5;A50_045_050_015;Controladores de presión hidráulica;Sección
+5;A50_045_050_020;Controladores de flujo ajustable;Sección
+5;A50_045_050_025;Dispositivos de desaireación;Sección
+5;A50_045_050_030;Dispositivos de regulación de caudal;Sección
+5;A50_045_050_035;Indicadores de nivel;Sección
+5;A50_045_050_040;Sensores de nivel de agua;Sección
+5;A50_045_050_045;Sensores de temperatura de agua;Sección
+5;A50_045_050_050;Tapones de seguridad;Sección
+5;A50_045_050_055;Válvulas automáticas de cierre;Sección
+5;A50_045_050_060;Válvulas de control de flujo;Sección
+5;A50_045_050_065;Válvulas de paso controlado;Sección
+5;A50_045_050_070;Válvulas de retención hidráulica;Sección
+5;A50_045_050_075;Válvulas de regulación de presión;Sección
+3;A50_050;Componentes mecánicos;Grupo
+4;A50_050_005;Actuadores;Subgrupo
+5;A50_050_005_005;Máquina de accionamiento electromecánico de aguja ferroviaria;Sección
+5;A50_050_005_010;Máquina de accionamiento electrohidráulico de aguja ferroviaria;Sección
+5;A50_050_005_015;Marmita y palanca de accionamiento manual de aguja ferroviaria;Sección
+4;A50_050_010;Amortiguadores y disipadores de vibración;Subgrupo
+5;A50_050_010_005;Barreras de infiltración para agua;Sección
+5;A50_050_010_010;Canaletas de drenaje para taludes;Sección
+5;A50_050_010_015;Colectores de agua subterránea;Sección
+5;A50_050_010_020;Colectores de drenaje superficial;Sección
+5;A50_050_010_025;Dispositivos disipadores de energía de agua;Sección
+5;A50_050_010_030;Drenes de infiltración;Sección
+5;A50_050_010_035;Drenes superficiales;Sección
+5;A50_050_010_040;Filtros de suelo para drenaje;Sección
+5;A50_050_010_045;Pozos de absorción para control de agua;Sección
+5;A50_050_010_050;Revestimientos drenantes para taludes;Sección
+5;A50_050_010_055;Sumideros para escorrentía;Sección
+5;A50_050_010_060;Tuberías de captación de agua;Sección
+5;A50_050_010_065;Vertederos para manejo de aguas;Sección
+5;A50_050_010_070;Zanjas de coronación;Sección
+5;A50_050_010_075;Zanjas perimetrales de drenaje;Sección
+5;A50_050_010_080;Almohadilla elástica de amortiguación;Sección
+5;A50_050_010_085;Almohadilla bajo riel de alta atenuación dinámica;Sección
+5;A50_050_010_090;Almohadilla elástica bajo riel;Sección
+5;A50_050_010_095;Manta elástica antivibratoria bajo balasto;Sección
+5;A50_050_010_100;Placa elástica bajo durmiente USP;Sección
+4;A50_050_015;Bombas y equipos de succión;Subgrupo
+4;A50_050_020;Componentes de accionamiento;Subgrupo
+5;A50_050_020_005;Bioingeniería para estabilización de taludes;Sección
+5;A50_050_020_010;Coberturas biodegradables para revegetación;Sección
+5;A50_050_020_015;Componentes de empradización en taludes;Sección
+5;A50_050_020_020;Componentes de rehabilitación de terrenos;Sección
+5;A50_050_020_025;Dispositivos para reforestación de suelos;Sección
+5;A50_050_020_030;Fertilizantes para revegetación de suelos;Sección
+5;A50_050_020_035;Hidrosiembra para control de erosión;Sección
+5;A50_050_020_040;Mantas de siembra en taludes;Sección
+5;A50_050_020_045;Protectores para raíces en taludes;Sección
+5;A50_050_020_050;Redes de fijación de plantas en suelo;Sección
+5;A50_050_020_055;Revestimientos vegetales para suelo;Sección
+5;A50_050_020_060;Semillas para revegetación en taludes;Sección
+5;A50_050_020_065;Sustratos de plantación en taludes;Sección
+5;A50_050_020_070;Tapices vegetales para estabilización;Sección
+5;A50_050_020_075;Viveros móviles para reforestación;Sección
+4;A50_050_025;Componentes de transmisión;Subgrupo
+4;A50_050_030;Dispositivos de freno y retención;Subgrupo
+5;A50_050_030_005;Aparato descarrilador de vía;Sección
+5;A50_050_030_010;Tope de fin de vía;Sección
+5;A50_050_030_015;Topera de absorción de energía o fricción;Sección
+5;A50_050_030_020;Calce de detención ferroviaria;Sección
+4;A50_050_035;Elementos de soporte y fijación;Subgrupo
+5;A50_050_035_005;Tirafondo de fijación para durmientes;Sección
+5;A50_050_035_010;Placa de asiento de riel;Sección
+5;A50_050_035_015;Sistema de fijación elástica cautiva fastclip;Sección
+5;A50_050_035_020;Placa de asiento de doble inclinación de trocha;Sección
+5;A50_050_035_025;Sistema de fijación elástica tipo e-clip;Sección
+5;A50_050_035_030;Cerrojo mecánico de uña para aguja;Sección
+5;A50_050_035_035;Tirante de unión y rigidez entre agujas;Sección
+5;A50_050_035_040;Sistema de sujeción de riel;Sección
+5;A50_050_035_045;Placa de resbalamiento para aguja;Sección
+5;A50_050_035_050;Eclisa mecánica de unión de riel;Sección
+5;A50_050_035_055;Junta aislante encolada de riel;Sección
+5;A50_050_035_060;Aparato de dilatación de riel;Sección
+5;A50_050_035_065;Ancla o antideslizante de riel;Sección
+5;A50_050_035_070;Almohadilla amortiguadora bajo asiento de riel para control de rigidez vertical;Sección
+4;A50_050_040;Muelles y resortes;Subgrupo
+4;A50_050_045;Turbinas y rotores;Subgrupo
+4;A50_050_050;Válvulas y controles mecánicos;Subgrupo
+5;A50_050_050_005;Compensadores de expansión;Sección
+5;A50_050_050_010;Controladores de presión;Sección
+5;A50_050_050_015;Dispositivos de cierre rápido;Sección
+5;A50_050_050_020;Indicadores de flujo;Sección
+5;A50_050_050_025;Reguladores de presión;Sección
+5;A50_050_050_030;Válvulas antirretorno;Sección
+5;A50_050_050_035;Válvulas de control de flujo;Sección
+5;A50_050_050_040;Válvulas de escape;Sección
+5;A50_050_050_045;Válvulas de seguridad;Sección
+5;A50_050_050_050;Válvulas de sobrepresión;Sección
+5;A50_050_050_055;Válvulas limitadoras de presión;Sección
+5;A50_050_050_060;Válvulas reguladoras de velocidad;Sección
+5;A50_050_050_065;Válvulas rotativas;Sección
+4;A50_050_055;Rieles;Subgrupo
+5;A50_050_055_005;Aguja móvil mecanizada para desvío;Sección
+5;A50_050_055_010;Contrarriel de seguridad para puente;Sección
+5;A50_050_055_015;Contrarriel de guiado para cruzamiento;Sección
+5;A50_050_055_020;Aguja curva mecanizada para desvío;Sección
+5;A50_050_055_025;Contrarriel de protección de vía;Sección
+5;A50_050_055_030;Riel de garganta o ranurado;Sección
+5;A50_050_055_035;Riel de cremallera central;Sección
+5;A50_050_055_040;Contraguja de apoyo para aparato de vía;Sección
+5;A50_050_055_045;Aguja recta mecanizada para desvío;Sección
+5;A50_050_055_050;Riel conductor de tercer riel;Sección
+5;A50_050_055_055;Riel de perfil Vignole para vía general;Sección
+5;A50_050_055_060;Riel largo soldado de vía continua (RLS);Sección
+5;A50_050_055_065;Junta aislante encolada de riel para aislamiento eléctrico de circuito de vía;Sección
+4;A50_050_060;Corazón de cruzamiento de vía;Subgrupo
+5;A50_050_060_005;Corazón de cruzamiento ensamblado de rieles;Sección
+5;A50_050_060_010;Aguja, contraaguja y tirante de maniobra de aparato de desvío ferroviario;Sección
+4;A50_050_065;Corazón monobloque para cruzamiento;Subgrupo
+4;A50_050_070;Corazón de punta móvil para cruzamiento;Subgrupo
+3;A50_055;Componentes para tratamiento de suelos y taludes;Grupo
+4;A50_055_005;Control de erosión y estabilización de suelos;Subgrupo
+4;A50_055_010;Drenaje y manejo de aguas;Subgrupo
+4;A50_055_015;Estabilización de suelos;Subgrupo
+4;A50_055_020;Rehabilitación y revegetación;Subgrupo
+4;A50_055_025;Tecnologías de mejoramiento del suelo;Subgrupo

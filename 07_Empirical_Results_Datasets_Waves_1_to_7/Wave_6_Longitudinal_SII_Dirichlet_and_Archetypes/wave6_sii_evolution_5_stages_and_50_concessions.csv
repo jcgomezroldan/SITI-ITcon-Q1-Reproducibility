@@ -1,0 +1,103 @@
+cohort_type,unit_key,project_id,unit_name,mode_and_phase,asset_count,distinct_layers,sii_s0_pct,sii_s1_pct,sii_s2_pct,sii_s3_pct,sii_s4_pct,delta_sii_s0_s4_pp,sii_s4_design_pct
+MACRO_REGIME_TRAJECTORY,V1_EFFECTIVE,-1,Strict Primary Empirical SII — Effective vs. M1 Monolithic RDF (Canonical),National 3-Layer CAS Trajectory (S0..S4),226324,21,17.9904,41.1556,75.1891,95.8392,96.9175,78.9271,96.9991
+MACRO_REGIME_TRAJECTORY,V1_CONDITIONAL,-1,Strict Primary Empirical SII — Conditional on Completed Queries vs. M1 RDF,National 3-Layer CAS Trajectory (S0..S4),226324,21,31.8222,52.3898,80.1369,95.8392,96.9175,65.0953,96.9991
+MACRO_REGIME_TRAJECTORY,V2_SQL,-1,Strict Primary Empirical SII — Effective vs. M2 Coupled Row-SQL AoS,National 3-Layer CAS Trajectory (S0..S4),226324,21,15.0624,38.1456,74.2805,94.5537,95.6508,80.5884,95.8591
+MACRO_REGIME_TRAJECTORY,V3_RAW603,-1,Cold-Ingestion Inclusive SII — Raw 603 CDE Receipts (Phi_ont = 97.97%),National 3-Layer CAS Trajectory (S0..S4),226324,21,16.0029,37.6304,68.4358,95.1617,96.24,80.2371,96.2877
+MACRO_REGIME_TRAJECTORY,V4_COMPOSITE,-1,Comprehensive Multi-Submetric Composite SII (All Dimension Submetrics),National 3-Layer CAS Trajectory (S0..S4),226324,21,15.3518,31.4065,66.972,97.4077,98.3554,83.0036,98.4443
+PANEL_A_47_PARTITION,P-000,0,Partición heredada ID 0 (Proyecto ANI 0),Partición histórica (Contrato §2.8),3861,8,18.7076,41.3614,74.21,95.9359,97.0323,78.3247,97.1272
+PANEL_A_47_PARTITION,P-001,1,IP - Accesos Norte a Bogotá,Construcción / Carretero,604,5,20.6808,40.2043,73.5745,95.448,96.5335,75.8527,96.6892
+PANEL_A_47_PARTITION,P-002,2,IP - Antioquia - Bolívar,Construcción / Carretero,16096,15,19.1097,41.33,75.1532,94.9589,96.1101,77.0004,96.2655
+PANEL_A_47_PARTITION,P-003,3,Autopista Conexión Pacífico 1,Construcción / Carretero,8481,17,17.7344,42.28,75.8825,95.3089,96.4254,78.6909,96.5732
+PANEL_A_47_PARTITION,P-004,4,Autopista Conexión Pacífico 2,Operación y Mantenimiento / Carretero,4356,15,17.073,39.3296,75.0806,95.1038,96.0673,78.9943,96.2077
+PANEL_A_47_PARTITION,P-005,5,Autopista Conexión Pacífico 3,Operación y Mantenimiento / Carretero,1193,3,20.6911,39.9945,73.324,95.3927,96.4914,75.8003,96.654
+PANEL_A_47_PARTITION,P-006,6,Autopista al Mar 1,Operación y Mantenimiento / Carretero,855,3,20.86,40.1812,73.4895,95.3616,96.4737,75.6137,96.6438
+PANEL_A_47_PARTITION,P-007,7,Autopista al Mar 2,Construcción / Carretero,973,3,20.4781,39.202,73.2874,95.172,96.2405,75.7625,96.4062
+PANEL_A_47_PARTITION,P-008,8,Autopista al Río Magdalena 2,Construcción / Carretero,1311,8,18.9973,37.9157,73.8843,95.0863,96.0161,77.0188,96.1683
+PANEL_A_47_PARTITION,P-009,9,Autopista Conexión Norte,Operación y Mantenimiento / Carretero,7200,17,18.5153,41.321,75.6358,94.9487,96.1248,77.6095,96.2772
+PANEL_A_47_PARTITION,P-010,10,Bucaramanga - Barrancabermeja - Yondó,Construcción / Carretero,8485,17,18.8065,41.1059,75.5498,94.9062,95.9649,77.1583,96.1116
+PANEL_A_47_PARTITION,P-011,11,Cartagena - Barranquilla y Circunvalar de la Prosperidad,Operación y Mantenimiento / Carretero,12707,11,18.4641,39.9461,73.9488,94.9036,96.0234,77.5594,96.1711
+PANEL_A_47_PARTITION,P-013,13,Pamplona - Cúcuta,Operación y Mantenimiento / Carretero,7810,15,18.5481,41.3411,75.2727,95.0343,96.1465,77.5984,96.299
+PANEL_A_47_PARTITION,P-014,14,Honda - Puerto Salgar - Girardot,Operación y Mantenimiento / Carretero,670,3,20.809,40.1188,73.5724,95.3502,96.4583,75.6494,96.6307
+PANEL_A_47_PARTITION,P-015,15,IP - Cambao Manizales,Construcción / Carretero,803,3,20.8996,40.1911,73.6064,95.3622,96.4167,75.5171,96.595
+PANEL_A_47_PARTITION,P-016,16,IP - Chirajara - Fundadores,Operación y Mantenimiento / Carretero,458,6,19.6469,38.9715,72.8761,95.0436,96.2177,76.5708,96.3503
+PANEL_A_47_PARTITION,P-017,17,Partición heredada ID 17 (Proyecto ANI 17),Partición histórica (Contrato §2.8),6137,13,18.0605,41.5344,74.9857,95.8179,96.8974,78.8369,96.9856
+PANEL_A_47_PARTITION,P-018,18,Mulaló - Loboguerrero,Preconstrucción / Carretero,1987,14,19.3809,40.6852,74.8288,94.8735,96.0052,76.6243,96.1541
+PANEL_A_47_PARTITION,P-020,20,Rumichaca - Pasto,Operación y Mantenimiento / Carretero,10417,14,19.4826,40.9902,74.9978,95.0241,96.0815,76.5989,96.2372
+PANEL_A_47_PARTITION,P-021,21,Perimetral de Oriente de Cundinamarca,Operación y Mantenimiento / Carretero,9764,13,18.9923,40.0566,74.6769,94.9668,96.0282,77.0359,96.1814
+PANEL_A_47_PARTITION,P-022,22,Puerta de Hierro - Palmar de Varela y Carreto - Cruz del Viso,Operación y Mantenimiento / Carretero,5658,14,18.6693,40.4068,74.888,94.9051,95.9742,77.3049,96.1221
+PANEL_A_47_PARTITION,P-023,23,Santana - Mocoa - Neiva,Construcción / Carretero,1700,3,20.631,39.9551,73.3901,95.3581,96.4352,75.8042,96.6021
+PANEL_A_47_PARTITION,P-024,24,Popayán - Santander de Quilichao,Construcción / Carretero,665,3,20.6672,40.0923,73.4455,95.451,96.47,75.8029,96.6307
+PANEL_A_47_PARTITION,P-025,25,Transversal del Sisga,Operación y Mantenimiento / Carretero,8556,13,18.6645,40.5374,74.5725,94.8827,96.0807,77.4162,96.2325
+PANEL_A_47_PARTITION,P-026,26,IP - Ampliación a tercer carril doble calzada Bogotá - Girardot,Construcción / Carretero,10152,13,20.1427,41.9306,75.2432,95.1507,96.2636,76.1209,96.4291
+PANEL_A_47_PARTITION,P-028,28,IP - Vías del Nus,Operación y Mantenimiento / Carretero,16330,17,18.3749,39.6577,75.3965,94.9437,95.9307,77.5558,96.0779
+PANEL_A_47_PARTITION,P-029,29,Villavicencio - Yopal,Construcción / Carretero,1154,3,20.6244,40.0335,73.4025,95.4356,96.4408,75.8165,96.6066
+PANEL_A_47_PARTITION,P-030,30,IP - GICA,Operación y Mantenimiento / Carretero,1739,14,19.6832,41.2095,75.1287,95.1037,96.2584,76.5752,96.4137
+PANEL_A_47_PARTITION,P-032,32,Desarrollo Vial Armenia - Pereira - Manizales.,Operación y mantenimiento / Carretero,3681,12,20.1128,41.5571,74.8024,95.1351,96.3217,76.2089,96.4824
+PANEL_A_47_PARTITION,P-033,33,Santafé de Bogotá (Puente el Cortijo)  - Siberia - La Punta - El Vino - La Vega - Villeta,Operación y mantenimiento / Carretero,7310,14,19.0929,40.8733,75.0259,95.0298,96.1302,77.0373,96.2858
+PANEL_A_47_PARTITION,P-037,37,Desarrollo vial del Oriente de Medellin DEVIMED,Operación y mantenimiento / Carretero,1393,3,20.6988,40.0448,73.2736,95.3371,96.4725,75.7737,96.6386
+PANEL_A_47_PARTITION,P-039,39,Malla Vial del Meta,Construcción / Carretero,987,3,20.4152,39.34,73.2373,95.2449,96.2469,75.8317,96.411
+PANEL_A_47_PARTITION,P-040,40,Neiva - Espinal - Girardot,Construcción / Carretero,1029,3,20.5381,39.9777,73.3691,95.4442,96.4586,75.9205,96.6212
+PANEL_A_47_PARTITION,P-041,41,Santa Marta - Riohacha - Paraguachón,Operación y mantenimiento / Carretero,851,3,20.6385,40.0034,73.4665,95.2812,96.3829,75.7445,96.5595
+PANEL_A_47_PARTITION,P-045,45,Briceño - Tunja - Sogamoso,Operación y mantenimiento / Carretero,8333,15,17.5411,38.9396,74.6218,94.7877,95.7696,78.2284,95.8985
+PANEL_A_47_PARTITION,P-049,49,Partición heredada ID 49 (Proyecto ANI 49),Partición histórica (Contrato §2.8),129,1,18.4088,40.2287,73.9977,96.3113,97.3258,78.917,97.4354
+PANEL_A_47_PARTITION,P-052,52,Ruta del Sol - Sector 3,Construcción / Carretero,3052,3,20.3683,39.8741,73.1571,95.2862,96.4372,76.0688,96.5964
+PANEL_A_47_PARTITION,P-153,153,Nueva Malla vial del Valle accesos Cali y Palmira.,Construcción / Carretero,2325,3,20.0883,39.6663,72.9824,95.2382,96.4062,76.318,96.5622
+PANEL_A_47_PARTITION,P-154,154,ALO Sur - Avenida Longitudinal de Occidente,Preconstrucción / Carretero,235,4,19.8735,38.9535,72.7355,95.1622,96.2748,76.4014,96.4153
+PANEL_A_47_PARTITION,P-155,155,"Troncal del Magdalena ""Puerto Salgar - Barrancabermeja"" C1",Construcción / Carretero,18949,15,17.701,39.3776,74.9989,95.029,96.0048,78.3037,96.14
+PANEL_A_47_PARTITION,P-156,156,"Troncal del Magdalena ""Sabana de Torres - Curumaní C2",Construcción / Carretero,1886,4,19.9817,39.6006,73.0156,95.2499,96.379,76.3973,96.5365
+PANEL_A_47_PARTITION,P-157,157,Accesos Norte Fase II,Preconstrucción / Carretero,2689,13,17.1147,39.9763,74.3404,94.8828,96.0314,78.9167,96.1708
+PANEL_A_47_PARTITION,P-158,158,APP Buga – Buenaventura,Construcción / Carretero,13887,15,18.8912,39.0891,74.7726,94.7211,95.692,76.8008,95.8316
+PANEL_A_47_PARTITION,P-162,162,IP Aeropuerto De Suroccidente - Aeropuerto Alfonso Bonilla Aragón,Estructuración / Aeroportuario,5,4,15.7179,36.4448,72.0424,94.9636,95.9223,80.2043,96.0289
+PANEL_A_47_PARTITION,P-165,165,APP Dorada - Chiriguana,Estructuración / Ferreo,6,1,14.5394,37.421,72.097,95.411,96.3344,81.795,96.4161
+PANEL_A_47_PARTITION,P-184,184,"IP Autopistas del Caribe, corredor de carga Cartagena - Barranquilla",Preconstrucción / Carretero,9445,15,18.9041,41.5366,74.9655,94.8189,96.0769,77.1728,96.2298
+PANEL_A_47_PARTITION,P-187,187,IP Campo De Vuelo Aeropuerto El Dorado - Bogotá Dc,Estructuración / Aeroportuario,10,5,16.0865,36.4018,72.1378,94.8441,95.814,79.7276,95.9246
+PANEL_B_50_MASTER,M-001,1,IP - Accesos Norte a Bogotá,Construcción / Carretero,604,5,20.6808,40.2043,73.5745,95.448,96.5335,75.8527,96.6892
+PANEL_B_50_MASTER,M-002,2,IP - Antioquia - Bolívar,Construcción / Carretero,16096,15,19.1097,41.33,75.1532,94.9589,96.1101,77.0004,96.2655
+PANEL_B_50_MASTER,M-003,3,Autopista Conexión Pacífico 1,Construcción / Carretero,8481,17,17.7344,42.28,75.8825,95.3089,96.4254,78.6909,96.5732
+PANEL_B_50_MASTER,M-004,4,Autopista Conexión Pacífico 2,Operación y Mantenimiento / Carretero,4356,15,17.073,39.3296,75.0806,95.1038,96.0673,78.9943,96.2077
+PANEL_B_50_MASTER,M-005,5,Autopista Conexión Pacífico 3,Operación y Mantenimiento / Carretero,1193,3,20.6911,39.9945,73.324,95.3927,96.4914,75.8003,96.654
+PANEL_B_50_MASTER,M-006,6,Autopista al Mar 1,Operación y Mantenimiento / Carretero,855,3,20.86,40.1812,73.4895,95.3616,96.4737,75.6137,96.6438
+PANEL_B_50_MASTER,M-007,7,Autopista al Mar 2,Construcción / Carretero,973,3,20.4781,39.202,73.2874,95.172,96.2405,75.7625,96.4062
+PANEL_B_50_MASTER,M-008,8,Autopista al Río Magdalena 2,Construcción / Carretero,1311,8,18.9973,37.9157,73.8843,95.0863,96.0161,77.0188,96.1683
+PANEL_B_50_MASTER,M-009,9,Autopista Conexión Norte,Operación y Mantenimiento / Carretero,7200,17,18.5153,41.321,75.6358,94.9487,96.1248,77.6095,96.2772
+PANEL_B_50_MASTER,M-010,10,Bucaramanga - Barrancabermeja - Yondó,Construcción / Carretero,8485,17,18.8065,41.1059,75.5498,94.9062,95.9649,77.1583,96.1116
+PANEL_B_50_MASTER,M-011,11,Cartagena - Barranquilla y Circunvalar de la Prosperidad,Operación y Mantenimiento / Carretero,12707,11,18.4641,39.9461,73.9488,94.9036,96.0234,77.5594,96.1711
+PANEL_B_50_MASTER,M-013,13,Pamplona - Cúcuta,Operación y Mantenimiento / Carretero,7810,15,18.5481,41.3411,75.2727,95.0343,96.1465,77.5984,96.299
+PANEL_B_50_MASTER,M-014,14,Honda - Puerto Salgar - Girardot,Operación y Mantenimiento / Carretero,670,3,20.809,40.1188,73.5724,95.3502,96.4583,75.6494,96.6307
+PANEL_B_50_MASTER,M-015,15,IP - Cambao Manizales,Construcción / Carretero,803,3,20.8996,40.1911,73.6064,95.3622,96.4167,75.5171,96.595
+PANEL_B_50_MASTER,M-016,16,IP - Chirajara - Fundadores,Operación y Mantenimiento / Carretero,458,6,19.6469,38.9715,72.8761,95.0436,96.2177,76.5708,96.3503
+PANEL_B_50_MASTER,M-018,18,Mulaló - Loboguerrero,Preconstrucción / Carretero,1987,14,19.3809,40.6852,74.8288,94.8735,96.0052,76.6243,96.1541
+PANEL_B_50_MASTER,M-019,19,IP Neiva - Espinal - Girardot.,Operación y Mantenimiento / Carretero,0,0,15.5169,36.3661,71.5934,95.3684,96.7263,81.2094,96.8059
+PANEL_B_50_MASTER,M-020,20,Rumichaca - Pasto,Operación y Mantenimiento / Carretero,10417,14,19.4826,40.9902,74.9978,95.0241,96.0815,76.5989,96.2372
+PANEL_B_50_MASTER,M-021,21,Perimetral de Oriente de Cundinamarca,Operación y Mantenimiento / Carretero,9764,13,18.9923,40.0566,74.6769,94.9668,96.0282,77.0359,96.1814
+PANEL_B_50_MASTER,M-022,22,Puerta de Hierro - Palmar de Varela y Carreto - Cruz del Viso,Operación y Mantenimiento / Carretero,5658,14,18.6693,40.4068,74.888,94.9051,95.9742,77.3049,96.1221
+PANEL_B_50_MASTER,M-023,23,Santana - Mocoa - Neiva,Construcción / Carretero,1700,3,20.631,39.9551,73.3901,95.3581,96.4352,75.8042,96.6021
+PANEL_B_50_MASTER,M-024,24,Popayán - Santander de Quilichao,Construcción / Carretero,665,3,20.6672,40.0923,73.4455,95.451,96.47,75.8029,96.6307
+PANEL_B_50_MASTER,M-025,25,Transversal del Sisga,Operación y Mantenimiento / Carretero,8556,13,18.6645,40.5374,74.5725,94.8827,96.0807,77.4162,96.2325
+PANEL_B_50_MASTER,M-026,26,IP - Ampliación a tercer carril doble calzada Bogotá - Girardot,Construcción / Carretero,10152,13,20.1427,41.9306,75.2432,95.1507,96.2636,76.1209,96.4291
+PANEL_B_50_MASTER,M-028,28,IP - Vías del Nus,Operación y Mantenimiento / Carretero,16330,17,18.3749,39.6577,75.3965,94.9437,95.9307,77.5558,96.0779
+PANEL_B_50_MASTER,M-029,29,Villavicencio - Yopal,Construcción / Carretero,1154,3,20.6244,40.0335,73.4025,95.4356,96.4408,75.8165,96.6066
+PANEL_B_50_MASTER,M-030,30,IP - GICA,Operación y Mantenimiento / Carretero,1739,14,19.6832,41.2095,75.1287,95.1037,96.2584,76.5752,96.4137
+PANEL_B_50_MASTER,M-032,32,Desarrollo Vial Armenia - Pereira - Manizales.,Operación y mantenimiento / Carretero,3681,12,20.1128,41.5571,74.8024,95.1351,96.3217,76.2089,96.4824
+PANEL_B_50_MASTER,M-033,33,Santafé de Bogotá (Puente el Cortijo)  - Siberia - La Punta - El Vino - La Vega - Villeta,Operación y mantenimiento / Carretero,7310,14,19.0929,40.8733,75.0259,95.0298,96.1302,77.0373,96.2858
+PANEL_B_50_MASTER,M-037,37,Desarrollo vial del Oriente de Medellin DEVIMED,Operación y mantenimiento / Carretero,1393,3,20.6988,40.0448,73.2736,95.3371,96.4725,75.7737,96.6386
+PANEL_B_50_MASTER,M-039,39,Malla Vial del Meta,Construcción / Carretero,987,3,20.4152,39.34,73.2373,95.2449,96.2469,75.8317,96.411
+PANEL_B_50_MASTER,M-040,40,Neiva - Espinal - Girardot,Construcción / Carretero,1029,3,20.5381,39.9777,73.3691,95.4442,96.4586,75.9205,96.6212
+PANEL_B_50_MASTER,M-041,41,Santa Marta - Riohacha - Paraguachón,Operación y mantenimiento / Carretero,851,3,20.6385,40.0034,73.4665,95.2812,96.3829,75.7445,96.5595
+PANEL_B_50_MASTER,M-045,45,Briceño - Tunja - Sogamoso,Operación y mantenimiento / Carretero,8333,15,17.5411,38.9396,74.6218,94.7877,95.7696,78.2284,95.8985
+PANEL_B_50_MASTER,M-046,46,Cordoba Sucre,Operación y Mantenimiento / Carretero,0,0,15.5967,36.3474,71.5746,95.3481,96.7738,81.1771,96.8558
+PANEL_B_50_MASTER,M-052,52,Ruta del Sol - Sector 3,Construcción / Carretero,3052,3,20.3683,39.8741,73.1571,95.2862,96.4372,76.0688,96.5964
+PANEL_B_50_MASTER,M-153,153,Nueva Malla vial del Valle accesos Cali y Palmira.,Construcción / Carretero,2325,3,20.0883,39.6663,72.9824,95.2382,96.4062,76.318,96.5622
+PANEL_B_50_MASTER,M-154,154,ALO Sur - Avenida Longitudinal de Occidente,Preconstrucción / Carretero,235,4,19.8735,38.9535,72.7355,95.1622,96.2748,76.4014,96.4153
+PANEL_B_50_MASTER,M-155,155,"Troncal del Magdalena ""Puerto Salgar - Barrancabermeja"" C1",Construcción / Carretero,18949,15,17.701,39.3776,74.9989,95.029,96.0048,78.3037,96.14
+PANEL_B_50_MASTER,M-156,156,"Troncal del Magdalena ""Sabana de Torres - Curumaní C2",Construcción / Carretero,1886,4,19.9817,39.6006,73.0156,95.2499,96.379,76.3973,96.5365
+PANEL_B_50_MASTER,M-157,157,Accesos Norte Fase II,Preconstrucción / Carretero,2689,13,17.1147,39.9763,74.3404,94.8828,96.0314,78.9167,96.1708
+PANEL_B_50_MASTER,M-158,158,APP Buga – Buenaventura,Construcción / Carretero,13887,15,18.8912,39.0891,74.7726,94.7211,95.692,76.8008,95.8316
+PANEL_B_50_MASTER,M-162,162,IP Aeropuerto De Suroccidente - Aeropuerto Alfonso Bonilla Aragón,Estructuración / Aeroportuario,5,4,15.7179,36.4448,72.0424,94.9636,95.9223,80.2043,96.0289
+PANEL_B_50_MASTER,M-165,165,APP Dorada - Chiriguana,Estructuración / Ferreo,6,1,14.5394,37.421,72.097,95.411,96.3344,81.795,96.4161
+PANEL_B_50_MASTER,M-167,167,Bucaramanga - Pamplona,Reversión / Carretero,0,0,15.0844,36.1294,71.3272,95.2817,96.6699,81.5854,96.7466
+PANEL_B_50_MASTER,M-169,169,IP Conexión Centro,Estructuración / Carretero,0,0,15.1575,36.0963,71.2799,95.2663,96.7012,81.5437,96.7796
+PANEL_B_50_MASTER,M-174,174,APP Sogamoso – Aguazul – Mani - Yucao,Estructuración / Carretero,0,0,15.0741,36.0252,71.3142,95.2777,96.6748,81.6008,96.7518
+PANEL_B_50_MASTER,M-183,183,APP Villeta - Guaduas- El Korán,Estructuración / Carretero,0,0,14.9887,36.02,71.3513,95.2621,96.6392,81.6505,96.7144
+PANEL_B_50_MASTER,M-184,184,"IP Autopistas del Caribe, corredor de carga Cartagena - Barranquilla",Preconstrucción / Carretero,9445,15,18.9041,41.5366,74.9655,94.8189,96.0769,77.1728,96.2298
+PANEL_B_50_MASTER,M-187,187,IP Campo De Vuelo Aeropuerto El Dorado - Bogotá Dc,Estructuración / Aeroportuario,10,5,16.0865,36.4018,72.1378,94.8441,95.814,79.7276,95.9246

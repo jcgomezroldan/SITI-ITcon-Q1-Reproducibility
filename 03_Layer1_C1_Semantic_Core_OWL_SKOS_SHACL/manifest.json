@@ -1,0 +1,1376 @@
+{
+  "content": {
+    "directories": [
+      "Kits_BIM",
+      "Kits_BIM/ArchiCAD",
+      "Kits_BIM/Revit",
+      "Kits_GIS",
+      "Kits_GIS/ArcGIS",
+      "Kits_GIS/QGIS",
+      "capa1_ontologia",
+      "capa1_ontologia/fuentes_condiciones_municipales",
+      "capa2_grafo_lpg",
+      "capa3_data_layer"
+    ],
+    "files": {
+      "Kits_BIM.zip": {
+        "sha256": "0142009236c2748afff000a28f528b01016ae985dca1bb600e05bfcdbd71bc37",
+        "size": 6342669
+      },
+      "Kits_BIM/ArchiCAD/SITI_Clasificacion_Fisica_A10_A50.xml": {
+        "sha256": "4b5d22cb110b5bef96994361f37e0754be0c6c1353c09df109cb9fb87f468e61",
+        "size": 4243917
+      },
+      "Kits_BIM/ArchiCAD/SITI_Clasificacion_Fisica_A10_A50.xml.metadata.json": {
+        "sha256": "5fb5cc1b8fbbe81f45e95e4ad6e2ff6bf3c9e6d7b1ed074e59326410caa03b96",
+        "size": 6983770
+      },
+      "Kits_BIM/ArchiCAD/SITI_Clasificacion_Gestion_B10_B50.xml": {
+        "sha256": "6c35bab82c2a2dea44789eb2c1ea48a6754d5aebb05e24cea24a569bea9c9d18",
+        "size": 7256213
+      },
+      "Kits_BIM/ArchiCAD/SITI_Clasificacion_Gestion_B10_B50.xml.metadata.json": {
+        "sha256": "5fb5cc1b8fbbe81f45e95e4ad6e2ff6bf3c9e6d7b1ed074e59326410caa03b96",
+        "size": 6983770
+      },
+      "Kits_BIM/ArchiCAD/SITI_Clasificacion_Oficial_ArchiCAD.xml": {
+        "sha256": "f112382e7936c2759eb01b08c49e86d1a00f7ba06ab407f9905cf5a8400d3d26",
+        "size": 9104229
+      },
+      "Kits_BIM/ArchiCAD/SITI_Clasificacion_Oficial_ArchiCAD.xml.metadata.json": {
+        "sha256": "392d33ee1812b69dd18e5d4526cd8cc9ed69252ea089ccc5d24214c615406243",
+        "size": 6984415
+      },
+      "Kits_BIM/ArchiCAD/SITI_Esquema_Propiedades_ArchiCAD.xml": {
+        "sha256": "42e43a3157fbffe8420801809ee4797d720363b3ce8793ad967cb8384165f525",
+        "size": 2704966
+      },
+      "Kits_BIM/ArchiCAD/SITI_Esquema_Propiedades_ArchiCAD.xml.metadata.json": {
+        "sha256": "1ae570112ac78fb9a7613021431d707ca73f20f698cbe7d99e5468566056acaf",
+        "size": 7137873
+      },
+      "Kits_BIM/LEEME_INTEROPERABILIDAD.md": {
+        "sha256": "e46bd2b4e1e59c60cf19e7235e1a6e0b72671646e2a1def962978fa130debb9e",
+        "size": 1199
+      },
+      "Kits_BIM/LEEME_REVISION.md": {
+        "sha256": "66e81472d93588d2b28551b1c25626553847ce567e8cab649539c472cb0dbe9a",
+        "size": 1399
+      },
+      "Kits_BIM/Revit/SITI_Assembly_Codes_Revit.txt": {
+        "sha256": "6999a4f61cb313dc4437d820e70a811f526b13209130ec3673a79c9f210d9a96",
+        "size": 1305162
+      },
+      "Kits_BIM/Revit/SITI_Classification_Database_Revit.xml": {
+        "sha256": "9bfb9b750d6a7a31dcb46706c078f67d84b43c6e5a0c25d1f8766945aa44f944",
+        "size": 3253870
+      },
+      "Kits_BIM/Revit/SITI_Classification_Database_Revit.xml.metadata.json": {
+        "sha256": "067993a7572517d8342d077693d602b00531fb088d3c487256768b43f10d9301",
+        "size": 6983139
+      },
+      "Kits_BIM/Revit/SITI_Correspondencias_IFC_Para_Revision_Revit.tsv": {
+        "sha256": "7bc3da0a14295d3ed94e433e98251ef17a1ec1a646cc61fcd0d3dc45f7751793",
+        "size": 5081388
+      },
+      "Kits_BIM/Revit/SITI_Parametros_Compartidos_Para_Revision_Revit.json": {
+        "sha256": "9f048a463e87d39590617189d20e99fa1ac64c9c3c57b803baf8770872bf278d",
+        "size": 2396547
+      },
+      "Kits_BIM/Revit/SITI_Shared_Parameters_Revit.txt": {
+        "sha256": "0976c066ba36c69a6297f2c9f719147c9ad28e30ddf79e51d8fa5100ea3f51c7",
+        "size": 1000090
+      },
+      "Kits_BIM/SITI_Catalogo_Psets_Qtos_Para_Revision.json": {
+        "sha256": "ad16ade0ba47e6e50898c13989392f76430c30f0e3bc4f7d01dab0d30aea1f6b",
+        "size": 1578653
+      },
+      "Kits_BIM/SITI_Contratos_Intermodales.json": {
+        "sha256": "de384784b3cda2a71171105edeff36f4fd0497224f7f34435e18a7dc3fcc0ed7",
+        "size": 2248274
+      },
+      "Kits_BIM/SITI_Interoperabilidad_Revision.json": {
+        "sha256": "df4cb211ec9babb5ff8e897a0939d51b8c7026677aa06200779650b839293aeb",
+        "size": 1139
+      },
+      "Kits_BIM/SITI_MAGNA9377_GeoBIM_Survey_Point.prj": {
+        "sha256": "218df6b0bce1bdd71d104bdb9d64fe84012e83604f1d94c2d51f2e0c9ee49826",
+        "size": 474
+      },
+      "Kits_BIM/SITI_Referencias_Legacy.json": {
+        "sha256": "0bf7de3ef8738cc58080ad7362151b542404e0971d1dd1744b518181f3ed2a7e",
+        "size": 454963
+      },
+      "Kits_BIM/SITI_Revision.metadata.json": {
+        "sha256": "067993a7572517d8342d077693d602b00531fb088d3c487256768b43f10d9301",
+        "size": 6983139
+      },
+      "Kits_GIS.zip": {
+        "sha256": "64244ebaeb29e794e0fa5d69394845c3838cb82af09416dfcdff628c387b8c6d",
+        "size": 4488368
+      },
+      "Kits_GIS/ArcGIS/SITI_ArcGIS_Arcade_Rules.json": {
+        "sha256": "dc2a8544e4a95ed252fb2866ccd3fbb4b46df3a59dfb74e4930796b799725f9f",
+        "size": 1074839
+      },
+      "Kits_GIS/ArcGIS/SITI_ArcGIS_Contingent_Values.csv": {
+        "sha256": "ef58b7a265607424c19be045533f8f3a5489e3813ee62553b58f2b1039848e10",
+        "size": 2644216
+      },
+      "Kits_GIS/ArcGIS/SITI_ArcGIS_Toolbox.pyt": {
+        "sha256": "4a8d5c610141f489de5b0d55cbdc2dbd512e21a60729470ea64dd2a368fd4a94",
+        "size": 5227
+      },
+      "Kits_GIS/ArcGIS/SITI_Esri_XML_Workspace_Schema.xml": {
+        "sha256": "e19de8c75405173c8bff182a50ad322dc55b1c0977b7e85a6cf0e457b028c9f4",
+        "size": 4822377
+      },
+      "Kits_GIS/ArcGIS/SITI_MAGNA9377_ESRI.prj": {
+        "sha256": "a42bb78793939301a682ba48b9367f1fc942fd639153264b075c6af628436862",
+        "size": 436
+      },
+      "Kits_GIS/LEEME_REVISION.md": {
+        "sha256": "66e81472d93588d2b28551b1c25626553847ce567e8cab649539c472cb0dbe9a",
+        "size": 1399
+      },
+      "Kits_GIS/QGIS/SITI_Definicion_Capas_SITI.qlr": {
+        "sha256": "461a2753c30caca0005920f8f624f36aec1dca345754f61d5d55a707cb660d7d",
+        "size": 4414
+      },
+      "Kits_GIS/QGIS/SITI_Diccionario_Valores_Mapeados.xml": {
+        "sha256": "4c826f2d0abd041b14f0de8c9f734ccff9bbe676dc89c55a35820c5b12a4f950",
+        "size": 2898516
+      },
+      "Kits_GIS/QGIS/SITI_Estilo_Formulario_Oficial.qml": {
+        "sha256": "f1c5ce997d185c5dbb5facad939edf9fde5de7344f8d2129e58c18afef79876b",
+        "size": 6470
+      },
+      "Kits_GIS/QGIS/SITI_Exportar_DXF_para_BIM.py": {
+        "sha256": "fc4924679908b407fccd010f734eec2b8c7e9e8692559b2b0c731516e06a0c42",
+        "size": 3119
+      },
+      "Kits_GIS/QGIS/SITI_MAGNA9377_OGC.prj": {
+        "sha256": "218df6b0bce1bdd71d104bdb9d64fe84012e83604f1d94c2d51f2e0c9ee49826",
+        "size": 474
+      },
+      "Kits_GIS/QGIS/SITI_Plantilla_Oficial_MAGNA9377.gpkg": {
+        "sha256": "0c425b28df976f9d751df48d40e1f8c2f2c24389706befc68deefaeb5ee1d759",
+        "size": 11538432
+      },
+      "Kits_GIS/QGIS/SITI_Plantilla_Oficial_MAGNA9377.gpkg.metadata.json": {
+        "sha256": "067993a7572517d8342d077693d602b00531fb088d3c487256768b43f10d9301",
+        "size": 6983139
+      },
+      "Kits_GIS/SITI_Contratos_Intermodales.json": {
+        "sha256": "de384784b3cda2a71171105edeff36f4fd0497224f7f34435e18a7dc3fcc0ed7",
+        "size": 2248274
+      },
+      "Kits_GIS/SITI_Referencias_Legacy.json": {
+        "sha256": "b408c86e1c064a2c3a733f6121148636caf454fa5ce0465437395ac9e6986182",
+        "size": 454964
+      },
+      "Kits_GIS/SITI_Revision.metadata.json": {
+        "sha256": "067993a7572517d8342d077693d602b00531fb088d3c487256768b43f10d9301",
+        "size": 6983139
+      },
+      "capa1_ontologia/capa1_condiciones_municipales.json": {
+        "sha256": "f56c44e2e5328621dbb0c37c15ff87be0d21275918f71e8d2d629cfe67ad925f",
+        "size": 4960641
+      },
+      "capa1_ontologia/capa1_contratos_intermodales.json": {
+        "sha256": "de384784b3cda2a71171105edeff36f4fd0497224f7f34435e18a7dc3fcc0ed7",
+        "size": 2248274
+      },
+      "capa1_ontologia/capa1_contratos_planeacion_ani.json": {
+        "sha256": "723757afea7cd40a63a2a2ae16b42ec5a5ad6a443689fc542f4784bc7cd363c0",
+        "size": 9180
+      },
+      "capa1_ontologia/capa1_iso16739_psets.json": {
+        "sha256": "ad16ade0ba47e6e50898c13989392f76430c30f0e3bc4f7d01dab0d30aea1f6b",
+        "size": 1578653
+      },
+      "capa1_ontologia/capa1_lexico_versionado.json": {
+        "sha256": "bef5d58bbbc0b81f61b13d7541a337d5a09378609a974391f0645af262186179",
+        "size": 6385295
+      },
+      "capa1_ontologia/capa1_revision_semantica.json": {
+        "sha256": "97600acaf99ba3cb9e60f57a8a17ef72e7db0388988f35aa11e61e35d30daf2d",
+        "size": 589123
+      },
+      "capa1_ontologia/capa1_shacl_shapes.ttl": {
+        "sha256": "21b210c7a69fa221d6142e299070648f50293b4fd67f9d25659567814bfb25a7",
+        "size": 73179
+      },
+      "capa1_ontologia/capa1_shacl_shapes_puerta1.ttl": {
+        "sha256": "21b210c7a69fa221d6142e299070648f50293b4fd67f9d25659567814bfb25a7",
+        "size": 73179
+      },
+      "capa1_ontologia/capa1_sinonimos_multilingues.json": {
+        "sha256": "3af8e4594e1d227309ac270d62a73e72abc3015bc23521b39da6bc2fd79e1ea7",
+        "size": 231784
+      },
+      "capa1_ontologia/capa1_siti_ontology.owl": {
+        "sha256": "3b0bd72a3923bb8ada8159c34e482254d5579860f4ca1af620f0c4f1b3b613c2",
+        "size": 46257914
+      },
+      "capa1_ontologia/capa1_siti_ontology.ttl": {
+        "sha256": "ab454d4bbb77e48b731b6b1db443fa791055fdde49a26a0d30d07c7e5c616d56",
+        "size": 27398583
+      },
+      "capa1_ontologia/capa1_taxonomia_A10.csv": {
+        "sha256": "432173ab4c471fcb5bd2880cb9bb9b917bd0d16e35b8669aff3097613846012f",
+        "size": 50515
+      },
+      "capa1_ontologia/capa1_taxonomia_A20.csv": {
+        "sha256": "cc6cfd6344235c6645556451e1fe35eee45e39f6673de8c4dd9b40877cd5fa9a",
+        "size": 22103
+      },
+      "capa1_ontologia/capa1_taxonomia_A30.csv": {
+        "sha256": "3ca22b76a04aa87c80c84fa89923ce1a78d9f006b736752407cbb70c87380530",
+        "size": 22047
+      },
+      "capa1_ontologia/capa1_taxonomia_A40.csv": {
+        "sha256": "98c01e3cff8f1336417de463144cd4b5cde278dcc5e17885a0fcc9dbc9fc1a90",
+        "size": 65322
+      },
+      "capa1_ontologia/capa1_taxonomia_A50.csv": {
+        "sha256": "72482ca6eee9c504bdc837fae4d8ae4239a088421ccb9bf596d74adc39513f53",
+        "size": 99319
+      },
+      "capa1_ontologia/capa1_taxonomia_B10.csv": {
+        "sha256": "f20c7c024cbf17b141e42ddfac2d59ace7fb5c16425a8ff03723cfd6686d5a9a",
+        "size": 41768
+      },
+      "capa1_ontologia/capa1_taxonomia_B20.csv": {
+        "sha256": "e4380b76f15bb95adb8a3da30af245e74564860d1dcc11b73d91319a2176d4b5",
+        "size": 362742
+      },
+      "capa1_ontologia/capa1_taxonomia_B30.csv": {
+        "sha256": "bd582f1fec1af9b64b926957950931e975d29605d2044ab6a0c95f3c25576423",
+        "size": 47214
+      },
+      "capa1_ontologia/capa1_taxonomia_B40.csv": {
+        "sha256": "55d90b52691119d574fe27a57430402fce008c22354f050a2dc884639a959a6b",
+        "size": 675684
+      },
+      "capa1_ontologia/capa1_taxonomia_B50.csv": {
+        "sha256": "1df7c53130cc9c178fdf06bab11ed594c01dba4e35fc4bcab8e070d962250cb0",
+        "size": 64172
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/art_municipios_pdet.json": {
+        "sha256": "08e829fecd783657426cf345e0a2c42ac82ef03f22084120870de531157f4f2a",
+        "size": 23905
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/dane_consultas_utilizadas.json": {
+        "sha256": "dff55646d49832a3175b6f63cda749347e8003810e697aa28bcda74ddee385c5",
+        "size": 3024
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/dane_municipios_atributos.json": {
+        "sha256": "caa8fd5a4284d70193372b77b0f8ec4340c9ac156b844750c938c262f420070b",
+        "size": 278241
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto657_2023.html": {
+        "sha256": "65a6c84ce265e38f276af5901232d2da65ff84b151a51bccf18bb7c4e3036e09",
+        "size": 80499
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_0150_1996.html": {
+        "sha256": "f42be820b1d28632d297c16091c9b8edb8b36dba22527d804cae6ce6f8caac57",
+        "size": 64677
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_0931_2023.html": {
+        "sha256": "de53bd6f0d9f7f4669373a9e03ad0467f96c0d859e262dc6f2dbd3143eb92f32",
+        "size": 77224
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_1010_2007.html": {
+        "sha256": "0cff85de7521b3d41960182eee57b6aef25531078e3e76ee77e533e2c9041ae1",
+        "size": 68634
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_1037_2004.html": {
+        "sha256": "0aab6acee7e5687ff560ed07ad271805b1a2758c6b11ba373c4c1a5c9202e736",
+        "size": 71353
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_1073_2015.html": {
+        "sha256": "a6090c6077e7ce00eb8b2a7b116423f1ffb66001de48a59ad75226f02116ccff",
+        "size": 3303118
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_1253_2010_creg.html": {
+        "sha256": "7cf986c44076d2af836b87d362d4ced41cd91dce5f372fe170225c000124bb7b",
+        "size": 50721
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_1730_2002.html": {
+        "sha256": "7a4c93efa3a34ea61f6b8a20d82fb6a78702ab7ad33fb8b817daa363636c33e6",
+        "size": 69456
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_1814_1995.html": {
+        "sha256": "aa422f471899d052355023c774184f9a98ea445f5a48c16b38b6fddc6571f5a1",
+        "size": 68368
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_2036_1995.html": {
+        "sha256": "a062b9c9a393c7ab95ac1c2e5ea43bfa6c4ade702286838f6d396fc6dbeabbde",
+        "size": 65127
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_2484_2006.html": {
+        "sha256": "1042327fbdca82d7a2e5e33aaf1e8c1f1bda839d55c1f08c4ec79038da054e5d",
+        "size": 71679
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_2875_2001.html": {
+        "sha256": "557458f5f54193a63bc9cd4408aeb64ad55dfeaa0a2218ca4d57a98e9f7f841a",
+        "size": 72223
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_2970_2003.html": {
+        "sha256": "1faa049948f6598b5e7e73812a2b3e78a475d80a9d2710f68add0bfdd4dd5bed",
+        "size": 70957
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_3459_2004.html": {
+        "sha256": "ec4402b748258188d38b3f0ef1c27156897d4abde38c96ec63df932fcaae1377",
+        "size": 71065
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/frontera_ley2135_2021.html": {
+        "sha256": "af25886dfae7b4aab048fac12b25e2816bf2fdfd1f5bd09d98c7c2989df53d49",
+        "size": 99956
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/pdet_dl893_2017.html": {
+        "sha256": "04982a670e3cf149400673b67c514678ea2d41bf5d67520e2d5fa47b5996a3a6",
+        "size": 295795
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/pdet_ley2565_2026.html": {
+        "sha256": "d7ac197f676f7643c9224c1eac8cfa184240d4f84a47ba0d1223be6dd0faae02",
+        "size": 45058
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/zomac_anexo_compilado_sena.html": {
+        "sha256": "a81d66611ea5c4e89ac3d97ea227db12350abb3713cf6a77e527bef0f36b4edc",
+        "size": 710302
+      },
+      "capa1_ontologia/fuentes_condiciones_municipales/zomac_decreto1650_2017.html": {
+        "sha256": "b62c991d2db3e30be6b328d00993771af2a41800d25a298917ce284e94bfecc0",
+        "size": 301795
+      },
+      "capa2_grafo_lpg/capa2_catalogo_lpg.json": {
+        "sha256": "c097ff89d55b3a4c7514a04afa2e1c5c73d33c4258226501b85c2c97ef16d693",
+        "size": 15138957
+      },
+      "capa2_grafo_lpg/capa2_recetas_ensamblaje_intertabular.json": {
+        "sha256": "82f1540cca5230890ea564f3438fb2be3665723c6f8ec41681dbb7ad63abfed0",
+        "size": 24015
+      },
+      "capa2_grafo_lpg/capa2_relaciones_intertabulares_puerta1.cypher": {
+        "sha256": "f6ec292c6ae08dfd9fe4c06eedcb975410e190c240b1441591af2b35bf751af9",
+        "size": 337146
+      },
+      "capa2_grafo_lpg/capa2_siti_lpg_full_import.cypher": {
+        "sha256": "f31ef957d74934834ca676b2dd3f5c38f731e6f159233e3b8d2199f378535a04",
+        "size": 19152350
+      },
+      "capa3_data_layer/catalogo_semantico.parquet": {
+        "sha256": "82e84922cce79825bf7deceb5aec3029d9b1e3762c94428f85095298a7810296",
+        "size": 1199013
+      },
+      "capa3_data_layer/condiciones_municipales.parquet": {
+        "sha256": "d3c3482c5dca91e0375f918b247e7305253e9cb8cf5e8b0bf371b4bf641cdaf9",
+        "size": 216593
+      },
+      "capa3_data_layer/contratos_planeacion_ani.parquet": {
+        "sha256": "0eab40e37e566d5829368f20b46aa91c51617d18bc8743c9918f02cecb0b1f1b",
+        "size": 4954
+      },
+      "capa3_data_layer/lexico_semantico.parquet": {
+        "sha256": "b13a69013e3854529352bc090648309a45df97ae065ed3d7ab6dd5f898c63db3",
+        "size": 165397
+      },
+      "capa3_data_layer/municipios_divipola.parquet": {
+        "sha256": "b64f21e7088253c296375c929e67838e4e2911e4bd52585a32bb66633e646937",
+        "size": 36983
+      },
+      "resumen.json": {
+        "sha256": "b15c31a2d6a41a7b98cf9f3e74442db2456694003712ec5cf99f79783cd54b04",
+        "size": 1237
+      }
+    }
+  },
+  "layers": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "revision": "b6bd01f850790ad22d399b95545f73d2",
+  "schema_version": 1,
+  "scope": "Derivados declarados por builder; C3 sólo catálogo. No publica activos, muestras ni servicios.",
+  "sources": {
+    "capa1_condiciones_municipales.json": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/capa1_condiciones_municipales.json",
+      "sha256": "f56c44e2e5328621dbb0c37c15ff87be0d21275918f71e8d2d629cfe67ad925f",
+      "size": 4960641,
+      "stat": [
+        16777231,
+        61871009,
+        4960641,
+        1792942165549400384,
+        420
+      ]
+    },
+    "capa1_contratos_intermodales.json": {
+      "path": "capa1_ontologia/capa1_contratos_intermodales.json",
+      "sha256": "de384784b3cda2a71171105edeff36f4fd0497224f7f34435e18a7dc3fcc0ed7",
+      "size": 2248274,
+      "stat": [
+        16777231,
+        61820680,
+        2248274,
+        1793455937044531665,
+        420
+      ]
+    },
+    "capa1_contratos_planeacion_ani.json": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/capa1_contratos_planeacion_ani.json",
+      "sha256": "723757afea7cd40a63a2a2ae16b42ec5a5ad6a443689fc542f4784bc7cd363c0",
+      "size": 9180,
+      "stat": [
+        16777231,
+        61871010,
+        9180,
+        1792942165549570300,
+        420
+      ]
+    },
+    "capa1_iso16739_psets.json": {
+      "path": "capa1_ontologia/capa1_iso16739_psets.json",
+      "sha256": "ad16ade0ba47e6e50898c13989392f76430c30f0e3bc4f7d01dab0d30aea1f6b",
+      "size": 1578653,
+      "stat": [
+        16777231,
+        61820677,
+        1578653,
+        1792942438387000083,
+        420
+      ]
+    },
+    "capa1_lexico_versionado.json": {
+      "path": "capa1_ontologia/capa1_lexico_versionado.json",
+      "sha256": "bef5d58bbbc0b81f61b13d7541a337d5a09378609a974391f0645af262186179",
+      "size": 6385295,
+      "stat": [
+        16777231,
+        61820675,
+        6385295,
+        1793455862654634354,
+        420
+      ]
+    },
+    "capa1_revision_semantica.json": {
+      "path": "capa1_ontologia/capa1_revision_semantica.json",
+      "sha256": "97600acaf99ba3cb9e60f57a8a17ef72e7db0388988f35aa11e61e35d30daf2d",
+      "size": 589123,
+      "stat": [
+        16777231,
+        61820678,
+        589123,
+        1792942438260999917,
+        420
+      ]
+    },
+    "capa1_shacl_shapes.ttl": {
+      "path": "capa1_ontologia/capa1_shacl_shapes.ttl",
+      "sha256": "21b210c7a69fa221d6142e299070648f50293b4fd67f9d25659567814bfb25a7",
+      "size": 73179,
+      "stat": [
+        16777231,
+        61820673,
+        73179,
+        1792942438387000083,
+        420
+      ]
+    },
+    "capa1_shacl_shapes_puerta1.ttl": {
+      "path": "capa1_ontologia/capa1_shacl_shapes_puerta1.ttl",
+      "sha256": "21b210c7a69fa221d6142e299070648f50293b4fd67f9d25659567814bfb25a7",
+      "size": 73179,
+      "stat": [
+        16777231,
+        61820674,
+        73179,
+        1792942438387000083,
+        420
+      ]
+    },
+    "capa1_sinonimos_multilingues.json": {
+      "path": "capa1_ontologia/capa1_sinonimos_multilingues.json",
+      "sha256": "3af8e4594e1d227309ac270d62a73e72abc3015bc23521b39da6bc2fd79e1ea7",
+      "size": 231784,
+      "stat": [
+        16777231,
+        61820676,
+        231784,
+        1792942438085999965,
+        420
+      ]
+    },
+    "capa1_taxonomia_A10.csv": {
+      "path": "capa1_ontologia/capa1_taxonomia_A10.csv",
+      "sha256": "432173ab4c471fcb5bd2880cb9bb9b917bd0d16e35b8669aff3097613846012f",
+      "size": 50515,
+      "stat": [
+        16777231,
+        61820661,
+        50515,
+        1793455862632282472,
+        420
+      ]
+    },
+    "capa1_taxonomia_A20.csv": {
+      "path": "capa1_ontologia/capa1_taxonomia_A20.csv",
+      "sha256": "cc6cfd6344235c6645556451e1fe35eee45e39f6673de8c4dd9b40877cd5fa9a",
+      "size": 22103,
+      "stat": [
+        16777231,
+        61820662,
+        22103,
+        1793455862632570762,
+        420
+      ]
+    },
+    "capa1_taxonomia_A30.csv": {
+      "path": "capa1_ontologia/capa1_taxonomia_A30.csv",
+      "sha256": "3ca22b76a04aa87c80c84fa89923ce1a78d9f006b736752407cbb70c87380530",
+      "size": 22047,
+      "stat": [
+        16777231,
+        61820663,
+        22047,
+        1793455862632810635,
+        420
+      ]
+    },
+    "capa1_taxonomia_A40.csv": {
+      "path": "capa1_ontologia/capa1_taxonomia_A40.csv",
+      "sha256": "98c01e3cff8f1336417de463144cd4b5cde278dcc5e17885a0fcc9dbc9fc1a90",
+      "size": 65322,
+      "stat": [
+        16777231,
+        61820664,
+        65322,
+        1793455862633065134,
+        420
+      ]
+    },
+    "capa1_taxonomia_A50.csv": {
+      "path": "capa1_ontologia/capa1_taxonomia_A50.csv",
+      "sha256": "72482ca6eee9c504bdc837fae4d8ae4239a088421ccb9bf596d74adc39513f53",
+      "size": 99319,
+      "stat": [
+        16777231,
+        61820665,
+        99319,
+        1793455862633393006,
+        420
+      ]
+    },
+    "capa1_taxonomia_B10.csv": {
+      "path": "capa1_ontologia/capa1_taxonomia_B10.csv",
+      "sha256": "f20c7c024cbf17b141e42ddfac2d59ace7fb5c16425a8ff03723cfd6686d5a9a",
+      "size": 41768,
+      "stat": [
+        16777231,
+        61820666,
+        41768,
+        1793455862633488714,
+        420
+      ]
+    },
+    "capa1_taxonomia_B20.csv": {
+      "path": "capa1_ontologia/capa1_taxonomia_B20.csv",
+      "sha256": "e4380b76f15bb95adb8a3da30af245e74564860d1dcc11b73d91319a2176d4b5",
+      "size": 362742,
+      "stat": [
+        16777231,
+        61820667,
+        362742,
+        1793455862633732712,
+        420
+      ]
+    },
+    "capa1_taxonomia_B30.csv": {
+      "path": "capa1_ontologia/capa1_taxonomia_B30.csv",
+      "sha256": "bd582f1fec1af9b64b926957950931e975d29605d2044ab6a0c95f3c25576423",
+      "size": 47214,
+      "stat": [
+        16777231,
+        61820668,
+        47214,
+        1793455862633824086,
+        420
+      ]
+    },
+    "capa1_taxonomia_B40.csv": {
+      "path": "capa1_ontologia/capa1_taxonomia_B40.csv",
+      "sha256": "55d90b52691119d574fe27a57430402fce008c22354f050a2dc884639a959a6b",
+      "size": 675684,
+      "stat": [
+        16777231,
+        61820669,
+        675684,
+        1793455862634211292,
+        420
+      ]
+    },
+    "capa1_taxonomia_B50.csv": {
+      "path": "capa1_ontologia/capa1_taxonomia_B50.csv",
+      "sha256": "1df7c53130cc9c178fdf06bab11ed594c01dba4e35fc4bcab8e070d962250cb0",
+      "size": 64172,
+      "stat": [
+        16777231,
+        61820670,
+        64172,
+        1793455862634396874,
+        420
+      ]
+    },
+    "code:capa1_ontologia/capa1_build_siti_ontology.py": {
+      "path": "capa1_ontologia/capa1_build_siti_ontology.py",
+      "sha256": "f19534bbf72cd0c4069636610a4e6aed65e40ce4eb949ee40bf9d42c869c60e2",
+      "size": 64111,
+      "stat": [
+        16777231,
+        61820691,
+        64111,
+        1792908181001107169,
+        420
+      ]
+    },
+    "code:capa1_ontologia/siti_arcgis_xml_generator.py": {
+      "path": "capa1_ontologia/siti_arcgis_xml_generator.py",
+      "sha256": "cfefd275ff5dbb1f603b892ffed2edba5f42efd19a962154a86f09ec0f1d5188",
+      "size": 19910,
+      "stat": [
+        16777231,
+        60351902,
+        19910,
+        1793455922195204457,
+        384
+      ]
+    },
+    "code:capa1_ontologia/siti_bim_packaging_engine.py": {
+      "path": "capa1_ontologia/siti_bim_packaging_engine.py",
+      "sha256": "8c5bbc1bd7ab6c7e3083acab1582df9dc524ad57cfe9c115042f1cccbfb641e8",
+      "size": 23219,
+      "stat": [
+        16777231,
+        60351905,
+        23219,
+        1792940811118733822,
+        384
+      ]
+    },
+    "code:capa1_ontologia/siti_classification_xml_generator.py": {
+      "path": "capa1_ontologia/siti_classification_xml_generator.py",
+      "sha256": "479c7b14b823a0efb572025834ffd67325e243de0f77472dcb3d619ea032ad2e",
+      "size": 12781,
+      "stat": [
+        16777231,
+        60351903,
+        12781,
+        1792940811119161278,
+        384
+      ]
+    },
+    "code:capa1_ontologia/siti_gis_packaging_engine.py": {
+      "path": "capa1_ontologia/siti_gis_packaging_engine.py",
+      "sha256": "e53d88b4589cb6a1cf5a0f19f87b92d94df1ae86d81521ed8e58a8aa664c0566",
+      "size": 24621,
+      "stat": [
+        16777231,
+        60351899,
+        24621,
+        1792940811117599955,
+        384
+      ]
+    },
+    "code:capa1_ontologia/siti_qgis_gpkg_generator.py": {
+      "path": "capa1_ontologia/siti_qgis_gpkg_generator.py",
+      "sha256": "2478718c3684e12b0410d490ff096558a98611d99610e80739446d5dd19d4598",
+      "size": 25635,
+      "stat": [
+        16777231,
+        60351906,
+        25635,
+        1792940811116712210,
+        384
+      ]
+    },
+    "code:capa2_grafo_lpg/capa2_build_siti_lpg_pipeline.py": {
+      "path": "capa2_grafo_lpg/capa2_build_siti_lpg_pipeline.py",
+      "sha256": "ec2ec822d12e98dfb028c5ca5d80283ecc612f9d0b160a4f3abe271a39681319",
+      "size": 12957,
+      "stat": [
+        16777231,
+        61820698,
+        12957,
+        1792942436201407314,
+        420
+      ]
+    },
+    "code:siti_ani_planning.py": {
+      "path": "siti_ani_planning.py",
+      "sha256": "77027113226fcd27acc5cd30b92372912adec3aee2d279538ca96990c25610fa",
+      "size": 30487,
+      "stat": [
+        16777231,
+        60351872,
+        30487,
+        1792940811116234130,
+        384
+      ]
+    },
+    "code:siti_export_lexicon.py": {
+      "path": "siti_export_lexicon.py",
+      "sha256": "d05f724d1028187487b1b41c3dcd08541f9658807218191329f35d51ffce3a00",
+      "size": 3729,
+      "stat": [
+        16777231,
+        60351847,
+        3729,
+        1789177063221999883,
+        384
+      ]
+    },
+    "code:siti_lexicon.py": {
+      "path": "siti_lexicon.py",
+      "sha256": "e15f77923225ba90dd74c5027062ecbd3670ded9f04caa925b3292ea15508385",
+      "size": 13156,
+      "stat": [
+        16777231,
+        60351839,
+        13156,
+        1789160607453000068,
+        384
+      ]
+    },
+    "code:siti_municipal_policy.py": {
+      "path": "siti_municipal_policy.py",
+      "sha256": "42e60b9844d8dcfc5397e8b98eb9a8d9c91e68ac5afb4496f914ffa8be2fc81e",
+      "size": 31168,
+      "stat": [
+        16777231,
+        60351871,
+        31168,
+        1792940811115795258,
+        384
+      ]
+    },
+    "code:siti_publication.py": {
+      "path": "siti_publication.py",
+      "sha256": "627bf869bc430604c92eb9a0454970b9a358d616ce36b19989b1cf60ff10b9bc",
+      "size": 31648,
+      "stat": [
+        16777231,
+        60351840,
+        31648,
+        1792942130988248492,
+        384
+      ]
+    },
+    "code:siti_rdf_contract.py": {
+      "path": "siti_rdf_contract.py",
+      "sha256": "1eb2cf849db40f2e325689c88a49bd6eeac907a70f17261d0ef6a0fdf9a71140",
+      "size": 2841,
+      "stat": [
+        16777231,
+        61820708,
+        2841,
+        1792908181049999346,
+        420
+      ]
+    },
+    "code:siti_semantic_build.py": {
+      "path": "siti_semantic_build.py",
+      "sha256": "213cc070ddea55ee901c805a8acd46574a3491a81720da16db7ebc84311d519d",
+      "size": 15707,
+      "stat": [
+        16777231,
+        61820709,
+        15707,
+        1792941882636370295,
+        420
+      ]
+    },
+    "code:siti_semantic_consumers.py": {
+      "path": "siti_semantic_consumers.py",
+      "sha256": "4141a70d2f6e75bbad608931f389360363e04c3329f8cc47c451153b8927d8f4",
+      "size": 25956,
+      "stat": [
+        16777231,
+        60351842,
+        25956,
+        1792944692215069455,
+        384
+      ]
+    },
+    "code:siti_semantic_kits.py": {
+      "path": "siti_semantic_kits.py",
+      "sha256": "3e0d83cab43300746cd0f90bb595cdd5dfde027cbcd8b3a6a3b420a6c987b569",
+      "size": 19462,
+      "stat": [
+        16777231,
+        60351843,
+        19462,
+        1792940811117219041,
+        384
+      ]
+    },
+    "code:siti_semantic_registry.py": {
+      "path": "siti_semantic_registry.py",
+      "sha256": "362cffc1549fc32d922f953b498d3b346c85f4cac5d642a3b23ba4b9bc209546",
+      "size": 45840,
+      "stat": [
+        16777231,
+        60351883,
+        45840,
+        1792108333871000051,
+        384
+      ]
+    },
+    "municipal_previous_document": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/capa1_condiciones_municipales.json",
+      "sha256": "f56c44e2e5328621dbb0c37c15ff87be0d21275918f71e8d2d629cfe67ad925f",
+      "size": 4960641,
+      "stat": [
+        16777231,
+        61871009,
+        4960641,
+        1792942165549400384,
+        420
+      ]
+    },
+    "municipal_source__art_municipios_pdet.json": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/art_municipios_pdet.json",
+      "sha256": "08e829fecd783657426cf345e0a2c42ac82ef03f22084120870de531157f4f2a",
+      "size": 23905,
+      "stat": [
+        16777231,
+        61871200,
+        23905,
+        1792942187486010853,
+        420
+      ]
+    },
+    "municipal_source__dane_consultas_utilizadas.json": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/dane_consultas_utilizadas.json",
+      "sha256": "dff55646d49832a3175b6f63cda749347e8003810e697aa28bcda74ddee385c5",
+      "size": 3024,
+      "stat": [
+        16777231,
+        61871203,
+        3024,
+        1792942187486342809,
+        420
+      ]
+    },
+    "municipal_source__dane_municipios_atributos.json": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/dane_municipios_atributos.json",
+      "sha256": "caa8fd5a4284d70193372b77b0f8ec4340c9ac156b844750c938c262f420070b",
+      "size": 278241,
+      "stat": [
+        16777231,
+        61871202,
+        278241,
+        1792942187486253935,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto657_2023.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto657_2023.html",
+      "sha256": "65a6c84ce265e38f276af5901232d2da65ff84b151a51bccf18bb7c4e3036e09",
+      "size": 80499,
+      "stat": [
+        16777231,
+        61871204,
+        80499,
+        1792942187486418476,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_0150_1996.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_0150_1996.html",
+      "sha256": "f42be820b1d28632d297c16091c9b8edb8b36dba22527d804cae6ce6f8caac57",
+      "size": 64677,
+      "stat": [
+        16777231,
+        61871208,
+        64677,
+        1792942187486739307,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_0931_2023.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_0931_2023.html",
+      "sha256": "de53bd6f0d9f7f4669373a9e03ad0467f96c0d859e262dc6f2dbd3143eb92f32",
+      "size": 77224,
+      "stat": [
+        16777231,
+        61871209,
+        77224,
+        1792942187486814723,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_1010_2007.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_1010_2007.html",
+      "sha256": "0cff85de7521b3d41960182eee57b6aef25531078e3e76ee77e533e2c9041ae1",
+      "size": 68634,
+      "stat": [
+        16777231,
+        61871216,
+        68634,
+        1792942187487557219,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_1037_2004.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_1037_2004.html",
+      "sha256": "0aab6acee7e5687ff560ed07ad271805b1a2758c6b11ba373c4c1a5c9202e736",
+      "size": 71353,
+      "stat": [
+        16777231,
+        61871213,
+        71353,
+        1792942187487347053,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_1073_2015.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_1073_2015.html",
+      "sha256": "a6090c6077e7ce00eb8b2a7b116423f1ffb66001de48a59ad75226f02116ccff",
+      "size": 3303118,
+      "stat": [
+        16777231,
+        61871210,
+        3303118,
+        1792942187487070722,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_1253_2010_creg.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_1253_2010_creg.html",
+      "sha256": "7cf986c44076d2af836b87d362d4ced41cd91dce5f372fe170225c000124bb7b",
+      "size": 50721,
+      "stat": [
+        16777231,
+        61871217,
+        50721,
+        1792942187487628760,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_1730_2002.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_1730_2002.html",
+      "sha256": "7a4c93efa3a34ea61f6b8a20d82fb6a78702ab7ad33fb8b817daa363636c33e6",
+      "size": 69456,
+      "stat": [
+        16777231,
+        61871211,
+        69456,
+        1792942187487200721,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_1814_1995.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_1814_1995.html",
+      "sha256": "aa422f471899d052355023c774184f9a98ea445f5a48c16b38b6fddc6571f5a1",
+      "size": 68368,
+      "stat": [
+        16777231,
+        61871206,
+        68368,
+        1792942187486578516,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_2036_1995.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_2036_1995.html",
+      "sha256": "a062b9c9a393c7ab95ac1c2e5ea43bfa6c4ade702286838f6d396fc6dbeabbde",
+      "size": 65127,
+      "stat": [
+        16777231,
+        61871207,
+        65127,
+        1792942187486660349,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_2484_2006.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_2484_2006.html",
+      "sha256": "1042327fbdca82d7a2e5e33aaf1e8c1f1bda839d55c1f08c4ec79038da054e5d",
+      "size": 71679,
+      "stat": [
+        16777231,
+        61871215,
+        71679,
+        1792942187487491927,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_2875_2001.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_2875_2001.html",
+      "sha256": "557458f5f54193a63bc9cd4408aeb64ad55dfeaa0a2218ca4d57a98e9f7f841a",
+      "size": 72223,
+      "stat": [
+        16777231,
+        61871218,
+        72223,
+        1792942187487701051,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_2970_2003.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_2970_2003.html",
+      "sha256": "1faa049948f6598b5e7e73812a2b3e78a475d80a9d2710f68add0bfdd4dd5bed",
+      "size": 70957,
+      "stat": [
+        16777231,
+        61871212,
+        70957,
+        1792942187487274845,
+        420
+      ]
+    },
+    "municipal_source__frontera_decreto_3459_2004.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_decreto_3459_2004.html",
+      "sha256": "ec4402b748258188d38b3f0ef1c27156897d4abde38c96ec63df932fcaae1377",
+      "size": 71065,
+      "stat": [
+        16777231,
+        61871214,
+        71065,
+        1792942187487419219,
+        420
+      ]
+    },
+    "municipal_source__frontera_ley2135_2021.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/frontera_ley2135_2021.html",
+      "sha256": "af25886dfae7b4aab048fac12b25e2816bf2fdfd1f5bd09d98c7c2989df53d49",
+      "size": 99956,
+      "stat": [
+        16777231,
+        61871205,
+        99956,
+        1792942187486503308,
+        420
+      ]
+    },
+    "municipal_source__pdet_dl893_2017.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/pdet_dl893_2017.html",
+      "sha256": "04982a670e3cf149400673b67c514678ea2d41bf5d67520e2d5fa47b5996a3a6",
+      "size": 295795,
+      "stat": [
+        16777231,
+        61871197,
+        295795,
+        1792942187485365899,
+        420
+      ]
+    },
+    "municipal_source__pdet_ley2565_2026.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/pdet_ley2565_2026.html",
+      "sha256": "d7ac197f676f7643c9224c1eac8cfa184240d4f84a47ba0d1223be6dd0faae02",
+      "size": 45058,
+      "stat": [
+        16777231,
+        61871199,
+        45058,
+        1792942187485924187,
+        420
+      ]
+    },
+    "municipal_source__zomac_anexo_compilado_sena.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/zomac_anexo_compilado_sena.html",
+      "sha256": "a81d66611ea5c4e89ac3d97ea227db12350abb3713cf6a77e527bef0f36b4edc",
+      "size": 710302,
+      "stat": [
+        16777231,
+        61871201,
+        710302,
+        1792942187486136769,
+        420
+      ]
+    },
+    "municipal_source__zomac_decreto1650_2017.html": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/fuentes_condiciones_municipales/zomac_decreto1650_2017.html",
+      "sha256": "b62c991d2db3e30be6b328d00993771af2a41800d25a298917ce284e94bfecc0",
+      "size": 301795,
+      "stat": [
+        16777231,
+        61871198,
+        301795,
+        1792942187485793938,
+        420
+      ]
+    },
+    "previous_ontology_turtle:5e38dda806074f5c48b5158fa6038f153e7cb0e2c9cdc49eb78279adc06fcc7f": {
+      "path": "publicaciones_semanticas/bundles/543d3b303881ac70488e68fa940a66fd/content/capa1_ontologia/capa1_siti_ontology.ttl",
+      "sha256": "5e38dda806074f5c48b5158fa6038f153e7cb0e2c9cdc49eb78279adc06fcc7f",
+      "size": 27396410,
+      "stat": [
+        16777231,
+        61871093,
+        27396410,
+        1792942213954503647,
+        420
+      ]
+    },
+    "resource:ArcGIS/SITI_MAGNA9377_ESRI.prj": {
+      "path": "capa1_ontologia/recursos_kits_generales/ArcGIS/SITI_MAGNA9377_ESRI.prj",
+      "sha256": "a42bb78793939301a682ba48b9367f1fc942fd639153264b075c6af628436862",
+      "size": 436,
+      "stat": [
+        16777231,
+        60592678,
+        436,
+        1789160607151999950,
+        384
+      ]
+    },
+    "resource:QGIS/SITI_Exportar_DXF_para_BIM.py": {
+      "path": "capa1_ontologia/recursos_kits_generales/QGIS/SITI_Exportar_DXF_para_BIM.py",
+      "sha256": "fc4924679908b407fccd010f734eec2b8c7e9e8692559b2b0c731516e06a0c42",
+      "size": 3119,
+      "stat": [
+        16777231,
+        60592669,
+        3119,
+        1789160607153000116,
+        384
+      ]
+    },
+    "resource:QGIS/SITI_MAGNA9377_OGC.prj": {
+      "path": "capa1_ontologia/recursos_kits_generales/QGIS/SITI_MAGNA9377_OGC.prj",
+      "sha256": "218df6b0bce1bdd71d104bdb9d64fe84012e83604f1d94c2d51f2e0c9ee49826",
+      "size": 474,
+      "stat": [
+        16777231,
+        60592668,
+        474,
+        1789160607153000116,
+        384
+      ]
+    }
+  },
+  "validation": {
+    "architectural_invariants": {
+      "all_invariants_satisfied": true,
+      "invariants": {
+        "c2_assembly_recipes_min_13": true,
+        "c2_intertabular_edges_min_793": true,
+        "c2_subclase_edges_min_16228": true,
+        "c3_zero_orphan_codes": true,
+        "level4_5_candidates_connected_40": true,
+        "openbim_psets_qtos_min_849": true,
+        "owl2dl_object_properties_min_157": true,
+        "owl2dl_restrictions_min_814": true,
+        "shacl_shapes_min_104": true,
+        "uuid_triple_contract_separation": true,
+        "zero_intratabular_meronymy": true
+      },
+      "metrics": {
+        "c2_assembly_recipes": 13,
+        "c2_intertabular_edges": 793,
+        "c2_subclase_edges": 16228,
+        "intratabular_meronymy_violations": 0,
+        "level4_5_connected": 40,
+        "openbim_psets_qtos": 849,
+        "orphan_codes_c3": 0,
+        "owl_object_properties": 159,
+        "owl_restrictions": 814,
+        "shacl_node_shapes": 104,
+        "uuid_collisions": 0
+      }
+    },
+    "checks": [
+      {
+        "id": "fixed_source_bytes",
+        "passed": true
+      },
+      {
+        "id": "ttl_owl_same_graph",
+        "passed": true
+      },
+      {
+        "id": "published_exactMatch_only_preserved",
+        "passed": true
+      },
+      {
+        "id": "all_reference_classes",
+        "passed": true
+      },
+      {
+        "id": "csv_parent_authority",
+        "passed": true
+      },
+      {
+        "id": "only_reviewed_aliases",
+        "passed": true
+      },
+      {
+        "id": "c2_identity_and_lifecycle",
+        "passed": true
+      },
+      {
+        "id": "c2_hierarchy_matches_c1",
+        "passed": true
+      },
+      {
+        "id": "c2_intertabular_edges_valid",
+        "passed": true
+      },
+      {
+        "id": "c1_owl_intertabular_restrictions",
+        "passed": true
+      },
+      {
+        "id": "c3_full_identity_parity",
+        "passed": true
+      },
+      {
+        "id": "c3_lexicon_unique",
+        "passed": true
+      },
+      {
+        "id": "kit_xml_well_formed",
+        "passed": true
+      },
+      {
+        "id": "archicad_active_catalog",
+        "passed": true
+      },
+      {
+        "id": "revit_active_catalog",
+        "passed": true
+      },
+      {
+        "id": "arcgis_active_catalog",
+        "passed": true
+      },
+      {
+        "id": "gpkg_integrity",
+        "passed": true
+      },
+      {
+        "id": "qgis_class_identity",
+        "passed": true
+      },
+      {
+        "id": "qgis_alias_parity",
+        "passed": true
+      },
+      {
+        "id": "qgis_psets_real_structure",
+        "passed": true
+      },
+      {
+        "id": "qgis_no_invented_assets",
+        "passed": true
+      },
+      {
+        "id": "helper_syntax_without_execution",
+        "passed": true
+      },
+      {
+        "id": "Kits_BIM_zip_bytes",
+        "passed": true
+      },
+      {
+        "id": "Kits_GIS_zip_bytes",
+        "passed": true
+      },
+      {
+        "id": "modular_A_complete_unique",
+        "passed": true
+      },
+      {
+        "id": "modular_A_hierarchy_labels",
+        "passed": true
+      },
+      {
+        "id": "modular_B_complete_unique",
+        "passed": true
+      },
+      {
+        "id": "modular_B_hierarchy_labels",
+        "passed": true
+      },
+      {
+        "id": "archicad_property_definition_parity",
+        "passed": true
+      },
+      {
+        "id": "no_numeric_default_values",
+        "passed": true
+      },
+      {
+        "id": "bim_crs_matches_fixed_qgis_resource",
+        "passed": true
+      },
+      {
+        "id": "ifc_review_identity_meaning_and_status",
+        "passed": true
+      },
+      {
+        "id": "shared_parameter_definitions_exact",
+        "passed": true
+      },
+      {
+        "id": "parameter_types_and_no_invented_ifc_targets",
+        "passed": true
+      },
+      {
+        "id": "review_tables_are_not_native_configuration",
+        "passed": true
+      },
+      {
+        "id": "psets_qtos_source_bytes_preserved",
+        "passed": true
+      },
+      {
+        "id": "fixed_municipal_source_bytes",
+        "passed": true
+      },
+      {
+        "id": "municipal_policy_c1_c2_c3_identity_values_sources",
+        "passed": true
+      },
+      {
+        "id": "fixed_ani_contract_source_bytes",
+        "passed": true
+      },
+      {
+        "id": "ani_contract_fixed",
+        "passed": true
+      },
+      {
+        "id": "ani_contract_c1_datatype_properties",
+        "passed": true
+      },
+      {
+        "id": "ani_contract_c2_same_codes",
+        "passed": true
+      },
+      {
+        "id": "ani_contract_c3_same_definitions",
+        "passed": true
+      },
+      {
+        "id": "ani_structure_no_assets_no_data",
+        "passed": true
+      },
+      {
+        "id": "asserted_order_acyclic",
+        "passed": true
+      },
+      {
+        "id": "three_layer_architectural_invariants",
+        "passed": true
+      }
+    ],
+    "elapsed_seconds": 55.21038808400044,
+    "passed": true,
+    "scope": "CSV/lexicon/RDF/LPG/Parquet catalogs. No observation generation, live Neo4j, OWL reasoning or native certification."
+  }
+}

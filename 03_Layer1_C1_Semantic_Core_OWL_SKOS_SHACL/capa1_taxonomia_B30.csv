@@ -1,0 +1,872 @@
+﻿Nivel;Código SITI;Descripción;Clasificación
+1;B;Parámetros de gestión;Lenguaje
+2;B30;Ayudas de diseño y construcción;Tabla
+3;B30_005;Ayudas CAD;Grupo
+4;B30_005_005;Anotaciones y textos;Subgrupo
+5;B30_005_005_005;Anotaciones;Sección
+5;B30_005_005_010;Anotaciones en elevación;Sección
+5;B30_005_005_015;Anotaciones en planta;Sección
+5;B30_005_005_020;Anotaciones generales;Sección
+5;B30_005_005_025;Barras de escala;Sección
+5;B30_005_005_030;Comentarios;Sección
+5;B30_005_005_035;Cuadro de replanteo;Sección
+5;B30_005_005_040;Cuadro de zonas de influencia;Sección
+5;B30_005_005_045;Cuadro de zonas de riesgo;Sección
+5;B30_005_005_050;Descripción de fases de obra;Sección
+5;B30_005_005_055;Etiquetas;Sección
+5;B30_005_005_060;Notas y observaciones;Sección
+5;B30_005_005_065;Notaciones;Sección
+5;B30_005_005_070;Parámetros de diseño;Sección
+5;B30_005_005_075;Pautas para zonas de descanso en autopistas;Sección
+5;B30_005_005_080;Pautas para zonas de paso de animales;Sección
+5;B30_005_005_085;Pautas para zonas de carga y descarga;Sección
+5;B30_005_005_090;Rotulación;Sección
+5;B30_005_005_095;Tablillas de información;Sección
+4;B30_005_010;Capas, líneas y estilos;Subgrupo
+5;B30_005_010_005;Capas CAD;Sección
+5;B30_005_010_010;Capas dinámicas;Sección
+5;B30_005_010_015;Celdas dinámicas;Sección
+5;B30_005_010_020;Celdas externas;Sección
+5;B30_005_010_025;Celdas para mobiliario urbano;Sección
+5;B30_005_010_030;Celdas para mobiliario de transporte público;Sección
+5;B30_005_010_035;Celdas de referencia externa;Sección
+5;B30_005_010_040;Controles de visibilidad de capas;Sección
+5;B30_005_010_045;Líneas de construcción;Sección
+5;B30_005_010_050;Líneas de cota;Sección
+5;B30_005_010_055;Líneas de dirección de tráfico;Sección
+5;B30_005_010_060;Líneas de ejes viales;Sección
+5;B30_005_010_065;Líneas de proyección;Sección
+5;B30_005_010_070;Líneas de referencia;Sección
+5;B30_005_010_075;Líneas de replanteo;Sección
+5;B30_005_010_080;Líneas de sección;Sección
+5;B30_005_010_085;Líneas de talud;Sección
+5;B30_005_010_090;Líneas de trazado;Sección
+5;B30_005_010_095;Líneas de visibilidad;Sección
+5;B30_005_010_100;Líneas guía;Sección
+5;B30_005_010_105;Tamaños de línea;Sección
+5;B30_005_010_110;Trazo de curvas de nivel;Sección
+5;B30_005_010_115;Trazo de límites de lotes;Sección
+5;B30_005_010_120;Trazo de pendientes;Sección
+5;B30_005_010_125;Trazo de puntos de referencia;Sección
+4;B30_005_015;Controles y referencias;Subgrupo
+5;B30_005_015_005;Alturas de puentes;Sección
+5;B30_005_015_010;Alturas de túneles;Sección
+5;B30_005_015_015;Controles de alineación;Sección
+5;B30_005_015_020;Coordenadas de puntos topográficos;Sección
+5;B30_005_015_025;Cuadro de replanteo;Sección
+5;B30_005_015_030;Gráficas de alineamientos;Sección
+5;B30_005_015_035;Gráficas de pendientes;Sección
+5;B30_005_015_040;Indicadores de alineamiento horizontal;Sección
+5;B30_005_015_045;Indicadores de alineamiento vertical;Sección
+5;B30_005_015_050;Indicadores de cortes y rellenos;Sección
+5;B30_005_015_055;Indicadores de niveles;Sección
+5;B30_005_015_060;Indicadores de pendientes;Sección
+5;B30_005_015_065;Indicadores de superalivio;Sección
+5;B30_005_015_070;Líneas de replanteo;Sección
+5;B30_005_015_075;Marcadores de referencia;Sección
+5;B30_005_015_080;Puntos de control en estaciones de peaje;Sección
+5;B30_005_015_085;Puntos de control geoespacial;Sección
+5;B30_005_015_090;Puntos de control de obra;Sección
+5;B30_005_015_095;Puntos topográficos;Sección
+5;B30_005_015_100;Rejillas de alineación;Sección
+5;B30_005_015_105;Rejillas de control estructural;Sección
+5;B30_005_015_110;Rejillas para replanteo de obras de transporte;Sección
+5;B30_005_015_115;Zonas de visibilidad en carreteras;Sección
+4;B30_005_020;Dimensiones y mediciones;Subgrupo
+5;B30_005_020_005;Dimensiones;Sección
+5;B30_005_020_010;Dimensiones en planta;Sección
+5;B30_005_020_015;Dimensiones en sección;Sección
+5;B30_005_020_020;Definición de carriles en vías rápidas;Sección
+5;B30_005_020_025;Definición de estacionamientos;Sección
+5;B30_005_020_030;Definición de secciones transversales;Sección
+5;B30_005_020_035;Definición de sobreancho;Sección
+5;B30_005_020_040;Definición de superalivio;Sección
+5;B30_005_020_045;Indicadores de alturas de túneles;Sección
+5;B30_005_020_050;Indicadores de estaciones de tren;Sección
+5;B30_005_020_055;Indicadores de señales ferroviarias;Sección
+5;B30_005_020_060;Indicadores de señalización de puentes;Sección
+5;B30_005_020_065;Indicadores de señalización de túneles;Sección
+5;B30_005_020_070;Indicadores de velocidad máxima permitida;Sección
+5;B30_005_020_075;Indicadores de zonas de desaceleración;Sección
+5;B30_005_020_080;Marcas de empalme;Sección
+5;B30_005_020_085;Marcas de elevación, cota o nivel;Sección
+5;B30_005_020_090;Marcas de nivel de terreno original;Sección
+5;B30_005_020_095;Marcas de secciones;Sección
+5;B30_005_020_100;Marcas de vano y apertura;Sección
+5;B30_005_020_105;Nivelación y secciones de carreteras;Sección
+4;B30_005_025;Imágenes y símbolos;Subgrupo
+5;B30_005_025_005;Calcomanías o stickers;Sección
+5;B30_005_025_010;Imágenes insertadas;Sección
+5;B30_005_025_015;Marcadores de referencia;Sección
+5;B30_005_025_020;Notaciones para carreteras;Sección
+5;B30_005_025_025;Notaciones para puentes y viaductos;Sección
+5;B30_005_025_030;Notaciones para túneles;Sección
+5;B30_005_025_035;Símbolos;Sección
+5;B30_005_025_040;Tablas de información;Sección
+4;B30_005_030;Modelos y vistas tridimensionales;Subgrupo
+5;B30_005_030_005;Detalles en 3D;Sección
+5;B30_005_030_010;Esquemas de iluminación vial;Sección
+5;B30_005_030_015;Modelos tridimensionales;Sección
+5;B30_005_030_020;Pautas para cruces peatonales;Sección
+5;B30_005_030_025;Pautas para senderos y caminos;Sección
+5;B30_005_030_030;Pautas para zonas de descanso en autopistas;Sección
+5;B30_005_030_035;Presentación de modelos 3D;Sección
+5;B30_005_030_040;Vistas en 3D;Sección
+5;B30_005_030_045;Vista aérea;Sección
+5;B30_005_030_050;Vista en alzado;Sección
+5;B30_005_030_055;Vista en perspectiva;Sección
+5;B30_005_030_060;Vista de planta;Sección
+4;B30_005_035;Secciones y cortes;Subgrupo
+5;B30_005_035_005;Bordes de corte y terraplenes;Sección
+5;B30_005_035_010;Contornos de túneles;Sección
+5;B30_005_035_015;Curvas de acceso en autopistas;Sección
+5;B30_005_035_020;Definición de secciones transversales;Sección
+5;B30_005_035_025;Gráficas de secciones;Sección
+5;B30_005_035_030;Perfiles longitudinales;Sección
+5;B30_005_035_035;Perfiles transversales;Sección
+5;B30_005_035_040;Secciones de carreteras;Sección
+4;B30_005_040;Trazados y alineamientos;Subgrupo
+5;B30_005_040_005;Alineamientos;Sección
+5;B30_005_040_010;Alineamientos ferroviarios;Sección
+5;B30_005_040_015;Alineaciones en vías;Sección
+5;B30_005_040_020;Gráficas de trazado;Sección
+5;B30_005_040_025;Indicadores de curvas de nivel;Sección
+5;B30_005_040_030;Indicadores de zonas de desaceleración;Sección
+5;B30_005_040_035;Indicadores de trazado de carreteras;Sección
+5;B30_005_040_040;Líneas de replanteo;Sección
+5;B30_005_040_045;Plantillas de diseño de vías;Sección
+5;B30_005_040_050;Trazado vial;Sección
+3;B30_010;Materiales de construcción (se consideran propiedades, no elementos físicos);Grupo
+4;B30_010_005;Agregados y áridos;Subgrupo
+5;B30_010_005_005;Agregado reciclado;Sección
+5;B30_010_005_010;Arena;Sección
+5;B30_010_005_015;Arena de río;Sección
+5;B30_010_005_020;Arena volcánica;Sección
+5;B30_010_005_025;Arenisca;Sección
+5;B30_010_005_030;Basalto triturado;Sección
+5;B30_010_005_035;Caliza triturada;Sección
+5;B30_010_005_040;Canto rodado;Sección
+5;B30_010_005_045;Diabasa;Sección
+5;B30_010_005_050;Escoria de acero;Sección
+5;B30_010_005_055;Escoria de carbón;Sección
+5;B30_010_005_060;Escoria de cobre;Sección
+5;B30_010_005_065;Escoria expandida;Sección
+5;B30_010_005_070;Escoria granulada;Sección
+5;B30_010_005_075;Granito triturado;Sección
+5;B30_010_005_080;Grava;Sección
+5;B30_010_005_085;Grava volcánica;Sección
+5;B30_010_005_090;Mármol triturado;Sección
+5;B30_010_005_095;Material granular estabilizado;Sección
+5;B30_010_005_100;Piedra bruta;Sección
+5;B30_010_005_105;Piedra natural;Sección
+5;B30_010_005_110;Piedra triturada;Sección
+5;B30_010_005_115;Polvo de ladrillo;Sección
+5;B30_010_005_120;Polvo de roca;Sección
+5;B30_010_005_125;Puzolana;Sección
+5;B30_010_005_130;Roca caliza;Sección
+5;B30_010_005_135;Roca ígnea;Sección
+5;B30_010_005_140;Roca metamórfica;Sección
+5;B30_010_005_145;Roca sedimentaria;Sección
+5;B30_010_005_150;Sílice;Sección
+5;B30_010_005_155;Balasto pétreo graduado silíceo y basáltico;Sección
+5;B30_010_005_160;Balasto ferroviario pétreo triturado de alta resistencia al desgaste y fragmentación;Sección
+5;B30_010_005_165;Subbalasto granular bien gradado de transición y protección de plataforma férrea;Sección
+5;B30_010_005_170;Material granular estabilizado con ligante hidráulico o bituminoso para base tratada;Sección
+5;B30_010_005_175;Agregado pétreo seleccionado y triturado para afirmado, subbase y base granular (Clases A, B y C);Sección
+4;B30_010_010;Aditivos y modificadores;Subgrupo
+5;B30_010_010_005;Acelerantes de fraguado;Sección
+5;B30_010_010_010;Adhesivos bituminosos;Sección
+5;B30_010_010_015;Aditivos aireantes;Sección
+5;B30_010_010_020;Aditivos anticongelantes;Sección
+5;B30_010_010_025;Aditivos hidrófugos;Sección
+5;B30_010_010_030;Agentes dispersantes;Sección
+5;B30_010_010_035;Agentes espumantes para asfalto;Sección
+5;B30_010_010_040;Cenizas volantes;Sección
+5;B30_010_010_045;Cloruro de calcio;Sección
+5;B30_010_010_050;Enzimas para estabilización de suelos;Sección
+5;B30_010_010_055;Escoria molida de alto horno;Sección
+5;B30_010_010_060;Estabilizadores de suelos;Sección
+5;B30_010_010_065;Estabilizadores químicos para bases;Sección
+5;B30_010_010_070;Fibras de acero para concreto;Sección
+5;B30_010_010_075;Fibras de polipropileno para concreto;Sección
+5;B30_010_010_080;Fibras sintéticas para asfalto;Sección
+5;B30_010_010_085;Hidróxido de sodio;Sección
+5;B30_010_010_090;Humo de sílice;Sección
+5;B30_010_010_095;Incorporadores de aire;Sección
+5;B30_010_010_100;Inhibidores de corrosión;Sección
+5;B30_010_010_105;Metacaolín;Sección
+5;B30_010_010_110;Nanoaditivos para concreto;Sección
+5;B30_010_010_115;Pigmentos para asfalto;Sección
+5;B30_010_010_120;Pigmentos para concreto;Sección
+5;B30_010_010_125;Plastificantes para concreto;Sección
+5;B30_010_010_130;Retardadores de hidratación;Sección
+5;B30_010_010_135;Retardantes de fraguado;Sección
+5;B30_010_010_140;Silicato de potasio;Sección
+5;B30_010_010_145;Silicato de sodio;Sección
+5;B30_010_010_150;Superplastificantes;Sección
+4;B30_010_015;Cerámicos y vidrios;Subgrupo
+5;B30_010_015_005;Adoquines cerámicos;Sección
+5;B30_010_015_010;Azulejos;Sección
+5;B30_010_015_015;Baldosas cerámicas;Sección
+5;B30_010_015_020;Bloques cerámicos;Sección
+5;B30_010_015_025;Bloques de vidrio;Sección
+5;B30_010_015_030;Bloques termoarcilla;Sección
+5;B30_010_015_035;Cerámica extruida;Sección
+5;B30_010_015_040;Fachaleta cerámica;Sección
+5;B30_010_015_045;Fachaletas cerámicas;Sección
+5;B30_010_015_050;Ladrillo refractario;Sección
+5;B30_010_015_055;Ladrillo visto;Sección
+5;B30_010_015_060;Ladrillos cerámicos;Sección
+5;B30_010_015_065;Ladrillos clinker;Sección
+5;B30_010_015_070;Ladrillos huecos;Sección
+5;B30_010_015_075;Porcelanato;Sección
+5;B30_010_015_080;Tejas cerámicas;Sección
+5;B30_010_015_085;Tejas vitrificadas;Sección
+5;B30_010_015_090;Terracota;Sección
+5;B30_010_015_095;Vidrio arquitectónico;Sección
+5;B30_010_015_100;Vidrio curvado;Sección
+5;B30_010_015_105;Vidrio de baja emisividad (Low-E);Sección
+5;B30_010_015_110;Vidrio de control solar;Sección
+5;B30_010_015_115;Vidrio de seguridad;Sección
+5;B30_010_015_120;Vidrio flotado;Sección
+5;B30_010_015_125;Vidrio grabado al ácido;Sección
+5;B30_010_015_130;Vidrio laminado;Sección
+5;B30_010_015_135;Vidrio opaco;Sección
+5;B30_010_015_140;Vidrio reflectante;Sección
+5;B30_010_015_145;Vidrio serigrafiado;Sección
+5;B30_010_015_150;Vidrio templado;Sección
+4;B30_010_020;Compuestos de cemento;Subgrupo
+5;B30_010_020_005;Cal aérea;Sección
+5;B30_010_020_010;Cal hidráulica;Sección
+5;B30_010_020_015;Cemento blanco;Sección
+5;B30_010_020_020;Cemento de aluminato de calcio;Sección
+5;B30_010_020_025;Cemento de endurecimiento rápido;Sección
+5;B30_010_020_030;Cemento de escoria;Sección
+5;B30_010_020_035;Cemento Portland;Sección
+5;B30_010_020_040;Cemento puzolánico;Sección
+5;B30_010_020_045;Cemento resistente a sulfatos;Sección
+5;B30_010_020_050;Cemento sulforresistente;Sección
+5;B30_010_020_055;Concreto estampado;Sección
+5;B30_010_020_060;Concreto hidráulico;Sección
+5;B30_010_020_065;Concreto permeable;Sección
+5;B30_010_020_070;Concreto translúcido;Sección
+5;B30_010_020_075;Hormigón arquitectónico;Sección
+5;B30_010_020_080;Hormigón autocompactante;Sección
+5;B30_010_020_085;Hormigón autocompactante;Sección
+5;B30_010_020_090;Hormigón autocompensado;Sección
+5;B30_010_020_095;Hormigón celular;Sección
+5;B30_010_020_100;Hormigón de alta resistencia;Sección
+5;B30_010_020_105;Hormigón de alto desempeño (HAD);Sección
+5;B30_010_020_110;Hormigón ligero;Sección
+5;B30_010_020_115;Hormigón postensado;Sección
+5;B30_010_020_120;Hormigón pretensado;Sección
+5;B30_010_020_125;Hormigón proyectado;Sección
+5;B30_010_020_130;Hormigón reforzado con fibras;Sección
+5;B30_010_020_135;Lechada de cemento;Sección
+5;B30_010_020_140;Mortero de cal;Sección
+5;B30_010_020_145;Mortero de cemento;Sección
+5;B30_010_020_150;Suelo-cemento;Sección
+5;B30_010_020_155;Concreto estructural de alta resistencia para durmientes;Sección
+5;B30_010_020_160;Mortero autonivelante de resina para placas de asiento;Sección
+5;B30_010_020_165;Concreto de ultra alto desempeño reforzado con fibras (UHPC);Sección
+6;B30_010_020_165_005;Concreto de ultra alto desempeño con fibras metálicas de alta ductilidad a tracción;Objeto
+7;B30_010_020_165_005_005;Concreto de ultra alto desempeño tixotrópico para juntas de tableros y recalce estructural;Subobjeto
+5;B30_010_020_170;Concreto lanzado reforzado con fibras estructurales para sostenimiento subterráneo y taludes;Sección
+5;B30_010_020_175;Lechada cementicia tixotrópica sin contracción para inyección de ductos y anclajes;Sección
+5;B30_010_020_180;Concreto hidráulico estructural por clase de resistencia a compresión (Clases A a G — Artículo 630 INVIAS);Sección
+5;B30_010_020_185;Concreto hidráulico de alto módulo de rotura a flexión para pavimento rígido (Artículo 500 INVIAS);Sección
+4;B30_010_025;Geosintéticos;Subgrupo
+5;B30_010_025_005;Geobolsas;Sección
+5;B30_010_025_010;Geobolsas de estabilización;Sección
+5;B30_010_025_015;Geoceldas;Sección
+5;B30_010_025_020;Geoceldas para refuerzo de suelo;Sección
+5;B30_010_025_025;Geocompuestos;Sección
+5;B30_010_025_030;Geodrenes;Sección
+5;B30_010_025_035;Geodrenes horizontales;Sección
+5;B30_010_025_040;Geodrenes verticales;Sección
+5;B30_010_025_045;Geoespumas;Sección
+5;B30_010_025_050;Geomallas;Sección
+5;B30_010_025_055;Geomallas biaxiales;Sección
+5;B30_010_025_060;Geomantas;Sección
+5;B30_010_025_065;Geomantas drenantes;Sección
+5;B30_010_025_070;Geomantas para control de erosión;Sección
+5;B30_010_025_075;Geomembranas;Sección
+5;B30_010_025_080;Georedes;Sección
+5;B30_010_025_085;Georevestimientos;Sección
+5;B30_010_025_090;Geosintéticos compuestos;Sección
+5;B30_010_025_095;Geosintéticos de protección;Sección
+5;B30_010_025_100;Geosintéticos de refuerzo;Sección
+5;B30_010_025_105;Geosintéticos impermeabilizantes;Sección
+5;B30_010_025_110;Geotextiles;Sección
+5;B30_010_025_115;Geotextiles no tejidos;Sección
+5;B30_010_025_120;Geotextiles tejidos;Sección
+5;B30_010_025_125;Geotubos;Sección
+5;B30_010_025_130;Mallas de control de erosión;Sección
+5;B30_010_025_135;Mallas de refuerzo para pavimentos;Sección
+5;B30_010_025_140;Geomalla polimérica biaxial o multiaxial de alto módulo para refuerzo mecánico de capas;Sección
+5;B30_010_025_145;Geocelda tridimensional alveolar de confinamiento celular para control de erosión y soporte;Sección
+5;B30_010_025_150;Geotextil tejido y no tejido para separación, filtración y estabilización de subrasantes (Artículo 231 INVIAS);Sección
+5;B30_010_025_155;Geocompuesto planar de subdrenaje con núcleo polimérico tridimensional y filtro geotextil (Artículo 673 INVIAS);Sección
+4;B30_010_030;Materiales asfálticos;Subgrupo
+5;B30_010_030_005;Aglomerado asfáltico;Sección
+5;B30_010_030_010;Aglomerado reciclado;Sección
+5;B30_010_030_015;Asfalto autonivelante;Sección
+5;B30_010_030_020;Asfalto emulsionado;Sección
+5;B30_010_030_025;Asfalto modificado con caucho;Sección
+5;B30_010_030_030;Asfalto modificado con fibra;Sección
+5;B30_010_030_035;Asfalto modificado con polímeros;Sección
+5;B30_010_030_040;Asfalto modificado con resinas;Sección
+5;B30_010_030_045;Asfalto natural;Sección
+5;B30_010_030_050;Asfalto oxidado;Sección
+5;B30_010_030_055;Asfalto polimerizado;Sección
+5;B30_010_030_060;Brea;Sección
+5;B30_010_030_065;Carpetas asfálticas;Sección
+5;B30_010_030_070;Cemento asfáltico;Sección
+5;B30_010_030_075;Cemento asfáltico oxidado;Sección
+5;B30_010_030_080;Concreto asfáltico;Sección
+5;B30_010_030_085;Emulsión asfáltica;Sección
+5;B30_010_030_090;Lechada asfáltica;Sección
+5;B30_010_030_095;Mezcla asfáltica en caliente;Sección
+5;B30_010_030_100;Mezcla asfáltica en frío;Sección
+5;B30_010_030_105;Mezcla asfáltica reciclada;Sección
+5;B30_010_030_110;Mezcla bituminosa;Sección
+5;B30_010_030_115;Mezcla en caliente;Sección
+5;B30_010_030_120;Mezcla en frío;Sección
+5;B30_010_030_125;Riego de imprimación;Sección
+5;B30_010_030_130;Riego de liga;Sección
+5;B30_010_030_135;Riego de sello;Sección
+5;B30_010_030_140;Slurry Seal;Sección
+5;B30_010_030_145;Tratamiento bituminoso;Sección
+5;B30_010_030_150;Tratamiento superficial;Sección
+5;B30_010_030_155;Mezcla asfáltica de matriz pétrea (SMA) y mezcla tibia de alto módulo (WMA);Sección
+5;B30_010_030_160;Mezcla asfáltica drenante de alto porcentaje de vacíos y atenuación hidroacústica;Sección
+5;B30_010_030_165;Mezcla asfáltica de alto módulo (MAM) resistente al ahuellamiento para tránsito pesado;Sección
+5;B30_010_030_170;Cemento asfáltico modificado con polímeros elastoméricos SBS o grano de caucho reciclado (GCR);Sección
+5;B30_010_030_175;Emulsión asfáltica catiónica convencional y modificada con polímeros (Artículos 411 y 415 INVIAS);Sección
+4;B30_010_035;Materiales de madera;Subgrupo
+5;B30_010_035_005;Chapas de madera;Sección
+5;B30_010_035_015;Madera aglomerada;Sección
+5;B30_010_035_020;Madera aserrada;Sección
+5;B30_010_035_025;Madera contrachapada;Sección
+5;B30_010_035_030;Madera de abeto;Sección
+5;B30_010_035_035;Madera de bambú;Sección
+5;B30_010_035_040;Madera de cedro;Sección
+5;B30_010_035_045;Madera de cerezo;Sección
+5;B30_010_035_050;Madera de ciprés;Sección
+5;B30_010_035_055;Madera de eucalipto;Sección
+5;B30_010_035_060;Madera de fresno;Sección
+5;B30_010_035_065;Madera de haya;Sección
+5;B30_010_035_070;Madera de nogal;Sección
+5;B30_010_035_075;Madera de pino;Sección
+5;B30_010_035_080;Madera de roble;Sección
+5;B30_010_035_085;Madera de teca;Sección
+5;B30_010_035_090;Madera estructural;Sección
+5;B30_010_035_095;Madera impermeabilizada;Sección
+5;B30_010_035_100;Madera laminada;Sección
+5;B30_010_035_105;Madera laminada cruzada;Sección
+5;B30_010_035_110;Madera maciza;Sección
+5;B30_010_035_115;Madera reciclada;Sección
+5;B30_010_035_120;Madera tratada;Sección
+5;B30_010_035_125;Madera tropical;Sección
+5;B30_010_035_130;Tableros contralaminados (CLT);Sección
+5;B30_010_035_135;Tableros de partículas;Sección
+5;B30_010_035_140;Tableros MDF;Sección
+5;B30_010_035_145;Tableros OSB;Sección
+5;B30_010_035_155;Madera dura tratada bajo presión con preservantes;Sección
+4;B30_010_040;Metales y aleaciones;Subgrupo
+5;B30_010_040_005;Acero con recubrimiento anticorrosivo;Sección
+5;B30_010_040_010;Acero corten;Sección
+5;B30_010_040_015;Acero de pretensado;Sección
+5;B30_010_040_020;Acero de refuerzo (barras corrugadas);Sección
+5;B30_010_040_025;Acero estructural;Sección
+5;B30_010_040_030;Acero galvanizado;Sección
+5;B30_010_040_035;Acero galvanizado en caliente;Sección
+5;B30_010_040_040;Acero inoxidable;Sección
+5;B30_010_040_045;Acero laminado en caliente;Sección
+5;B30_010_040_050;Acero laminado en frío;Sección
+5;B30_010_040_055;Acero postensado;Sección
+5;B30_010_040_060;Alambres de acero trenzado;Sección
+5;B30_010_040_065;Aleaciones de níquel;Sección
+5;B30_010_040_070;Aluminio;Sección
+5;B30_010_040_075;Aluminio anodizado;Sección
+5;B30_010_040_080;Barras de acero de alta resistencia;Sección
+5;B30_010_040_085;Bronce;Sección
+5;B30_010_040_090;Chapa de acero laminado;Sección
+5;B30_010_040_095;Chapa de aluminio;Sección
+5;B30_010_040_100;Cobre;Sección
+5;B30_010_040_105;Hierro dúctil;Sección
+5;B30_010_040_110;Hierro fundido;Sección
+5;B30_010_040_115;Latón;Sección
+5;B30_010_040_120;Mallas electrosoldadas;Sección
+5;B30_010_040_125;Perfiles de acero (IPE, HEB, UPN);Sección
+5;B30_010_040_130;Perfiles de aluminio;Sección
+5;B30_010_040_135;Plomo;Sección
+5;B30_010_040_140;Tuberías de acero galvanizado;Sección
+5;B30_010_040_145;Tubos de acero inoxidable;Sección
+5;B30_010_040_150;Zinc;Sección
+5;B30_010_040_155;Acero austenítico al manganeso Hadfield para corazones;Sección
+5;B30_010_040_160;Acero al carbono-manganeso laminado en caliente grado R260;Sección
+5;B30_010_040_165;Acero perlítico tratado térmicamente grado R350HT;Sección
+5;B30_010_040_170;Acero perlítico al carbono-manganeso grado AREMA para rieles ferroviarios;Sección
+5;B30_010_040_175;Acero perlítico de alta dureza tratado térmicamente en cabeza para rieles y desvíos;Sección
+5;B30_010_040_180;Torón de acero de baja relajación de siete alambres para preesfuerzo y tirantes;Sección
+4;B30_010_045;Piedras naturales y rocas;Subgrupo
+5;B30_010_045_005;Ágata;Sección
+5;B30_010_045_010;Albita;Sección
+5;B30_010_045_015;Andesita;Sección
+5;B30_010_045_020;Arenisca;Sección
+5;B30_010_045_025;Basalto;Sección
+5;B30_010_045_030;Caliza;Sección
+5;B30_010_045_035;Cuarcita;Sección
+5;B30_010_045_040;Diorita;Sección
+5;B30_010_045_045;Dolomita;Sección
+5;B30_010_045_050;Esquisto;Sección
+5;B30_010_045_055;Gabro;Sección
+5;B30_010_045_060;Gneis;Sección
+5;B30_010_045_065;Granito;Sección
+5;B30_010_045_070;Labradorita;Sección
+5;B30_010_045_075;Mármol;Sección
+5;B30_010_045_080;Obsidiana;Sección
+5;B30_010_045_085;Ónix;Sección
+5;B30_010_045_090;Peridotita;Sección
+5;B30_010_045_095;Piedra basáltica;Sección
+5;B30_010_045_100;Piedra caliza;Sección
+5;B30_010_045_105;Piedra cuarcítica;Sección
+5;B30_010_045_110;Piedra de cantera;Sección
+5;B30_010_045_115;Piedra de escollera;Sección
+5;B30_010_045_120;Piedra de río;Sección
+5;B30_010_045_125;Piedra laja;Sección
+5;B30_010_045_130;Piedra pómez;Sección
+5;B30_010_045_135;Piedra triturada;Sección
+5;B30_010_045_140;Pizarra;Sección
+5;B30_010_045_145;Roca ígnea;Sección
+5;B30_010_045_150;Roca sedimentaria;Sección
+5;B30_010_045_155;Roca volcánica;Sección
+5;B30_010_045_160;Sienita;Sección
+5;B30_010_045_165;Toba volcánica;Sección
+5;B30_010_045_170;Travertino;Sección
+5;B30_010_045_175;Agregado pétreo triturado silíceo o ígneo para balasto ferroviario;Sección
+5;B30_010_045_180;Material granular clasificado para subbalasto ferroviario;Sección
+4;B30_010_050;Materiales para pavimentos y calzadas;Subgrupo
+5;B30_010_050_005;Adoquines cerámicos;Sección
+5;B30_010_050_010;Adoquines de arcilla;Sección
+5;B30_010_050_015;Adoquines de concreto;Sección
+5;B30_010_050_020;Adoquines de piedra natural;Sección
+5;B30_010_050_025;Agregados triturados para pavimentos;Sección
+5;B30_010_050_030;Asfalto modificado con caucho;Sección
+5;B30_010_050_035;Asfalto modificado con polímeros;Sección
+5;B30_010_050_040;Asfalto natural;Sección
+5;B30_010_050_045;Asfalto oxidado;Sección
+5;B30_010_050_050;Bases estabilizadas con cal;Sección
+5;B30_010_050_055;Bases estabilizadas con cemento;Sección
+5;B30_010_050_060;Carpetas de concreto asfáltico;Sección
+5;B30_010_050_065;Cemento asfáltico;Sección
+5;B30_010_050_070;Concreto asfáltico;Sección
+5;B30_010_050_075;Concreto estampado;Sección
+5;B30_010_050_080;Concreto permeable;Sección
+5;B30_010_050_085;Emulsión asfáltica;Sección
+5;B30_010_050_090;Fibras sintéticas para pavimentos de concreto;Sección
+5;B30_010_050_095;Geotextiles para refuerzo de pavimentos;Sección
+5;B30_010_050_100;Lechada asfáltica;Sección
+5;B30_010_050_105;Losas de concreto;Sección
+5;B30_010_050_110;Mallas de fibra de vidrio para pavimentos;Sección
+5;B30_010_050_115;Mallas de refuerzo asfáltico;Sección
+5;B30_010_050_120;Mezcla asfáltica en caliente;Sección
+5;B30_010_050_125;Mezcla asfáltica en frío;Sección
+5;B30_010_050_130;Mezcla bituminosa reciclada;Sección
+5;B30_010_050_135;Microaglomerados en frío;Sección
+5;B30_010_050_140;Riego de imprimación;Sección
+5;B30_010_050_145;Riego de liga;Sección
+5;B30_010_050_150;Slurry Seal;Sección
+5;B30_010_050_155;Recubrimiento termoplástico y plástico en frío con microesferas retrorreflectivas;Sección
+4;B30_010_055;Materiales para obras de drenaje;Subgrupo
+5;B30_010_055_005;Agregados drenantes;Sección
+5;B30_010_055_010;Arcilla compactada para barreras impermeables;Sección
+5;B30_010_055_015;Arena filtrante;Sección
+5;B30_010_055_020;Bloques de concreto poroso;Sección
+5;B30_010_055_025;Cemento para mortero de drenaje;Sección
+5;B30_010_055_030;Cemento para rellenos de drenaje;Sección
+5;B30_010_055_035;Colchones reno (malla de alambre y piedras);Sección
+5;B30_010_055_040;Escolleras de piedra para estabilización;Sección
+5;B30_010_055_045;Fibras sintéticas para refuerzo en drenaje;Sección
+5;B30_010_055_050;Filtros de arena;Sección
+5;B30_010_055_055;Filtros de grava;Sección
+5;B30_010_055_060;Gaviones metálicos rellenos de piedra;Sección
+5;B30_010_055_065;Geomallas para drenaje;Sección
+5;B30_010_055_070;Geomembranas impermeables;Sección
+5;B30_010_055_075;Geotextiles no tejidos;Sección
+5;B30_010_055_080;Geotextiles tejidos;Sección
+5;B30_010_055_085;Grava filtrante;Sección
+5;B30_010_055_090;Grava triturada;Sección
+5;B30_010_055_095;Lechadas de cemento para impermeabilización;Sección
+5;B30_010_055_100;Mantas drenantes sintéticas;Sección
+5;B30_010_055_105;Material granular para filtros;Sección
+5;B30_010_055_110;Mezcla de suelo-cemento para drenaje;Sección
+5;B30_010_055_115;Piedras para rellenos drenantes;Sección
+5;B30_010_055_120;Poliestireno expandido para relleno drenante;Sección
+5;B30_010_055_125;Revestimientos bituminosos impermeabilizantes;Sección
+5;B30_010_055_130;Tubos de concreto reforzado;Sección
+5;B30_010_055_135;Tubos de fibrocemento;Sección
+5;B30_010_055_140;Tubos de gres;Sección
+5;B30_010_055_145;Tubos de polietileno de alta densidad (PEAD);Sección
+5;B30_010_055_150;Tubos de PVC para drenaje;Sección
+4;B30_010_060;Pinturas y recubrimientos;Subgrupo
+5;B30_010_060_005;Barnices;Sección
+5;B30_010_060_010;Barniz protector para madera;Sección
+5;B30_010_060_015;Emulsiones bituminosas;Sección
+5;B30_010_060_020;Esmalte sintético;Sección
+5;B30_010_060_025;Membranas líquidas;Sección
+5;B30_010_060_030;Pintura acrílica;Sección
+5;B30_010_060_035;Pintura base solvente;Sección
+5;B30_010_060_040;Pintura de alta durabilidad;Sección
+5;B30_010_060_045;Pintura epóxica;Sección
+5;B30_010_060_050;Pintura impermeabilizante;Sección
+5;B30_010_060_055;Pintura intumescente;Sección
+5;B30_010_060_060;Pintura para señalización vial;Sección
+5;B30_010_060_065;Pintura para tráfico;Sección
+5;B30_010_060_070;Pintura poliuretánica;Sección
+5;B30_010_060_075;Pintura reflectiva;Sección
+5;B30_010_060_080;Pintura termoplástica;Sección
+5;B30_010_060_085;Recubrimiento de caucho;Sección
+5;B30_010_060_090;Recubrimiento epóxico de dos componentes;Sección
+5;B30_010_060_095;Recubrimientos anti-graffiti;Sección
+5;B30_010_060_100;Recubrimientos anticorrosivos;Sección
+5;B30_010_060_105;Recubrimientos impermeabilizantes;Sección
+5;B30_010_060_110;Revestimiento acrílico;Sección
+5;B30_010_060_115;Revestimientos cerámicos;Sección
+5;B30_010_060_120;Revestimientos de ladrillo;Sección
+5;B30_010_060_125;Revestimientos de madera;Sección
+5;B30_010_060_130;Revestimientos metálicos;Sección
+5;B30_010_060_135;Sellador elastomérico;Sección
+5;B30_010_060_140;Selladores acrílicos;Sección
+5;B30_010_060_145;Selladores de poliuretano;Sección
+5;B30_010_060_150;Selladores de silicona;Sección
+4;B30_010_065;Polímeros y plásticos;Subgrupo
+5;B30_010_065_005;Compuestos de fibra de vidrio;Sección
+5;B30_010_065_010;Compuestos plásticos reforzados;Sección
+5;B30_010_065_015;Espuma aislante de poliestireno;Sección
+5;B30_010_065_020;Espuma de poliestireno expandido (EPS);Sección
+5;B30_010_065_025;Espuma de poliuretano;Sección
+5;B30_010_065_030;Espuma de poliuretano rígido;Sección
+5;B30_010_065_035;Fibra de carbono;Sección
+5;B30_010_065_040;Fibra de vidrio;Sección
+5;B30_010_065_045;Geoceldas de polietileno;Sección
+5;B30_010_065_050;Geomallas;Sección
+5;B30_010_065_055;Láminas de polietileno;Sección
+5;B30_010_065_060;Láminas de PVC;Sección
+5;B30_010_065_065;Láminas de resina epóxica;Sección
+5;B30_010_065_070;Paneles de policarbonato;Sección
+5;B30_010_065_075;Paneles de poliuretano expandido;Sección
+5;B30_010_065_080;Paneles estructurales de poliuretano;Sección
+5;B30_010_065_085;Películas protectoras de polietileno;Sección
+5;B30_010_065_090;Policarbonato;Sección
+5;B30_010_065_095;Poliestireno (PS);Sección
+5;B30_010_065_100;Polietileno (PE);Sección
+5;B30_010_065_105;Polietileno de alta densidad (PEAD);Sección
+5;B30_010_065_110;Polipropileno (PP);Sección
+5;B30_010_065_115;Poliuretano;Sección
+5;B30_010_065_120;PVC (cloruro de polivinilo);Sección
+5;B30_010_065_125;Resinas acrílicas;Sección
+5;B30_010_065_130;Resinas de poliéster;Sección
+5;B30_010_065_135;Resinas de poliuretano;Sección
+5;B30_010_065_140;Resinas epoxi;Sección
+5;B30_010_065_145;Tuberías de polietileno reticulado;Sección
+5;B30_010_065_150;Tuberías de PVC;Sección
+5;B30_010_065_155;Polímero reforzado con fibra de vidrio o carbono para uso estructural (GFRP / CFRP);Sección
+5;B30_010_065_160;Compuesto elastomérico de policloropreno (neopreno) vulcanizado con láminas de acero para apoyos y sellos;Sección
+4;B30_010_070;Productos químicos para construcción;Subgrupo
+5;B30_010_070_005;Acelerantes de fraguado;Sección
+5;B30_010_070_010;Aditivos expansivos;Sección
+5;B30_010_070_015;Aditivos impermeabilizantes;Sección
+5;B30_010_070_020;Aditivos para concreto;Sección
+5;B30_010_070_025;Bentonita;Sección
+5;B30_010_070_030;Cal aérea;Sección
+5;B30_010_070_035;Cal apagada;Sección
+5;B30_010_070_040;Cal hidráulica;Sección
+5;B30_010_070_045;Cal viva;Sección
+5;B30_010_070_050;Catalizadores para asfalto;Sección
+5;B30_010_070_055;Cemento expansivo;Sección
+5;B30_010_070_060;Cenizas volantes;Sección
+5;B30_010_070_065;Cloruro de calcio;Sección
+5;B30_010_070_070;Desmoldantes para encofrados;Sección
+5;B30_010_070_075;Escoria molida de alto horno;Sección
+5;B30_010_070_080;Estabilizadores de suelos;Sección
+5;B30_010_070_085;Humo de sílice;Sección
+5;B30_010_070_090;Inhibidores de corrosión;Sección
+5;B30_010_070_095;Lechada de cal;Sección
+5;B30_010_070_100;Plastificantes;Sección
+5;B30_010_070_105;Polímeros acrílicos;Sección
+5;B30_010_070_110;Productos de curado para concreto;Sección
+5;B30_010_070_115;Resinas de inyección;Sección
+5;B30_010_070_120;Retardadores de evaporación;Sección
+5;B30_010_070_125;Retardantes de fraguado;Sección
+5;B30_010_070_130;Silicato de potasio;Sección
+5;B30_010_070_135;Silicato de sodio;Sección
+5;B30_010_070_140;Suelo-cal;Sección
+5;B30_010_070_145;Suelo-emulsión;Sección
+5;B30_010_070_150;Superplastificantes;Sección
+4;B30_010_075;Suelos y estabilizadores de suelo;Subgrupo
+5;B30_010_075_005;Aglomerado de suelo estabilizado;Sección
+5;B30_010_075_010;Arcilla arcósica;Sección
+5;B30_010_075_015;Arcilla estabilizada con cal;Sección
+5;B30_010_075_020;Bentonita sódica;Sección
+5;B30_010_075_025;Ceniza volcánica estabilizada;Sección
+5;B30_010_075_030;Compost orgánico para suelos estabilizados;Sección
+5;B30_010_075_035;Fibra de coco para control de erosión;Sección
+5;B30_010_075_040;Fibras de carbono para estabilización de suelos;Sección
+5;B30_010_075_045;Fibras de vidrio para refuerzo de suelos;Sección
+5;B30_010_075_050;Grava estabilizada con emulsiones asfálticas;Sección
+5;B30_010_075_055;Grava estabilizada con polímeros;Sección
+5;B30_010_075_060;Limo arcilloso estabilizado;Sección
+5;B30_010_075_065;Material granular estabilizado con resinas;Sección
+5;B30_010_075_070;Nanomateriales para estabilización de suelos;Sección
+5;B30_010_075_075;Polímeros en polvo para estabilización de suelos;Sección
+5;B30_010_075_080;Resinas sintéticas para suelos;Sección
+5;B30_010_075_085;Suelo tratado con estabilizadores de polímeros;Sección
+5;B30_010_075_090;Suelos estabilizados con enzimas;Sección
+5;B30_010_075_095;Tierra batida estabilizada;Sección
+5;B30_010_075_100;Zeolitas naturales para estabilización;Sección
+3;B30_015;Herramientas y equipos de construcción;Grupo
+4;B30_015_005;Herramientas y equipos menores;Subgrupo
+5;B30_015_005_005;Equipos de protección y seguridad;Sección
+6;B30_015_005_005_005;Botas o calzado de seguridad;Objeto
+6;B30_015_005_005_010;Cascos de seguridad;Objeto
+6;B30_015_005_005_015;Gafas de seguridad;Objeto
+6;B30_015_005_005_020;Guantes de construcción;Objeto
+6;B30_015_005_005_025;Mandiles u overoles de seguridad;Objeto
+6;B30_015_005_005_030;Protectores auditivos;Objeto
+5;B30_015_005_010;Herramientas de acabados y albañilería;Sección
+6;B30_015_005_010_005;Brochas para pintura;Objeto
+6;B30_015_005_010_010;Cucharas de albañil;Objeto
+6;B30_015_005_010_015;Cucharas dentadas;Objeto
+6;B30_015_005_010_020;Esponjas industriales;Objeto
+6;B30_015_005_010_025;Espátulas;Objeto
+6;B30_015_005_010_030;Lijadoras manuales;Objeto
+6;B30_015_005_010_035;Palas de mano;Objeto
+6;B30_015_005_010_040;Palustres;Objeto
+6;B30_015_005_010_045;Rasquetas;Objeto
+6;B30_015_005_010_050;Rodillos para pintura;Objeto
+5;B30_015_005_015;Herramientas de corte y desbaste;Sección
+6;B30_015_005_015_005;Alicates de corte;Objeto
+6;B30_015_005_015_010;Arcos de sierra;Objeto
+6;B30_015_005_015_015;Brocas;Objeto
+6;B30_015_005_015_020;Cinceles;Objeto
+6;B30_015_005_015_025;Cizallas manuales;Objeto
+6;B30_015_005_015_030;Cortadoras de cables;Objeto
+6;B30_015_005_015_035;Cortatubos;Objeto
+6;B30_015_005_015_040;Estiletes;Objeto
+6;B30_015_005_015_045;Hojas de sierra;Objeto
+6;B30_015_005_015_050;Serruchos de mano;Objeto
+6;B30_015_005_015_055;Sierras de calar;Objeto
+6;B30_015_005_015_060;Tenazas;Objeto
+6;B30_015_005_015_065;Tijeras de hojalatero;Objeto
+6;B30_015_005_015_070;Tronzadoras manuales;Objeto
+5;B30_015_005_020;Herramientas de golpe y perforación;Sección
+6;B30_015_005_020_005;Clavadoras manuales;Objeto
+6;B30_015_005_020_010;Martillos;Objeto
+6;B30_015_005_020_015;Martillos de goma;Objeto
+6;B30_015_005_020_020;Martillos perforadores;Objeto
+6;B30_015_005_020_025;Martillos rotativos;Objeto
+6;B30_015_005_020_030;Punzones;Objeto
+6;B30_015_005_020_035;Taladros manuales;Objeto
+6;B30_015_005_020_040;Taladros percutores;Objeto
+6;B30_015_005_020_045;Verduguillos;Objeto
+5;B30_015_005_025;Herramientas de medición y nivelación;Sección
+6;B30_015_005_025_005;Calibradores;Objeto
+6;B30_015_005_025_010;Compases;Objeto
+6;B30_015_005_025_015;Escuadras de carpintero;Objeto
+6;B30_015_005_025_020;Hilos de plomada;Objeto
+6;B30_015_005_025_025;Medidores de ángulos;Objeto
+6;B30_015_005_025_030;Medidores de niveles;Objeto
+6;B30_015_005_025_035;Medidores láser;Objeto
+6;B30_015_005_025_040;Metro extensible;Objeto
+6;B30_015_005_025_045;Niveladores de burbuja;Objeto
+6;B30_015_005_025_050;Niveles láser;Objeto
+6;B30_015_005_025_055;Pizarras de medición;Objeto
+6;B30_015_005_025_060;Plomadas;Objeto
+6;B30_015_005_025_065;Reglas de carpintero;Objeto
+6;B30_015_005_025_070;Reglas de nivel;Objeto
+5;B30_015_005_030;Herramientas de sujeción y fijación;Sección
+6;B30_015_005_030_005;Alicates;Objeto
+6;B30_015_005_030_010;Barras de uña;Objeto
+6;B30_015_005_030_015;Extractores de clavos;Objeto
+6;B30_015_005_030_020;Extractores de tornillos;Objeto
+6;B30_015_005_030_025;Llaves ajustables;Objeto
+6;B30_015_005_030_030;Llaves Allen;Objeto
+6;B30_015_005_030_035;Llaves de torque;Objeto
+6;B30_015_005_030_040;Llaves dinamométricas;Objeto
+6;B30_015_005_030_045;Llaves inglesas;Objeto
+6;B30_015_005_030_050;Mordazas;Objeto
+6;B30_015_005_030_055;Pinzas de presión;Objeto
+6;B30_015_005_030_060;Pistolas de silicona;Objeto
+6;B30_015_005_030_065;Remachadoras;Objeto
+6;B30_015_005_030_070;Tornillos de banco;Objeto
+5;B30_015_005_035;Herramientas de electricidad y electrónica;Sección
+6;B30_015_005_035_005;Detectores de metales manuales;Objeto
+6;B30_015_005_035_010;Detectores de vigas;Objeto
+6;B30_015_005_035_015;Destornilladores de precisión;Objeto
+6;B30_015_005_035_020;Destornilladores eléctricos;Objeto
+6;B30_015_005_035_025;Pinzas de electricista;Objeto
+6;B30_015_005_035_030;Pinzas pelacables;Objeto
+6;B30_015_005_035_035;Probadores de tensión eléctrica;Objeto
+4;B30_015_010;Herramientas y equipos de tamaño medio;Subgrupo
+5;B30_015_010_005;Equipos de bombeo y líquidos;Sección
+6;B30_015_010_005_005;Bombas de achique;Objeto
+6;B30_015_010_005_010;Bombas de agua;Objeto
+6;B30_015_010_005_015;Bombas centrífugas;Objeto
+6;B30_015_010_005_020;Bombas de vacío;Objeto
+6;B30_015_010_005_025;Hidrolavadoras;Objeto
+6;B30_015_010_005_030;Hidrolimpiadoras industriales;Objeto
+6;B30_015_010_005_035;Lavadoras a presión;Objeto
+6;B30_015_010_005_040;Motobombas;Objeto
+5;B30_015_010_010;Equipos de compactación y suelo;Sección
+6;B30_015_010_010_005;Apisonadoras;Objeto
+6;B30_015_010_010_010;Compactadoras de suelos;Objeto
+6;B30_015_010_010_015;Placas compactadoras;Objeto
+6;B30_015_010_010_020;Pisonadoras;Objeto
+6;B30_015_010_010_025;Rodillos compactadores manuales;Objeto
+6;B30_015_010_010_030;Vibradores de suelo;Objeto
+5;B30_015_010_015;Equipos de corte;Sección
+6;B30_015_010_015_005;Cortadoras de bloque;Objeto
+6;B30_015_010_015_010;Cortadoras de cerámica;Objeto
+6;B30_015_010_015_015;Cortadoras de concreto;Objeto
+6;B30_015_010_015_020;Cortadoras de pavimento;Objeto
+6;B30_015_010_015_025;Molinos de corte;Objeto
+6;B30_015_010_015_030;Sierras de banda industriales;Objeto
+6;B30_015_010_015_035;Sierras de mesa portátiles;Objeto
+5;B30_015_010_020;Equipos de elevación y carga;Sección
+6;B30_015_010_020_005;Andamios;Objeto
+6;B30_015_010_020_010;Cabrestantes eléctricos;Objeto
+6;B30_015_010_020_015;Carretillas elevadoras;Objeto
+6;B30_015_010_020_020;Elevadores de carga;Objeto
+6;B30_015_010_020_025;Gatos hidráulicos;Objeto
+6;B30_015_010_020_030;Grúas portátiles;Objeto
+6;B30_015_010_020_035;Manipuladores telescópicos;Objeto
+6;B30_015_010_020_040;Plataformas elevadoras;Objeto
+5;B30_015_010_025;Equipos de mezcla y mortero;Sección
+6;B30_015_010_025_005;Batidoras de cemento;Objeto
+6;B30_015_010_025_010;Equipos de inyección de mortero;Objeto
+6;B30_015_010_025_015;Mezcladoras de concreto;Objeto
+6;B30_015_010_025_020;Mezcladoras de mortero;Objeto
+5;B30_015_010_030;Equipos de perforación y martilleo;Sección
+6;B30_015_010_030_005;Martillos eléctricos;Objeto
+6;B30_015_010_030_010;Martillos hidráulicos;Objeto
+6;B30_015_010_030_015;Martillos neumáticos;Objeto
+6;B30_015_010_030_020;Perforadoras neumáticas;Objeto
+6;B30_015_010_030_025;Perforadoras portátiles;Objeto
+6;B30_015_010_030_030;Taladros de columna;Objeto
+6;B30_015_010_030_035;Taladros percutores eléctricos;Objeto
+5;B30_015_010_035;Equipos de soldadura y corte térmico;Sección
+6;B30_015_010_035_005;Equipos de corte por plasma;Objeto
+6;B30_015_010_035_010;Motosoldadoras;Objeto
+6;B30_015_010_035_015;Pistolas de calor;Objeto
+6;B30_015_010_035_020;Soldadoras de arco;Objeto
+6;B30_015_010_035_025;Soldadoras eléctricas;Objeto
+6;B30_015_010_035_030;Soldadoras MIG/MAG;Objeto
+5;B30_015_010_040;Generadores y equipos eléctricos;Sección
+6;B30_015_010_040_005;Generadores de gasolina portátiles;Objeto
+6;B30_015_010_040_010;Generadores diésel;Objeto
+6;B30_015_010_040_015;Generadores eléctricos;Objeto
+6;B30_015_010_040_020;Torres de iluminación;Objeto
+5;B30_015_010_045;Herramientas de limpieza y acabado;Sección
+6;B30_015_010_045_005;Aspiradoras industriales;Objeto
+6;B30_015_010_045_010;Desbastadoras;Objeto
+6;B30_015_010_045_015;Esmeriladoras;Objeto
+6;B30_015_010_045_020;Fresadoras portátiles;Objeto
+6;B30_015_010_045_025;Lijadoras orbitales;Objeto
+6;B30_015_010_045_030;Pulidoras de concreto;Objeto
+6;B30_015_010_045_035;Pulidoras de piso;Objeto
+6;B30_015_010_045_040;Trituradoras de escombros;Objeto
+5;B30_015_010_050;Vibradores industriales;Sección
+6;B30_015_010_050_005;Vibradores industriales para concreto;Objeto
+5;B30_015_010_055;Planta recicladora móvil en frío de pavimentos y estabilizadora de suelos in situ;Sección
+4;B30_015_015;Maquinaria amarilla;Subgrupo
+5;B30_015_015_005;Equipos de carga, movimiento de tierra y transporte de materiales;Sección
+6;B30_015_015_005_005;Bulldozers;Objeto
+6;B30_015_015_005_010;Camiones articulados;Objeto
+6;B30_015_015_005_015;Camiones cisterna;Objeto
+6;B30_015_015_005_020;Camiones de volteo;Objeto
+6;B30_015_015_005_025;Camiones mezcladores de concreto;Objeto
+6;B30_015_015_005_030;Camiones tolva;Objeto
+6;B30_015_015_005_035;Cargadores de orugas;Objeto
+6;B30_015_015_005_040;Cargadores frontales;Objeto
+6;B30_015_015_005_045;Cargadores sobre ruedas;Objeto
+6;B30_015_015_005_050;Excavadoras de cadenas;Objeto
+6;B30_015_015_005_055;Excavadoras de ruedas;Objeto
+6;B30_015_015_005_060;Excavadoras hidráulicas;Objeto
+6;B30_015_015_005_065;Minicargadores;Objeto
+6;B30_015_015_005_070;Minicargadores de alta capacidad;Objeto
+6;B30_015_015_005_075;Miniexcavadoras;Objeto
+6;B30_015_015_005_080;Palas cargadoras;Objeto
+6;B30_015_015_005_085;Retroexcavadoras;Objeto
+6;B30_015_015_005_090;Tractores de cadenas;Objeto
+6;B30_015_015_005_095;Tractores de ruedas;Objeto
+6;B30_015_015_005_100;Vehículos de transporte de maquinaria;Objeto
+6;B30_015_015_005_105;Zanjadoras;Objeto
+5;B30_015_015_010;Equipos de compactación;Sección
+6;B30_015_015_010_005;Compactadoras de asfalto;Objeto
+6;B30_015_015_010_010;Compactadoras de rodillo;Objeto
+6;B30_015_015_010_015;Rodillos compactadores;Objeto
+6;B30_015_015_010_020;Rodillos vibratorios;Objeto
+5;B30_015_015_015;Equipos de pavimentación y asfaltado;Sección
+6;B30_015_015_015_005;Fresadoras de asfalto;Objeto
+6;B30_015_015_015_010;Máquinas de aplicación de Slurry Seal;Objeto
+6;B30_015_015_015_015;Pavimentadoras de asfalto;Objeto
+6;B30_015_015_015_020;Pulverizadoras de asfalto;Objeto
+5;B30_015_015_020;Equipos de perforación y cimentación;Sección
+6;B30_015_015_020_005;Perforadoras de gran diámetro;Objeto
+6;B30_015_015_020_010;Perforadoras de pilotes;Objeto
+6;B30_015_015_020_015;Perforadoras de túneles;Objeto
+6;B30_015_015_020_020;Perforadoras hidráulicas;Objeto
+6;B30_015_015_020_025;Taladros para perforación de suelo;Objeto
+5;B30_015_015_025;Grúas y equipos de elevación;Sección
+6;B30_015_015_025_005;Grúas de torre;Objeto
+6;B30_015_015_025_010;Grúas hidráulicas;Objeto
+6;B30_015_015_025_015;Grúas móviles;Objeto
+6;B30_015_015_025_020;Grúas sobre orugas;Objeto
+6;B30_015_015_025_025;Manipuladores frontales;Objeto
+6;B30_015_015_025_030;Manipuladores telescópicos;Objeto
+5;B30_015_015_030;Maquinaria especializada;Sección
+6;B30_015_015_030_005;Dragalinas;Objeto
+6;B30_015_015_030_010;Hormigoneras;Objeto
+6;B30_015_015_030_015;Motoconformadoras;Objeto
+6;B30_015_015_030_020;Motoniveladoras;Objeto
+6;B30_015_015_030_025;Desguarnecedora-cribadora de lecho de balasto;Objeto
+6;B30_015_015_030_030;Perfiladora-distribuidora de balasto;Objeto
+6;B30_015_015_030_035;Amoladora rotativa de carril;Objeto
+6;B30_015_015_030_040;Bateadora pesada para aparatos de vía y desvíos;Objeto
+6;B30_015_015_030_045;Tren de renovación y tendido continuo de vía;Objeto
+6;B30_015_015_030_050;Bateadora mecanizada continua de línea;Objeto
+6;B30_015_015_030_055;Estabilizadora dinámica de vía férrea;Objeto
+6;B30_015_015_030_060;Equipo de soldadura aluminotérmica o eléctrica por destello de riel;Objeto
+5;B30_015_015_035;Trituradoras y equipos de reciclaje;Sección
+6;B30_015_015_035_005;Trituradoras de impacto;Objeto
+6;B30_015_015_035_010;Trituradoras de mandíbula;Objeto
+6;B30_015_015_035_015;Trituradoras de rocas;Objeto
+5;B30_015_015_040;Unidad móvil de auscultación multifunción, deflectometría de impacto y perfilometría láser;Sección
+5;B30_015_015_045;Planta de producción de mezcla asfáltica, extendedora autopropulsada (Finisher) y tren de compactación;Sección
+5;B30_015_015_050;Equipo móvil de medición continua de fricción transversal (SCRIM / GripTester) y retrorreflectómetro dinámico;Sección
+5;B30_015_015_055;Georradar de penetración terrestre (GPR) multifrecuencia y tomógrafo ultrasónico no destructivo;Sección
+4;B30_015_020;Equipos férreos y material rodante;Subgrupo
+5;B30_015_020_005;Locomotoras y unidades tractivas ferroviarias;Sección
+6;B30_015_020_005_005;Locomotoras diésel-eléctricas de línea;Objeto
+6;B30_015_020_005_010;Locomotoras de maniobras y patio;Objeto
+6;B30_015_020_005_015;Locomotoras eléctricas e híbridas de bajas emisiones;Objeto
+5;B30_015_020_010;Vagones y plataformas de transporte de carga ferroviaria;Sección
+6;B30_015_020_010_005;Vagones plataforma porta-contenedores y carga general;Objeto
+6;B30_015_020_010_010;Vagones góndola y tolva para graneles minerales y agrícolas;Objeto
+6;B30_015_020_010_015;Vagones cisterna o carrotanques para graneles líquidos;Objeto
+6;B30_015_020_010_020;Vagones cerrados o furgones de carga;Objeto
+5;B30_015_020_015;Coches, autovías y unidades de transporte de pasajeros;Sección
+6;B30_015_020_015_005;Coches remolcados de pasajeros;Objeto
+6;B30_015_020_015_010;Unidades múltiples autopropulsadas y autoferros;Objeto
+5;B30_015_020_020;Vehículos de auscultación, inspección y emergencia ferroviaria;Sección
+6;B30_015_020_020_005;Carros y dresinas de auscultación geométrica y ultrasónica de vía;Objeto
+6;B30_015_020_020_010;Vehículos biviales carretera-vía férrea de inspección y rescate;Objeto
+6;B30_015_020_020_015;Locomotoras y trenes de rescate y atención de emergencias;Objeto
+5;B30_015_020_025;Bateadora, alineadora y perfiladora pesada de balasto ferroviario;Sección
+6;B30_015_020_025_005;Bateadora, niveladora y alineadora pesada de vía férrea de ciclo continuo;Objeto
+7;B30_015_020_025_005_005;Bateadora pesada universal de aparatos de vía y cambiavías con bates oscilantes independientes;Subobjeto
+5;B30_015_020_030;Tren esmerilador de rieles y camión bivial de soldadura aluminotérmica o por destello;Sección
+5;B30_015_020_035;Locomotora diésel-eléctrica e híbrida de línea principal para tracción en trocha angosta y estándar;Sección
+5;B30_015_020_040;Vagón plataforma portacontenedores, tolva granelera y coche de pasajeros con bogie radial;Sección

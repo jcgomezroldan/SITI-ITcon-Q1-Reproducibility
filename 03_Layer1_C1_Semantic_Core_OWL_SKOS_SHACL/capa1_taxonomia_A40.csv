@@ -1,0 +1,915 @@
+﻿Nivel;Código SITI;Descripción;Clasificación
+1;A;Activos de infraestructura;Lenguaje
+2;A40;Sistemas e instalaciones operativas;Tabla
+3;A40_005;Sistemas arquitectónicos y estéticos;Grupo
+4;A40_005_005;Sistemas de diseño exterior;Subgrupo
+5;A40_005_005_005;Sistema de fachadas arquitectónicas;Sección
+5;A40_005_005_010;Sistema de muros cortina;Sección
+5;A40_005_005_015;Sistema de pérgolas y sombreaderos;Sección
+5;A40_005_005_020;Sistema de revestimientos estéticos;Sección
+5;A40_005_005_025;Sistema de techumbres arquitectónicas;Sección
+5;A40_005_005_030;Sistemas de fachada con materiales reciclados;Sección
+4;A40_005_010;Sistemas de integración artística;Subgrupo
+5;A40_005_010_005;Sistema de elementos escultóricos estructurales;Sección
+5;A40_005_010_010;Sistema de integración de arte público;Sección
+5;A40_005_010_015;Sistema de recubrimientos especiales;Sección
+5;A40_005_010_020;Sistema de vitrales arquitectónicos;Sección
+4;A40_005_015;Sistemas de iluminación estética;Subgrupo
+5;A40_005_015_005;Sistema de iluminación arquitectónica;Sección
+5;A40_005_015_010;Sistema de iluminación natural;Sección
+5;A40_005_015_015;Sistema de señalización estética (cuando incluye elementos luminosos decorativos);Sección
+4;A40_005_020;Sistemas de paisajismo y vegetación;Subgrupo
+5;A40_005_020_005;Sistema de cubierta ajardinada o cubierta vegetal;Sección
+5;A40_005_020_010;Sistema de jardinería y paisajismo;Sección
+5;A40_005_020_015;Sistema de vegetación vertical;Sección
+4;A40_005_025;Sistemas de mobiliario y acabados;Subgrupo
+5;A40_005_025_005;Sistema de acabados decorativos;Sección
+5;A40_005_025_010;Sistema de mobiliario urbano integrado;Sección
+5;A40_005_025_015;Sistema de tratamientos superficiales ornamentales;Sección
+3;A40_010;Sistemas de almacenamiento de mercancías;Grupo
+4;A40_010_005;Sistemas de almacenamiento según el tipo de mercancía;Subgrupo
+5;A40_010_005_005;Sistema de almacenamiento aduanero;Sección
+5;A40_010_005_010;Sistema de almacenamiento de productos perecederos;Sección
+5;A40_010_005_015;Sistema de almacenamiento de productos químicos;Sección
+5;A40_010_005_020;Sistema de almacenamiento de productos refrigerados;Sección
+5;A40_010_005_025;Sistema de almacenamiento de vehículos;Sección
+5;A40_010_005_030;Sistema de almacenamiento para mercancías peligrosas;Sección
+5;A40_010_005_035;Sistema de almacenamiento y manejo de graneles líquidos;Sección
+5;A40_010_005_040;Sistema de almacenamiento y manejo de graneles sólidos;Sección
+4;A40_010_010;Sistemas de almacenamiento según la tecnología aplicada;Subgrupo
+5;A40_010_010_005;Sistema de almacenamiento automatizado;Sección
+5;A40_010_010_010;Sistema de almacenamiento móvil;Sección
+5;A40_010_010_015;Sistema de almacenamiento selectivo;Sección
+5;A40_010_010_020;Sistema de almacenamiento tipo drive-in;Sección
+5;A40_010_010_025;Sistema de almacenamiento tipo drive-through;Sección
+5;A40_010_010_030;Sistema de almacenamiento vertical automatizado;Sección
+5;A40_010_010_035;Sistema de estanterías compactas;Sección
+5;A40_010_010_040;Sistema de estanterías convencionales;Sección
+5;A40_010_010_045;Sistema de estanterías dinámicas;Sección
+5;A40_010_010_050;Sistema de estanterías móviles;Sección
+5;A40_010_010_055;Sistema de estanterías para cargas ligeras;Sección
+5;A40_010_010_060;Sistema de estanterías para cargas pesadas;Sección
+5;A40_010_010_065;Sistema de estanterías para paletización;Sección
+4;A40_010_015;Sistemas de almacenamiento según su ubicación física;Subgrupo
+5;A40_010_015_005;Sistema de almacenamiento en almacenes;Sección
+5;A40_010_015_010;Sistema de almacenamiento en contenedores;Sección
+5;A40_010_015_015;Sistema de almacenamiento en patios;Sección
+5;A40_010_015_020;Sistema de almacenamiento en silos;Sección
+5;A40_010_015_025;Sistema de almacenamiento en tanques;Sección
+5;A40_010_015_030;Sistema de silos verticales;Sección
+5;A40_010_015_035;Sistema de tanques de almacenamiento subterráneo;Sección
+5;A40_010_015_040;Sistema de tanques de almacenamiento superficial;Sección
+4;A40_010_020;Sistemas de almacenamiento según la naturaleza de la operación;Subgrupo
+5;A40_010_020_005;Sistema de almacenamiento intermedio;Sección
+5;A40_010_020_010;Sistema de almacenamiento por flujo FIFO (primero en entrar - primero en salir);Sección
+5;A40_010_020_015;Sistema de almacenamiento por flujo LIFO (último en entrar - primero en salir);Sección
+5;A40_010_020_020;Sistema de almacenamiento temporal;Sección
+5;A40_010_020_025;Sistema de logística inversa y devoluciones;Sección
+4;A40_010_025;Sistemas especializados para sectores o tipos de operaciones;Subgrupo
+5;A40_010_025_005;Sistema de almacenamiento y manejo de graneles líquidos;Sección
+5;A40_010_025_010;Sistema de almacenamiento y manejo de graneles sólidos;Sección
+5;A40_010_025_015;Sistema de patios de contenedores;Sección
+5;A40_010_025_020;Sistema de patios de ferrocarril para carga;Sección
+5;A40_010_025_025;Sistema de zonas francas y depósitos francos;Sección
+3;A40_015;Sistemas de emergencias;Grupo
+4;A40_015_005;Sistemas de detección y alerta temprana;Subgrupo
+5;A40_015_005_005;Sistema de alarmas de incendio;Sección
+5;A40_015_005_010;Sistema de alerta de condiciones meteorológicas adversas;Sección
+5;A40_015_005_015;Sistema de alerta sísmica temprana;Sección
+5;A40_015_005_020;Sistema de detección de gases y sustancias peligrosas;Sección
+5;A40_015_005_025;Sistema de monitoreo de fallas estructurales;Sección
+5;A40_015_005_030;Sistema de videovigilancia para emergencias;Sección
+5;A40_015_005_035;Sistema de vigilancia y monitoreo en tiempo real;Sección
+4;A40_015_010;Sistemas de protección y control de emergencias;Subgrupo
+5;A40_015_010_005;Sistema de control de derrames de sustancias peligrosas;Sección
+5;A40_015_010_010;Sistema de control de inundaciones;Sección
+5;A40_015_010_015;Sistema de manejo y contención de explosiones;Sección
+5;A40_015_010_020;Sistema de protección contra descargas eléctricas;Sección
+5;A40_015_010_025;Sistema de protección contra incendios;Sección
+5;A40_015_010_030;Sistema de protección contra inundaciones;Sección
+5;A40_015_010_035;Sistema de protección contra radiación;Sección
+5;A40_015_010_040;Sistema de protección sísmica;Sección
+4;A40_015_015;Sistemas de evacuación y rescate;Subgrupo
+5;A40_015_015_005;Sistema de comunicación de emergencia;Sección
+5;A40_015_015_010;Sistema de evacuación de emergencia;Sección
+5;A40_015_015_015;Sistema de iluminación de emergencia;Sección
+5;A40_015_015_020;Sistema de rescate y salvamento;Sección
+5;A40_015_015_025;Sistema de señalización de emergencia;Sección
+5;A40_015_015_030;Sistema de ventilación de emergencia;Sección
+4;A40_015_020;Sistemas de extinción y respuesta a emergencias;Subgrupo
+5;A40_015_020_005;Sistema de apagado de emergencia;Sección
+5;A40_015_020_010;Sistema de detección y extinción de incendios;Sección
+5;A40_015_020_015;Sistema de parada de emergencia;Sección
+5;A40_015_020_020;Sistema de primeros auxilios;Sección
+4;A40_015_025;Sistemas de suministro de energía de emergencia;Subgrupo
+5;A40_015_025_005;Sistema de suministro de energía de emergencia;Sección
+4;A40_015_030;Señal luminosa de bloqueo automático;Subgrupo
+4;A40_015_035;Señal luminosa de bloqueo;Subgrupo
+4;A40_015_040;Señal luminosa de avanzada;Subgrupo
+4;A40_015_045;Sistema de control y protección de trenes ETCS;Subgrupo
+4;A40_015_050;Accionador electrohidráulico de aguja;Subgrupo
+4;A40_015_055;Motor electromecánico de aguja;Subgrupo
+4;A40_015_060;Señal luminosa de salida;Subgrupo
+4;A40_015_065;Señal luminosa de entrada;Subgrupo
+4;A40_015_070;Sistema de enclavamiento ferroviario;Subgrupo
+4;A40_015_075;Sistema de protección de paso a nivel;Subgrupo
+4;A40_015_080;Señal de autorización de movimiento;Subgrupo
+4;A40_015_085;Pantalla de aspecto permisivo;Subgrupo
+4;A40_015_090;Accionador y motor de aguja;Subgrupo
+4;A40_015_095;Centro de bloqueo por radio RBC;Subgrupo
+4;A40_015_100;Enclavamiento eléctrico por relevadores;Subgrupo
+4;A40_015_105;Enclavamiento electrónico microprocesado;Subgrupo
+4;A40_015_110;Señal luminosa de maniobra;Subgrupo
+4;A40_015_115;Señal luminosa de vía;Subgrupo
+4;A40_015_120;Comprobador eléctrico de posición de aguja;Subgrupo
+4;A40_015_125;Indicador mecánico de aguja;Subgrupo
+4;A40_015_130;Cerrojo de enclavamiento en vía;Subgrupo
+3;A40_020;Sistemas de energía y suministro eléctrico (incluye iluminación);Grupo
+4;A40_020_005;Sistemas de alta tensión;Subgrupo
+5;A40_020_005_005;Sistema de distribución de energía eléctrica de alta tensión;Sección
+5;A40_020_005_010;Sistema de líneas de transmisión eléctrica de alta tensión;Sección
+5;A40_020_005_015;Sistema de subestaciones eléctricas;Sección
+5;A40_020_005_020;Sistema de transformadores de potencia;Sección
+5;A40_020_005_025;Sistema de transmisión de energía eléctrica de alta tensión;Sección
+4;A40_020_010;Sistemas de media tensión;Subgrupo
+5;A40_020_010_005;Sistema de distribución de energía eléctrica de media tensión;Sección
+5;A40_020_010_010;Sistema de líneas de transmisión eléctrica de media tensión;Sección
+5;A40_020_010_015;Sistema de subestaciones eléctricas de media tensión;Sección
+5;A40_020_010_020;Sistema de transformadores de potencia de media tensión;Sección
+4;A40_020_015;Sistemas de baja tensión;Subgrupo
+5;A40_020_015_005;Sistema de cableado eléctrico de baja tensión;Sección
+5;A40_020_015_010;Sistema de distribución de energía eléctrica de baja tensión;Sección
+5;A40_020_015_015;Sistema de paneles de distribución eléctrica;Sección
+5;A40_020_015_020;Sistema de tomas de corriente para infraestructura;Sección
+4;A40_020_020;Sistemas electrónicos;Subgrupo
+5;A40_020_020_005;Sistema de alimentación ininterrumpida (SAI/UPS);Sección
+5;A40_020_020_010;Sistema de automatización y control eléctrico;Sección
+5;A40_020_020_015;Sistema de baterías y almacenamiento de energía;Sección
+5;A40_020_020_020;Sistema de control y protección eléctrica;Sección
+5;A40_020_020_025;Sistema de monitoreo y gestión de energía eléctrica (incluye gestión de eficiencia y ahorro energético);Sección
+5;A40_020_020_030;Sistema de puesta a tierra y protección contra sobretensiones;Sección
+4;A40_020_025;Sistemas de iluminación;Subgrupo
+5;A40_020_025_005;Sistemas de iluminación aeroportuaria;Sección
+5;A40_020_025_010;Sistemas de iluminación arquitectónica funcional;Sección
+5;A40_020_025_015;Sistemas de iluminación férrea;Sección
+5;A40_020_025_020;Sistemas de iluminación portuaria - marítima o fluvial;Sección
+5;A40_020_025_025;Sistemas de iluminación carretera;Sección
+6;A40_020_025_025_005;Sistema de iluminación adaptativa;Objeto
+6;A40_020_025_025_010;Sistema de iluminación antideslumbrante;Objeto
+6;A40_020_025_025_015;Sistema de iluminación autónoma;Objeto
+6;A40_020_025_025_020;Sistema de iluminación de bajo consumo;Objeto
+6;A40_020_025_025_025;Sistema de iluminación de emergencia;Objeto
+6;A40_020_025_025_030;Sistema de iluminación dinámica;Objeto
+6;A40_020_025_025_035;Sistema de iluminación fotovoltaica;Objeto
+6;A40_020_025_025_040;Sistema de iluminación inteligente;Objeto
+6;A40_020_025_025_045;Sistema de iluminación LED;Objeto
+6;A40_020_025_025_050;Sistema de iluminación OLED;Objeto
+6;A40_020_025_025_055;Sistema de iluminación por detección de movimiento;Objeto
+6;A40_020_025_025_060;Sistema de iluminación por inducción magnética;Objeto
+6;A40_020_025_025_065;Sistema de iluminación regulable;Objeto
+6;A40_020_025_025_070;Sistema de iluminación solar;Objeto
+6;A40_020_025_025_075;Sistema de iluminación temporal;Objeto
+6;A40_020_025_025_080;Sistema de iluminación vial con control remoto;Objeto
+6;A40_020_025_025_085;Sistema de iluminación vial con reducción de contaminación lumínica;Objeto
+6;A40_020_025_025_090;Sistema de iluminación vial con telegestión;Objeto
+6;A40_020_025_025_095;Sistema de iluminación vial continua;Objeto
+6;A40_020_025_025_100;Sistema de iluminación vial de alta eficiencia energética;Objeto
+6;A40_020_025_025_105;Sistema de iluminación vial de fibra óptica;Objeto
+6;A40_020_025_025_110;Sistema de iluminación vial de seguridad;Objeto
+6;A40_020_025_025_115;Sistema de iluminación vial direccional;Objeto
+6;A40_020_025_025_120;Sistema de iluminación vial intermitente;Objeto
+6;A40_020_025_025_125;Sistema de iluminación vial láser;Objeto
+6;A40_020_025_025_130;Sistema de iluminación vial perimetral;Objeto
+6;A40_020_025_025_135;Sistema de iluminación vial por descarga de alta intensidad;Objeto
+6;A40_020_025_025_140;Sistema de iluminación vial programable;Objeto
+6;A40_020_025_025_145;Sistema de iluminación vial sincronizada;Objeto
+4;A40_020_030;Sistemas de generación y energías renovables;Subgrupo
+5;A40_020_030_005;Sistema de celdas fotovoltaicas para suministro eléctrico;Sección
+5;A40_020_030_010;Sistema de generación de energía eólica en infraestructura de transporte;Sección
+5;A40_020_030_015;Sistema de generación de energía renovable en infraestructura de transporte;Sección
+5;A40_020_030_020;Sistemas de energía cinética, piezo eléctrica o energía positiva;Sección
+5;A40_020_030_025;Sistema de suministro energético híbrido;Sección
+4;A40_020_035;Otros sistemas especifícos de transporte;Subgrupo
+5;A40_020_035_005;Sistema de electrificación ferroviaria;Sección
+6;A40_020_035_005_005;Catenaria de tracción aérea;Objeto
+6;A40_020_035_005_010;Sistema de alimentación por tercer riel;Objeto
+5;A40_020_035_010;Sistema de suministro eléctrico para infraestructura aeroportuaria;Sección
+5;A40_020_035_015;Sistema de suministro eléctrico para infraestructura carretera;Sección
+5;A40_020_035_020;Sistema de suministro eléctrico para infraestructura fluvial;Sección
+5;A40_020_035_025;Sistema de suministro eléctrico para infraestructura marítima;Sección
+5;A40_020_035_030;Sistema de suministro eléctrico para señalización ferroviaria;Sección
+3;A40_025;Sistemas de gestión ambiental y sostenibilidad;Grupo
+4;A40_025_005;Sistemas de gestión y monitoreo ambiental;Subgrupo
+5;A40_025_005_005;Sistema de gestión de impacto ambiental;Sección
+5;A40_025_005_010;Sistema de gestión de riesgo ambiental;Sección
+5;A40_025_005_015;Sistema de gestión y monitoreo ambiental;Sección
+5;A40_025_005_020;Sistema de monitoreo de calidad de agua y suelos;Sección
+5;A40_025_005_025;Sistema de monitoreo de calidad del aire;Sección
+5;A40_025_005_030;Sistema de monitoreo de la biodiversidad;Sección
+4;A40_025_010;Sistemas de control y mitigación de impactos ambientales;Subgrupo
+5;A40_025_010_005;Sistema de absorción y control de contaminantes atmosféricos;Sección
+5;A40_025_010_010;Sistema de compensación ambiental;Sección
+5;A40_025_010_015;Sistema de control de erosión y sedimentación;Sección
+5;A40_025_010_020;Sistema de control de ruido y vibraciones;Sección
+5;A40_025_010_025;Sistema de mitigación de impactos ambientales;Sección
+5;A40_025_010_030;Sistema de recuperación y restauración ambiental;Sección
+5;A40_025_010_035;Sistema de revegetación y restauración ecológica;Sección
+4;A40_025_015;Sistemas de conservación y gestión de recursos naturales;Subgrupo
+5;A40_025_015_005;Sistema de gestión de biodiversidad;Sección
+5;A40_025_015_010;Sistema de gestión de cuencas hidrográficas;Sección
+5;A40_025_015_015;Sistema de gestión de fauna y pasos de fauna;Sección
+5;A40_025_015_020;Sistema de gestión de flora y revegetación;Sección
+5;A40_025_015_025;Sistema de gestión de humedales y ecosistemas sensibles;Sección
+5;A40_025_015_030;Sistema de gestión integral del paisaje;Sección
+5;A40_025_015_035;Sistema de protección de recursos hídricos;Sección
+4;A40_025_020;Sistemas de gestión climática y reducción de emisiones;Subgrupo
+5;A40_025_020_005;Sistema de eficiencia energética en infraestructuras de transporte;Sección
+5;A40_025_020_010;Sistema de gestión de cambio climático en infraestructuras de transporte;Sección
+5;A40_025_020_015;Sistema de reducción de emisiones de gases de efecto invernadero;Sección
+5;A40_025_020_020;Sistema de transporte sostenible;Sección
+4;A40_025_025;Sistemas de reutilización y reciclaje de recursos;Subgrupo
+5;A40_025_025_005;Sistema de captación y reutilización de aguas pluviales;Sección
+5;A40_025_025_010;Sistema de uso de materiales reciclados y ecoeficientes en infraestructura;Sección
+4;A40_025_030;Sistemas de prevención y control de la contaminación;Subgrupo
+5;A40_025_030_005;Sistema de gestión de recursos naturales en proyectos de infraestructura;Sección
+5;A40_025_030_010;Sistema de protección de recursos hídricos;Sección
+5;A40_025_030_015;Sistema para la prevención y control de la contaminación;Sección
+3;A40_030;Sistemas de gestión de residuos;Grupo
+4;A40_030_005;Sistemas de recolección y almacenamiento de residuos;Subgrupo
+5;A40_030_005_005;Sistema de almacenamiento temporal de residuos;Sección
+5;A40_030_005_010;Sistema de gestión de residuos de pasajeros en transporte público;Sección
+5;A40_030_005_015;Sistema de gestión de residuos en áreas de descanso;Sección
+5;A40_030_005_020;Sistema de gestión de residuos en áreas de servicio;Sección
+5;A40_030_005_025;Sistema de gestión de residuos en estaciones de transporte;Sección
+5;A40_030_005_030;Sistema de gestión de residuos en obras subterráneas;Sección
+5;A40_030_005_035;Sistema de gestión de residuos en puentes y túneles;Sección
+5;A40_030_005_040;Sistema de gestión de residuos en terminales portuarias;Sección
+5;A40_030_005_045;Sistema de gestión de residuos en terminales terrestres;Sección
+5;A40_030_005_050;Sistema de gestión de residuos en vías y carreteras;Sección
+5;A40_030_005_055;Sistema de recolección de residuos sólidos;Sección
+5;A40_030_005_060;Sistema de recolección selectiva de residuos;Sección
+4;A40_030_010;Sistemas de tratamiento y disposición final de residuos;Subgrupo
+5;A40_030_010_005;Sistema de compactación de residuos;Sección
+5;A40_030_010_010;Sistema de disposición final de residuos;Sección
+5;A40_030_010_015;Sistema de incineración de residuos;Sección
+5;A40_030_010_020;Sistema de tratamiento de aguas residuales;Sección
+5;A40_030_010_025;Sistema de tratamiento de lixiviados;Sección
+5;A40_030_010_030;Sistema de tratamiento de residuos;Sección
+4;A40_030_015;Sistemas de gestión integral de residuos;Subgrupo
+5;A40_030_015_005;Sistema de gestión de residuos especiales;Sección
+5;A40_030_015_010;Sistema de gestión de residuos líquidos;Sección
+5;A40_030_015_015;Sistema de gestión de residuos orgánicos;Sección
+5;A40_030_015_020;Sistema de gestión de residuos peligrosos;Sección
+5;A40_030_015_025;Sistema de gestión de residuos sanitarios;Sección
+5;A40_030_015_030;Sistema de gestión de residuos sólidos;Sección
+5;A40_030_015_035;Sistema de gestión integral de residuos;Sección
+5;A40_030_015_040;Sistema de monitoreo y control de residuos;Sección
+5;A40_030_015_045;Sistema de reciclaje y reutilización de materiales;Sección
+4;A40_030_020;Sistemas de gestión de residuos específicos de la infraestructura;Subgrupo
+5;A40_030_020_005;Sistema de evacuación de aguas de infiltración / tratamiento de fluidos de perforación;Sección
+5;A40_030_020_010;Sistema de gestión de lodos;Sección
+5;A40_030_020_015;Sistema de gestión de residuos de carga;Sección
+5;A40_030_020_020;Sistema de gestión de residuos de construcción y demolición;Sección
+5;A40_030_020_025;Sistema de gestión de residuos de hidrocarburos, aceites y derivados;Sección
+5;A40_030_020_030;Sistema de gestión de residuos de mantenimiento de infraestructuras;Sección
+5;A40_030_020_035;Sistema de gestión de residuos de mantenimiento vehicular;Sección
+3;A40_035;Sistemas de impermeabilización y aislamiento;Grupo
+4;A40_035_005;Sistemas de impermeabilización según el tipo de estructura;Subgrupo
+5;A40_035_005_005;Sistema de impermeabilización de calzadas peatonales;Sección
+5;A40_035_005_010;Sistema de impermeabilización de cubiertas;Sección
+5;A40_035_005_015;Sistema de impermeabilización de estructuras de contención;Sección
+5;A40_035_005_020;Sistema de impermeabilización de muros;Sección
+5;A40_035_005_025;Sistema de impermeabilización de pasos a desnivel;Sección
+5;A40_035_005_030;Sistema de impermeabilización de plataformas ferroviarias;Sección
+5;A40_035_005_035;Sistema de impermeabilización de taludes y laderas;Sección
+5;A40_035_005_040;Sistema de impermeabilización para carreteras;Sección
+5;A40_035_005_045;Sistema de impermeabilización para muelles y estructuras portuarias;Sección
+4;A40_035_010;Sistemas de impermeabilización según su tecnología;Subgrupo
+5;A40_035_010_005;Sistema de impermeabilización con membranas asfálticas;Sección
+5;A40_035_010_010;Sistema de impermeabilización con membranas líquidas;Sección
+5;A40_035_010_015;Sistema de impermeabilización con membranas sintéticas;Sección
+5;A40_035_010_020;Sistema de inyección impermeabilizante para fisuras;Sección
+5;A40_035_010_025;Sistema de juntas de dilatación impermeables;Sección
+5;A40_035_010_030;Sistema de sellado de grietas en pavimentos;Sección
+5;A40_035_010_035;Sistema de tratamientos hidrófugos en estructuras de hormigón;Sección
+5;A40_035_010_040;Sistema de tratamientos impermeabilizantes en túneles;Sección
+4;A40_035_015;Sistemas de protección contra filtraciones y humedad;Subgrupo
+5;A40_035_015_005;Sistema de barreras contra humedad en estructuras subterráneas;Sección
+5;A40_035_015_010;Sistema de protección contra filtraciones de agua subterránea;Sección
+4;A40_035_020;Sistemas de aislamiento acústico, térmico y de vibraciones;Subgrupo
+5;A40_035_020_005;Sistema de aislamiento acústico en infraestructuras de transporte;Sección
+5;A40_035_020_010;Sistema de aislamiento de vibraciones para puentes y viaductos;Sección
+5;A40_035_020_015;Sistema de aislamiento eléctrico en líneas férreas;Sección
+5;A40_035_020_020;Sistema de aislamiento térmico en túneles;Sección
+4;A40_035_025;Sistemas de protección contra corrosión;Subgrupo
+5;A40_035_025_005;Sistema de protección contra corrosión en estructuras metálicas;Sección
+3;A40_040;Sistemas de movimiento vertical;Grupo
+4;A40_040_005;Sistemas de ascensores y montacargas;Subgrupo
+5;A40_040_005_005;Sistema de ascensores eléctricos;Sección
+5;A40_040_005_010;Sistema de ascensores hidráulicos;Sección
+5;A40_040_005_015;Sistema de ascensores inclinados;Sección
+5;A40_040_005_020;Sistema de montacargas industriales;Sección
+5;A40_040_005_025;Sistema de montaplatos;Sección
+4;A40_040_010;Sistemas de escaleras y rampas mecánicas;Subgrupo
+5;A40_040_010_005;Sistema de escaleras mecánicas;Sección
+5;A40_040_010_010;Sistema de rampas mecánicas;Sección
+5;A40_040_010_015;Sistema de salvaescaleras;Sección
+4;A40_040_015;Sistemas para manejo de materiales;Subgrupo
+5;A40_040_015_005;Sistema de elevadores de cangilones;Sección
+5;A40_040_015_010;Sistema de transportadores de tornillo sinfín;Sección
+5;A40_040_015_015;Sistema de transportadores de cinta verticales;Sección
+3;A40_045;Sistemas de pavimentos o calzadas;Grupo
+4;A40_045_005;Clasificación por tipo de pavimento;Subgrupo
+5;A40_045_005_005;Sistema de pavimento o calzada antideslizante;Sección
+5;A40_045_005_010;Sistema de pavimento o calzada antirreflejante;Sección
+5;A40_045_005_015;Sistema de pavimento o calzada antirruido;Sección
+5;A40_045_005_020;Sistema de pavimento o calzada de alta resistencia;Sección
+5;A40_045_005_025;Sistema de pavimento o calzada drenante;Sección
+5;A40_045_005_030;Sistema de pavimento o calzada flexible;Sección
+5;A40_045_005_035;Sistema de pavimento o calzada fotocatalítico;Sección
+5;A40_045_005_040;Sistema de pavimento o calzada natural o ecológico;Sección
+5;A40_045_005_045;Sistema de pavimento o calzada permeable;Sección
+5;A40_045_005_050;Sistema de pavimento o calzada por capas delgadas;Sección
+5;A40_045_005_055;Sistema de pavimento o calzada reciclado;Sección
+5;A40_045_005_060;Sistema de pavimento o calzada reforzado;Sección
+5;A40_045_005_065;Sistema de pavimento o calzada rígido;Sección
+5;A40_045_005_070;Sistema de pavimento o calzada semirrígido;Sección
+5;A40_045_005_075;Sistema de pavimento o calzada táctil;Sección
+5;A40_045_005_080;Sistema de pavimento o calzada ultradelgado;Sección
+3;A40_050;Sistemas de peaje vehicular;Grupo
+4;A40_050_005;Según su método de pago;Subgrupo
+5;A40_050_005_005;Sistema de peaje con pago en línea;Sección
+5;A40_050_005_010;Sistema de peaje con pago tipo postpago;Sección
+5;A40_050_005_015;Sistema de peaje con pago tipo prepago;Sección
+4;A40_050_010;Según su tipo o tecnología utilizada;Subgrupo
+5;A40_050_010_005;Sistema de peaje ambiental;Sección
+5;A40_050_010_010;Sistema de peaje automático;Sección
+5;A40_050_010_015;Sistema de peaje basado en infraestructura inteligente;Sección
+5;A40_050_010_020;Sistema de peaje basado en tiempo (Vignette Systems);Sección
+5;A40_050_010_025;Sistema de peaje de emergencia o temporal;Sección
+5;A40_050_010_030;Sistema de peaje de tarifa variable (Congestion Pricing);Sección
+5;A40_050_010_035;Sistema de peaje electrónico (Electronic Toll Collection - ETC);Sección
+6;A40_050_010_035_005;Sistema de peaje ANPR (Reconocimiento Automático de Matrículas);Objeto
+6;A40_050_010_035_010;Sistema de peaje DSRC (Comunicación Dedicada de Corto Alcance);Objeto
+6;A40_050_010_035_015;Sistema de peaje GPS o Satelital;Objeto
+6;A40_050_010_035_020;Sistema de peaje por identificación biométrica;Objeto
+6;A40_050_010_035_025;Sistema de peaje RFID (Identificación por Radiofrecuencia) - Etiqueta electrónica o transpondedores;Objeto
+5;A40_050_010_040;Sistema de peaje en movimiento (Open Road Tolling - ORT);Sección
+5;A40_050_010_045;Sistema de peaje especial para vehículos de carga;Sección
+5;A40_050_010_050;Sistema de peaje híbrido;Sección
+5;A40_050_010_055;Sistema de peaje manual;Sección
+5;A40_050_010_060;Sistema de peaje móvil (Mobile Tolling);Sección
+5;A40_050_010_065;Sistema de peaje para carriles de alta ocupación (High-Occupancy Toll - HOT Lanes);Sección
+5;A40_050_010_070;Sistema de peaje para vehículos autónomos;Sección
+5;A40_050_010_075;Sistema de peaje por distancia recorrida;Sección
+5;A40_050_010_080;Sistema de peaje por peso y dimensiones;Sección
+5;A40_050_010_085;Sistema de peaje por uso específico (Infraestructuras Singulares);Sección
+5;A40_050_010_090;Sistema de peaje urbano;Sección
+3;A40_055;Sistemas de pesaje vehicular;Grupo
+4;A40_055_005;Sistemas de pesaje según la modalidad de operación;Subgrupo
+5;A40_055_005_005;Sistema de pesaje estático;Sección
+5;A40_055_005_010;Sistema de pesaje dinámico;Sección
+5;A40_055_005_015;Sistema de pesaje en movimiento;Sección
+5;A40_055_005_020;Sistema de pesaje sin detención;Sección
+5;A40_055_005_025;Sistema de pesaje portátil o móvil;Sección
+4;A40_055_010;Sistemas de pesaje según la velocidad de operación;Subgrupo
+5;A40_055_010_005;Sistema de pesaje de alta velocidad;Sección
+5;A40_055_010_010;Sistema de pesaje de baja velocidad;Sección
+5;A40_055_010_015;Sistema de pesaje dinámico en movimiento (WIM) con arreglo multisensorial;Sección
+6;A40_055_010_015_005;Sistema de pesaje dinámico en movimiento de múltiples etapas para control de sobrecarga;Objeto
+7;A40_055_010_015_005_005;Sistema de pesaje dinámico en movimiento integrado con reconocimiento óptico y perfilometría láser;Subobjeto
+4;A40_055_015;Sistemas de pesaje según la tecnología de sensores;Subgrupo
+5;A40_055_015_005;Sistema de pesaje con sensores capacitivos;Sección
+5;A40_055_015_010;Sistema de pesaje con sensores de carga;Sección
+5;A40_055_015_015;Sistema de pesaje con sensores de fibra óptica;Sección
+5;A40_055_015_020;Sistema de pesaje con sensores piezoeléctricos;Sección
+4;A40_055_020;Sistemas de pesaje especializados;Subgrupo
+5;A40_055_020_005;Sistema de pesaje automático;Sección
+5;A40_055_020_010;Sistema de pesaje por ejes;Sección
+5;A40_055_020_015;Sistema de pesaje subterráneo;Sección
+5;A40_055_020_020;Sistema de pesaje y detección de sobrecarga;Sección
+5;A40_055_020_025;Sistema de pesaje y clasificación vehicular;Sección
+5;A40_055_020_030;Sistema de pesaje y dimensionamiento integrados;Sección
+5;A40_055_020_035;Sistema de pesaje y monitoreo remoto;Sección
+3;A40_060;Sistemas de protección y seguridad vial;Grupo
+4;A40_060_005;Sistemas de barreras y contención;Subgrupo
+5;A40_060_005_005;Sistema de barreras antideslumbrantes;Sección
+5;A40_060_005_010;Sistema de barreras de contención;Sección
+5;A40_060_005_015;Sistema de barreras de seguridad flexibles;Sección
+5;A40_060_005_020;Sistema de barreras de seguridad rígidas;Sección
+5;A40_060_005_025;Sistema de barreras metálicas de seguridad;Sección
+5;A40_060_005_030;Sistema de defensas camineras;Sección
+5;A40_060_005_035;Sistema de protección para motociclistas;Sección
+5;A40_060_005_040;Sistema de vallas de seguridad vial;Sección
+4;A40_060_010;Sistemas reductores de velocidad;Subgrupo
+5;A40_060_010_005;Sistema de dispositivos reductores de velocidad;Sección
+5;A40_060_010_010;Sistema de mesetas y resaltos reductores de velocidad;Sección
+4;A40_060_015;Sistemas de absorción y disipación de energía;Subgrupo
+5;A40_060_015_005;Sistema de absorción de energía;Sección
+4;A40_060_020;Sistemas de protección perimetral y separación;Subgrupo
+5;A40_060_020_005;Sistema de restricción de paso;Sección
+5;A40_060_020_010;Sistema de separación física de carriles;Sección
+5;A40_060_020_015;Sistema de protección perimetral;Sección
+4;A40_060_025;Sistemas de control y detección;Subgrupo
+5;A40_060_025_005;Sistema de anclaje para vehículos;Sección
+5;A40_060_025_010;Sistema de control de acceso automatizado;Sección
+5;A40_060_025_015;Sistema de control de altura vehicular;Sección
+5;A40_060_025_020;Sistema de control de velocidad;Sección
+5;A40_060_025_025;Sistema de detección de animales;Sección
+5;A40_060_025_030;Sistema de detección de peatones;Sección
+5;A40_060_025_035;Sistema de detección de vehículos en contrasentido;Sección
+5;A40_060_025_040;Sistema de frenado de emergencia;Sección
+5;A40_060_025_045;Sistema de gestión de velocidad variable;Sección
+4;A40_060_030;Sistemas de protección contra riesgos naturales;Subgrupo
+5;A40_060_030_005;Sistema de protección contra avalanchas;Sección
+5;A40_060_030_010;Sistema de protección contra caída de rocas;Sección
+5;A40_060_030_015;Sistema de protección contra desprendimientos;Sección
+4;A40_060_035;Sistemas de iluminación y visibilidad;Subgrupo
+5;A40_060_035_005;Sistema de iluminación de seguridad;Sección
+5;A40_060_035_010;Sistema de medición de visibilidad;Sección
+5;A40_060_035_015;Sistema de pantallas antirruido;Sección
+4;A40_060_040;Sistemas de protección para peatones y usuarios vulnerables;Subgrupo
+5;A40_060_040_005;Sistema de protección para fauna;Sección
+5;A40_060_040_010;Sistema de protección para peatones;Sección
+4;A40_060_045;Sistemas de vigilancia y monitorización;Subgrupo
+5;A40_060_045_005;Sistema de monitorización de condiciones viales;Sección
+5;A40_060_045_010;Sistema de vigilancia por circuito cerrado de televisión;Sección
+4;A40_060_050;Sistemas de seguridad pasiva;Subgrupo
+5;A40_060_050_005;Sistema de retención vial;Sección
+5;A40_060_050_010;Sistema de seguridad pasiva;Sección
+4;A40_060_055;Sistemas de alerta y advertencia;Subgrupo
+5;A40_060_055_005;Sistema de dispositivos de alerta vibratoria;Sección
+3;A40_065;Sistemas de señalización vial;Grupo
+4;A40_065_005;Señalización vertical;Subgrupo
+5;A40_065_005_005;Sistema de señales de advertencia;Sección
+5;A40_065_005_010;Sistema de señales de guía;Sección
+5;A40_065_005_015;Sistema de señales de información;Sección
+5;A40_065_005_020;Sistema de señales de orientación;Sección
+5;A40_065_005_025;Sistema de señales de reglamentación;Sección
+5;A40_065_005_030;Sistema de señales de restricción;Sección
+5;A40_065_005_035;Sistema de señales de servicio;Sección
+5;A40_065_005_040;Sistema de señales preventivas;Sección
+5;A40_065_005_045;Sistema de señales verticales retroiluminadas;Sección
+5;A40_065_005_050;Sistema de señales verticales retroreflectantes;Sección
+5;A40_065_005_055;Sistema de señalización vertical;Sección
+5;A40_065_005_060;Sistema de señales transitorias;Sección
+5;A40_065_005_065;Sistema de señales de información de servicios;Sección
+5;A40_065_005_070;Sistema de señales de información turística;Sección
+5;A40_065_005_075;Sistema de señalización vertical de mensaje variable con alimentación solar autónoma;Sección
+4;A40_065_010;Señalización horizontal;Subgrupo
+5;A40_065_010_005;Sistema de demarcación horizontal;Sección
+5;A40_065_010_010;Sistema de flechas direccionales;Sección
+5;A40_065_010_015;Sistema de marcas viales especiales;Sección
+5;A40_065_010_020;Sistema de señales horizontales termoplásticas;Sección
+5;A40_065_010_025;Sistema de señalización horizontal;Sección
+4;A40_065_015;Señalización luminosa;Subgrupo
+5;A40_065_015_005;Sistema de balizamiento luminoso;Sección
+5;A40_065_015_010;Sistema de señales variables de mensaje;Sección
+5;A40_065_015_015;Sistema de señales verticales retroiluminadas;Sección
+5;A40_065_015_020;Sistema de señales viales reflectantes;Sección
+5;A40_065_015_025;Sistema de señalización de balizamiento luminoso;Sección
+5;A40_065_015_030;Sistema de señalización de velocidad variable;Sección
+5;A40_065_015_035;Sistema de señalización luminosa;Sección
+4;A40_065_020;Señalización inteligente y electrónica;Subgrupo
+5;A40_065_020_005;Sistema de semáforos inteligentes;Sección
+5;A40_065_020_010;Sistema de señalización inteligente;Sección
+5;A40_065_020_015;Sistema de señalización vial dinámica;Sección
+5;A40_065_020_020;Sistema de señalización vial electrónica;Sección
+4;A40_065_025;Señalización variable y dinámica;Subgrupo
+5;A40_065_025_005;Sistema de señales variables de mensaje;Sección
+5;A40_065_025_010;Sistema de señalización de carriles reversibles;Sección
+5;A40_065_025_015;Sistema de señalización de velocidad variable;Sección
+5;A40_065_025_020;Sistema de señalización vial dinámica;Sección
+4;A40_065_030;Semaforización;Subgrupo
+5;A40_065_030_005;Sistema de semaforización;Sección
+5;A40_065_030_010;Sistema de semáforos inteligentes;Sección
+4;A40_065_035;Señalización acústica y táctil;Subgrupo
+5;A40_065_035_005;Sistema de señales acústicas;Sección
+5;A40_065_035_010;Sistema de señales táctiles;Sección
+4;A40_065_040;Balizamiento y delimitación;Subgrupo
+5;A40_065_040_005;Sistema de balizamiento luminoso;Sección
+5;A40_065_040_010;Sistema de balizamiento vial;Sección
+5;A40_065_040_015;Sistema de demarcación horizontal;Sección
+5;A40_065_040_020;Sistema de flechas direccionales;Sección
+5;A40_065_040_025;Sistema de marcas viales especiales;Sección
+4;A40_065_045;Símbolos y pictogramas viales;Subgrupo
+5;A40_065_045_005;Sistema de símbolos y pictogramas viales;Sección
+3;A40_070;Sistemas de sincronización de transporte intermodal;Grupo
+4;A40_070_005;Sistemas de control y gestión de transporte intermodal;Subgrupo
+5;A40_070_005_005;Sistema de control de acceso en terminales intermodales;Sección
+5;A40_070_005_010;Sistema de coordinación y control de tráfico intermodal;Sección
+5;A40_070_005_015;Sistema de gestión de tiempos de transbordo intermodal;Sección
+5;A40_070_005_020;Sistema de gestión y control de terminales intermodales;Sección
+5;A40_070_005_025;Sistema de priorización de rutas intermodales;Sección
+4;A40_070_010;Sistemas de sincronización de operaciones intermodales;Subgrupo
+5;A40_070_010_005;Sistema de optimización del tráfico en nodos intermodales;Sección
+5;A40_070_010_010;Sistema de sincronización de cargas y descargas intermodales;Sección
+5;A40_070_010_015;Sistema de sincronización de flujos de mercancías entre modos de transporte;Sección
+5;A40_070_010_020;Sistema de sincronización de horarios de transporte intermodal;Sección
+5;A40_070_010_025;Sistema de sincronización de plataformas de transbordo intermodal;Sección
+4;A40_070_015;Sistemas de planificación y optimización intermodal;Subgrupo
+5;A40_070_015_005;Sistema de optimización de utilización de infraestructuras intermodales;Sección
+5;A40_070_015_010;Sistema de optimización del tiempo de conexión entre modos de transporte;Sección
+5;A40_070_015_015;Sistema de planificación de operaciones logísticas intermodales;Sección
+5;A40_070_015_020;Sistema de planificación de rutas intermodales;Sección
+4;A40_070_020;Sistemas de monitoreo y supervisión intermodal;Subgrupo
+5;A40_070_020_005;Sistema de monitoreo de la cadena logística intermodal;Sección
+5;A40_070_020_010;Sistema de monitoreo de la sincronización entre diferentes modos de transporte;Sección
+5;A40_070_020_015;Sistema de monitoreo de tiempos y operaciones intermodales en tiempo real;Sección
+5;A40_070_020_020;Sistema de monitoreo del flujo de contenedores en nodos intermodales;Sección
+5;A40_070_020_025;Sistema de supervisión de recursos intermodales (flotas, terminales, etc.);Sección
+4;A40_070_025;Sistemas inteligentes de sincronización intermodal;Subgrupo
+5;A40_070_025_005;Sistema de interoperabilidad de sistemas de transporte intermodal;Sección
+5;A40_070_025_010;Sistema de sincronización automática de tiempos de llegada y salida;Sección
+5;A40_070_025_015;Sistema de sincronización automatizada de procesos de carga y descarga;Sección
+5;A40_070_025_020;Sistema de sincronización con inteligencia artificial aplicada a la logística intermodal;Sección
+5;A40_070_025_025;Sistema de sincronización inteligente de vehículos y modos de transporte;Sección
+3;A40_075;Sistemas de soporte y logística de transporte público;Grupo
+4;A40_075_005;Sistemas de apoyo a la infraestructura del transporte público;Subgrupo
+5;A40_075_005_005;Sistema de gestión y mantenimiento de estaciones y paradas;Sección
+5;A40_075_005_010;Sistema de gestión de infraestructura vial para transporte público;Sección
+5;A40_075_005_015;Sistema de mantenimiento predictivo y correctivo de vehículos;Sección
+5;A40_075_005_020;Sistema de recarga y abastecimiento de vehículos eléctricos;Sección
+4;A40_075_010;Sistemas de gestión de la operación y control;Subgrupo
+5;A40_075_010_005;Sistema de gestión de flotas de transporte público;Sección
+5;A40_075_010_010;Sistema de gestión de incidentes en transporte público;Sección
+5;A40_075_010_015;Sistema de gestión de tiempos y frecuencias de rutas;Sección
+5;A40_075_010_020;Sistema de monitoreo y control de operaciones de transporte;Sección
+5;A40_075_010_025;Sistema de optimización de rutas de transporte público;Sección
+4;A40_075_015;Sistemas de gestión de tarifas y recaudación;Subgrupo
+5;A40_075_015_005;Sistema de gestión de tarifas dinámicas y descuentos;Sección
+5;A40_075_015_010;Sistema de recaudación centralizada;Sección
+5;A40_075_015_015;Sistema de validación de tarjetas de transporte público;Sección
+5;A40_075_015_020;Sistema de venta y recarga de boletos electrónicos;Sección
+4;A40_075_020;Sistemas de información y asistencia al pasajero;Subgrupo
+5;A40_075_020_005;Sistema de asistencia en estaciones y paradas;Sección
+5;A40_075_020_010;Sistema de gestión de alertas y cambios de rutas;Sección
+5;A40_075_020_015;Sistema de gestión de anuncios y comunicación de rutas;Sección
+5;A40_075_020_020;Sistema de información en tiempo real para pasajeros;Sección
+4;A40_075_025;Sistemas de logística y soporte operativo;Subgrupo
+5;A40_075_025_005;Sistema de gestión de almacenes para piezas de recambio;Sección
+5;A40_075_025_010;Sistema de gestión de suministros en estaciones de servicio;Sección
+5;A40_075_025_015;Sistema de gestión de turnos y asignación de conductores;Sección
+5;A40_075_025_020;Sistema de logística de distribución de materiales operativos;Sección
+5;A40_075_025_025;Sistema de logística de distribución y recarga de combustible;Sección
+3;A40_080;Sistemas de telecomunicaciones;Grupo
+4;A40_080_005;Sistemas de comunicación y transmisión de datos;Subgrupo
+5;A40_080_005_005;Sistema de comunicación por fibra óptica;Sección
+5;A40_080_005_010;Sistema de comunicación por microondas;Sección
+5;A40_080_005_015;Sistema de comunicación por radiofrecuencia;Sección
+6;A40_080_005_015_005;Equipo de radiotelefonía de cabina GSM-R;Objeto
+6;A40_080_005_015_010;Sistema de radiotelefonía tren-tierra;Objeto
+5;A40_080_005_020;Sistema de comunicación por satélite;Sección
+5;A40_080_005_025;Sistema de interconexión de redes de datos en infraestructuras;Sección
+5;A40_080_005_030;Sistema de transmisión de datos por líneas telefónicas;Sección
+4;A40_080_010;Sistemas de control y monitoreo;Subgrupo
+5;A40_080_010_005;Sistema de control y monitoreo de tráfico vehicular;Sección
+5;A40_080_010_010;Sistema de monitoreo de redes de telecomunicaciones;Sección
+5;A40_080_010_015;Sistema de videovigilancia y transmisión de datos en tiempo real;Sección
+4;A40_080_015;Sistemas de infraestructura de telecomunicaciones;Subgrupo
+5;A40_080_015_005;Sistema de instalación de torres de telecomunicaciones;Sección
+5;A40_080_015_010;Sistema de instalación de antenas de telecomunicaciones;Sección
+5;A40_080_015_015;Sistema de mantenimiento de redes de telecomunicaciones;Sección
+5;A40_080_015_020;Sistema de redes de transporte de telecomunicaciones subterráneas;Sección
+4;A40_080_020;Sistemas de transmisión de voz y multimedia;Subgrupo
+5;A40_080_020_005;Sistema de transmisión de voz sobre IP (VoIP);Sección
+5;A40_080_020_010;Sistema de transmisión de video por internet;Sección
+5;A40_080_020_015;Sistema de telefonía digital y analógica en infraestructuras de transporte;Sección
+5;A40_080_020_020;Sistema de transmisión de multimedia para vehículos y estaciones;Sección
+3;A40_085;Sistemas estructurales;Grupo
+4;A40_085_005;Sistemas estructurales de puentes;Subgrupo
+5;A40_085_005_005;Superestructura;Sección
+6;A40_085_005_005_005;Sistema de arcos;Objeto
+6;A40_085_005_005_010;Sistema de atirantado;Objeto
+6;A40_085_005_005_015;Sistema de cables;Objeto
+6;A40_085_005_005_020;Sistema de celosías;Objeto
+6;A40_085_005_005_025;Sistema de diafragmas;Objeto
+6;A40_085_005_005_030;Sistema de losas;Objeto
+6;A40_085_005_005_035;Sistema de tableros;Objeto
+6;A40_085_005_005_040;Sistema de tirantes;Objeto
+6;A40_085_005_005_045;Sistema de vigas;Objeto
+5;A40_085_005_010;Subestructura;Sección
+6;A40_085_005_010_005;Sistema de apoyos;Objeto
+6;A40_085_005_010_010;Sistema de bases de cimentación;Objeto
+6;A40_085_005_010_015;Sistema de cimentaciones profundas;Objeto
+6;A40_085_005_010_020;Sistema de estribos;Objeto
+6;A40_085_005_010_025;Sistema de losas de aproximación;Objeto
+6;A40_085_005_010_030;Sistema de pilares;Objeto
+6;A40_085_005_010_035;Sistema de pilotes;Objeto
+6;A40_085_005_010_040;Sistema de zapatas;Objeto
+5;A40_085_005_015;Sistema de transición, aproche y amortiguación sísmica de puente y viaducto;Sección
+4;A40_085_010;Sistemas estructurales de túneles;Subgrupo
+5;A40_085_010_005;Sistema de anclajes;Sección
+5;A40_085_010_010;Sistema de bóveda;Sección
+5;A40_085_010_015;Sistema de contrabóveda;Sección
+5;A40_085_010_020;Sistema de cimentaciones;Sección
+5;A40_085_010_025;Sistema de juntas de dilatación;Sección
+5;A40_085_010_030;Sistema de pilastras y soportes;Sección
+5;A40_085_010_035;Sistema de paredes laterales;Sección
+5;A40_085_010_040;Sistema de revestimiento;Sección
+5;A40_085_010_045;Sistema de suelo o solera;Sección
+5;A40_085_010_050;Sistema de ventilación longitudinal e inyección-extracción de humos en túneles;Sección
+5;A40_085_010_055;Sistema de sostenimiento y revestimiento estructural de bóveda y hastiales de túnel;Sección
+3;A40_090;Sistemas geotécnicos;Grupo
+4;A40_090_005;Sistemas de cimentación y mejora del terreno;Subgrupo
+5;A40_090_005_005;Sistema de anclajes al terreno;Sección
+5;A40_090_005_010;Sistema de columnas de grava;Sección
+5;A40_090_005_015;Sistema de compactación dinámica profunda;Sección
+5;A40_090_005_020;Sistema de consolidación por vacío;Sección
+5;A40_090_005_025;Sistema de grouting;Sección
+5;A40_090_005_030;Sistema de inyección de lechada;Sección
+5;A40_090_005_035;Sistema de inyecciones de resina;Sección
+5;A40_090_005_040;Sistema de jet grouting;Sección
+5;A40_090_005_045;Sistema de mejoramiento de suelos con cal o cemento;Sección
+5;A40_090_005_050;Sistema de precolado de pilotes;Sección
+5;A40_090_005_055;Sistema de sustitución de suelo;Sección
+5;A40_090_005_060;Sistema de vibrocompactación;Sección
+5;A40_090_005_065;Sistema de vibrosustitución;Sección
+5;A40_090_005_070;Sistema de contención en tierra estabilizada mecánicamente con refuerzo interno;Sección
+4;A40_090_010;Sistemas de estabilización y refuerzo;Subgrupo
+5;A40_090_010_005;Sistema de estabilización de suelos blandos;Sección
+5;A40_090_010_010;Sistema de estabilización de taludes;Sección
+5;A40_090_010_015;Sistema de estabilización mediante pilas de grava;Sección
+5;A40_090_010_020;Sistema de estabilización mediante terraplenes mecánicamente estabilizados;Sección
+5;A40_090_010_025;Sistema de refuerzos de suelo con geomallas;Sección
+5;A40_090_010_030;Sistema de refuerzo mediante tierra armada;Sección
+4;A40_090_015;Sistemas de drenaje y control de agua;Subgrupo
+5;A40_090_015_005;Sistema de drenaje con geocompuestos;Sección
+5;A40_090_015_010;Sistema de drenaje horizontal;Sección
+5;A40_090_015_015;Sistema de drenaje profundo;Sección
+5;A40_090_015_020;Sistema de drenaje tipo filtro francés o geodrén;Sección
+5;A40_090_015_025;Sistema de drenaje transversal;Sección
+5;A40_090_015_030;Sistema de drenaje transversal para obras menores (alcantarillas, box culvert);Sección
+5;A40_090_015_035;Sistema de estructuras hidráulicas para disipación de energía;Sección
+5;A40_090_015_040;Sistema de filtros geotextiles;Sección
+5;A40_090_015_045;Sistema de geodrenes verticales;Sección
+5;A40_090_015_050;Sistema de pozos de drenaje;Sección
+5;A40_090_015_055;Sistema de subdrenaje;Sección
+5;A40_090_015_060;Sistema de zanja de drenaje;Sección
+4;A40_090_020;Sistemas de muros y contención;Subgrupo
+5;A40_090_020_005;Sistema de anclajes activos para muros de contención;Sección
+5;A40_090_020_010;Sistema de gaviones;Sección
+5;A40_090_020_015;Sistema de muros de contención de concreto;Sección
+5;A40_090_020_020;Sistema de muros de tierra armada;Sección
+5;A40_090_020_025;Sistema de muros pantalla;Sección
+5;A40_090_020_030;Sistema de muros de concreto ciclópeo;Sección
+4;A40_090_025;Sistemas geosintéticos;Subgrupo
+5;A40_090_025_005;Sistema de geoceldas;Sección
+5;A40_090_025_010;Sistema de geocompuestos;Sección
+5;A40_090_025_015;Sistema de geomallas;Sección
+5;A40_090_025_020;Sistema de geomembranas;Sección
+5;A40_090_025_025;Sistema de geotextiles;Sección
+4;A40_090_030;Sistemas de protección sísmica;Subgrupo
+5;A40_090_030_005;Sistema de aislamiento sísmico por amortiguadores;Sección
+5;A40_090_030_010;Sistema de cimentaciones antisísmicas;Sección
+5;A40_090_030_015;Sistema de pilotes de hinca para protección sísmica;Sección
+3;A40_095;Sistemas hidráulicos;Grupo
+4;A40_095_005;Sistemas de drenaje hidráulico;Subgrupo
+5;A40_095_005_005;Sistema de bombeo para drenaje subterráneo;Sección
+5;A40_095_005_010;Sistema de canales de drenaje;Sección
+5;A40_095_005_015;Sistema de cunetas de drenaje longitudinal;Sección
+5;A40_095_005_020;Sistema de drenaje de puentes;Sección
+5;A40_095_005_025;Sistema de drenaje superficial;Sección
+5;A40_095_005_030;Sistema de pozos de infiltración;Sección
+5;A40_095_005_035;Sistema de tuberías de drenaje perforadas;Sección
+5;A40_095_005_040;Sistema de zanjas drenantes;Sección
+5;A40_095_005_045;Sistema de bateas de drenaje;Sección
+4;A40_095_010;Sistemas de control de inundaciones;Subgrupo
+5;A40_095_010_005;Sistema de compuertas hidráulicas;Sección
+5;A40_095_010_010;Sistema de defensas ribereñas;Sección
+5;A40_095_010_015;Sistema de diques y presas;Sección
+5;A40_095_010_020;Sistema de reservorios y embalses de regulación;Sección
+5;A40_095_010_025;Sistema de vertederos hidráulicos;Sección
+4;A40_095_015;Sistemas de control de flujo;Subgrupo
+5;A40_095_015_005;Sistema de compuertas automáticas;Sección
+5;A40_095_015_010;Sistema de esclusas hidráulicas;Sección
+5;A40_095_015_015;Sistema de sifones hidráulicos;Sección
+5;A40_095_015_020;Sistema de válvulas hidráulicas de control de caudal;Sección
+4;A40_095_020;Sistemas de manejo de agua lluvia;Subgrupo
+5;A40_095_020_005;Sistema de alcantarillado pluvial;Sección
+5;A40_095_020_010;Sistema de canales de infiltración;Sección
+5;A40_095_020_015;Sistema de captación, almacenamiento y reuso de agua lluvia;Sección
+5;A40_095_020_020;Sistema de retención de agua lluvia;Sección
+5;A40_095_020_025;Sistema de trampa de sedimentos para agua lluvia;Sección
+4;A40_095_025;Sistemas de transporte de agua;Subgrupo
+5;A40_095_025_005;Sistema de acueductos hidráulicos;Sección
+5;A40_095_025_010;Sistema de bombeo hidráulico de largo alcance;Sección
+5;A40_095_025_015;Sistema de conducción por tuberías a presión;Sección
+5;A40_095_025_020;Sistema de sifones inversos;Sección
+5;A40_095_025_025;Sistema de túneles hidráulicos;Sección
+4;A40_095_030;Otros sistemas hidráulicos;Subgrupo
+5;A40_095_030_005;Sistema de captación de aguas subterráneas;Sección
+5;A40_095_030_010;Sistema de compuertas de esclusa;Sección
+5;A40_095_030_015;Sistema de tratamiento de aguas residuales;Sección
+5;A40_095_030_020;Sistema hidráulico de manejo de escorrentía urbana;Sección
+3;A40_100;Sistemas HVAC;Grupo
+4;A40_100_005;Sistemas de aire acondicionado y refrigeración;Subgrupo
+5;A40_100_005_005;Sistema de aire acondicionado de expansión directa;Sección
+5;A40_100_005_010;Sistema de aire acondicionado por agua helada (chillers);Sección
+5;A40_100_005_015;Sistema de enfriadores evaporativos;Sección
+5;A40_100_005_020;Sistema de refrigeración de volumen de refrigerante variable (VRF);Sección
+5;A40_100_005_025;Sistema Rooftop (sistema de unidades en cubierta);Sección
+4;A40_100_010;Sistemas de calefacción;Subgrupo
+5;A40_100_010_005;Sistema de calefacción centralizada;Sección
+5;A40_100_010_010;Sistema de calefacción de agua caliente;Sección
+5;A40_100_010_015;Sistema de calefacción por radiadores;Sección
+5;A40_100_010_020;Sistema de paneles radiantes;Sección
+5;A40_100_010_025;Sistema de suelo radiante;Sección
+4;A40_100_015;Sistemas de tratamiento de aire;Subgrupo
+5;A40_100_015_005;Sistema de deshumidificación;Sección
+5;A40_100_015_010;Sistema de filtración de aire de alta eficiencia (HEPA);Sección
+5;A40_100_015_015;Sistema de recuperación de calor;Sección
+5;A40_100_015_020;Sistema de unidades de tratamiento de aire (UTA);Sección
+4;A40_100_020;Sistemas de ventilación;Subgrupo
+5;A40_100_020_005;Sistema de extracción forzada;Sección
+5;A40_100_020_010;Sistema de extracción mecánica;Sección
+5;A40_100_020_015;Sistema de presurización de aire;Sección
+5;A40_100_020_020;Sistema de ventilación mecánica controlada (VMC);Sección
+5;A40_100_020_025;Sistema de ventilación natural asistida;Sección
+4;A40_100_025;Sistemas híbridos y de flujo mixto;Subgrupo
+5;A40_100_025_005;Sistema de calefacción y refrigeración zonificada;Sección
+5;A40_100_025_010;Sistema de flujo de refrigerante variable (VRF);Sección
+5;A40_100_025_015;Sistema HVAC híbrido (combinación de tecnologías de calefacción y refrigeración);Sección
+3;A40_105;Sistemas inteligentes de transporte - SIT;Grupo
+4;A40_105_005;Sistemas de asistencia al conductor y control vehicular;Subgrupo
+5;A40_105_005_005;Sistema de advertencia de cambio de carril;Sección
+5;A40_105_005_010;Sistema de asistencia al estacionamiento;Sección
+5;A40_105_005_015;Sistema de control adaptativo de velocidad (ACC);Sección
+5;A40_105_005_020;Sistema de detección de colisión;Sección
+5;A40_105_005_025;Sistema de frenado automático;Sección
+5;A40_105_005_030;Sistema de mantenimiento de carril (LKA);Sección
+5;A40_105_005_035;Sistema de monitoreo de fatiga del conductor;Sección
+5;A40_105_005_040;Sistema de reconocimiento de señales de tráfico;Sección
+4;A40_105_010;Sistemas de gestión del tráfico;Subgrupo
+5;A40_105_010_005;Sistema de control adaptativo de semáforos;Sección
+5;A40_105_010_010;Sistema de gestión de incidentes viales;Sección
+5;A40_105_010_015;Sistema de gestión de intersecciones inteligentes;Sección
+5;A40_105_010_020;Sistema de monitoreo de tráfico en tiempo real;Sección
+5;A40_105_010_025;Sistema de predicción de tráfico;Sección
+5;A40_105_010_030;Sistema de señalización variable en autopistas;Sección
+4;A40_105_015;Sistemas de información al usuario;Subgrupo
+5;A40_105_015_005;Sistema de aplicaciones móviles de tráfico;Sección
+5;A40_105_015_010;Sistema de asistencia en carretera en tiempo real;Sección
+5;A40_105_015_015;Sistema de integración de datos de transporte público;Sección
+5;A40_105_015_020;Sistema de navegación en tiempo real;Sección
+5;A40_105_015_025;Sistema de paneles informativos variables;Sección
+5;A40_105_015_030;Sistema de predicción meteorológica vial;Sección
+4;A40_105_020;Sistemas de monitoreo y seguridad;Subgrupo
+5;A40_105_020_005;Sistema de cámaras CCTV con análisis de video;Sección
+5;A40_105_020_010;Sistema de control automático de velocidad;Sección
+5;A40_105_020_015;Sistema de control de acceso a zonas urbanas (geofencing);Sección
+5;A40_105_020_020;Sistema de detección de infracciones en semáforos;Sección
+5;A40_105_020_025;Sistema de detección y monitoreo de peso vehicular (WIM);Sección
+5;A40_105_020_030;Sistema de monitoreo de sitios críticos;Sección
+5;A40_105_020_035;Sistema de videovigilancia en túneles;Sección
+5;A40_105_020_040;Sistema de auscultación tridimensional por escaneo láser móvil (Mobile LiDAR);Sección
+5;A40_105_020_045;Sistema de monitoreo interferométrico satelital de deformaciones (DInSAR);Sección
+4;A40_105_025;Sistemas inteligentes para transporte público;Subgrupo
+5;A40_105_025_005;Sistema de control de flota de transporte público;Sección
+5;A40_105_025_010;Sistema de gestión de tránsito prioritario para autobuses;Sección
+5;A40_105_025_015;Sistema de monitoreo de condiciones de vehículos de transporte público;Sección
+5;A40_105_025_020;Sistema de ticketing y pago sin contacto;Sección
+5;A40_105_025_025;Sistema de transporte público bajo demanda;Sección
+3;A40_110;Sistemas mecánicos;Grupo
+4;A40_110_005;Sistemas de actuadores y control;Subgrupo
+5;A40_110_005_005;Sistema de actuadores eléctricos;Sección
+5;A40_110_005_010;Sistema de actuadores hidráulicos;Sección
+5;A40_110_005_015;Sistema de actuadores neumáticos;Sección
+5;A40_110_005_020;Sistema de compuertas mecánicas;Sección
+5;A40_110_005_025;Sistema de control de puertas automáticas;Sección
+4;A40_110_010;Sistemas de elevación y transporte;Subgrupo
+5;A40_110_010_005;Sistema de elevadores de cangilones;Sección
+5;A40_110_010_010;Sistema de elevadores de plataformas;Sección
+5;A40_110_010_015;Sistema de escaleras mecánicas;Sección
+5;A40_110_010_020;Sistema de grúas mecánicas;Sección
+5;A40_110_010_025;Sistema de plataformas móviles en puentes;Sección
+5;A40_110_010_030;Sistema de transportadores de cintas;Sección
+5;A40_110_010_035;Sistema de transportadores de rodillos;Sección
+5;A40_110_010_040;Sistema de transportadores vibrantes;Sección
+4;A40_110_015;Sistemas mecánicos para infraestructuras específicas;Subgrupo
+5;A40_110_015_005;Sistema de barreras móviles en carreteras;Sección
+5;A40_110_015_010;Sistema de esclusas en infraestructuras portuarias;Sección
+5;A40_110_015_015;Sistema de ventiladores mecánicos en túneles;Sección
+5;A40_110_015_020;Sistema de desplazamiento de puentes móviles;Sección
+5;A40_110_015_025;Sistema de elevación de tableros de puentes;Sección
+5;A40_110_015_030;Sistema de rampas móviles para accesos;Sección
+4;A40_110_020;Sistemas de manejo de materiales;Subgrupo
+5;A40_110_020_005;Sistema de dosificación mecánica;Sección
+5;A40_110_020_010;Sistema de extracción de sólidos;Sección
+5;A40_110_020_015;Sistema de almacenamiento mecánico;Sección
+5;A40_110_020_020;Sistema de transporte neumático;Sección
+5;A40_110_020_025;Sistema de vibración para manejo de materiales a granel;Sección
+3;A40_115;Sistemas para el suministro de combustibles y lubricantes;Grupo
+4;A40_115_005;Sistemas de almacenamiento y distribución de combustibles;Subgrupo
+5;A40_115_005_005;Sistema de almacenamiento en tanques de superficie;Sección
+5;A40_115_005_010;Sistema de almacenamiento subterráneo de combustibles;Sección
+5;A40_115_005_015;Sistema de bombeo de combustibles;Sección
+5;A40_115_005_020;Sistema de dispensación de combustible a vehículos;Sección
+5;A40_115_005_025;Sistema de distribución de combustible por oleoducto;Sección
+5;A40_115_005_030;Sistema de distribución de productos derivados (etanol, biodiésel);Sección
+5;A40_115_005_035;Sistema de llenado de camiones cisterna;Sección
+5;A40_115_005_040;Sistema de monitoreo y control de inventarios de combustible;Sección
+4;A40_115_010;Sistemas de manejo y control de lubricantes;Subgrupo
+5;A40_115_010_005;Sistema de almacenamiento de lubricantes;Sección
+5;A40_115_010_010;Sistema de dispensación automática de lubricantes;Sección
+5;A40_115_010_015;Sistema de manejo de aceites y grasas industriales;Sección
+5;A40_115_010_020;Sistema de reciclaje de lubricantes usados;Sección
+5;A40_115_010_025;Sistema de separación de aceites en tanques de almacenamiento;Sección
+4;A40_115_015;Sistemas de transferencia y suministro;Subgrupo
+5;A40_115_015_005;Sistema de bombas de engranaje para transferencias de combustible;Sección
+5;A40_115_015_010;Sistema de bombas centrífugas para combustibles;Sección
+5;A40_115_015_015;Sistema de inyección de aditivos a combustibles;Sección
+5;A40_115_015_020;Sistema de transferencia de lubricantes en líneas industriales;Sección
+5;A40_115_015_025;Sistema de válvulas y tuberías para manejo de combustibles;Sección
+4;A40_115_020;Sistemas de seguridad y prevención;Subgrupo
+5;A40_115_020_005;Sistema de control de fugas de combustibles;Sección
+5;A40_115_020_010;Sistema de detección de fugas y derrames;Sección
+5;A40_115_020_015;Sistema de protección contra incendios en terminales de combustibles;Sección
+5;A40_115_020_020;Sistema de retención de derrames;Sección
+5;A40_115_020_025;Sistema de ventilación de seguridad para áreas de almacenamiento de combustibles;Sección
+3;A40_120;Sistemas para el suministro de energía para vehículos eléctricos;Grupo
+4;A40_120_005;Sistemas de carga rápida;Subgrupo
+5;A40_120_005_005;Sistema de carga rápida en corriente alterna (AC);Sección
+5;A40_120_005_010;Sistema de carga rápida en corriente continua (DC);Sección
+5;A40_120_005_015;Sistema de carga rápida ultra (Ultra Fast Charging);Sección
+5;A40_120_005_020;Sistema de carga rápida en autopistas (Highway Fast Charging);Sección
+4;A40_120_010;Sistemas de carga lenta o estándar;Subgrupo
+5;A40_120_010_005;Sistema de carga doméstica en corriente alterna (AC);Sección
+5;A40_120_010_010;Sistema de carga en corriente alterna monofásica;Sección
+5;A40_120_010_015;Sistema de carga en corriente alterna trifásica;Sección
+5;A40_120_010_020;Sistema de carga en parkings públicos;Sección
+4;A40_120_015;Sistemas de carga inalámbrica y tecnologías emergentes;Subgrupo
+5;A40_120_015_005;Sistema de carga inductiva;Sección
+5;A40_120_015_010;Sistema de carga dinámica en carretera (carga mientras el vehículo está en movimiento);Sección
+5;A40_120_015_015;Sistema de carga por resonancia magnética;Sección
+4;A40_120_020;Sistemas de almacenamiento y distribución de energía;Subgrupo
+5;A40_120_020_005;Sistema de almacenamiento de energía en baterías (BESS);Sección
+5;A40_120_020_010;Sistema de alimentación para autobuses eléctricos en terminales;Sección
+5;A40_120_020_015;Sistema de distribución de energía para flotas eléctricas;Sección
+4;A40_120_025;Sistemas de gestión y control;Subgrupo
+5;A40_120_025_005;Sistema de gestión de carga inteligente (Smart Charging);Sección
+5;A40_120_025_010;Sistema de integración de carga en redes eléctricas (Vehicle to Grid, V2G);Sección
+5;A40_120_025_015;Sistema de monitoreo y control de carga en tiempo real;Sección
+5;A40_120_025_020;Sistema de gestión de cargas múltiples (para estaciones con múltiples puntos de carga);Sección
+4;A40_120_030;Sistemas de alimentación eléctrica por línea de contacto;Subgrupo
+3;A40_125;Sistemas para el suministro de gas vehicular;Grupo
+4;A40_125_005;Sistemas de almacenamiento y distribución de gas natural comprimido (GNC);Subgrupo
+5;A40_125_005_005;Sistema de almacenamiento de GNC en estaciones de servicio;Sección
+5;A40_125_005_010;Sistema de bombeo de GNC;Sección
+5;A40_125_005_015;Sistema de compresión de GNC para estaciones;Sección
+5;A40_125_005_020;Sistema de distribución de GNC en vehículos;Sección
+5;A40_125_005_025;Sistema de monitoreo y control de presión en tanques de GNC;Sección
+5;A40_125_005_030;Sistema de recarga de GNC en terminales;Sección
+4;A40_125_010;Sistemas de almacenamiento y distribución de gas natural licuado (GNL);Subgrupo
+5;A40_125_010_005;Sistema de almacenamiento criogénico para GNL;Sección
+5;A40_125_010_010;Sistema de bombeo criogénico de GNL;Sección
+5;A40_125_010_015;Sistema de distribución de GNL en estaciones de servicio;Sección
+5;A40_125_010_020;Sistema de vaporización de GNL para suministro a vehículos;Sección
+5;A40_125_010_025;Sistema de monitoreo de temperatura y presión en tanques de GNL;Sección
+4;A40_125_015;Sistemas de seguridad y control;Subgrupo
+5;A40_125_015_005;Sistema de detección de fugas en estaciones de suministro de gas;Sección
+5;A40_125_015_010;Sistema de control de presión y seguridad en tanques;Sección
+5;A40_125_015_015;Sistema de purga automática para gasoductos y tanques;Sección
+5;A40_125_015_020;Sistema de válvulas de alivio de presión;Sección
+4;A40_125_020;Sistemas de transferencia y suministro;Subgrupo
+5;A40_125_020_005;Sistema de compresión de gas para transporte de GNC;Sección
+5;A40_125_020_010;Sistema de inyección de gas en vehículos;Sección
+5;A40_125_020_015;Sistema de recarga rápida de GNC;Sección
+5;A40_125_020_020;Sistema de transporte de GNC mediante módulos portátiles;Sección
+3;A40_130;Otros sistemas de gestión de infraestructura;Grupo
+3;A40_135;Otros sistemas de gestión de tráfico y movilidad vial;Grupo
+3;A40_140;Sistemas de detección de presencia ferroviaria;Grupo
+4;A40_140_005;Circuito de vía de corriente alterna;Subgrupo
+4;A40_140_010;Circuito de vía de audiofrecuencia sin juntas;Subgrupo
+5;A40_140_010_005;Subsistema de bloqueo automático de cantón con detección redundante de ocupación;Sección
+4;A40_140_015;Unidad evaluadora de contadores de ejes;Subgrupo
+4;A40_140_020;Circuito de vía de corriente continua;Subgrupo
+4;A40_140_025;Detector de trenes;Subgrupo
+4;A40_140_030;Cabeza sensora de rueda para conteo de ejes;Subgrupo
+4;A40_140_035;Sistema de contadores de ejes;Subgrupo
+4;A40_140_040;Circuito de vía convencional;Subgrupo
+3;A40_145;Sistemas de señalización, enclavamiento y control de tráfico ferroviario;Grupo
+4;A40_145_005;Sistemas de señalización lateral y bloqueo ferroviario;Subgrupo
+5;A40_145_005_005;Sistema de bloqueo automático luminoso en vía;Sección
+5;A40_145_005_010;Sistema de bloqueo telefónico o por movilización virtual;Sección
+5;A40_145_005_015;Sistema de señalización luminosa de estación y patio ferroviario;Sección
+4;A40_145_010;Sistemas de enclavamiento ferroviario;Subgrupo
+5;A40_145_010_005;Sistema de enclavamiento electrónico microprocesado;Sección
+5;A40_145_010_010;Sistema de enclavamiento eléctrico por relevadores;Sección
+5;A40_145_010_015;Sistema de enclavamiento mecánico de agujas y señales;Sección
+4;A40_145_015;Sistemas de control y protección automática de trenes;Subgrupo
+5;A40_145_015_005;Sistema de control de tráfico centralizado (CTC ferroviario);Sección
+5;A40_145_015_010;Sistema de control y protección automática de trenes (ATP / ETCS / PTC);Sección
+5;A40_145_015_015;Sistema de gestión de tráfico ferroviario asistido por satélite y radio;Sección
+5;A40_145_015_020;Sistema de control positivo de trenes y bloqueo móvil por radio (ITCS / PTC);Sección
+6;A40_145_015_020_005;Sistema de control positivo de trenes con supervisión continua de curva de frenado;Objeto
+7;A40_145_015_020_005_005;Sistema de control positivo de trenes con cantonamiento móvil virtual y posicionamiento GNSS;Subobjeto
+4;A40_145_020;Sistemas de protección activa de pasos a nivel;Subgrupo
+5;A40_145_020_005;Sistema automático de advertencia acústica, luminosa y barreras en paso a nivel;Sección
+4;A40_145_025;Sistemas de maniobra y supervisión de aparatos de vía;Subgrupo
+5;A40_145_025_005;Sistema de accionamiento y comprobación de posición de agujas;Sección
+4;A40_145_030;Sistemas de monitoreo de estado de trenes en vía y pesaje dinámico ferroviario;Subgrupo
+5;A40_145_030_005;Sistema detector de cajas calientes y frenos agarrotados en vía (HBD/HWD);Sección
+5;A40_145_030_010;Sistema detector de impacto de rueda y pesaje dinámico en movimiento (WILD/WIM férreo);Sección
+5;A40_145_030_015;Sistema detector de arrastre de equipos y control de gálibo dinámico en vía;Sección
+5;A40_145_030_020;Sistema acústico de detección de defectos en rodamientos ferroviarios (TADS);Sección

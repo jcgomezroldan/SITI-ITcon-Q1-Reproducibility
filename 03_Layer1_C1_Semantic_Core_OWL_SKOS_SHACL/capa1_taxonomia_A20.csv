@@ -1,0 +1,353 @@
+﻿Nivel;Código SITI;Descripción;Clasificación
+1;A;Activos de infraestructura;Lenguaje
+2;A20;Infraestructuras y complejos;Tabla
+3;A20_005;Infraestructura aeroportuaria;Grupo
+4;A20_005_005;Complejo aeroportuario concesionado y terminal de transferencia de carga aérea intermodal;Subgrupo
+3;A20_010;Infraestructura de transporte por cable;Grupo
+3;A20_015;Infraestructura férrea;Grupo
+4;A20_015_005;Terminal ferroviaria de graneles minerales;Subgrupo
+4;A20_015_010;Red de ferrocarril;Subgrupo
+5;A20_015_010_005;Red férrea nacional o troncal;Sección
+5;A20_015_010_010;Red férrea regional o secundaria;Sección
+5;A20_015_010_015;Red férrea privada o industrial de uso dedicado;Sección
+5;A20_015_010_020;Red férrea urbana, metropolitana o tren de cercanías;Sección
+4;A20_015_015;Terminal de transferencia intermodal tren-camión;Subgrupo
+4;A20_015_020;Taller de mantenimiento de material rodante;Subgrupo
+4;A20_015_025;Base de mantenimiento de superestructura férrea;Subgrupo
+4;A20_015_030;Depósito o taller ferroviario;Subgrupo
+4;A20_015_035;Terminal de carga ferroviaria;Subgrupo
+5;A20_015_035_005;Terminal ferroviaria de contenedores y carga general;Sección
+5;A20_015_035_010;Terminal ferroviaria de graneles líquidos e hidrocarburos;Sección
+5;A20_015_035_015;Terminal ferroviaria de transferencia ferro-fluvial o ferro-portuaria;Sección
+4;A20_015_040;Bifurcación o empalme ferroviario;Subgrupo
+4;A20_015_045;Apeadero ferroviario de pasajeros;Subgrupo
+4;A20_015_050;Terminal de pasajeros ferroviaria;Subgrupo
+4;A20_015_055;Patio de maniobras y clasificación;Subgrupo
+4;A20_015_060;Estación ferroviaria principal;Subgrupo
+4;A20_015_065;Centro de control de operaciones ferroviarias (CCO férreo);Subgrupo
+5;A20_015_065_005;Centro de control de tráfico centralizado y respaldo operativo ferroviario;Sección
+4;A20_015_070;Complejo de pesaje e inspección técnica ferroviaria;Subgrupo
+5;A20_015_070_005;Estación de pesaje dinámico ferroviario y detección de defectos en vía;Sección
+6;A20_015_070_005_005;Estación de pesaje dinámico ferroviario en vía principal de circulación continua;Objeto
+7;A20_015_070_005_005_005;Estación de pesaje dinámico ferroviario bidireccional de acceso a nodo portuario;Subobjeto
+5;A20_015_070_010;Puesto fijo de inspección ultrasónica y perfilometría de rieles;Sección
+3;A20_020;Infraestructura fluvial;Grupo
+4;A20_020_005;Complejo portuario fluvial y muelle de transferencia intermodal río-ferrocarril-carretera;Subgrupo
+3;A20_025;Infraestructura marítima;Grupo
+4;A20_025_005;Complejo portuario marítimo y terminal de acceso intermodal férreo y carretero;Subgrupo
+3;A20_030;Infraestructura lacustre;Grupo
+3;A20_035;Infraestructura carretera;Grupo
+4;A20_035_005;Carreteras nacionales según su categoría (Ley 1228 de 2008) - Incluye vías a cielo abierto;Subgrupo
+5;A20_035_005_005;Vía arterial o de primer orden;Sección
+5;A20_035_005_010;Vía intermunicipal o de segundo orden;Sección
+5;A20_035_005_015;Vía veredal o de tercer orden;Sección
+5;A20_035_005_020;Corredor logístico troncal de integración intermodal;Sección
+6;A20_035_005_020_005;Corredor logístico troncal de integración puerto marítimo-interior;Objeto
+7;A20_035_005_020_005_005;Corredor logístico troncal de paso cordillerano con calzadas unidireccionales segregadas;Subobjeto
+4;A20_035_010;Carreteras nacionales según la entidad que la administra (Ley 105 de 1993) - Incluye vías a cielo abierto;Subgrupo
+5;A20_035_010_005;Vía nacional a cargo de la Nación;Sección
+5;A20_035_010_010;Vía departamental a cargo de un Departamento;Sección
+5;A20_035_010_015;Vía distrital o municipal a cargo de un Municipio;Sección
+4;A20_035_015;Carreteras según clasificación distrital o municipal - Incluye vías a cielo abierto;Subgrupo
+5;A20_035_015_005;Vía arterial;Sección
+5;A20_035_015_010;Vía intermedia;Sección
+5;A20_035_015_015;Vía local;Sección
+5;A20_035_015_020;Vía principal rural;Sección
+5;A20_035_015_025;Vía rural;Sección
+3;A20_040;Otras infraestructuras y complejos conexos a todos los modos de transporte;Grupo
+4;A20_040_005;Complejos administrativos, comerciales y de servicios de protección;Subgrupo
+5;A20_040_005_005;Complejos administrativos;Sección
+6;A20_040_005_005_005;Parques empresariales;Objeto
+6;A20_040_005_005_010;Complejos de oficinas;Objeto
+5;A20_040_005_010;Complejos comerciales;Sección
+6;A20_040_005_010_005;Centros comerciales urbanos;Objeto
+6;A20_040_005_010_010;Complejos de subastas;Objeto
+6;A20_040_005_010_015;Complejos de uso mixto;Objeto
+6;A20_040_005_010_020;Complejos de venta de vehículos;Objeto
+6;A20_040_005_010_025;Complejos o plazas de mercado y víveres;Objeto
+6;A20_040_005_010_030;Corredores o paseos de tiendas urbanas;Objeto
+5;A20_040_005_015;Complejos de aplicación de la ley;Sección
+5;A20_040_005_020;Complejos de apoyo a incidentes;Sección
+6;A20_040_005_020_005;Complejos de bomberos;Objeto
+6;A20_040_005_020_010;Complejos de rescate en montaña;Objeto
+6;A20_040_005_020_015;Complejos de salvamento aéreo y marítimo;Objeto
+6;A20_040_005_020_020;Complejos y estaciones de guardacostas;Objeto
+5;A20_040_005_025;Complejos de detención;Sección
+6;A20_040_005_025_005;Centros seguros de formación;Objeto
+6;A20_040_005_025_010;Complejos de detención de inmigrantes;Objeto
+6;A20_040_005_025_015;Complejos de detención de refugiados;Objeto
+6;A20_040_005_025_020;Complejos penitenciarios;Objeto
+6;A20_040_005_025_025;Fincas abiertas para hombres;Objeto
+6;A20_040_005_025_030;Fincas abiertas para mujeres;Objeto
+6;A20_040_005_025_035;Fincas cerradas para hombres;Objeto
+6;A20_040_005_025_040;Fincas cerradas para mujeres;Objeto
+6;A20_040_005_025_045;Instituciones de detención para menores de edad;Objeto
+5;A20_040_005_030;Complejos de entrenamiento de armas;Sección
+6;A20_040_005_030_005;Complejos de campos de tiro de armas pequeñas;Objeto
+6;A20_040_005_030_010;Complejos de campos de tiro de artillería;Objeto
+5;A20_040_005_035;Complejos judiciales;Sección
+6;A20_040_005_035_005;Complejos de libertad condicional;Objeto
+6;A20_040_005_035_010;Otros complejos judiciales;Objeto
+5;A20_040_005_040;Complejos legislativos;Sección
+5;A20_040_005_045;Complejos militares;Sección
+6;A20_040_005_045_005;Complejos de la fuerza aérea;Objeto
+6;A20_040_005_045_010;Complejos de la policía;Objeto
+6;A20_040_005_045_015;Complejos de la marina;Objeto
+6;A20_040_005_045_020;Complejos del ejército;Objeto
+5;A20_040_005_050;Complejos postales;Sección
+5;A20_040_005_055;Complejos representativos seculares;Sección
+6;A20_040_005_055_005;Complejos de gobierno local;Objeto
+6;A20_040_005_055_010;Complejos de gobierno nacional;Objeto
+6;A20_040_005_055_015;Complejos de gobierno regional o distrital;Objeto
+6;A20_040_005_055_020;Complejos de gobiernos extranjeros en territorio nacional (Embajadas y otros);Objeto
+4;A20_040_010;Complejos culturales, educativos, científicos y de información;Subgrupo
+5;A20_040_010_005;Complejos científicos;Sección
+6;A20_040_010_005_005;Complejos de investigación, desarrollo e innovación (I+D+i);Objeto
+6;A20_040_010_005_010;Complejos de laboratorio;Objeto
+6;A20_040_010_005_015;Complejos de observatorios astronómicos;Objeto
+6;A20_040_010_005_020;Jardines botánicos;Objeto
+5;A20_040_010_010;Complejos conmemorativos;Sección
+5;A20_040_010_015;Complejos de exposiciones;Sección
+6;A20_040_010_015_005;Centros de convenciones;Objeto
+6;A20_040_010_015_010;Complejos expositivos multiusos;Objeto
+6;A20_040_010_015_015;Complejos monumentales;Objeto
+6;A20_040_010_015_020;Galerías;Objeto
+6;A20_040_010_015_025;Instalaciones de arte;Objeto
+6;A20_040_010_015_030;Jardines y arboretos;Objeto
+6;A20_040_010_015_035;Museos;Objeto
+6;A20_040_010_015_040;Museos al aire libre;Objeto
+6;A20_040_010_015_045;Parques de esculturas al aire libre;Objeto
+6;A20_040_010_015_050;Zoológicos;Objeto
+5;A20_040_010_020;Complejos de información;Sección
+6;A20_040_010_020_005;Centros de información y control de datos digitales;Objeto
+6;A20_040_010_020_010;Complejos bibliotecarios;Objeto
+6;A20_040_010_020_015;Complejos de congresos;Objeto
+6;A20_040_010_020_020;Complejos para archivo audiovisual;Objeto
+6;A20_040_010_020_025;Complejos para archivo documental;Objeto
+5;A20_040_010_025;Complejos educativos;Sección
+6;A20_040_010_025_005;Centros de educación técnica o tecnológica;Objeto
+6;A20_040_010_025_010;Colegios de educación básica primaria;Objeto
+6;A20_040_010_025_015;Colegios de educación básica secundaria;Objeto
+6;A20_040_010_025_020;Jardines de infancia, guarderías y centros preescolares;Objeto
+6;A20_040_010_025_025;Universidades;Objeto
+5;A20_040_010_030;Complejos religiosos;Sección
+4;A20_040_015;Complejos industriales;Subgrupo
+5;A20_040_015_005;Complejos de almacenamiento y distribución;Sección
+5;A20_040_015_010;Complejos de extracción de minerales;Sección
+6;A20_040_015_010_005;Canteras;Objeto
+6;A20_040_015_010_010;Complejos de extracción de gas de esquisto;Objeto
+6;A20_040_015_010_015;Complejos de extracción de hidratos de metano;Objeto
+6;A20_040_015_010_020;Complejos de extracción de petróleo de esquisto;Objeto
+6;A20_040_015_010_025;Minas a cielo abierto;Objeto
+6;A20_040_015_010_030;Minas a la deriva;Objeto
+6;A20_040_015_010_035;Minas profundas;Objeto
+5;A20_040_015_015;Complejos de generación de energía mecánica o cinética;Sección
+5;A20_040_015_020;Complejos de gestión nuclear y química;Sección
+6;A20_040_015_020_005;Complejos de gestión de residuos radiactivos de superficie;Objeto
+6;A20_040_015_020_010;Complejos subterráneos de gestión de residuos radiactivos;Objeto
+5;A20_040_015_025;Complejos de limpieza y mantenimiento;Sección
+6;A20_040_015_025_005;Complejos de limpieza de vehículos;Objeto
+6;A20_040_015_025_010;Lavanderías comerciales;Objeto
+5;A20_040_015_030;Complejos de mantenimiento marino y acuático;Sección
+5;A20_040_015_035;Complejos de procesamiento de minerales;Sección
+6;A20_040_015_035_005;Complejos de procesamiento de gas;Objeto
+6;A20_040_015_035_010;Complejos de procesamiento de minerales;Objeto
+6;A20_040_015_035_015;Complejos de procesamiento de petróleo;Objeto
+5;A20_040_015_040;Complejos de procesamiento de productos animales y vegetales;Sección
+6;A20_040_015_040_005;Bodegas;Objeto
+6;A20_040_015_040_010;Cervecerías;Objeto
+6;A20_040_015_040_015;Complejos de procesamiento de cultivos herbáceos;Objeto
+6;A20_040_015_040_020;Complejos de procesamiento de cultivos hortícolas;Objeto
+6;A20_040_015_040_025;Complejos de procesamiento de ganado;Objeto
+6;A20_040_015_040_030;Complejos de procesamiento de madera;Objeto
+6;A20_040_015_040_035;Complejos de procesamiento de pescado;Objeto
+6;A20_040_015_040_040;Complejos de procesamiento de productos animales;Objeto
+6;A20_040_015_040_045;Conserveras;Objeto
+6;A20_040_015_040_050;Destilerías;Objeto
+6;A20_040_015_040_055;Mataderos;Objeto
+6;A20_040_015_040_060;Molinos;Objeto
+6;A20_040_015_040_065;Otros complejos de procesamiento de alimentos;Objeto
+5;A20_040_015_045;Complejos manufactureros;Sección
+6;A20_040_015_045_005;Astilleros de construcción de barcos y embarcaciones;Objeto
+6;A20_040_015_045_010;Complejos de fabricación ligera;Objeto
+6;A20_040_015_045_015;Complejos de fabricación pesada;Objeto
+6;A20_040_015_045_020;Parques industriales;Objeto
+4;A20_040_020;Complejos de gestión del agua y los terrenos;Subgrupo
+5;A20_040_020_005;Complejos agrícolas y hortícolas;Sección
+6;A20_040_020_005_005;Bosques gestionados;Objeto
+6;A20_040_020_005_010;Criaderos de peces;Objeto
+6;A20_040_020_005_015;Granjas arables;Objeto
+6;A20_040_020_005_020;Granjas de peces;Objeto
+6;A20_040_020_005_025;Granjas ganaderas;Objeto
+6;A20_040_020_005_030;Huertos;Objeto
+6;A20_040_020_005_035;Huertos familiares;Objeto
+6;A20_040_020_005_040;Viñedos;Objeto
+6;A20_040_020_005_045;Viveros hortícolas;Objeto
+5;A20_040_020_010;Complejos de control de la contaminación;Sección
+6;A20_040_020_010_005;Complejos de tratamiento de aguas subterráneas;Objeto
+5;A20_040_020_015;Complejos de control y retención de agua;Sección
+6;A20_040_020_015_005;Barreras de marea;Objeto
+6;A20_040_020_015_010;Complejos de bombeo de agua;Objeto
+6;A20_040_020_015_015;Complejos de control de agua;Objeto
+6;A20_040_020_015_020;Complejos de distritos de riego (incluye canales de drenaje artificiales);Objeto
+6;A20_040_020_015_025;Complejos de esclusas;Objeto
+6;A20_040_020_015_030;Complejos de monitoreo de niveles y caudales de agua;Objeto
+6;A20_040_020_015_035;Embalses;Objeto
+5;A20_040_020_020;Complejos de presas;Sección
+6;A20_040_020_020_005;Presas de arco;Objeto
+6;A20_040_020_020_010;Presas de contrafuerte;Objeto
+6;A20_040_020_020_015;Presas de gravedad;Objeto
+6;A20_040_020_020_020;Presas de relleno de roca;Objeto
+6;A20_040_020_020_025;Presas de tierra;Objeto
+5;A20_040_020_025;Complejos de protección marina y acuática;Sección
+6;A20_040_020_025_005;Complejos de protección contra inundaciones;Objeto
+6;A20_040_020_025_010;Complejos de protección contra la erosión;Objeto
+6;A20_040_020_025_015;Complejos de protección costera;Objeto
+5;A20_040_020_030;Complejos de tierras designadas;Sección
+5;A20_040_020_035;Complejos naturales;Sección
+6;A20_040_020_035_005;Acantilados;Objeto
+6;A20_040_020_035_010;Acuíferos;Objeto
+6;A20_040_020_035_015;Arroyos, nacimientos de agua y quebradas;Objeto
+6;A20_040_020_035_020;Ballestas;Objeto
+6;A20_040_020_035_025;Bosques;Objeto
+6;A20_040_020_035_030;Desiertos;Objeto
+6;A20_040_020_035_035;Estanques;Objeto
+6;A20_040_020_035_040;Estuarios;Objeto
+6;A20_040_020_035_045;Humedales estacionales;Objeto
+6;A20_040_020_035_050;Lagos;Objeto
+6;A20_040_020_035_055;Marismas saladas;Objeto
+6;A20_040_020_035_060;Montañas;Objeto
+6;A20_040_020_035_065;Ríos;Objeto
+6;A20_040_020_035_070;Sierras;Objeto
+6;A20_040_020_035_075;Zonas costeras;Objeto
+4;A20_040_025;Complejos médicos, sanitarios, asistenciales y sanitarios;Subgrupo
+5;A20_040_025_005;Complejos de bienestar;Sección
+6;A20_040_025_005_005;Complejos de spa, saunas y baños turcos;Objeto
+6;A20_040_025_005_010;Estaciones de cuarentena;Objeto
+6;A20_040_025_005_015;Gimnasios y complejos fitness;Objeto
+6;A20_040_025_005_020;Hospicios;Objeto
+6;A20_040_025_005_025;Residencias de ancianos;Objeto
+5;A20_040_025_010;Complejos funerarios;Sección
+6;A20_040_025_010_005;Cementerios;Objeto
+6;A20_040_025_010_010;Crematorios;Objeto
+6;A20_040_025_010_015;Funerarias;Objeto
+5;A20_040_025_015;Complejos médicos;Sección
+6;A20_040_025_015_005;Complejos clínicos;Objeto
+6;A20_040_025_015_010;Complejos de ambulancias;Objeto
+6;A20_040_025_015_015;Complejos de ambulancias aéreas;Objeto
+6;A20_040_025_015_020;Complejos hospitalarios;Objeto
+5;A20_040_025_020;Complejos para animales;Sección
+6;A20_040_025_020_005;Acuarios;Objeto
+6;A20_040_025_020_010;Aviario;Objeto
+6;A20_040_025_020_015;Complejos apiarios;Objeto
+6;A20_040_025_020_020;Complejos avícolas;Objeto
+6;A20_040_025_020_025;Complejos caninos;Objeto
+6;A20_040_025_020_030;Complejos de corrales para otro tipo de animales;Objeto
+6;A20_040_025_020_035;Complejos de jaulas para otro tipo de animales;Objeto
+6;A20_040_025_020_040;Complejos de piscicultura;Objeto
+6;A20_040_025_020_045;Complejos ecuestres;Objeto
+6;A20_040_025_020_050;Complejos funerarios para animales;Objeto
+6;A20_040_025_020_055;Complejos ovinos;Objeto
+6;A20_040_025_020_060;Complejos porcícolas;Objeto
+6;A20_040_025_020_065;Complejos veterinarios;Objeto
+6;A20_040_025_020_070;Estaciones de cuarentena para animales;Objeto
+4;A20_040_030;Complejos recreacionales;Subgrupo
+5;A20_040_030_005;Complejos de artes escénicas;Sección
+6;A20_040_030_005_005;Circos;Objeto
+6;A20_040_030_005_010;Complejos de cine;Objeto
+6;A20_040_030_005_015;Complejos de estudios de cine y televisión;Objeto
+6;A20_040_030_005_020;Complejos de salas de conciertos;Objeto
+6;A20_040_030_005_025;Complejos teatrales;Objeto
+5;A20_040_030_010;Complejos de atracciones;Sección
+6;A20_040_030_010_005;Anfiteatros;Objeto
+6;A20_040_030_010_010;Complejos de deportes electrónicos;Objeto
+6;A20_040_030_010_015;Muelles de recreo;Objeto
+6;A20_040_030_010_020;Parques de atracciones;Objeto
+6;A20_040_030_010_025;Parques temáticos;Objeto
+5;A20_040_030_015;Complejos de recreación social;Sección
+5;A20_040_030_020;Complejos históricos;Sección
+6;A20_040_030_020_005;Sitios de batalla;Objeto
+4;A20_040_035;Complejos deportivos;Subgrupo
+5;A20_040_035_005;Complejos deportivos al aire libre;Sección
+5;A20_040_035_010;Complejos deportivos en interiores;Sección
+4;A20_040_040;Complejos residenciales;Subgrupo
+5;A20_040_040_005;Campamentos de emergencia;Sección
+5;A20_040_040_010;Campamentos militares;Sección
+5;A20_040_040_015;Campamentos para grupos de jóvenes;Sección
+5;A20_040_040_020;Campings;Sección
+5;A20_040_040_025;Casas en ocupación múltiple;Sección
+5;A20_040_040_030;Complejos residenciales de gran altura;Sección
+5;A20_040_040_035;Conventos y monasterios;Sección
+5;A20_040_040_040;Hostales;Sección
+5;A20_040_040_045;Hoteles;Sección
+5;A20_040_040_050;Moteles;Sección
+5;A20_040_040_055;Parques de caravanas;Sección
+5;A20_040_040_060;Propiedades horizontales;Sección
+5;A20_040_040_065;Residencias universitarias;Sección
+5;A20_040_040_070;Retiros religiosos;Sección
+5;A20_040_040_075;Urbanizaciones;Sección
+5;A20_040_040_080;Vivienda protegida;Sección
+4;A20_040_045;Complejos de eliminación de residuos;Subgrupo
+5;A20_040_045_005;Para aguas de drenaje;Sección
+6;A20_040_045_005_005;Complejos colectores de aguas de drenaje;Objeto
+6;A20_040_045_005_010;Complejos de almacenamiento, tratamiento y eliminación de aguas de drenaje;Objeto
+5;A20_040_045_010;Para residuos secos;Sección
+6;A20_040_045_010_005;Complejos de almacenamiento, tratamiento y eliminación de residuos secos;Objeto
+6;A20_040_045_010_010;Complejos de recogida y distribución de residuos secos;Objeto
+5;A20_040_045_015;Para residuos no acuosos;Sección
+6;A20_040_045_015_005;Complejos de recogida y distribución de otros residuos no acuosos;Objeto
+6;A20_040_045_015_010;Complejos de tratamiento y eliminación de otros residuos no acuosos;Objeto
+5;A20_040_045_020;Para aguas residuales;Sección
+6;A20_040_045_020_005;Complejos de recolección de aguas residuales;Objeto
+6;A20_040_045_020_010;Complejos de tratamiento y eliminación de aguas residuales;Objeto
+4;A20_040_050;Complejos de suministro por tuberías;Subgrupo
+5;A20_040_050_005;Complejos de captación, extracción, tratamiento y distribución de agua potable;Sección
+5;A20_040_050_010;Complejos de extracción, almacenamiento y tratamiento de combustibles líquidos;Sección
+5;A20_040_050_015;Complejos de extracción, almacenamiento y tratamiento de gas;Sección
+5;A20_040_050_020;Complejos de redistribución de aguas grises o recicladas;Sección
+4;A20_040_055;Complejos de calefacción, refrigeración y refrigeración;Subgrupo
+5;A20_040_055_005;Complejos de calefacción urbana;Sección
+5;A20_040_055_010;Complejos de refrigeración urbana;Sección
+4;A20_040_060;Complejos de ventilación y aire acondicionado;Subgrupo
+4;A20_040_065;Complejos de generación y distribución de energía eléctrica;Subgrupo
+5;A20_040_065_005;Complejos de distribución de energía eléctrica;Sección
+6;A20_040_065_005_005;Complejos de subestaciones de distribución eléctrica;Objeto
+6;A20_040_065_005_010;Complejos de subestaciones eléctricas de baja tensión;Objeto
+5;A20_040_065_010;Complejos de generación de energía eléctrica;Sección
+6;A20_040_065_010_005;Complejos de generación combinada de calor y electricidad;Objeto
+6;A20_040_065_010_010;Complejos de generación de energía a base de carbón;Objeto
+6;A20_040_065_010_015;Complejos de generación de energía a base de petróleo;Objeto
+6;A20_040_065_010_020;Complejos de generación de energía a gas;Objeto
+6;A20_040_065_010_025;Complejos de generación de energía a partir de biomasa;Objeto
+6;A20_040_065_010_030;Complejos de generación de energía con reflectores solares;Objeto
+6;A20_040_065_010_035;Complejos de generación de energía eólica marina;Objeto
+6;A20_040_065_010_040;Complejos de generación de energía eólica terrestre;Objeto
+6;A20_040_065_010_045;Complejos de generación de energía fotovoltaica;Objeto
+6;A20_040_065_010_050;Complejos de generación de energía geotérmica;Objeto
+6;A20_040_065_010_055;Complejos de generación de energía hidroeléctrica;Objeto
+6;A20_040_065_010_060;Complejos de generación de energía maremotriz;Objeto
+6;A20_040_065_010_065;Complejos de generación de energía nuclear;Objeto
+6;A20_040_065_010_070;Complejos de generación de energía undimotriz;Objeto
+5;A20_040_065_015;Complejos de transmisión de energía eléctrica;Sección
+6;A20_040_065_015_005;Complejos de subestaciones de transmisión de energía eléctrica;Objeto
+6;A20_040_065_015_010;Complejos de subestaciones de transmisión de energía eléctrica en alta mar;Objeto
+4;A20_040_070;Complejos de comunicaciones, seguridad, protección y seguridad;Subgrupo
+5;A20_040_070_005;Complejos de comunicaciones;Sección
+6;A20_040_070_005_005;Complejos de comunicaciones de radiodifusión;Objeto
+6;A20_040_070_005_010;Complejos de telecomunicaciones;Objeto
+5;A20_040_070_010;Patio de maniobras, clasificación e intercambio intermodal de trenes;Sección
+4;A20_040_075;Complejos de circulación y almacenamiento;Subgrupo
+5;A20_040_075_005;Complejos de almacenamiento;Sección
+6;A20_040_075_005_005;Complejos de almacenamiento de alimentos a temperatura ambiente;Objeto
+6;A20_040_075_005_010;Complejos de almacenamiento de alimentos refrigerados;Objeto
+6;A20_040_075_005_015;Complejos de almacenamiento de armas y arsenales militares;Objeto
+6;A20_040_075_005_020;Complejos de almacenamiento de combustibles sólidos;Objeto
+6;A20_040_075_005_025;Complejos de almacenamiento de minerales;Objeto
+6;A20_040_075_005_030;Complejos de almacenamiento seguro;Objeto
+6;A20_040_075_005_035;Complejos de autoalmacenamiento;Objeto
+6;A20_040_075_005_040;Otros almacenes;Objeto
+6;A20_040_075_005_045;Otros complejos frigoríficos;Objeto
+5;A20_040_075_010;Complejos de plantas y control;Sección
+4;A20_040_080;Otros complejos de infraestructura de transporte;Subgrupo
+5;A20_040_080_005;Complejos aeroespaciales;Sección
+5;A20_040_080_010;Complejos de intercambio de transporte;Sección

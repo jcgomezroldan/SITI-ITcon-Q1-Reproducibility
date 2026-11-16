@@ -1,0 +1,1061 @@
+{
+  "c71_multifile_hashing_conventions": {
+    "c1_10_csvs_total_bytes": 1450886,
+    "c1_10_csvs_semantic_registry_fingerprint": "30bcc7e239fb7e73a64c702fbe4fd860b25338aa0a597a858bd1926dacfcfa11",
+    "c1_10_csvs_semantic_registry_fingerprint_16": "30bcc7e239fb7e73",
+    "c1_10_csvs_raw_lexicographical_concat_sha256": "97d6de6a0060231e6e15b5df7c8aadd85c1409165056b89f8f528c27c1d97f61",
+    "c1_10_csvs_raw_lexicographical_concat_sha256_16": "97d6de6a0060231e",
+    "c1_10_csvs_portable_manifest_sha256": "3cb2e801e9b45f91278c035a7c7aa14a7ef203b226e9d7cc7ccc17edd0db19ca",
+    "c1_10_csvs_portable_manifest_sha256_16": "3cb2e801e9b45f91",
+    "c1_10_csvs_per_file_digests": [
+      {
+        "filename": "capa1_taxonomia_A10.csv",
+        "size_bytes": 50515,
+        "sha256": "432173ab4c471fcb5bd2880cb9bb9b917bd0d16e35b8669aff3097613846012f",
+        "sha256_16": "432173ab4c471fcb"
+      },
+      {
+        "filename": "capa1_taxonomia_A20.csv",
+        "size_bytes": 22103,
+        "sha256": "cc6cfd6344235c6645556451e1fe35eee45e39f6673de8c4dd9b40877cd5fa9a",
+        "sha256_16": "cc6cfd6344235c66"
+      },
+      {
+        "filename": "capa1_taxonomia_A30.csv",
+        "size_bytes": 22047,
+        "sha256": "3ca22b76a04aa87c80c84fa89923ce1a78d9f006b736752407cbb70c87380530",
+        "sha256_16": "3ca22b76a04aa87c"
+      },
+      {
+        "filename": "capa1_taxonomia_A40.csv",
+        "size_bytes": 65322,
+        "sha256": "98c01e3cff8f1336417de463144cd4b5cde278dcc5e17885a0fcc9dbc9fc1a90",
+        "sha256_16": "98c01e3cff8f1336"
+      },
+      {
+        "filename": "capa1_taxonomia_A50.csv",
+        "size_bytes": 99319,
+        "sha256": "72482ca6eee9c504bdc837fae4d8ae4239a088421ccb9bf596d74adc39513f53",
+        "sha256_16": "72482ca6eee9c504"
+      },
+      {
+        "filename": "capa1_taxonomia_B10.csv",
+        "size_bytes": 41768,
+        "sha256": "f20c7c024cbf17b141e42ddfac2d59ace7fb5c16425a8ff03723cfd6686d5a9a",
+        "sha256_16": "f20c7c024cbf17b1"
+      },
+      {
+        "filename": "capa1_taxonomia_B20.csv",
+        "size_bytes": 362742,
+        "sha256": "e4380b76f15bb95adb8a3da30af245e74564860d1dcc11b73d91319a2176d4b5",
+        "sha256_16": "e4380b76f15bb95a"
+      },
+      {
+        "filename": "capa1_taxonomia_B30.csv",
+        "size_bytes": 47214,
+        "sha256": "bd582f1fec1af9b64b926957950931e975d29605d2044ab6a0c95f3c25576423",
+        "sha256_16": "bd582f1fec1af9b6"
+      },
+      {
+        "filename": "capa1_taxonomia_B40.csv",
+        "size_bytes": 675684,
+        "sha256": "55d90b52691119d574fe27a57430402fce008c22354f050a2dc884639a959a6b",
+        "sha256_16": "55d90b52691119d5"
+      },
+      {
+        "filename": "capa1_taxonomia_B50.csv",
+        "size_bytes": 64172,
+        "sha256": "1df7c53130cc9c178fdf06bab11ed594c01dba4e35fc4bcab8e070d962250cb0",
+        "sha256_16": "1df7c53130cc9c17"
+      }
+    ],
+    "semantic_registry_fingerprint_source_excerpt": "    def reference_catalog(self):\n        return {\"schema_version\": 1, \"revision\": self.version,\n                \"lexicon_revision\": self.lexicon.revision if self.lexicon else None,\n                \"lexicon_fingerprint\": self.lexicon.fingerprint if self.lexicon else None,\n                \"alias_reviews_role\": \"historical_sidecar\" if self.lexicon else \"active_reviewed_sidecar\",\n                \"sources\": self.sources,\n                \"alias_reviews\": self.alias_reviews,\n                \"ifc_mappings\": self.ifc_mappings,\n                \"definitions\": self.definitions,\n                \"ifc_fallback_a50\": {\"entity\": \"IfcBuiltElement\", \"predefined_type\": \"\",\n                                     \"property_set\": \"\", \"status\": \"fallback_pending_review\"},\n                \"uuid_contracts\": {\"lpg\": \"siti.transporte.gov.co + code\",\n                                   \"kits\": \"siti.gov.co + SITI_CLASS_code\"},\n                \"legacy_references\": [\n                    {**self._row(record), \"review\": self.review_assignment(record.code),\n                     \"legacy_ifc_mapping\": self.transitions[record.code].get(\"legacy_ifc_mapping\", {})}\n                    for record in self.by_code.values() if not record.selectable]}\n",
+    "geobim_9_kits_unique_files_count": 51,
+    "geobim_9_kits_unique_bytes": 124060870,
+    "geobim_9_kits_wave4_abs_manifest_sha256": "f8d93f7313919ca2fdd1591fddaace281108b665b858821dd826e765f868a792",
+    "geobim_9_kits_wave4_abs_manifest_sha256_16": "f8d93f7313919ca2",
+    "geobim_9_kits_portable_rel_manifest_sha256": "a3069d09a8f053a76c6f180a3f4b53b611e6011617b3c4e6671eb0f1a4909e77",
+    "geobim_9_kits_portable_rel_manifest_sha256_16": "a3069d09a8f053a7"
+  },
+  "c68_pii_and_public_anonymization_audit": {
+    "audited_c3_containers": [
+      {
+        "canonical_filename": "siti_ani_activos_principales.parquet",
+        "relative_c3_path": "siti_ani_activos_principales.parquet",
+        "num_rows": 226324,
+        "num_columns": 30,
+        "columns": [
+          "uuid",
+          "natural_key",
+          "version",
+          "is_current",
+          "parent_uuid",
+          "content_hash",
+          "codigo_siti",
+          "nombre_clase",
+          "tabla_siti",
+          "ifc_entity",
+          "ifc_predefined_type",
+          "ifc_pset_default",
+          "ifc_qto_default",
+          "nombre_activo",
+          "tabla_origen_ani",
+          "proyecto_id",
+          "nombre_proyecto",
+          "unidad_funcional",
+          "codigo_invias",
+          "material_normalizado",
+          "estado_operativo",
+          "longitud_metros",
+          "area_m2",
+          "tiene_geometria",
+          "centroide_x_9377",
+          "centroide_y_9377",
+          "latitud_wgs84",
+          "longitud_wgs84",
+          "fecha_ingesta",
+          "autor_ingesta"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 18480056,
+        "production_sha256": "93a4451ac1794a240c8e66cc6c05ff5ac14c52c25793eda0c7bb56bde78976f3",
+        "production_sha256_16": "93a4451ac1794a24"
+      },
+      {
+        "canonical_filename": "siti_ani_proyectos.parquet",
+        "relative_c3_path": "produccion_ani/siti_ani_proyectos.parquet",
+        "num_rows": 50,
+        "num_columns": 10,
+        "columns": [
+          "project_id",
+          "nombre",
+          "nit",
+          "entidad",
+          "modo",
+          "etapa",
+          "longitud_km",
+          "avance_fisico_ejecutado",
+          "avance_financiero_ejecutado",
+          "empleos_generados"
+        ],
+        "flagged_tax_or_pii_columns": [
+          "nit"
+        ],
+        "distributed_verbatim_without_redaction": false,
+        "production_size_bytes": 6313,
+        "production_sha256": "032e0f8f67fca33619247b0fb6f9c84e8481b059aec8369355912d1f16a59e94",
+        "production_sha256_16": "032e0f8f67fca336"
+      },
+      {
+        "canonical_filename": "siti_matriz_confrontacion_diferencial_ab.parquet",
+        "relative_c3_path": "siti_matriz_confrontacion_diferencial_ab.parquet",
+        "num_rows": 18112,
+        "num_columns": 24,
+        "columns": [
+          "confrontation_id",
+          "cycle_id",
+          "source_library",
+          "source_file_path",
+          "source_sha256",
+          "source_locator",
+          "extracted_raw_term",
+          "normalized_term",
+          "domain_category",
+          "matched_existing_siti_code",
+          "matched_existing_occurrence_key",
+          "matched_existing_uri",
+          "matched_existing_uuid_lpg",
+          "matched_existing_label_es",
+          "confrontation_state",
+          "target_ledger_action",
+          "linked_ledger_record_id",
+          "decoupled_a_code",
+          "decoupled_b10_code",
+          "decoupled_b20_code",
+          "decoupled_b30_code",
+          "decoupled_b40_code",
+          "decoupled_b50_code",
+          "confrontation_rationale"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 842642,
+        "production_sha256": "d13a0f734fcebdfa2220d46d36da519596e9dd918d6ee1af2662b29a3194c433",
+        "production_sha256_16": "d13a0f734fcebdfa"
+      },
+      {
+        "canonical_filename": "siti_apu_invias_desacoplado_ab.parquet",
+        "relative_c3_path": "siti_apu_invias_desacoplado_ab.parquet",
+        "num_rows": 526,
+        "num_columns": 25,
+        "columns": [
+          "apu_record_id",
+          "confrontation_id",
+          "apu_item_key",
+          "apu_chapter",
+          "apu_description",
+          "measurement_unit",
+          "regional_books_count",
+          "regional_instances_count",
+          "min_regional_price_cop",
+          "max_regional_price_cop",
+          "avg_regional_price_cop",
+          "confrontation_state",
+          "b40_activity_siti_code",
+          "b40_activity_uuid_lpg",
+          "b30_material_or_equipment_siti_code",
+          "b30_uuid_lpg",
+          "b50_cost_or_spec_siti_code",
+          "b50_uuid_lpg",
+          "b20_issuing_authority_siti_code",
+          "b10_reference_document_siti_code",
+          "a_intervened_asset_siti_code",
+          "a_intervened_asset_uuid_lpg",
+          "c2_assembly_recipe_id",
+          "decoupling_chain_cypher",
+          "source_library"
+        ],
+        "flagged_tax_or_pii_columns": [
+          "measurement_unit"
+        ],
+        "distributed_verbatim_without_redaction": false,
+        "production_size_bytes": 58551,
+        "production_sha256": "dff6acc882e7f05053b2bd815f0e30fc86335bebb9d62fbfd2feda6957707bb3",
+        "production_sha256_16": "dff6acc882e7f050"
+      },
+      {
+        "canonical_filename": "siti_ingesta_documental_grounding_tricapa.parquet",
+        "relative_c3_path": "siti_ingesta_documental_grounding_tricapa.parquet",
+        "num_rows": 603,
+        "num_columns": 20,
+        "columns": [
+          "grounding_record_id",
+          "ingestion_id",
+          "created_at",
+          "primary_filename",
+          "detected_format",
+          "coverage_status",
+          "extracted_record_count",
+          "source_bytes",
+          "source_sha256",
+          "recepcion_json_sha256",
+          "analisis_json_sha256",
+          "historical_publication_revision",
+          "c1_b10_document_class",
+          "c1_b40_process_class",
+          "c1_b50_parameter_class",
+          "c1_a_physical_class",
+          "c1_a_physical_uuid_lpg",
+          "c2_assembly_recipe_id",
+          "c3_shacl_shape_id",
+          "rdonly_verified"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 72628,
+        "production_sha256": "ac59fc01cf88fc80f63ae3d624267711d89fe850e4e53082579847a0cdf15f49",
+        "production_sha256_16": "ac59fc01cf88fc80"
+      },
+      {
+        "canonical_filename": "assets_spatial_instances_ani.parquet",
+        "relative_c3_path": "produccion_ani/assets_spatial_instances_ani.parquet",
+        "num_rows": 226322,
+        "num_columns": 13,
+        "columns": [
+          "uuid",
+          "tipo_siti",
+          "capa",
+          "proyecto",
+          "uf",
+          "codigo_invias",
+          "nombre",
+          "geojson_9377",
+          "geojson_4326",
+          "centroide_x_9377",
+          "centroide_y_9377",
+          "latitud_wgs84",
+          "longitud_wgs84"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 455875112,
+        "production_sha256": "0d7d2f2ed178fe233d15658c56a578648576db067eef5d902d15e9628c74bc97",
+        "production_sha256_16": "0d7d2f2ed178fe23"
+      },
+      {
+        "canonical_filename": "assets_spatial_instances.parquet",
+        "relative_c3_path": "assets_spatial_instances.parquet",
+        "num_rows": 5011,
+        "num_columns": 31,
+        "columns": [
+          "uuid_siti",
+          "siti_class_code",
+          "siti_table",
+          "nombre_activo",
+          "proyecto_id",
+          "unidad_funcional",
+          "ruta_nacional",
+          "pr_inicio",
+          "pr_fin",
+          "calzada",
+          "spatial_primitive",
+          "geometry_geojson",
+          "bbox_min_lat",
+          "bbox_min_lon",
+          "bbox_max_lat",
+          "bbox_max_lon",
+          "crs_epsg",
+          "usd_prototype_uri",
+          "pos_x",
+          "pos_y",
+          "pos_z",
+          "rot_qx",
+          "rot_qy",
+          "rot_qz",
+          "rot_qw",
+          "scale_x",
+          "scale_y",
+          "scale_z",
+          "lod_level",
+          "sha256_hash",
+          "fecha_ingesta"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 971910,
+        "production_sha256": "8d4f1f55dd49cbf7b817da36f4db96f988a15de84366339d2ed3971b5b06aeb8",
+        "production_sha256_16": "8d4f1f55dd49cbf7"
+      },
+      {
+        "canonical_filename": "peajes_ani_encabezados_global.parquet",
+        "relative_c3_path": "peajes_ani/peajes_ani_encabezados_global.parquet",
+        "num_rows": 17041,
+        "num_columns": 19,
+        "columns": [
+          "id_reporte",
+          "id_peaje",
+          "nombre_peaje",
+          "uuid_peaje",
+          "proyecto_ani_original",
+          "proyecto_canonico",
+          "uuid_proyecto",
+          "departamento",
+          "municipio",
+          "divipola",
+          "fecha_desde",
+          "fecha_hasta",
+          "fecha_corte",
+          "year",
+          "month",
+          "recaudo_sobrante_cop",
+          "recaudo_fsv_cop",
+          "trafico_polca",
+          "estado_operativo"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 336955,
+        "production_sha256": "63736bcba3c6c3050ee94ef54f998843835d0220d407ae17a607fdbaa80eadae",
+        "production_sha256_16": "63736bcba3c6c305"
+      },
+      {
+        "canonical_filename": "peajes_ani_detalles_global.parquet",
+        "relative_c3_path": "peajes_ani/peajes_ani_detalles_global.parquet",
+        "num_rows": 171420,
+        "num_columns": 14,
+        "columns": [
+          "id_reporte",
+          "id_peaje",
+          "nombre_peaje",
+          "categoria_tarifa",
+          "es_eje_adicional",
+          "tarifa_cop",
+          "trafico_pago",
+          "trafico_evasores",
+          "trafico_exentos_787",
+          "trafico_total",
+          "recaudo_pago_cop",
+          "recaudo_evasores_cop",
+          "recaudo_total_cop",
+          "tpdm_categoria"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 4146491,
+        "production_sha256": "e808d8a980b40102e2f0c98e56befbd48741c2cd8e4a0f1a11377e68d198b043",
+        "production_sha256_16": "e808d8a980b40102"
+      },
+      {
+        "canonical_filename": "capa3_peajes_ani_serie_historica.parquet",
+        "relative_c3_path": "capa3_peajes_ani_serie_historica.parquet",
+        "num_rows": 171420,
+        "num_columns": 23,
+        "columns": [
+          "IdReporte",
+          "IdPeaje",
+          "Peaje",
+          "Departamento",
+          "Municipio",
+          "Divipola",
+          "Proyecto",
+          "FechaDesde",
+          "FechaHasta",
+          "IdCategoriaTarifa",
+          "Tarifa",
+          "Trafico",
+          "TraficoEvasores",
+          "TraficoExentos787",
+          "TraficoTotal",
+          "Recaudo",
+          "RecaudoEvasores",
+          "RecaudoTotal",
+          "TPDM",
+          "FechaCorte",
+          "uuid_registro",
+          "year",
+          "month"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 6444394,
+        "production_sha256": "5792f8c1ca7194f942424c9b4f3fad6a4f8ee19e061c4456e037265faf070e31",
+        "production_sha256_16": "5792f8c1ca7194f9"
+      },
+      {
+        "canonical_filename": "capa3_peajes_ani_estaciones_maestro.parquet",
+        "relative_c3_path": "capa3_peajes_ani_estaciones_maestro.parquet",
+        "num_rows": 125,
+        "num_columns": 11,
+        "columns": [
+          "id_peaje",
+          "nombre_peaje",
+          "proyecto_canonico",
+          "departamento",
+          "municipio",
+          "codigo_divipola",
+          "categorias_activas",
+          "trafico_mensual_bruto",
+          "recaudo_mensual_cop",
+          "tpdm_estacion",
+          "estado_operativo"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 7455,
+        "production_sha256": "bc6c59f9f645ec0176a7a7425116d6db21bbdcdb0e7b003c21805e9bf87fa5c3",
+        "production_sha256_16": "bc6c59f9f645ec01"
+      },
+      {
+        "canonical_filename": "capa3_peajes_ani_resumen_oetr.parquet",
+        "relative_c3_path": "capa3_peajes_ani_resumen_oetr.parquet",
+        "num_rows": 151,
+        "num_columns": 7,
+        "columns": [
+          "year",
+          "month",
+          "estaciones_seguimiento",
+          "proyectos_seguimiento",
+          "trafico_total_mes",
+          "recaudo_total_mes",
+          "tpdm_mes"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 4001,
+        "production_sha256": "17a399726a83f5f8b9b4490f384bc850be6bc5ec87680709c085a61142764cbf",
+        "production_sha256_16": "17a399726a83f5f8"
+      },
+      {
+        "canonical_filename": "siti_ani_depreciacion_bup.parquet",
+        "relative_c3_path": "produccion_ani/siti_ani_depreciacion_bup.parquet",
+        "num_rows": 22976,
+        "num_columns": 10,
+        "columns": [
+          "id",
+          "proyecto",
+          "elemento",
+          "f_elemento",
+          "valor_total_proyecto",
+          "bienes_uso_publico_bup",
+          "propiedad_planta_equipo_ppe",
+          "predios",
+          "valor_elementos",
+          "numero_elementos"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 166766,
+        "production_sha256": "6ecd7994c8d68994ab094a3cfedb283dfc37139bc6cd997870784849c1fe8fe7",
+        "production_sha256_16": "6ecd7994c8d68994"
+      },
+      {
+        "canonical_filename": "siti_ani_corredores_ferreos.parquet",
+        "relative_c3_path": "produccion_ani/siti_ani_corredores_ferreos.parquet",
+        "num_rows": 4,
+        "num_columns": 24,
+        "columns": [
+          "uuid_corredor",
+          "proyecto_id_ani",
+          "codigo_corredor",
+          "nombre_corredor",
+          "codigo_siti_a20",
+          "nombre_clase_a20",
+          "codigo_siti_a30_via",
+          "nombre_clase_a30_via",
+          "codigo_trocha_b50",
+          "trocha_nominal_mm",
+          "trocha_descripcion",
+          "longitud_corredor_principal_km",
+          "longitud_total_red_ramales_km",
+          "longitud_doble_via_km",
+          "departamentos",
+          "nodo_origen",
+          "nodo_destino",
+          "esquema_contractual",
+          "referencia_contractual_secop",
+          "carga_maxima_por_eje_ton",
+          "velocidad_diseno_carga_km_h",
+          "ifc_entity",
+          "ifc_predefined_type",
+          "fuente_documental_auditada"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 7718,
+        "production_sha256": "b7d9be203fd9ceb007ffe93fcb2ce9a9823f041bbc9d06a219cf73a88d024ade",
+        "production_sha256_16": "b7d9be203fd9ceb0"
+      },
+      {
+        "canonical_filename": "siti_ani_activos_ferreos_auditados.parquet",
+        "relative_c3_path": "produccion_ani/siti_ani_activos_ferreos_auditados.parquet",
+        "num_rows": 14,
+        "num_columns": 14,
+        "columns": [
+          "uuid_activo",
+          "codigo_corredor",
+          "nombre_activo",
+          "pk_referencia",
+          "municipio",
+          "codigo_divipola",
+          "tabla_siti",
+          "codigo_siti",
+          "nombre_clase_siti",
+          "parent_intertabular_siti",
+          "codigo_material_b30",
+          "ifc_entity",
+          "ifc_predefined_type",
+          "fuente_documental"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 5190,
+        "production_sha256": "28ba113a4a9d7517c6292c5e2b6fcdda559dd4d2e2bd60ee082c2a88fd2f0d11",
+        "production_sha256_16": "28ba113a4a9d7517"
+      },
+      {
+        "canonical_filename": "siti_ani_material_rodante_auditado.parquet",
+        "relative_c3_path": "produccion_ani/siti_ani_material_rodante_auditado.parquet",
+        "num_rows": 7,
+        "num_columns": 12,
+        "columns": [
+          "uuid_flota",
+          "codigo_corredor",
+          "codigo_siti_b30",
+          "nombre_clase_b30",
+          "descripcion_flota_auditada",
+          "trocha_compatible_mm",
+          "codigo_trocha_b50",
+          "codigo_galibo_compatible_a30",
+          "ifc_entity",
+          "ifc_predefined_type",
+          "ifc_pset_default",
+          "fuente_documental"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 4879,
+        "production_sha256": "50b576db6fe4b93dae8d2b7c0e577637b0e6f39981596f1d05e710ea22bdb648",
+        "production_sha256_16": "50b576db6fe4b93d"
+      },
+      {
+        "canonical_filename": "siti_ani_indicadores_ferreos_at4.parquet",
+        "relative_c3_path": "produccion_ani/siti_ani_indicadores_ferreos_at4.parquet",
+        "num_rows": 7,
+        "num_columns": 8,
+        "columns": [
+          "uuid_indicador",
+          "codigo_indicador_contractual",
+          "codigo_siti_b50",
+          "nombre_clase_b50",
+          "parametro_medido",
+          "umbral_contractual_referencia",
+          "frecuencia_medicion",
+          "apendice_fuente"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 4262,
+        "production_sha256": "ebab5d22dff4ff9fab40b80743eaae26015c40d55cb7f2e5febc4792980ed38f",
+        "production_sha256_16": "ebab5d22dff4ff9f"
+      },
+      {
+        "canonical_filename": "condiciones_municipales.parquet",
+        "relative_c3_path": "condiciones_municipales.parquet",
+        "num_rows": 3604,
+        "num_columns": 25,
+        "columns": [
+          "assertion_id",
+          "municipality_code",
+          "municipality_uri",
+          "municipality_lpg_uuid",
+          "divipola",
+          "municipality_name",
+          "territorial_type",
+          "property_code",
+          "category",
+          "membership",
+          "review_status",
+          "scope",
+          "normative_regime",
+          "valid_from",
+          "valid_to",
+          "valid_time_basis",
+          "legal_effective_date",
+          "recorded_from",
+          "recorded_to",
+          "verified_through",
+          "source_id",
+          "source_sha256",
+          "locator",
+          "basis",
+          "subregion"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 216593,
+        "production_sha256": "d3c3482c5dca91e0375f918b247e7305253e9cb8cf5e8b0bf371b4bf641cdaf9",
+        "production_sha256_16": "d3c3482c5dca91e0"
+      },
+      {
+        "canonical_filename": "municipios_divipola.parquet",
+        "relative_c3_path": "municipios_divipola.parquet",
+        "num_rows": 1121,
+        "num_columns": 13,
+        "columns": [
+          "divipola",
+          "municipality_code",
+          "municipality_name",
+          "dane_name",
+          "department_code",
+          "territorial_type",
+          "source_id",
+          "source_sha256",
+          "source_edition",
+          "review_status",
+          "mapping_method",
+          "locator",
+          "review_evidence"
+        ],
+        "flagged_tax_or_pii_columns": [],
+        "distributed_verbatim_without_redaction": true,
+        "production_size_bytes": 36983,
+        "production_sha256": "b64f21e7088253c296375c929e67838e4e2911e4bd52585a32bb66633e646937",
+        "production_sha256_16": "b64f21e7088253c2"
+      },
+      {
+        "canonical_filename": "assets_predios_cadastre.parquet",
+        "relative_c3_path": "assets_predios_cadastre.parquet",
+        "num_rows": 30,
+        "num_columns": 21,
+        "columns": [
+          "uuid_siti",
+          "siti_class_code",
+          "cedula_catastral",
+          "folio_matricula",
+          "nombre_predio",
+          "proyecto_id",
+          "unidad_funcional",
+          "ruta_nacional",
+          "pr_abscisa",
+          "area_afectada_m2",
+          "propietario_titular",
+          "estado_predial",
+          "avaluo_catastral_cop",
+          "avaluo_comercial_cop",
+          "compensacion_social_cop",
+          "costo_total_adquisicion_cop",
+          "geometry_geojson",
+          "crs_epsg",
+          "fecha_inspeccion",
+          "disponibilidad_obra",
+          "sha256_hash"
+        ],
+        "flagged_tax_or_pii_columns": [
+          "cedula_catastral"
+        ],
+        "distributed_verbatim_without_redaction": false,
+        "production_size_bytes": 13128,
+        "production_sha256": "888ccecc205df0fa3ef8d7d906925be9ae293d9608c1f56f491e795b583d7749",
+        "production_sha256_16": "888ccecc205df0fa"
+      }
+    ],
+    "siti_ani_proyectos_internal_production": {
+      "canonical_filename": "siti_ani_proyectos.parquet",
+      "relative_c3_path": "produccion_ani/siti_ani_proyectos.parquet",
+      "num_rows": 50,
+      "num_columns": 10,
+      "columns": [
+        "project_id",
+        "nombre",
+        "nit",
+        "entidad",
+        "modo",
+        "etapa",
+        "longitud_km",
+        "avance_fisico_ejecutado",
+        "avance_financiero_ejecutado",
+        "empleos_generados"
+      ],
+      "flagged_tax_or_pii_columns": [
+        "nit"
+      ],
+      "distributed_verbatim_without_redaction": false,
+      "production_size_bytes": 6313,
+      "production_sha256": "032e0f8f67fca33619247b0fb6f9c84e8481b059aec8369355912d1f16a59e94",
+      "production_sha256_16": "032e0f8f67fca336"
+    },
+    "siti_ani_proyectos_public_anonymized": {
+      "filename": "siti_ani_proyectos_public_anonymized.parquet",
+      "anonymized_columns": [
+        "nit"
+      ],
+      "pseudonymization_rule": "ANON_NIT_<UPPER(SHA256(UTF8(nit))[:12])>",
+      "analytical_parity_q15_verified": true,
+      "size_bytes": 6651,
+      "st_blocks": 16,
+      "mtime_ns": 1794345055062534483,
+      "sha256": "48c07b0a2ce15783550d1bcd1f278c1a8d8497bf1cc09f514c9109286e23a86d",
+      "sha256_16": "48c07b0a2ce15783"
+    },
+    "assets_predios_cadastre_public_anonymized": {
+      "masked_columns": [
+        "cedula_catastral",
+        "folio_matricula",
+        "propietario_titular"
+      ],
+      "size_bytes": 13534,
+      "st_blocks": 32,
+      "mtime_ns": 1794345055068350756,
+      "sha256": "72f552c4d4c67b96917fcf32dc099c18b9251bc91fe5aab6cce45a2311244840",
+      "sha256_16": "72f552c4d4c67b96"
+    }
+  },
+  "c72_materialized_and_oetr_c3_containers": {
+    "scheme_e3_unboxed_eav_parquet": {
+      "filename": "siti_c3_unboxed_eav_b50_2715888_seed20261102.parquet",
+      "rows": 2715888,
+      "columns": [
+        "entity_idx:int32",
+        "property_siti_code:dictionary<values=string, indices=int32, ordered=0>",
+        "val_float64:double",
+        "valid_from_epoch:int64",
+        "tx_seq:int64"
+      ],
+      "arrow_uncompressed_nbytes": 86909100,
+      "arrow_bytes_per_row": 32.0003,
+      "compression": "ZSTD",
+      "size_bytes": 25652802,
+      "st_blocks": 50104,
+      "mtime_ns": 1794345055405855481,
+      "sha256": "21059f48f53be866d024ca85868493105e1f638d58726a39516e50662420b763",
+      "sha256_16": "21059f48f53be866"
+    },
+    "projected_8col_operational_soa": {
+      "standalone_filename": "siti_ani_activos_principales_soa_8cols.parquet",
+      "standalone_snappy_filename": "siti_ani_activos_principales_soa_8cols_snappy.parquet",
+      "rows": 226324,
+      "columns": [
+        "codigo_siti",
+        "tabla_siti",
+        "tabla_origen_ani",
+        "proyecto_id",
+        "material_normalizado",
+        "estado_operativo",
+        "longitud_metros",
+        "area_m2"
+      ],
+      "internal_rowgroup_compressed_slice_bytes": 220085,
+      "internal_rowgroup_uncompressed_slice_bytes": 364704,
+      "standalone_parquet_meta": {
+        "size_bytes": 225011,
+        "st_blocks": 440,
+        "mtime_ns": 1794345055447061535,
+        "sha256": "0ed123eab69a0b1359805fb990033b09e7930182413dc486947dda8735a99398",
+        "sha256_16": "0ed123eab69a0b13"
+      },
+      "standalone_snappy_parquet_meta": {
+        "size_bytes": 252567,
+        "st_blocks": 496,
+        "mtime_ns": 1794345055469548158,
+        "sha256": "2d0e0560300e6fd269d48d83ee7d4ce6b5c7bc6c69a842e06f9402c047ca8f27",
+        "sha256_16": "2d0e0560300e6fd2"
+      }
+    },
+    "oetr_canonical_5_parquets_360157_rows": {
+      "summary": {
+        "files_count": 5,
+        "total_rows": 360157,
+        "total_bytes": 10939296,
+        "portable_manifest_sha256": "09fdc02f478ce5c658219dfa5710d98a3767b68361457ebf218cf13ac485feeb",
+        "portable_manifest_sha256_16": "09fdc02f478ce5c6"
+      },
+      "per_file_entries": [
+        {
+          "relative_c3_path": "peajes_ani/peajes_ani_detalles_global.parquet",
+          "num_rows": 171420,
+          "num_columns": 14,
+          "size_bytes": 4146491,
+          "st_blocks": 8104,
+          "mtime_ns": 1792251528368999958,
+          "sha256": "e808d8a980b40102e2f0c98e56befbd48741c2cd8e4a0f1a11377e68d198b043",
+          "sha256_16": "e808d8a980b40102"
+        },
+        {
+          "relative_c3_path": "peajes_ani/peajes_ani_encabezados_global.parquet",
+          "num_rows": 17041,
+          "num_columns": 19,
+          "size_bytes": 336955,
+          "st_blocks": 664,
+          "mtime_ns": 1792251528329999923,
+          "sha256": "63736bcba3c6c3050ee94ef54f998843835d0220d407ae17a607fdbaa80eadae",
+          "sha256_16": "63736bcba3c6c305"
+        },
+        {
+          "relative_c3_path": "capa3_peajes_ani_serie_historica.parquet",
+          "num_rows": 171420,
+          "num_columns": 23,
+          "size_bytes": 6444394,
+          "st_blocks": 12592,
+          "mtime_ns": 1792251520591000080,
+          "sha256": "5792f8c1ca7194f942424c9b4f3fad6a4f8ee19e061c4456e037265faf070e31",
+          "sha256_16": "5792f8c1ca7194f9"
+        },
+        {
+          "relative_c3_path": "capa3_peajes_ani_estaciones_maestro.parquet",
+          "num_rows": 125,
+          "num_columns": 11,
+          "size_bytes": 7455,
+          "st_blocks": 16,
+          "mtime_ns": 1792251520641000032,
+          "sha256": "bc6c59f9f645ec0176a7a7425116d6db21bbdcdb0e7b003c21805e9bf87fa5c3",
+          "sha256_16": "bc6c59f9f645ec01"
+        },
+        {
+          "relative_c3_path": "capa3_peajes_ani_resumen_oetr.parquet",
+          "num_rows": 151,
+          "num_columns": 7,
+          "size_bytes": 4001,
+          "st_blocks": 8,
+          "mtime_ns": 1792251520678999900,
+          "sha256": "17a399726a83f5f8b9b4490f384bc850be6bc5ec87680709c085a61142764cbf",
+          "sha256_16": "17a399726a83f5f8"
+        }
+      ]
+    },
+    "oetr_consolidated_2_parquets_188461_rows": {
+      "files_count": 2,
+      "total_rows": 188461,
+      "total_bytes": 4483446,
+      "portable_manifest_sha256": "78b0cbfd2079f3ca7a5175f16d2d706db17314716356452396d40d085f74bcdd",
+      "portable_manifest_sha256_16": "78b0cbfd2079f3ca"
+    },
+    "telemetry_iot_and_hive_major_parquets": [
+      {
+        "relative_c3_path": "telemetry_iot_sensors.parquet",
+        "num_rows": 100000,
+        "num_columns": 8,
+        "size_bytes": 2628249,
+        "st_blocks": 5136,
+        "mtime_ns": 1787328297279000043,
+        "sha256": "88a384d0d060c5b2022e520e59b2a94567b389e764984fd57e6160accc015e60",
+        "sha256_16": "88a384d0d060c5b2"
+      },
+      {
+        "relative_c3_path": "hive_telemetry/year=2026/month=8/b07316c480d84734961945867dc804cc-0.parquet",
+        "num_rows": 100000,
+        "num_columns": 6,
+        "size_bytes": 2572440,
+        "st_blocks": 5032,
+        "mtime_ns": 1787328297259999990,
+        "sha256": "cc3e4804720026ca8e49cc524e6b2eb61f0b653f13241c085d435b563c84058c",
+        "sha256_16": "cc3e4804720026ca"
+      }
+    ],
+    "telemetry_ingested_24_blocks_38_rows": {
+      "files_count": 24,
+      "total_rows": 38,
+      "total_bytes": 103841,
+      "portable_manifest_sha256": "5d88b69ab942fb1f1b726c66a131713100caebf0b490ed3d00afd48d3e7261f0",
+      "portable_manifest_sha256_16": "5d88b69ab942fb1f"
+    },
+    "core_lakehouse_by_functional_domain": {
+      "01_ROOT_CORE_LAKEHOUSE": {
+        "files_count": 26,
+        "total_rows": 1696768,
+        "total_bytes": 46328245,
+        "portable_manifest_sha256": "0bca9e6843d25775ef20f092ea017302760ab57a592c2ca61ef62c2bc3bd9dc9",
+        "portable_manifest_sha256_16": "0bca9e6843d25775"
+      },
+      "02_PRODUCCION_ANI_CORE": {
+        "files_count": 14,
+        "total_rows": 476300,
+        "total_bytes": 474588574,
+        "portable_manifest_sha256": "fd4d9d351d5360f80783e55e606f8c8aa0f239c9eeb9b94e331010cb50113372",
+        "portable_manifest_sha256_16": "fd4d9d351d5360f8"
+      },
+      "03_PEAJES_OETR_CORE": {
+        "files_count": 2,
+        "total_rows": 188461,
+        "total_bytes": 4483446,
+        "portable_manifest_sha256": "78b0cbfd2079f3ca7a5175f16d2d706db17314716356452396d40d085f74bcdd",
+        "portable_manifest_sha256_16": "78b0cbfd2079f3ca"
+      },
+      "04_GODS_EYE_GEOSPATIAL_LIVE": {
+        "files_count": 8,
+        "total_rows": 649,
+        "total_bytes": 236658,
+        "portable_manifest_sha256": "189ef21469ab0451a78ee0b6a4570903facf612cb2451ee739fc0cb25f378434",
+        "portable_manifest_sha256_16": "189ef21469ab0451"
+      },
+      "05_INGESTA_DOCUMENTAL_GROUNDING": {
+        "files_count": 1,
+        "total_rows": 603,
+        "total_bytes": 72628,
+        "portable_manifest_sha256": "4c2297502ec03f8e1a1b098331edfa4db5965536528da16bbad881e2ef24acfe",
+        "portable_manifest_sha256_16": "4c2297502ec03f8e"
+      },
+      "06_INGESTA_DOCUMENTAL_RECEPCIONES": {
+        "files_count": 638,
+        "total_rows": 32983,
+        "total_bytes": 4832206,
+        "portable_manifest_sha256": "bd9b0b80c1c7d11937a515401be04a578486d3d8dab0af17f8f8f08d36453576",
+        "portable_manifest_sha256_16": "bd9b0b80c1c7d119"
+      },
+      "07_INTERMODAL_EXPEDIENTES": {
+        "files_count": 105,
+        "total_rows": 15153,
+        "total_bytes": 1332210,
+        "portable_manifest_sha256": "8713129f03775618351f2387cd3b0428dea8f5354c8597150d4a8a136c76febc",
+        "portable_manifest_sha256_16": "8713129f03775618"
+      },
+      "08_TELEMETRIA_INGESTADA": {
+        "files_count": 24,
+        "total_rows": 38,
+        "total_bytes": 103841,
+        "portable_manifest_sha256": "5d88b69ab942fb1f1b726c66a131713100caebf0b490ed3d00afd48d3e7261f0",
+        "portable_manifest_sha256_16": "5d88b69ab942fb1f"
+      },
+      "09_HIVE_PARTITIONED_TABLES": {
+        "files_count": 6,
+        "total_rows": 100009,
+        "total_bytes": 2586605,
+        "portable_manifest_sha256": "2bdd8dae32982cb841af9e022cf5db79a2ebd0c912c084065fcef6521db94dd4",
+        "portable_manifest_sha256_16": "2bdd8dae32982cb8"
+      }
+    },
+    "core_lakehouse_824_parquets_2510964_rows": {
+      "files_count": 824,
+      "total_rows": 2510964,
+      "total_bytes": 534564413,
+      "portable_manifest_sha256": "a3c12313359fcf96a997e976430dc3dd3692ac1d0a58c21880a3e03b9201186b",
+      "portable_manifest_sha256_16": "a3c12313359fcf96"
+    },
+    "landing_cde_638_parquets_32983_rows": {
+      "files_count": 638,
+      "total_rows": 32983,
+      "total_bytes": 4832206,
+      "portable_manifest_sha256": "bd9b0b80c1c7d11937a515401be04a578486d3d8dab0af17f8f8f08d36453576",
+      "portable_manifest_sha256_16": "bd9b0b80c1c7d119"
+    },
+    "active_lakehouse_2664_parquets_all": {
+      "files_count": 2664,
+      "total_rows": 3880617,
+      "total_bytes": 569916655,
+      "portable_manifest_sha256": "51ab5fde4b98c41c266c26a68d43fc280436badb2332d3d866cd68bc93d81a0a",
+      "portable_manifest_sha256_16": "51ab5fde4b98c41c"
+    }
+  },
+  "c70_canonical_section_and_filename_fixes": {
+    "section_reference_replacements": {
+      "sections 2.0–2.1": "sections 2–2.1",
+      "sections 2.0–2.3": "sections 2–2.3"
+    },
+    "cde_grounding_singular_canonical_filename": "siti_ingesta_documental_grounding_tricapa.parquet",
+    "enu_spatial_instances_verified_sha256": {
+      "size_bytes": 971910,
+      "st_blocks": 1904,
+      "mtime_ns": 1787328297322000026,
+      "sha256": "8d4f1f55dd49cbf7b817da36f4db96f988a15de84366339d2ed3971b5b06aeb8",
+      "sha256_16": "8d4f1f55dd49cbf7"
+    }
+  },
+  "english_package_synchronized_digests": {
+    "Appendix_A_Three_Layer_Corpus_and_CAS_Lineage.md": {
+      "size_bytes": 40402,
+      "sha256": "a018203ecf15c865ad0db2ac9db02035cc966387c8c47c8d2ce448ce1b69b5af"
+    },
+    "Appendix_B_Orthogonal_AB_Decoupling_and_Phi_Ont.md": {
+      "size_bytes": 32560,
+      "sha256": "e419a6f56412218ec438f4b577d3e27f0532973c826a6d626af9b2d4ecdb9365"
+    },
+    "Appendix_C_Shannon_Entropy_SKOS_and_Phi_Sem.md": {
+      "size_bytes": 32587,
+      "sha256": "5c46b140c6492e102f149f3bc8bd762a1c6ff70394f537d55c3fe9c39b2b5abf"
+    },
+    "Appendix_D_Query_Time_Relationship_Reconstruction_Benchmark.md": {
+      "size_bytes": 40912,
+      "sha256": "e3849c5fcf6562e64163a5825d72e9fd5de53e47630788cb62620534b7ebd9b6"
+    },
+    "Appendix_E_Bimodal_Geometry_vs_Unboxed_EAV_Telemetry.md": {
+      "size_bytes": 33202,
+      "sha256": "a23b30dfc04425d567fdab95308625ad4ace4d2f195fc24d76e299a72fef64cb"
+    },
+    "Appendix_F_Longitudinal_SII_Evolution_and_Sensitivity.md": {
+      "size_bytes": 30325,
+      "sha256": "42d46f9cf72e5e85af17bc4b6a03f9157068b66d5dadb0a6407024a420c5d326"
+    },
+    "Supplementary_Appendices_A_to_F_ITcon_Q1.md": {
+      "size_bytes": 213423,
+      "sha256": "924a04483b2173286835016a01d987038ffa8d41dd016c034624f8a0efa60318"
+    },
+    "wave1_checkpoint.json": {
+      "size_bytes": 5885,
+      "sha256": "b0db62e54a852be0dfd757bf5e517cf67b8b354984e1a5bc7c0e5b8a070dbcfc"
+    },
+    "wave2_checkpoint.json": {
+      "size_bytes": 7941,
+      "sha256": "e1f01c96d5eba2ef7b03ad34204fefab59df1188a0235611e8cf32a21bb9eaae"
+    },
+    "wave3_checkpoint.json": {
+      "size_bytes": 6713,
+      "sha256": "5691d5e4dda2c71161368787e247672e15b4aa128e1506da6cebef346cb4b783"
+    },
+    "wave4_checkpoint.json": {
+      "size_bytes": 7416,
+      "sha256": "3a3c43d6ef30382dcca3ebad719fac4b830312c60f8677e3ae20320aa3610584"
+    },
+    "wave5_checkpoint.json": {
+      "size_bytes": 6788,
+      "sha256": "0c26da5dfd0e41c9ac52ab3df41ebbf3994bcf2b09d9a738f491b0a2a0d7c107"
+    },
+    "wave6_final_checkpoint.json": {
+      "size_bytes": 17965,
+      "sha256": "4dd979564db7a58b1b257cdc935ba1eaf3c784e602e84b7642ba89e464801860"
+    },
+    "wave7_six_paradigm_ablation_50_queries.csv": {
+      "size_bytes": 16076,
+      "sha256": "09899589c697d70fddf9757ac96393a58d37aeef2335350ee9228ad3cf49b3b3"
+    }
+  }
+}

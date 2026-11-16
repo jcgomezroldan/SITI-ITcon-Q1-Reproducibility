@@ -1,0 +1,317 @@
+code,name,table_id,inter_in_deg,inter_out_deg,intertabular_degree,pa_full_count,ch_full_count,sp_full_count,markov_blanket_full_size,markov_blanket_inter_size,extraction_latency_us,phi_eff_markov_isolation_full_pct,phi_eff_markov_isolation_inter_pct,hub_rank
+A30_035_005_040,Calzada o carril vehicular,A30,17,34,51,18,32,61,97,96,25.0,99.3963,99.4024,1
+A40_045_005_030,Sistema de pavimento o calzada flexible,A40,5,23,28,6,22,55,77,76,15.959,99.5195,99.5256,2
+B10_010_030_015,Contrato de obra pública e interventoría de infraestructura vial y fluvial (INVIAS),B10,17,26,43,17,24,36,70,69,18.084,99.5626,99.5688,3
+B40_020_035_920,Actividades de riegos bituminosos y capas de pavimentos asfálticos (Capítulo 400 INVIAS),B40,12,27,39,13,27,40,68,67,17.083,99.5749,99.5811,4
+A40_140_010,Circuito de vía de audiofrecuencia sin juntas,A40,11,17,28,12,18,50,67,66,15.75,99.5811,99.5872,5
+B20_025_005_00024,Agencia Nacional de Infraestructura - ANI,B20,0,38,38,1,33,44,65,64,14.25,99.5934,99.5996,6
+B40_025_005_015,"Limpieza hidrodinámica, descolmatación y conservación preventiva de obras de drenaje",B40,13,12,25,14,12,39,62,61,11.167,99.6119,99.618,7
+B40_020_035_910,"Actividades de explanación, excavación de cortes y conformación de terraplenes (Capítulo 200 INVIAS)",B40,9,13,22,10,13,50,62,61,12.583,99.6119,99.618,8
+A40_085_005_005,Superestructura,A40,4,18,22,5,16,44,59,58,14.083,99.6304,99.6365,9
+B40_020_035_905,"Actividades preliminares, desmonte, limpieza y demoliciones en carreteras (Capítulo 200 INVIAS)",B40,4,12,16,5,12,52,59,58,13.208,99.6304,99.6365,10
+A10_025_065_015,Predio e inmueble afectado por adquisición predial y derecho de vía,A10,2,11,13,3,11,47,56,55,16.917,99.6488,99.655,11
+B40_020_035_930,"Actividades de estructuras de concreto, acero, cimentaciones profundas y puentes (Capítulo 600 INVIAS)",B40,7,15,22,8,15,37,54,53,11.583,99.6612,99.6673,12
+B10_010_010_210,"Apéndice técnico 4 (AT4) - Indicadores de disponibilidad, seguridad y nivel de servicio",B10,6,14,20,7,15,33,54,52,12.042,99.6612,99.6735,13
+A50_015_005_025,Segregador físico y confinamiento de ciclorruta y carril exclusivo no motorizado,A50,9,11,20,10,12,40,54,52,11.417,99.6612,99.6735,14
+A30_035_010_015,Estación de peaje,A30,4,12,16,5,12,39,52,50,10.917,99.6735,99.6858,15
+B40_020_035_940,"Actividades de señalización vial, demarcación horizontal, defensas e iluminación (Capítulo 700 INVIAS)",B40,10,8,18,11,8,34,50,49,8.291,99.6858,99.692,16
+A30_035_005_075,"Zona funcional de túnel carretero, galería de evacuación y portal",A30,4,8,12,5,8,40,50,49,9.375,99.6858,99.692,17
+A40_055_005,Sistemas de pesaje según la modalidad de operación,A40,6,9,15,7,9,39,49,48,11.291,99.692,99.6981,18
+A40_085_005_010,Subestructura,A40,4,10,14,5,8,40,49,48,9.209,99.692,99.6981,19
+A50_050_060_010,"Aguja, contraaguja y tirante de maniobra de aparato de desvío ferroviario",A50,4,6,10,5,6,42,49,48,9.042,99.692,99.6981,20
+A50_040_045_055,Dispositivo de apoyo sísmico y aislador de superestructura de puente,A50,4,7,11,5,6,39,47,46,8.917,99.7043,99.7104,21
+B10_010_030_010,Plan de Ejecución BIM (BEP) y matriz de requisitos de intercambio de información (ISO 19650),B10,7,11,18,8,11,33,46,45,10.959,99.7104,99.7166,22
+B40_010_020_015,"Gestión y adquisición predial, saneamiento catastral, licenciamiento ambiental y traslado de redes",B40,10,7,17,11,7,32,46,45,8.208,99.7104,99.7166,23
+B40_020_035_925,Actividades de pavimentos de concreto hidráulico y elementos prefabricados (Capítulo 500 INVIAS),B40,4,11,15,5,11,36,46,45,9.292,99.7104,99.7166,24
+B10_010_010_255,Contrato de concesión de cuarta generación (4G) bajo esquema de asociación público-privada,B10,5,9,14,5,9,36,46,45,9.583,99.7104,99.7166,25
+B40_020_035_915,"Actividades de afirmados, subbases y bases granulares y estabilizadas (Capítulo 300 INVIAS)",B40,4,9,13,5,9,35,46,45,8.709,99.7104,99.7166,26
+B20_025_005_00010,Acueducto y Alcantarillado de Popayán S.A. - AAPSA,B20,0,21,21,1,19,32,45,44,12.083,99.7166,99.7228,27
+B10_010_010_260,Contrato de concesión del programa Bicentenario de quinta generación (5G) multimodal,B10,4,10,14,4,10,34,45,44,9.625,99.7166,99.7228,28
+B40_020_035_935,"Actividades de obras de drenaje vial, subdrenaje, alcantarillas y contención (Capítulo 600 INVIAS)",B40,5,8,13,6,8,34,45,44,8.583,99.7166,99.7228,29
+B10_010_010_230,"Apéndice Técnico 3 (AT3) — Especificaciones generales de diseño, obra y material rodante",B10,3,10,13,4,10,33,45,44,11.125,99.7166,99.7228,30
+B20_015_005_020,Vicepresidencia de estructuración,B20,0,22,22,1,21,34,43,42,12.667,99.7289,99.7351,31
+B10_010_010_245,"Apéndice Técnico 7 (AT7) — Gestión predial, adquisición de franjas y reasentamiento",B10,9,9,18,8,9,32,43,42,10.333,99.7289,99.7351,32
+B40_020_035_945,"Actividades de obras complementarias, bioingeniería, geotecnia y transporte de materiales (Capítulos 800 y 900 INVIAS)",B40,4,7,11,4,7,34,42,41,7.208,99.7351,99.7413,33
+B10_015_005_015,"Norma Colombiana de Diseño de Puentes (CCP-14 LRFD), Manual de Drenaje y Manual de Túneles INVIAS",B10,5,11,16,5,11,29,41,40,10.083,99.7413,99.7474,34
+B10_010_010_240,"Apéndice Técnico 6 (AT6) — Gestión ambiental, licenciamiento y compensaciones",B10,6,7,13,6,7,32,41,40,10.166,99.7413,99.7474,35
+A50_040_045_060,Junta de dilatación estructural de tablero de puente y viaducto,A50,3,5,8,4,5,34,41,40,7.083,99.7413,99.7474,36
+B10_010_010_250,"Apéndice Técnico 8 (AT8) — Gestión social, participación comunitaria y consulta previa",B10,8,6,14,7,6,32,40,39,8.083,99.7474,99.7536,37
+B40_025_005_025,"Operación continua de recaudo electrónico de peaje (IP/REV), pesaje dinámico WIM y asistencia vial",B40,8,7,15,8,7,26,38,37,7.167,99.7597,99.7659,38
+B20_015_005_015,Vicepresidencia ejecutiva,B20,0,10,10,1,9,33,37,36,8.583,99.7659,99.7721,39
+B10_005_015_005,Ficha de proyecto de inversión pública en el Banco de Programas y Proyectos (BPIN),B10,4,6,10,5,6,28,36,35,7.708,99.7721,99.7782,40
+A20_035_005_020,Corredor logístico troncal de integración intermodal,A20,3,8,11,4,9,22,34,33,6.333,99.7844,99.7905,41
+B40_020_035_730_4,Poda de la parte aérea de árboles tipo I,B40,2,2,4,3,2,29,33,32,5.583,99.7905,99.7967,42
+A40_045_005_035,Sistema de pavimento o calzada fotocatalítico,A40,1,3,4,2,3,28,32,31,6.333,99.7967,99.8029,43
+B40_020_035_731_1,Poda de la parte aérea de árboles tipo II,B40,2,2,4,3,2,25,29,28,4.333,99.8152,99.8213,44
+B20_030_005_040,Operador de recaudo electrónico interoperable de peajes (IP/REV) y operador de centro de control (CCO),B20,0,8,8,1,7,24,28,27,6.041,99.8213,99.8275,45
+A30_015_065,Vía férrea sobre balasto,A30,2,6,8,3,6,19,28,27,6.042,99.8213,99.8275,46
+B30_010_005_175,"Agregado pétreo seleccionado y triturado para afirmado, subbase y base granular (Clases A, B y C)",B30,25,0,25,26,0,0,26,25,3.542,99.8337,99.8398,47
+B20_030_005_025,Ingeniero independiente y laboratorio metrológico acreditado (ISO/IEC 17025),B20,0,10,10,1,9,19,25,24,6.042,99.8398,99.846,48
+B10_010_010_235,Apéndice Técnico 5 (AT5) — Gestión e intervención de interferencias con redes de servicios,B10,4,3,7,4,3,18,23,22,11.041,99.8521,99.8583,49
+B30_010_020_180,Concreto hidráulico estructural por clase de resistencia a compresión (Clases A a G — Artículo 630 INVIAS),B30,23,0,23,22,0,0,22,21,2.25,99.8583,99.8645,50
+B50_010_035_005_005_045,Profundidad de ahuellamiento y deformación plástica permanente en pavimento flexible - E2,B50,22,0,22,22,0,0,22,21,2.0,99.8583,99.8645,51
+B30_010_040_180,Torón de acero de baja relajación de siete alambres para preesfuerzo y tirantes,B30,22,0,22,21,0,0,21,20,2.542,99.8645,99.8706,52
+A50_040_045_015,Tensores de suspensión,A50,0,1,1,1,1,19,21,20,4.209,99.8645,99.8706,53
+B50_005_035_020,Sección 400 - Concreto hidráulico,B50,19,0,19,20,0,0,20,19,2.125,99.8706,99.8768,54
+B30_010_025_150,"Geotextil tejido y no tejido para separación, filtración y estabilización de subrasantes (Artículo 231 INVIAS)",B30,19,0,19,20,0,0,20,19,2.25,99.8706,99.8768,55
+A20_015_010_005,Red férrea nacional o troncal,A20,2,7,9,3,7,11,20,19,5.625,99.8706,99.8768,56
+B40_020_035,Ítems APU nacionales - infraestructura carretera,B40,2,1,3,3,1,16,20,19,3.542,99.8706,99.8768,57
+B50_035_060,"Presupuesto de inversión de capital (CAPEX), costos de operación y mantenimiento (OPEX) y precios unitarios APU",B50,17,0,17,18,0,0,18,17,1.916,99.8829,99.8891,58
+A30_035_005_070,"Zona funcional de puente, viaducto y paso elevado carretero",A30,1,5,6,2,5,12,18,17,4.667,99.8829,99.8891,59
+B40_020_015_095,"Desguarnecido, cribado mecanizado y restitución del prisma de balasto ferroviario",B40,1,3,4,2,3,13,18,17,3.333,99.8829,99.8891,60
+B50_040_015_005_005,Campo de cumplimiento normativo geométrico y cinemático de trazado vial y férreo,B50,0,1,1,1,2,16,18,17,2.708,99.8829,99.8891,61
+B50_005_015_015_005,Módulo dinámico de rigidez vertical de vía férrea bajo carga por eje nominal,B50,0,1,1,1,2,16,18,17,3.042,99.8829,99.8891,62
+B50_010_035_005_005_050,Porcentaje de área afectada por fisuración por fatiga (piel de cocodrilo) y baches en pavimento flexible - E3,B50,17,0,17,17,0,0,17,16,2.291,99.8891,99.8953,63
+A30_015_075,Zona de cambiavías y garganta de desvío ferroviario,A30,3,3,6,3,3,13,17,16,4.209,99.8891,99.8953,64
+B50_040_015_005_005_005,Vector gradiente inverso de restitución al dominio admisible de diseño geométrico,B50,0,1,1,1,1,16,17,17,2.458,99.8891,99.8891,65
+B50_005_015_015_005_005,Gradiente longitudinal máximo de variación de rigidez en cuña de transición estructura-terraplén,B50,0,1,1,1,1,16,17,17,2.542,99.8891,99.8891,66
+B20_040_015_055,"Especialista en sistemas ferroviarios, material rodante, señalización ERTMS/PTC y telecomunicaciones",B20,0,1,1,1,1,15,17,16,1.917,99.8891,99.8953,67
+B20_040_015_050,"Especialista en geotecnia, hidrología, hidráulica fluvial y gestión del riesgo de desastres",B20,0,1,1,1,1,15,17,16,2.25,99.8891,99.8953,68
+B20_040_015_045,"Especialista en diseño geométrico, pavimentos, estructuras de puentes y obras subterráneas",B20,0,1,1,1,1,15,17,16,2.375,99.8891,99.8953,69
+B20_015_020_050,Dirección Territorial Departamental y Administración Vial del INVIAS,B20,0,1,1,1,1,15,17,16,2.959,99.8891,99.8953,70
+B20_015_020_045,Dirección Técnica y de Estructuración y Subdirecciones Modales del INVIAS,B20,0,1,1,1,1,15,17,16,2.833,99.8891,99.8953,71
+B20_015_005_075,"Dirección General Marítima (DIMAR), Aeronáutica Civil (Aerocivil) y Cormagdalena",B20,0,1,1,1,1,15,17,16,2.541,99.8891,99.8953,72
+B20_015_005_070,Ministerio de Transporte — Viceministerio de Infraestructura y Viceministerio de Transporte,B20,0,1,1,1,1,15,17,16,2.666,99.8891,99.8953,73
+B20_015_005_065,Vicepresidencia de Gestión Contractual y Vicepresidencia Ejecutiva de la ANI,B20,0,1,1,1,1,15,17,16,2.542,99.8891,99.8953,74
+B20_015_005_060,"Vicepresidencia de Estructuración y Vicepresidencia de Planeación, Riesgos y Entorno de la ANI",B20,0,1,1,1,1,15,17,16,3.375,99.8891,99.8953,75
+B40_025_020_015,Prevalidación normativa en entorno aislado (Sandbox CWA) y registro en libro mayor inmutable,B40,3,5,8,4,5,7,16,15,3.334,99.8953,99.9014,76
+B40_025_010_020,"Recalce de cimentaciones, encamisado estructural y repotenciación sísmica de puentes",B40,1,3,4,2,3,11,16,15,3.416,99.8953,99.9014,77
+B40_020_015_090,Soldadura aluminotérmica y eléctrica por destello para conformación de riel largo soldado,B40,1,3,4,2,4,10,16,14,3.5,99.8953,99.9076,78
+B50_010_015_015_005,"Indicador de geometría de vía férrea: trocha, nivelación, alineación, peralte y alabeo (IF-1)",B50,13,0,13,14,0,0,14,13,1.875,99.9076,99.9138,79
+A10_025_065_005,Franja de reserva y aislamiento de corredor férreo,A10,0,6,6,1,7,7,14,13,6.958,99.9076,99.9138,80
+A50_050_035_070,Almohadilla amortiguadora bajo asiento de riel para control de rigidez vertical,A50,1,2,3,2,2,10,14,13,2.958,99.9076,99.9138,81
+B20_030_005_030,"Prestador de servicios financieros, prestamista senior y garante asegurador de proyecto APP",B20,0,2,2,1,2,11,14,13,3.0,99.9076,99.9138,82
+A50_050_055_055,Riel de perfil Vignole para vía general,A50,0,2,2,1,2,11,14,13,3.0,99.9076,99.9138,83
+A30_035_010_065,Zona de pesaje dinámico vehicular en movimiento (WIM),A30,5,2,7,6,3,6,13,12,3.542,99.9138,99.9199,84
+A30_015_080_015,Zona de transición de rigidez entre vía en balasto y estructura rígida,A30,1,4,5,2,5,7,13,11,3.625,99.9138,99.9261,85
+B40_025_010_010,Fresado estructural y reposición de carpeta asfáltica en caliente o tibia,B40,1,3,4,2,3,8,13,12,2.958,99.9138,99.9199,86
+B30_010_030_170,Cemento asfáltico modificado con polímeros elastoméricos SBS o grano de caucho reciclado (GCR),B30,12,0,12,12,0,0,12,11,1.708,99.9199,99.9261,87
+A20_015_070_005,Estación de pesaje dinámico ferroviario y detección de defectos en vía,A20,5,2,7,6,3,3,12,10,3.125,99.9199,99.9322,88
+B30_010_040_175,Acero perlítico de alta dureza tratado térmicamente en cabeza para rieles y desvíos,B30,10,0,10,11,0,0,11,10,1.917,99.9261,99.9322,89
+B10_015_005_005,Especificación general de construcción de carreteras y norma de ensayo INVIAS,B10,1,8,9,2,8,1,11,10,5.042,99.9261,99.9322,90
+B40_025_005_005,Auscultación funcional y estructural automatizada de red vial y férrea,B40,3,3,6,4,3,5,11,10,3.416,99.9261,99.9322,91
+B50_010_035_010_025,"Índice de condición estructural, socavación y gálibo de puentes, viaductos y pontones - E15 / BCI",B50,9,0,9,10,0,0,10,9,1.458,99.9322,99.9384,92
+A40_055_010_015,Sistema de pesaje dinámico en movimiento (WIM) con arreglo multisensorial,A40,6,2,8,7,3,1,10,8,3.0,99.9322,99.9446,93
+A50_035_025_080,Deflectómetro de impacto (FWD) y transductor sísmico de rigidez estructural,A50,5,1,6,6,1,3,10,9,2.167,99.9322,99.9384,94
+B40_025_010_005,Reciclaje profundo en frío in situ con asfalto espumado y estabilización estructural,B40,2,3,5,3,4,4,10,8,3.667,99.9322,99.9446,95
+A40_145_015_020,Sistema de control positivo de trenes y bloqueo móvil por radio (ITCS / PTC),A40,1,3,4,2,4,5,10,8,3.5,99.9322,99.9446,96
+B20_030_005_010_040,Proveedor o contratista de bienes y servicios,B20,0,3,3,1,3,6,10,9,3.167,99.9322,99.9384,97
+B20_040_015_035,Coordinador de federación geodésica GeoBIM y gestor del entorno común de datos (CDE),B20,0,2,2,1,2,8,10,9,2.583,99.9322,99.9384,98
+A30_035_005_045,Ciclorruta,A30,0,1,1,1,1,8,10,9,3.959,99.9322,99.9384,99
+B50_010_035_035,Tiempo máximo de cola y espera en estación de peaje y disponibilidad de carriles IP/REV - E18 / O1,B50,9,0,9,9,0,0,9,8,1.625,99.9384,99.9446,100
+B30_010_065_160,Compuesto elastomérico de policloropreno (neopreno) vulcanizado con láminas de acero para apoyos y sellos,B30,9,0,9,9,0,0,9,8,1.5,99.9384,99.9446,101
+B30_015_020_035,Locomotora diésel-eléctrica e híbrida de línea principal para tracción en trocha angosta y estándar,B30,8,0,8,9,0,0,9,8,1.458,99.9384,99.9446,102
+B30_010_065_155,Polímero reforzado con fibra de vidrio o carbono para uso estructural (GFRP / CFRP),B30,8,0,8,9,0,0,9,8,1.458,99.9384,99.9446,103
+B30_010_025_155,Geocompuesto planar de subdrenaje con núcleo polimérico tridimensional y filtro geotextil (Artículo 673 INVIAS),B30,8,0,8,9,0,0,9,8,1.708,99.9384,99.9446,104
+B50_040_015_005,Campo de cumplimiento normativo con signo y vector gradiente de subsanación,B50,7,0,7,8,1,0,9,7,2.0,99.9384,99.9507,105
+B20_030_005_020,"Firma de interventoría integral técnica, administrativa, financiera, ambiental y predial",B20,0,5,5,1,5,3,9,8,3.083,99.9384,99.9446,106
+A40_085_005_015,"Sistema de transición, aproche y amortiguación sísmica de puente y viaducto",A40,1,2,3,2,2,5,9,8,3.125,99.9384,99.9446,107
+B20_015_005_055,Autoridad nacional de consulta previa y de gestión catastral multipropósito,B20,0,2,2,1,2,6,9,8,2.875,99.9384,99.9446,108
+B20_040_010_030,"Coordinador de gestión predial, avalúos corporativos, gestión socioambiental y consulta previa",B20,0,1,1,1,1,7,9,8,2.292,99.9384,99.9446,109
+A50_040_040,Componentes de refuerzo estructural,A50,0,1,1,1,1,7,9,8,3.041,99.9384,99.9446,110
+A50_015_005_025_005,Segregador táctil y visual de canalización exclusiva de ciclorruta,A50,0,1,1,1,2,7,9,8,2.875,99.9384,99.9446,111
+A50_015_005_020_005,Terminal amortiguador de impacto redirectivo y no traspasable,A50,0,1,1,1,2,7,9,8,2.625,99.9384,99.9446,112
+B30_010_050_155,Recubrimiento termoplástico y plástico en frío con microesferas retrorreflectivas,B30,7,0,7,8,0,0,8,7,2.042,99.9446,99.9507,113
+B10_010_010_220,"Apéndice Técnico 1 (AT1) — Alcance del proyecto, unidades funcionales y sectorización",B10,5,1,6,6,2,0,8,6,3.375,99.9446,99.9569,114
+A50_050_055_060,Riel largo soldado de vía continua (RLS),A50,0,3,3,1,3,4,8,7,2.625,99.9446,99.9507,115
+A30_035_010_020_005_005,Carril de preselección de pesaje dinámico en movimiento,A30,1,1,2,2,1,5,8,7,2.875,99.9446,99.9507,116
+B10_010_010_220_005,Acta de evento eximente de responsabilidad por contingencia geotécnica o hidroclimática,B10,0,1,1,1,2,6,8,7,2.584,99.9446,99.9507,117
+B10_010_010_210_005,Apéndice técnico de indicadores de disponibilidad y nivel de servicio de corredor concesionado,B10,0,1,1,1,2,6,8,7,4.584,99.9446,99.9507,118
+A50_015_010_015,Señales horizontales o demarcaciones,A50,0,1,1,1,1,6,8,7,2.292,99.9446,99.9507,119
+A50_015_005_025_005_005,Segregador abatible de canalización de ciclorruta en intersección de prioridad ciclista,A50,0,1,1,1,1,7,8,8,2.125,99.9446,99.9446,120
+A50_015_005_020_005_005,Terminal amortiguador de impacto redirectivo telescópico reutilizable de alta disipación,A50,0,1,1,1,1,7,8,8,2.5,99.9446,99.9446,121
+B30_010_030_175,Emulsión asfáltica catiónica convencional y modificada con polímeros (Artículos 411 y 415 INVIAS),B30,6,0,6,7,0,0,7,6,1.834,99.9507,99.9569,122
+B30_010_030_155,Mezcla asfáltica de matriz pétrea (SMA) y mezcla tibia de alto módulo (WMA),B30,6,0,6,7,0,0,7,6,1.708,99.9507,99.9569,123
+B50_005_015_015,Deflexión vertical máxima y módulo de rigidez de vía en zona de transición ferroviaria,B50,5,0,5,6,1,0,7,5,2.167,99.9507,99.963,124
+B30_015_020_025,"Bateadora, alineadora y perfiladora pesada de balasto ferroviario",B30,3,1,4,4,2,1,7,5,2.208,99.9507,99.963,125
+A50_050_055_065,Junta aislante encolada de riel para aislamiento eléctrico de circuito de vía,A50,3,1,4,4,1,3,7,6,2.041,99.9507,99.9569,126
+B20_040_015_040,"Especialista en auscultación dinámica vial y ferroviaria, deflectometría y control geométrico",B20,0,2,2,1,2,4,7,6,2.042,99.9507,99.9569,127
+B20_040_005_025,Custodio criptográfico y operador humano en el bucle (HITL — Nivel L4 de soberanía SITI),B20,0,2,2,1,2,4,7,6,2.125,99.9507,99.9569,128
+B40_025_010_005_005,Reciclaje estructural de pavimento en espesor completo con asfalto espumado,B40,0,1,1,1,2,5,7,6,2.292,99.9507,99.9569,129
+B40_020_015_090_005,Soldadura eléctrica por destello y recalcado en vía para conformación de riel largo soldado,B40,0,1,1,1,2,5,7,6,2.875,99.9507,99.9569,130
+B20_040_005_015_005,Sociedad fiduciaria administradora de subcuenta de recaudo de peajes y retribución,B20,0,1,1,1,2,5,7,6,2.166,99.9507,99.9569,131
+B20_030_005_015_005,Operador ferroviario de transporte masivo de carga intermodal en corredor concesionado,B20,0,1,1,1,2,5,7,6,2.458,99.9507,99.9569,132
+B10_010_010_220_005_005,Acta de suspensión temporal de indicadores AT4 por cierre preventivo ante evento eximente,B10,0,1,1,1,1,6,7,7,2.334,99.9507,99.9507,133
+B10_010_010_210_005_005,Memoria mensual de liquidación del índice de cumplimiento y deducciones de retribución AT4,B10,0,1,1,1,1,6,7,7,2.792,99.9507,99.9507,134
+A30_015_080_015_005,Zona de transición de rigidez ferroviaria en aproximación a estribo de puente,A30,0,1,1,1,2,5,7,6,2.542,99.9507,99.9569,135
+B50_010_035_010_030,Capacidad hidráulica residual y porcentaje máximo de obstrucción en obras de drenaje - E10,B50,6,0,6,6,0,0,6,5,1.667,99.9569,99.963,136
+B40_025_020_010,Liquidación fiduciaria automatizada (Escrow 85/15) condicionada por cumplimiento técnico,B40,3,1,4,4,1,1,6,5,1.834,99.9569,99.963,137
+B40_025_010_015,"Rehabilitación estructural, transferencia de carga con pasadores y reposición de losas rígidas",B40,1,3,4,2,3,1,6,5,2.542,99.9569,99.963,138
+A50_045_005_035_005,Cámara desarenadora y decantadora de sedimentos de escorrentía vial o férrea,A50,2,1,3,3,1,3,6,6,2.542,99.9569,99.9569,139
+A40_145_030_020,Sistema acústico de detección de defectos en rodamientos ferroviarios (TADS),A40,1,2,3,2,2,2,6,5,2.083,99.9569,99.963,140
+A20_020_005,Complejo portuario fluvial y muelle de transferencia intermodal río-ferrocarril-carretera,A20,1,2,3,2,2,2,6,5,3.083,99.9569,99.963,141
+B40_020_015_100,"Sustitución mecanizada de durmientes, almohadillas y fijaciones elásticas de vía férrea",B40,1,1,2,2,1,3,6,5,2.25,99.9569,99.963,142
+A50_045_005_035_3,Desarenadores,A50,1,1,2,2,2,3,6,5,2.792,99.9569,99.963,143
+A50_035_025_085,Perfilómetro láser inercial de auscultación continua de regularidad superficial,A50,1,1,2,2,1,3,6,5,2.209,99.9569,99.963,144
+A20_040_005_005,Complejos administrativos,A20,1,1,2,2,3,1,6,3,2.5,99.9569,99.9754,145
+A10_025_125_090,Zona amortiguadora del Sistema Nacional de Áreas Protegidas - RUNAP,A10,0,2,2,1,2,3,6,5,3.125,99.9569,99.963,146
+A10_025_065_010,Polígono de servidumbre y utilidad pública de infraestructura de transporte,A10,0,2,2,1,3,2,6,4,3.417,99.9569,99.9692,147
+B40_025_010_005_005_005,Reciclaje estructural de pavimento con asfalto espumado y adición dosificada de llenante activo,B40,0,1,1,1,1,5,6,6,2.0,99.9569,99.9569,148
+B40_020_015_090_005_005,Soldadura eléctrica por destello con neutralización térmica de tensiones y ensayo ultrasónico,B40,0,1,1,1,1,5,6,6,2.208,99.9569,99.9569,149
+B30_015_020_025_005,"Bateadora, niveladora y alineadora pesada de vía férrea de ciclo continuo",B30,0,1,1,1,2,4,6,5,1.834,99.9569,99.963,150
+B30_010_020_165_005,Concreto de ultra alto desempeño con fibras metálicas de alta ductilidad a tracción,B30,0,1,1,1,2,4,6,5,2.25,99.9569,99.963,151
+B20_040_005_015_005_005,Sociedad fiduciaria administradora de subcuenta de soporte de ingreso mínimo y diferencias tarifarias,B20,0,1,1,1,1,5,6,6,2.0,99.9569,99.9569,152
+B20_030_005_015_005_005,Operador ferroviario de acceso abierto con material rodante homologado de terceros,B20,0,1,1,1,1,5,6,6,2.042,99.9569,99.9569,153
+B20_015_005_050,Autoridad Nacional de Licencias Ambientales (ANLA) y autoridad ambiental competente,B20,0,1,1,1,1,4,6,5,2.625,99.9569,99.963,154
+A50_035_025_090,"Inclinómetro digital, piezómetro de cuerda vibrante y sensor geotécnico de taludes",A50,0,1,1,1,1,4,6,5,2.041,99.9569,99.963,155
+A40_145_015_020_005,Sistema de control positivo de trenes con supervisión continua de curva de frenado,A40,0,1,1,1,2,4,6,5,2.0,99.9569,99.963,156
+A40_085_010_055,Sistema de sostenimiento y revestimiento estructural de bóveda y hastiales de túnel,A40,0,1,1,1,1,4,6,5,2.25,99.9569,99.963,157
+A40_055_010_015_005,Sistema de pesaje dinámico en movimiento de múltiples etapas para control de sobrecarga,A40,0,1,1,1,2,4,6,5,2.292,99.9569,99.963,158
+A30_035_010_065_005_005,Zona de pesaje dinámico vehicular con derivación automática a estación de báscula fija,A30,0,1,1,1,1,5,6,6,1.833,99.9569,99.9569,159
+A30_035_010_065_005,Zona de pesaje dinámico vehicular de alta velocidad en carril expreso,A30,0,1,1,1,2,5,6,6,2.375,99.9569,99.9569,160
+A30_015_080_015_005_005,Zona de transición de rigidez ferroviaria en empalme entre vía en balasto y placa de puente,A30,0,1,1,1,1,5,6,6,1.917,99.9569,99.9569,161
+A20_025_005,Complejo portuario marítimo y terminal de acceso intermodal férreo y carretero,A20,0,1,1,1,1,4,6,5,2.25,99.9569,99.963,162
+A20_015_070_005_005,Estación de pesaje dinámico ferroviario en vía principal de circulación continua,A20,0,1,1,1,2,4,6,5,3.0,99.9569,99.963,163
+A20_005_005,Complejo aeroportuario concesionado y terminal de transferencia de carga aérea intermodal,A20,0,1,1,1,1,4,6,5,2.666,99.9569,99.963,164
+A10_025_065_010_005,Polígono de servidumbre de tránsito y acceso operativo permanente,A10,0,1,1,1,2,4,6,5,2.292,99.9569,99.963,165
+B50_010_035_005_005_040,Capacidad estructural por deflectometría de impacto (FWD) - E11,B50,4,0,4,5,0,0,5,4,1.291,99.963,99.9692,166
+B50_010_035_005_005_025,Índice de regularidad internacional (IRI) en pavimento flexible - E1,B50,4,0,4,5,0,0,5,4,1.458,99.963,99.9692,167
+B50_010_015_015_040,"Indicador de operatividad de pasos a nivel, señalización y sistemas de control de tráfico (IF-8)",B50,4,0,4,5,0,0,5,4,1.25,99.963,99.9692,168
+B50_010_015_015_020,"Indicador de sección, limpieza de balasto y eficiencia de drenaje ferroviario (IF-4)",B50,4,0,4,5,0,0,5,4,1.625,99.963,99.9692,169
+B50_010_015_015_015,Indicador de estado de durmientes y efectividad de fijaciones elásticas o rígidas (IF-3),B50,4,0,4,5,0,0,5,4,1.708,99.963,99.9692,170
+B40_020_015_085,Auscultación ultrasónica continua y perfilometría láser de vía férrea en operación,B40,3,1,4,4,1,0,5,4,2.166,99.963,99.9692,171
+B30_010_020_185,Concreto hidráulico de alto módulo de rotura a flexión para pavimento rígido (Artículo 500 INVIAS),B30,4,0,4,5,0,0,5,4,1.875,99.963,99.9692,172
+A40_065_005_075,Sistema de señalización vertical de mensaje variable con alimentación solar autónoma,A40,3,1,4,4,1,0,5,4,1.792,99.963,99.9692,173
+A20_040_070_010,"Patio de maniobras, clasificación e intercambio intermodal de trenes",A20,2,2,4,3,1,1,5,4,1.875,99.963,99.9692,174
+B40_025_005_010,"Sellado de fisuras, lechada asfáltica y preservación superficial preventiva de pavimentos",B40,1,2,3,2,2,1,5,4,2.083,99.963,99.9692,175
+B30_010_020_165,Concreto de ultra alto desempeño reforzado con fibras (UHPC),B30,3,0,3,4,1,0,5,3,2.0,99.963,99.9754,176
+A50_015_010_055,Hito de arista y delineador tubular direccional de calzada,A50,1,2,3,2,2,1,5,4,2.0,99.963,99.9692,177
+A40_095_005,Sistemas de drenaje hidráulico,A40,1,2,3,2,2,1,5,4,2.0,99.963,99.9692,178
+A40_090_005_070,Sistema de contención en tierra estabilizada mecánicamente con refuerzo interno,A40,1,2,3,2,2,1,5,4,1.708,99.963,99.9692,179
+A20_015_065_005,Centro de control de tráfico centralizado y respaldo operativo ferroviario,A20,1,2,3,2,2,1,5,4,2.541,99.963,99.9692,180
+B40_020_015_105,"Mantenimiento preventivo y calibración de enclavamientos, eurobalizas y pasos a nivel",B40,1,1,2,2,1,3,5,4,1.667,99.963,99.9692,181
+B10_010_020_005,Acta mensual de verificación de indicadores de nivel de servicio y liquidación de retribución,B10,1,1,2,2,1,2,5,4,2.667,99.963,99.9692,182
+A30_035_010_080,Bahía y estación de recarga energética para transporte carretero de bajas emisiones,A30,1,1,2,2,1,2,5,4,1.75,99.963,99.9692,183
+B30_015_020_025_005_005,Bateadora pesada universal de aparatos de vía y cambiavías con bates oscilantes independientes,B30,0,1,1,1,1,4,5,5,1.5,99.963,99.963,184
+B30_010_020_165_005_005,Concreto de ultra alto desempeño tixotrópico para juntas de tableros y recalce estructural,B30,0,1,1,1,1,4,5,5,2.0,99.963,99.963,185
+B20_040_005_015,Fiduciaria administradora del patrimonio autónomo y cuentas escrow de concesión,B20,0,1,1,1,2,2,5,3,2.5,99.963,99.9754,186
+A50_040_015_035_005,Durmiente monobloque de línea,A50,0,1,1,1,1,3,5,4,1.958,99.963,99.9692,187
+A40_145_015_020_005_005,Sistema de control positivo de trenes con cantonamiento móvil virtual y posicionamiento GNSS,A40,0,1,1,1,1,4,5,5,2.041,99.963,99.963,188
+A40_055_010_015_005_005,Sistema de pesaje dinámico en movimiento integrado con reconocimiento óptico y perfilometría láser,A40,0,1,1,1,1,4,5,5,1.958,99.963,99.963,189
+A20_035_005_020_005_005,Corredor logístico troncal de paso cordillerano con calzadas unidireccionales segregadas,A20,0,1,1,1,1,4,5,5,1.75,99.963,99.963,190
+A20_035_005_020_005,Corredor logístico troncal de integración puerto marítimo-interior,A20,0,1,1,1,2,4,5,5,2.542,99.963,99.963,191
+A20_015_070_005_005_005,Estación de pesaje dinámico ferroviario bidireccional de acceso a nodo portuario,A20,0,1,1,1,1,4,5,5,1.75,99.963,99.963,192
+A10_025_065_010_005_005,Polígono de servidumbre de acceso operativo a portal de túnel y galería de evacuación,A10,0,1,1,1,1,4,5,5,2.042,99.963,99.963,193
+A10_025_065_005_005_005,Franja de reserva de corredor férreo en tramo de ladera con susceptibilidad geotécnica,A10,0,1,1,1,1,4,5,5,2.334,99.963,99.963,194
+A10_025_065_005_005,Franja de reserva de corredor férreo en suelo rural y suburbano,A10,0,1,1,1,2,4,5,5,3.334,99.963,99.963,195
+B50_010_015_015_060,Indicador de seguridad operacional e índice de accidentalidad ferroviaria (IF-12),B50,3,0,3,4,0,0,4,3,1.125,99.9692,99.9754,196
+B50_010_015_015_030,"Indicador de condición estructural de puentes, viaductos, pontones y túneles férreos (IF-6)",B50,3,0,3,4,0,0,4,3,1.333,99.9692,99.9754,197
+B50_010_015_015_025,Indicador de estado funcional y geométrico de aparatos de vía y cambiavías (IF-5),B50,3,0,3,4,0,0,4,3,1.208,99.9692,99.9754,198
+B50_010_015_015_010,Indicador de estado y desgaste de rieles y defectología ultrasónica (IF-2),B50,3,0,3,4,0,0,4,3,1.417,99.9692,99.9754,199
+B10_020_005,"Matriz de identificación, tipificación y asignación de riesgos contractuales",B10,3,0,3,4,0,0,4,3,1.917,99.9692,99.9754,200
+A40_090_010,Sistemas de estabilización y refuerzo,A40,2,1,3,3,1,0,4,3,2.459,99.9692,99.9754,201
+B20_030_005_015,Operador ferroviario habilitado de transporte de carga o pasajeros,B20,1,1,2,2,2,0,4,2,1.833,99.9692,99.9815,202
+B10_035_015_005_015,Unidad Funcional Ferroviaria (UF férrea),B10,0,2,2,1,2,1,4,3,1.708,99.9692,99.9754,203
+B10_010_015_005,Acta de terminación y puesta en servicio de unidad funcional de concesión,B10,1,1,2,2,1,1,4,3,2.5,99.9692,99.9754,204
+A50_015_010_060,Captafaro y tacha retrorreflectiva de demarcación vial,A50,1,1,2,2,1,1,4,3,1.417,99.9692,99.9754,205
+A50_015_005_020,Terminal amortiguador de impacto para barrera longitudinal de contención,A50,1,1,2,2,2,0,4,2,1.708,99.9692,99.9815,206
+A40_140_010_005,Subsistema de bloqueo automático de cantón con detección redundante de ocupación,A40,1,1,2,2,1,2,4,4,2.709,99.9692,99.9692,207
+A30_015_045,Vía general de circulación,A30,0,2,2,1,2,1,4,3,1.834,99.9692,99.9754,208
+B10_025_10,Niveles de información GIS - BIM (LOIN),B10,1,0,1,2,2,0,4,1,1.5,99.9692,99.9877,209
+A50_040_045_040,Estribos de puente,A50,0,1,1,1,1,2,4,3,2.167,99.9692,99.9754,210
+A50_035_040,Baliza de vía puntual,A50,1,0,1,2,2,0,4,1,2.375,99.9692,99.9877,211
+A40_060_040,Sistemas de protección para peatones y usuarios vulnerables,A40,1,0,1,2,2,0,4,1,1.333,99.9692,99.9877,212
+A30_015_090,"Túneles, galerías y pasos subterráneos ferroviarios",A30,0,1,1,1,3,0,4,1,1.75,99.9692,99.9877,213
+A30_015_085,"Puentes, viaductos y pasos elevados ferroviarios",A30,0,1,1,1,1,2,4,3,1.792,99.9692,99.9754,214
+B50_035_035,Entropía informacional de Shannon de evidencia documental y telemetría (Estación 1),B50,2,0,2,3,0,0,3,2,0.959,99.9754,99.9815,215
+B50_015_005_085,Parámetro de clotoide y longitud de espiral de transición Euler-Fresnel,B50,2,0,2,3,0,0,3,2,1.041,99.9754,99.9815,216
+B50_010_035_040,"Tiempo máximo de señalización, arribo de ambulancia/grúa y despeje de incidentes viales - E17 / O4 / O5",B50,2,0,2,3,0,0,3,2,1.041,99.9754,99.9815,217
+B50_010_035_030,"Nivel de servicio operacional de tráfico (LOS A–F), relación volumen/capacidad (V/C) y velocidad media (HCM)",B50,2,0,2,3,0,0,3,2,1.041,99.9754,99.9815,218
+B50_010_035_025,Índice de cumplimiento mensual ponderado y factor de retribución contractual APP,B50,2,0,2,3,0,0,3,2,1.625,99.9754,99.9815,219
+B50_010_035_010_015,Indicadores para señalización,B50,2,0,2,3,0,0,3,2,1.167,99.9754,99.9815,220
+B50_010_035_005_010_045,Capacidad estructural y detección de vacíos bajo losa en pavimento rígido - E16,B50,2,0,2,3,0,0,3,2,0.708,99.9754,99.9815,221
+B50_010_035_005_010_040,Desportillamiento y estado del sello de juntas en losas de pavimento rígido - E24,B50,2,0,2,3,0,0,3,2,0.959,99.9754,99.9815,222
+B50_010_035_005_010_035,Índice de regularidad internacional (IRI) en pavimento rígido - E21,B50,2,0,2,3,0,0,3,2,1.083,99.9754,99.9815,223
+B50_010_035_005_005_035,Textura superficial y profundidad media de macrotextura - E5,B50,2,0,2,3,0,0,3,2,0.875,99.9754,99.9815,224
+B50_010_035_005_005_030,Coeficiente de fricción transversal y resistencia al deslizamiento - E4,B50,2,0,2,3,0,0,3,2,1.084,99.9754,99.9815,225
+B50_010_015_015_055,Indicador de tiempo de respuesta y despeje ante incidentes o descarrilamientos (IF-11),B50,2,0,2,3,0,0,3,2,0.75,99.9754,99.9815,226
+B50_010_015_015_050,Indicador de disponibilidad y confiabilidad de material rodante afecto a la concesión (IF-10),B50,2,0,2,3,0,0,3,2,0.708,99.9754,99.9815,227
+B50_010_015_015_045,Indicador de disponibilidad operativa de la vía férrea y cumplimiento de surcos (IF-9),B50,2,0,2,3,0,0,3,2,0.875,99.9754,99.9815,228
+B50_010_015_015_035,"Indicador de mantenimiento de franja de corredor, control de vegetación y cerramientos (IF-7)",B50,2,0,2,3,0,0,3,2,1.084,99.9754,99.9815,229
+B50_005_035_050,"Caudal máximo de diseño hidrológico, período de retorno (Tr) y revancha hidráulica libre (Manual de Drenaje)",B50,2,0,2,3,0,0,3,2,1.125,99.9754,99.9815,230
+B50_005_035_045,"Aceleración pico efectiva de diseño sísmico (PGA), coeficiente de sitio y espectro elástico (CCP-14 / NSR-10)",B50,2,0,2,3,0,0,3,2,1.084,99.9754,99.9815,231
+B50_005_015_020,Temperatura neutra de riel (TNR) y esfuerzo térmico axial en barra larga soldada,B50,2,0,2,3,0,0,3,2,1.459,99.9754,99.9815,232
+B40_025_020_005,Auditoría técnica de reversión de activos y verificación de vida útil remanente exigible,B40,1,1,2,2,1,0,3,2,1.375,99.9754,99.9815,233
+B30_010_030_165,Mezcla asfáltica de alto módulo (MAM) resistente al ahuellamiento para tránsito pesado,B30,2,0,2,3,0,0,3,2,1.208,99.9754,99.9815,234
+B30_010_025_140,Geomalla polimérica biaxial o multiaxial de alto módulo para refuerzo mecánico de capas,B30,2,0,2,3,0,0,3,2,1.125,99.9754,99.9815,235
+B30_010_005_170,Material granular estabilizado con ligante hidráulico o bituminoso para base tratada,B30,2,0,2,3,0,0,3,2,1.458,99.9754,99.9815,236
+B30_010_005_160,Balasto ferroviario pétreo triturado de alta resistencia al desgaste y fragmentación,B30,2,0,2,3,0,0,3,2,1.292,99.9754,99.9815,237
+B10_020_010,"Matriz de riesgos prediales, socioambientales, de redes y de fuerza mayor en contratos APP",B10,2,0,2,3,0,0,3,2,1.417,99.9754,99.9815,238
+B10_010_010_225,"Apéndice Técnico 2 (AT2) — Condiciones de operación, capacidad, surcos y mantenimiento",B10,1,1,2,2,1,0,3,2,2.708,99.9754,99.9815,239
+B10_010_010_215,Formato EPIT-F-001 de verificación de requisitos de prefactibilidad APP,B10,2,0,2,3,0,0,3,2,1.75,99.9754,99.9815,240
+B10_005_030,Modelo de madurez de gestión organizacional de proyectos (PMI OPM),B10,1,1,2,2,1,0,3,2,1.792,99.9754,99.9815,241
+B10_005_015_010,Plan Maestro de Transporte Intermodal (PMTI) y documento CONPES de priorización,B10,2,0,2,3,0,0,3,2,2.375,99.9754,99.9815,242
+A50_035_025_020,Celdas de carga,A50,2,0,2,3,0,0,3,2,1.25,99.9754,99.9815,243
+A40_105_020_045,Sistema de monitoreo interferométrico satelital de deformaciones (DInSAR),A40,1,1,2,2,1,0,3,2,1.875,99.9754,99.9815,244
+A40_105_020_040,Sistema de auscultación tridimensional por escaneo láser móvil (Mobile LiDAR),A40,1,1,2,2,1,0,3,2,1.458,99.9754,99.9815,245
+A40_085_010_050,Sistema de ventilación longitudinal e inyección-extracción de humos en túneles,A40,1,1,2,2,1,0,3,2,2.25,99.9754,99.9815,246
+A40_060_005,Sistemas de barreras y contención,A40,1,1,2,2,1,0,3,2,1.625,99.9754,99.9815,247
+A40_050_010,Según su tipo o tecnología utilizada,A40,1,1,2,2,1,0,3,2,2.208,99.9754,99.9815,248
+A30_035_010_075,Zona de frenado de emergencia y rampa de escape para vehículos pesados,A30,1,1,2,2,1,0,3,2,1.5,99.9754,99.9815,249
+A30_035_010_070,Bahía de inspección optoelectrónica y control operativo vial,A30,1,1,2,2,1,0,3,2,1.666,99.9754,99.9815,250
+A30_015_080_020,Paseo lateral de evacuación y mantenimiento ferroviario,A30,1,1,2,2,1,0,3,2,1.625,99.9754,99.9815,251
+A30_015_050,Cantón o sección de línea férrea,A30,0,2,2,1,2,0,3,2,1.75,99.9754,99.9815,252
+A20_015_070_010,Puesto fijo de inspección ultrasónica y perfilometría de rieles,A20,1,1,2,2,1,0,3,2,2.0,99.9754,99.9815,253
+B40_025_015_010,"Mejoramiento geométrico, rectificación de trazado, construcción de variantes y ampliación a segunda calzada",B40,0,1,1,1,1,1,3,2,1.0,99.9754,99.9815,254
+B40_025_015_005,Reconstrucción integral de paquete estructural y estabilización geotécnica de puntos críticos,B40,0,1,1,1,1,1,3,2,1.584,99.9754,99.9815,255
+B40_025_005_020,"Mantenimiento rutinario de derecho de vía, rocería, limpieza de señalización y atención de emergencias",B40,0,1,1,1,1,1,3,2,2.334,99.9754,99.9815,256
+B20_040_010_025,Tribunal de arbitramento y perito dictaminador de controversias de infraestructura,B20,0,1,1,1,1,1,3,2,1.292,99.9754,99.9815,257
+B20_040_010_020,Amigable componedor y panel de resolución de controversias contractuales,B20,0,1,1,1,1,1,3,2,1.5,99.9754,99.9815,258
+B20_030_005_035,"Contratista de construcción EPC, subcontratista especializado y proveedor tecnológico ITS/férreo",B20,0,1,1,1,1,1,3,2,1.542,99.9754,99.9815,259
+B50_040_020_010,"Factor de equidad territorial e impacto socioeconómico en municipios PDET, ZOMAC y de frontera",B50,1,0,1,2,0,0,2,1,0.666,99.9815,99.9877,260
+B50_040_020_005,"Índice de vulnerabilidad geotécnica, hidrológica y climática del corredor (AASHTO TAM)",B50,1,0,1,2,0,0,2,1,1.125,99.9815,99.9877,261
+B50_040_015_010,Índice de desempeño de costo (CPI) y de cronograma (SPI) de valor ganado,B50,1,0,1,2,0,0,2,1,1.542,99.9815,99.9877,262
+B50_040_010_005,"Relación beneficio-costo (RBC), Tasa Interna de Retorno Socioeconómica (TIRS) y Valor Presente Neto Social (VPNS)",B50,1,0,1,2,0,0,2,1,0.792,99.9815,99.9877,263
+B50_040_005,Vida útil de diseño y vida útil remanente de servicio (RSL),B50,1,0,1,2,0,0,2,1,1.083,99.9815,99.9877,264
+B50_035_055,"Valor Presente de los Ingresos de Peaje (VPIP), recaudo acumulado y soporte de riesgo de tráfico",B50,1,0,1,2,0,0,2,1,0.709,99.9815,99.9877,265
+B50_035_050,Números de Betti (β_0 conexidad y β_1 cavidades topológicas) del complejo Vietoris-Rips (Estación 6),B50,1,0,1,2,0,0,2,1,0.917,99.9815,99.9877,266
+B50_035_045,Distancia de transporte óptimo de Wasserstein (W_1) entre distribuciones de deterioro (Estación 5),B50,1,0,1,2,0,0,2,1,0.958,99.9815,99.9877,267
+B50_035_040,Exponente espectral fractal de potencia (1/f^α) de series temporales de telemetría (Estación 4),B50,1,0,1,2,0,0,2,1,0.917,99.9815,99.9877,268
+B50_015_015,Características físicas de operación,B50,1,0,1,2,0,0,2,1,1.083,99.9815,99.9877,269
+B50_010_035_045,"Disponibilidad operativa de iluminación vial, paneles de mensaje variable y subsistemas ITS - E14 / E19",B50,1,0,1,2,0,0,2,1,0.917,99.9815,99.9877,270
+B50_010_035_005_030,"Indicadores de condición superficial, juntas de arena y regularidad para pavimentos articulados en adoquín",B50,1,0,1,2,0,0,2,1,1.125,99.9815,99.9877,271
+B50_010_015_030,Coeficiente de seguridad contra el descarrilamiento de Nadal (Y/Q) y descarga de rueda,B50,1,0,1,2,0,0,2,1,1.084,99.9815,99.9877,272
+B50_005_035_040,Coeficiente de desgaste Micro-Deval húmedo y resistencia al pulimento acelerado de agregados,B50,1,0,1,2,0,0,2,1,1.0,99.9815,99.9877,273
+B50_005_035_035,Módulo resiliente dinámico de capas granulares y módulo complejo de mezclas asfálticas,B50,1,0,1,2,0,0,2,1,1.375,99.9815,99.9877,274
+B40_010_005_010,Implementación de soluciones tecnológicas en proyectos sostenibles,B40,1,0,1,2,0,0,2,1,1.25,99.9815,99.9877,275
+B30_015_020_040,"Vagón plataforma portacontenedores, tolva granelera y coche de pasajeros con bogie radial",B30,1,0,1,2,0,0,2,1,1.0,99.9815,99.9877,276
+B30_015_020_030,Tren esmerilador de rieles y camión bivial de soldadura aluminotérmica o por destello,B30,1,0,1,2,0,0,2,1,1.0,99.9815,99.9877,277
+B30_015_020_020_005,Carros y dresinas de auscultación geométrica y ultrasónica de vía,B30,1,0,1,2,0,0,2,1,0.792,99.9815,99.9877,278
+B30_015_015_055,Georradar de penetración terrestre (GPR) multifrecuencia y tomógrafo ultrasónico no destructivo,B30,1,0,1,2,0,0,2,1,0.958,99.9815,99.9877,279
+B30_015_015_050,Equipo móvil de medición continua de fricción transversal (SCRIM / GripTester) y retrorreflectómetro dinámico,B30,1,0,1,2,0,0,2,1,1.167,99.9815,99.9877,280
+B30_015_015_045,"Planta de producción de mezcla asfáltica, extendedora autopropulsada (Finisher) y tren de compactación",B30,1,0,1,2,0,0,2,1,1.0,99.9815,99.9877,281
+B30_015_015_040,"Unidad móvil de auscultación multifunción, deflectometría de impacto y perfilometría láser",B30,1,0,1,2,0,0,2,1,1.583,99.9815,99.9877,282
+B30_015_010_055,Planta recicladora móvil en frío de pavimentos y estabilizadora de suelos in situ,B30,1,0,1,2,0,0,2,1,1.292,99.9815,99.9877,283
+B30_010_065,Polímeros y plásticos,B30,1,0,1,2,0,0,2,1,1.166,99.9815,99.9877,284
+B30_010_030_160,Mezcla asfáltica drenante de alto porcentaje de vacíos y atenuación hidroacústica,B30,1,0,1,2,0,0,2,1,1.25,99.9815,99.9877,285
+B30_010_025_145,Geocelda tridimensional alveolar de confinamiento celular para control de erosión y soporte,B30,1,0,1,2,0,0,2,1,1.167,99.9815,99.9877,286
+B30_010_020_175,Lechada cementicia tixotrópica sin contracción para inyección de ductos y anclajes,B30,1,0,1,2,0,0,2,1,1.167,99.9815,99.9877,287
+B30_010_020_170,Concreto lanzado reforzado con fibras estructurales para sostenimiento subterráneo y taludes,B30,1,0,1,2,0,0,2,1,1.625,99.9815,99.9877,288
+B30_010_005_165,Subbalasto granular bien gradado de transición y protección de plataforma férrea,B30,1,0,1,2,0,0,2,1,1.459,99.9815,99.9877,289
+B20_040_005_020,Director de proyecto de concesión y gerente técnico de unidad funcional (PMI PMBOK 8),B20,0,1,1,1,1,0,2,1,1.334,99.9815,99.9877,290
+B20_015_020_040,Comisión de Regulación de Infraestructura y Transporte (CRIT) y Superintendencia de Transporte,B20,0,1,1,1,1,0,2,1,1.416,99.9815,99.9877,291
+B10_035_015_005_025,Surco o franja horaria de circulación ferroviaria,B10,1,0,1,2,0,0,2,1,1.25,99.9815,99.9877,292
+B10_015_005_010,Manual de Diseño Geométrico de Carreteras y Manual de Señalización Vial (MinTransporte / INVIAS),B10,1,0,1,2,0,0,2,1,1.292,99.9815,99.9877,293
+B10_010_020_010,"Dictamen pericial técnico, decisión de amigable componedor y laudo arbitral de concesión",B10,1,0,1,2,0,0,2,1,1.5,99.9815,99.9877,294
+B10_010_015_025,Plan Estratégico de Seguridad Vial (PESV) y Plan de Manejo de Tránsito (PMT),B10,1,0,1,2,0,0,2,1,1.042,99.9815,99.9877,295
+B10_010_015_020,Acta de reversión y liquidación bilateral de infraestructura concesionada,B10,1,0,1,2,0,0,2,1,1.083,99.9815,99.9877,296
+B10_010_015_015,Otrosí modificatorio contractual y acta de entendimiento de compensación de riesgo,B10,1,0,1,2,0,0,2,1,1.166,99.9815,99.9877,297
+B10_010_015_010,Acta de inicio del contrato de concesión y orden de iniciación de fase de preconstrucción,B10,1,0,1,2,0,0,2,1,1.083,99.9815,99.9877,298
+B10_010_010_270,"Apéndice Técnico 10 (AT10) — Requisitos de reversión, inventario de activos y transferencia tecnológica SITI",B10,1,0,1,2,0,0,2,1,1.625,99.9815,99.9877,299
+B10_010_010_265,"Apéndice Técnico 9 (AT9) — Especificaciones de sistemas inteligentes de transporte, peaje IP/REV y pesaje",B10,1,0,1,2,0,0,2,1,2.0,99.9815,99.9877,300
+B10_010_005_065,Plan de Gestión de Activos de Transporte (SGA / TAM Plan — ISO 55001 y AASHTO TAM),B10,1,0,1,2,0,0,2,1,1.458,99.9815,99.9877,301
+A50_040_045_010,Elementos de transición,A50,1,0,1,2,0,0,2,1,1.708,99.9815,99.9877,302
+A50_035_035_030,Sensores de gases tóxicos,A50,1,0,1,2,0,0,2,1,1.0,99.9815,99.9877,303
+A50_035_035_010,Sensores de carga,A50,1,0,1,2,0,0,2,1,1.083,99.9815,99.9877,304
+A50_035_035,Otros sensores especializados,A50,1,0,1,2,0,0,2,1,1.25,99.9815,99.9877,305
+A50_035_030,Pantallas y unidades de visualización,A50,1,0,1,2,0,0,2,1,1.375,99.9815,99.9877,306
+A50_035_025_030,Dispositivos de medición de desplazamiento,A50,1,0,1,2,0,0,2,1,1.208,99.9815,99.9877,307
+A50_015_010_065,Barrera abatible automatizada de control de paso en peaje y paso a nivel,A50,1,0,1,2,0,0,2,1,2.125,99.9815,99.9877,308
+A40_090_005,Sistemas de cimentación y mejora del terreno,A40,0,1,1,1,1,0,2,1,1.792,99.9815,99.9877,309
+A40_085_010,Sistemas estructurales de túneles,A40,0,1,1,1,1,0,2,1,1.791,99.9815,99.9877,310
+A40_065_010,Señalización horizontal,A40,0,1,1,1,1,0,2,1,1.458,99.9815,99.9877,311
+A40_065_005,Señalización vertical,A40,0,1,1,1,1,0,2,1,1.416,99.9815,99.9877,312
+A30_040_015,Áreas funcionales en edificaciones,A30,1,0,1,2,0,0,2,1,1.542,99.9815,99.9877,313
+A30_015_080_010,Cuneta y franja de drenaje longitudinal ferroviario,A30,0,1,1,1,1,0,2,1,1.583,99.9815,99.9877,314
+A30_015_070,Vía férrea en placa,A30,1,0,1,2,0,0,2,1,2.0,99.9815,99.9877,315
+A20_035_005_005,Vía arterial o de primer orden,A20,0,1,1,1,1,0,2,1,1.75,99.9815,99.9877,316

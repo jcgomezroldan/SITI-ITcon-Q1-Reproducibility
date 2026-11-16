@@ -1,0 +1,138 @@
+{
+  "checkpoint_id": "ITCON_Q1_WAVE_1_OF_7",
+  "status": "PASS",
+  "timestamp_utc": "2026-11-02T16:10:57.662251+00:00",
+  "guardrails_enforced": [
+    "G-PHYS",
+    "G-AST",
+    "G-SEM",
+    "G-HASH"
+  ],
+  "production_immutability_certification": {
+    "access_mode": "os.O_RDONLY",
+    "bytes_modified_in_fase_activa_nueva": 0,
+    "bytes_modified_in_cas_bundles": 0,
+    "bytes_modified_in_kits_bim_gis": 0,
+    "bytes_modified_in_9_primary_libraries": 0,
+    "primary_libraries_files_verified": 3530,
+    "primary_libraries_bytes_verified": 5765230336
+  },
+  "verified_counts": {
+    "c1_active_revision": "b6bd01f850790ad22d399b95545f73d2",
+    "c1_manifest_sha256": "bda830878ebd24c1f6a190a0431b86a3602a4f246f9c71616bdab3ac0d6bf2d0",
+    "c1_taxonomy_fingerprint": "30bcc7e239fb7e73a64c702fbe4fd860b25338aa0a597a858bd1926dacfcfa11",
+    "c1_csv_total_rows": 16240,
+    "c1_csv_active_occurrences": 16238,
+    "c1_skos_concepts": 16232,
+    "c1_active_unique_classes": 16230,
+    "c1_language_a_active_unique_classes": 4686,
+    "c1_language_b_active_unique_classes": 11544,
+    "c1_rdf_triples_ttl_and_owl": 438194,
+    "c1_isomorphic_ttl_owl": true,
+    "c1_owl_object_properties": 157,
+    "c1_owl_restrictions": 814,
+    "c1_owl_some_values_from": 806,
+    "c1_owl_all_values_from": 8,
+    "c1_skos_reviewed_expressions": 2892,
+    "c1_skos_enriched_classes": 814,
+    "c1_shacl_node_shapes": 104,
+    "c1_shacl_triples": 1229,
+    "c1_iso16739_total_sets": 849,
+    "c1_iso16739_psets": 732,
+    "c1_iso16739_qtos": 117,
+    "c2_lpg_nodes": 16232,
+    "c2_subclase_de_edges": 16228,
+    "c2_intertabular_deduplicated_edges": 793,
+    "c2_total_lpg_edges": 17021,
+    "c2_intratabular_meronymy_edges": 0,
+    "c2_assembly_recipes": 13,
+    "c2_calzada_carril_full_markov_blanket": 97,
+    "c2_calzada_carril_intertabular_markov_blanket": 96,
+    "c3_total_parquet_files": 2669,
+    "c3_valid_non_empty_parquet_files": 2664,
+    "c3_zero_byte_staging_placeholders": 5,
+    "c3_core_domain_parquet_files": 824,
+    "c3_total_parquet_rows": 3880617,
+    "c3_core_domain_parquet_rows": 2510964,
+    "c3_total_parquet_bytes": 569916655,
+    "c3_ani_principal_assets_rows": 226324,
+    "c3_ani_orphan_siti_codes": 0,
+    "c3_sii_interoperability_index_pct": 100.0,
+    "c3_bimodal_spatial_instances_multimodal_wkb": 226342,
+    "c3_bimodal_spatial_instances_local_enu_64bit": 5011,
+    "c3_differential_confrontation_rows": 18112,
+    "c3_apu_national_unique_items": 526,
+    "c3_apu_regional_instances": 73640,
+    "c3_grounded_document_receipts": 603,
+    "c3_oetr_headers_rows": 17041,
+    "c3_oetr_details_rows": 171420,
+    "c3_railway_corridors_count": 4,
+    "c3_dane_municipalities_count": 1122,
+    "c3_pbix_planning_rows": 15153,
+    "cas_bundles_verified": 4,
+    "cas_bundles_total_files_verified": 370
+  },
+  "ast_anti_theater_audit": {
+    "gate": "SitiAstAntiTheaterGate",
+    "all_bipolar_compliant": true,
+    "zero_static_json_reads": true,
+    "bipolar_tests_passed": 3
+  },
+  "created_artifacts_sha256": {
+    "06_Verification_Scripts_and_Checkpoints/wave1_three_layer_corpus_census.py": {
+      "size_bytes": 65332,
+      "st_blocks": 136,
+      "mtime_ns": 1793635186846651403,
+      "sha256": "1c4baeee934ac821dcc20e711390ff5add53eaf2402dd9e11465c5022d443884"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_1_Corpus_and_CAS_Lineage/wave1_layer3_exhaustive_file_census.parquet": {
+      "size_bytes": 110326,
+      "st_blocks": 216,
+      "mtime_ns": 1793635332537197856,
+      "sha256": "04e4755d0199dfba3027c26ca29ed2fa3fbd0efc8a7823b5de8cf49c308822b4"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_1_Corpus_and_CAS_Lineage/wave1_layer3_exhaustive_file_census.csv": {
+      "size_bytes": 1412665,
+      "st_blocks": 2760,
+      "mtime_ns": 1793635332549183286,
+      "sha256": "f5b1e7cf8886ece5ca3519455cbca3784b8ac6173515f2e38eba608709370255"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_1_Corpus_and_CAS_Lineage/wave1_c1_10tables_5levels_distribution.csv": {
+      "size_bytes": 2461,
+      "st_blocks": 8,
+      "mtime_ns": 1793635332550194614,
+      "sha256": "ff1aa0277dd7f45cbbaf1060e8fc5f7caaa589379773d3189471910e46245de9"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_1_Corpus_and_CAS_Lineage/wave1_c2_793_edges_and_13_recipes_distribution.csv": {
+      "size_bytes": 306575,
+      "st_blocks": 600,
+      "mtime_ns": 1793635332553280637,
+      "sha256": "794f05f4ed7b0805e1d573f4ebc792d0d72287d51d411740ad1b4c2601685f0e"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_1_Corpus_and_CAS_Lineage/wave1_cas_bundles_lineage_comparison.json": {
+      "size_bytes": 9273,
+      "st_blocks": 24,
+      "mtime_ns": 1793635332553926467,
+      "sha256": "e6a74db9c46f72eb1e4c3bd4f2a5ef40d6b3419c668b1e9b456e8eec4c9dad0f"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_1_Corpus_and_CAS_Lineage/wave1_cas_bundles_lineage_comparison.csv": {
+      "size_bytes": 3014,
+      "st_blocks": 8,
+      "mtime_ns": 1793635332553772384,
+      "sha256": "d494580e5c05bd99fbc6d6a7e0b34f226138db0c5540f8175d25dabb11095df9"
+    },
+    "07_Empirical_Results_Datasets_Waves_1_to_7/Wave_1_Corpus_and_CAS_Lineage/wave1_three_layer_master_summary.json": {
+      "size_bytes": 46673,
+      "st_blocks": 96,
+      "mtime_ns": 1793635332554265048,
+      "sha256": "249f7296bdb7462ae3305e139d74f14e5ddc06058cd2e3473072dcea0d07c359"
+    },
+    "01_Supplementary_Appendices_A_to_F/Appendix_A_Three_Layer_Corpus_and_CAS_Lineage.md": {
+      "size_bytes": 40402,
+      "st_blocks": 104,
+      "mtime_ns": 1793635699766800555,
+      "sha256": "a018203ecf15c865ad0db2ac9db02035cc966387c8c47c8d2ce448ce1b69b5af"
+    }
+  },
+  "wave_title": "Wave 1 of 7: Exhaustive Three-Layer Physical Corpus Census (C1, C2, C3), Content-Addressable Semantic (CAS) Lineage Evolution (S0–S4), and Supplementary Appendix A"
+}
